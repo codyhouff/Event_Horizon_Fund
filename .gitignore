@@ -1,0 +1,35 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Cursor local state
+.cursor/
+
+# Python env/cache (if used)
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+
+# Node deps (if used)
+node_modules/
+
+# Secrets
+*.pem
+*.key
+credentials*.json
+secrets*.json
+
+# Position workbook exports
+*Portfolio_Positions*.xlsx
+*Portfolio_Positions*.xls
+
+# Historical local archive
+Archive/
+
+# Sensitive deployment planning details
+**/Deployment Strategy/
