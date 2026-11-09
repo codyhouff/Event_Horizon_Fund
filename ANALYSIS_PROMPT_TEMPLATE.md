@@ -37,6 +37,9 @@ Produce one decisive recommended allocation and clearly identify the additional 
 - Foundation + Continuity structure stays unchanged unless explicitly justified.
 - Moonshot sleeve remains 0% unless explicitly instructed otherwise.
 - Treat **15% as the strong default maximum for any individual stock**. A recommendation above 15% is allowed only with exceptional evidence, a clearly superior valuation-adjusted expected return, explicit downside analysis, and a direct explanation of why the added concentration is justified.
+- Unless explicitly instructed otherwise, the investable universe is long-only publicly traded common stocks and liquid ADRs.
+- Do not recommend options, LEAPS, leverage, short positions, private investments, cryptocurrencies, or derivatives.
+- ETFs may be evaluated as benchmarks or fallback alternatives but should not be included in the final allocation unless they are demonstrably superior to direct holdings.
 
 ## Current Event Horizon Allocation Baseline (V9.1)
 
@@ -105,28 +108,33 @@ After completing the zero-based portfolio, compare it with V9.1 and explain ever
 - Identify any thesis drift, valuation dislocations, execution risks, or new bottlenecks since the last cycle.
 - Include a market-data timestamp and source date for any time-sensitive claim (price, valuation, consensus estimates, macro data).
 - Flag stale inputs explicitly when data is older than 30 days.
+- Use a two-stage candidate funnel:
+  1. Screen at least 2 credible alternatives per sleeve using the concise comparison table.
+  2. Perform full valuation and expected-return underwriting for every current holding, every stock included in any proposed architecture, the top 10 excluded challengers, and any additional candidate that could materially alter the final allocation.
+- Do not perform repetitive full underwriting for clearly inferior screened candidates; briefly document why they failed the screen.
 
 ## Forward Return and Valuation Framework
 
-For every recommended holding and every serious alternative, distinguish between an excellent company and an attractive stock at its current price. Explicitly investigate stocks trading at large discounts, but do not treat a low valuation or large price decline as sufficient evidence to buy.
+For every fully underwritten candidate, distinguish between an excellent company and an attractive stock at its current price. Explicitly investigate stocks trading at large discounts, but do not treat a low valuation or large price decline as sufficient evidence to buy.
 
-Assess each serious candidate using:
+Assess each fully underwritten candidate using:
 
 - current price and market-data date;
 - valuation relative to its own history, credible peers, and reasonable intrinsic-value scenarios;
 - the reason for any apparent discount and whether it is temporary, structural, or a value trap;
 - revenue, earnings, free-cash-flow, dilution, balance-sheet, and dividend assumptions as relevant;
-- bear/base/bull terminal-value ranges through 2030;
-- probability-weighted expected total return and CAGR;
+- bear/base/bull terminal values and total returns through 2030;
+- explicit bear/base/bull scenario probabilities totaling 100%;
+- probability-weighted expected terminal value, followed by the implied expected CAGR from the current price;
 - catalysts that could close a discount and evidence that would invalidate the opportunity.
 
 Include this table for every recommended holding:
 
-- `Ticker | Current Price + Date | Valuation Status | Bear/Base/Bull 2030 Return | Probability-Weighted Expected CAGR | Confidence | Key Assumptions`
+- `Ticker | Current Price + Date | Valuation Status | Bear/Base/Bull Terminal Value | Scenario Probabilities | Expected Terminal Value | Implied Expected CAGR | Confidence | Key Assumptions`
 
 Classify `Valuation Status` as `Deep Discount / Attractive / Fair / Expensive / Speculative`, supported by evidence rather than price performance alone.
 
-Use ranges and disclose assumptions rather than presenting false precision. If reliable data is unavailable, label the estimate unavailable instead of inventing it. Any scenario probabilities must sum to 100%.
+Use ranges and disclose assumptions rather than presenting false precision. If reliable data is unavailable, label the estimate unavailable instead of inventing it. Do not average scenario CAGRs directly; calculate expected terminal value first and derive the implied CAGR from that value.
 
 ## Portfolio Architecture Challenge
 
@@ -155,6 +163,36 @@ A stock can be the best company in its sleeve and still receive a 0% allocation 
 - why it deserves capital over the portfolio's next-best alternative;
 - its expected-return advantage;
 - what position would receive the capital if it were removed.
+
+## Required Targeted Question Reanalysis
+
+Preserve and fully update all 15 targeted strategic questions from Part XIV of the May 10, 2026 analysis. These questions are an important part of the thesis and must not be omitted or reduced to brief mentions:
+
+1. What is the complete AI datacenter bottleneck map?
+2. Hypothetical (C15): What would an AGI/ASI do to maximize money?
+3. C14: What are the top stocks for the 100 GW datacenter buildout?
+4. C16: What would an AGI/ASI do to maximize its own intelligence?
+5. C17: What strategy would an AGI/ASI use to beat China in the race to ASI?
+6. C20: Are critical minerals the ultimate Achilles' heel?
+7. C6: How big a deal is the need for power, and which power source benefits most?
+8. C9: Should the portfolio invest in Department of Defense and war stocks?
+9. C12: Can the portfolio invest in proprietary data as a bottleneck?
+10. C2: Should the portfolio invest in identity, provenance, and compliance rails?
+11. C1: Should the portfolio invest in domestic surveillance and public safety?
+12. C7: How should the portfolio invest for a world where bio-engineered pandemics become easily accessible?
+13. C8: Should the portfolio invest in anonymity, privacy, VPNs, crypto, or blockchain?
+14. What could prove the bottleneck thesis wrong by 2027?
+15. Is the portfolio architecture optimal versus alternative models?
+
+For each question, include:
+
+- the prior May answer or conclusion in concise form;
+- new evidence and developments since May 10, 2026;
+- the updated answer;
+- the portfolio implication, including any allocation change it supports;
+- confidence from 1-5 and specific disconfirming evidence.
+
+Do not copy the May answers mechanically. Re-research and re-answer every question using the current evidence and valuation framework, while preserving enough detail for the new analysis to remain comparable with Part XIV.
 
 ## Formatting Requirement
 
@@ -189,6 +227,7 @@ A stock can be the best company in its sleeve and still receive a 0% allocation 
 - Zero-based portfolio compared with V9.1
 - Forward-return and valuation table for every recommended holding
 - Comparison of the three required portfolio architectures
+- Updated answers to all 15 targeted strategic questions from the May analysis
 - Top 5 risks and invalidation triggers
 - What changed vs `2026-05-10` (new evidence only)
 
@@ -211,7 +250,8 @@ A stock can be the best company in its sleeve and still receive a 0% allocation 
 5. Portfolio architecture comparison and cross-portfolio capital competition
 6. Final allocation + checksum (100.0%)
 7. Risk, scenario, and invalidation dashboard
-8. Near-term deployment strategy summary, with the full plan in the separate deployment file
+8. Targeted question reanalysis: all 15 May Part XIV questions
+9. Near-term deployment strategy summary, with the full plan in the separate deployment file
 
 ## Deployment Execution Rules (explicit)
 
