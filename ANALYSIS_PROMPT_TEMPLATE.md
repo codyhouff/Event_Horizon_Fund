@@ -11,7 +11,11 @@ You are doing a full-cycle Event Horizon Fund review.
 
 ## Objective
 
-Re-evaluate the Event Horizon Fund thesis and allocations for maximum risk-adjusted upside from AGI/ASI infrastructure bottlenecks, using all provided sources.
+Construct the Event Horizon Fund portfolio with the highest credible expected total return over the 2027-2030 investment horizon from AI/AGI infrastructure and related bottlenecks, using all provided sources and fresh research.
+
+Expected return is the primary objective. Diversification and risk controls are constraints intended to reduce permanent capital loss, not objectives by themselves. Optimize for forward returns from current prices and valuations, not company quality, thematic importance, or past performance alone.
+
+Produce one decisive recommended allocation and clearly identify the additional risks accepted in pursuing maximum expected return. Do not imply that any forecast or portfolio is guaranteed to achieve the highest realized return.
 
 ## Required Inputs (read all)
 
@@ -31,7 +35,8 @@ Re-evaluate the Event Horizon Fund thesis and allocations for maximum risk-adjus
 
 - Event Horizon Fund remains ~50% of total net investments.
 - Foundation + Continuity structure stays unchanged unless explicitly justified.
-- Moonshot sleeve currently 0% unless strongly justified otherwise.
+- Moonshot sleeve remains 0% unless explicitly instructed otherwise.
+- Treat **15% as the strong default maximum for any individual stock**. A recommendation above 15% is allowed only with exceptional evidence, a clearly superior valuation-adjusted expected return, explicit downside analysis, and a direct explanation of why the added concentration is justified.
 
 ## Current Event Horizon Allocation Baseline (V9.1)
 
@@ -57,6 +62,34 @@ Current Allocation Snapshot (V9.1)
 **Optical Fabric (2%):** COHR (2%)  
 **Total: 100.0%**.
 
+## Prior-Cycle Accountability
+
+For every V9.1 holding, evaluate performance since May 10, 2026:
+
+- stock-price and total return;
+- contribution to portfolio return;
+- earnings-estimate revisions;
+- change in valuation;
+- major thesis confirmations or failures;
+- whether returns came primarily from fundamental improvement or multiple expansion;
+- whether the May decision was correct for the right reasons.
+
+Do not treat price appreciation as automatic thesis confirmation. A position can perform well and become a worse forward investment, while a declining stock can become attractive only if the thesis remains intact and the discount is not a value trap.
+
+## Zero-Based Portfolio Test
+
+Before recommending changes to V9.1, construct the portfolio from a blank slate using current evidence and current valuations.
+
+Do not assume:
+
+- every existing holding deserves to remain;
+- every existing sleeve must continue to exist;
+- the current number of holdings is optimal;
+- capital must be allocated to every identified bottleneck;
+- a strategically important company is necessarily an attractive stock at its current valuation.
+
+After completing the zero-based portfolio, compare it with V9.1 and explain every material difference.
+
 ## Required Research Standards
 
 - Perform fresh, up-to-date research for **every currently allocated ticker** (not just a subset).
@@ -64,7 +97,6 @@ Current Allocation Snapshot (V9.1)
 - Explicitly evaluate **credible alternatives/contenders** for each sleeve and explain why they should or should not replace or complement current picks.
 - For each sleeve, evaluate at least 2 alternatives and explicitly rank each as: `Better / Comparable / Worse` vs current holding.
 - Evaluate **all credible stock alternatives** surfaced by:
-  - GPT/Gemini input documents
   - prior analysis watchlists
   - current market developments
   even if they do not fit neatly into existing sleeves.
@@ -74,12 +106,63 @@ Current Allocation Snapshot (V9.1)
 - Include a market-data timestamp and source date for any time-sensitive claim (price, valuation, consensus estimates, macro data).
 - Flag stale inputs explicitly when data is older than 30 days.
 
+## Forward Return and Valuation Framework
+
+For every recommended holding and every serious alternative, distinguish between an excellent company and an attractive stock at its current price. Explicitly investigate stocks trading at large discounts, but do not treat a low valuation or large price decline as sufficient evidence to buy.
+
+Assess each serious candidate using:
+
+- current price and market-data date;
+- valuation relative to its own history, credible peers, and reasonable intrinsic-value scenarios;
+- the reason for any apparent discount and whether it is temporary, structural, or a value trap;
+- revenue, earnings, free-cash-flow, dilution, balance-sheet, and dividend assumptions as relevant;
+- bear/base/bull terminal-value ranges through 2030;
+- probability-weighted expected total return and CAGR;
+- catalysts that could close a discount and evidence that would invalidate the opportunity.
+
+Include this table for every recommended holding:
+
+- `Ticker | Current Price + Date | Valuation Status | Bear/Base/Bull 2030 Return | Probability-Weighted Expected CAGR | Confidence | Key Assumptions`
+
+Classify `Valuation Status` as `Deep Discount / Attractive / Fair / Expensive / Speculative`, supported by evidence rather than price performance alone.
+
+Use ranges and disclose assumptions rather than presenting false precision. If reliable data is unavailable, label the estimate unavailable instead of inventing it. Any scenario probabilities must sum to 100%.
+
+## Portfolio Architecture Challenge
+
+Compare at least three portfolio constructions:
+
+1. Current diversified bottleneck architecture.
+2. Concentrated highest-conviction architecture.
+3. Core-and-satellite architecture.
+
+For each architecture, assess:
+
+- expected total return and expected CAGR;
+- downside and permanent-capital-loss risk;
+- concentration by company, sleeve, and shared economic driver;
+- sensitivity to faster AI acceleration, a 2-3 year AI delay, and an AI-capex slowdown;
+- number of holdings and major opportunity costs.
+
+Determine whether the current number of holdings is excessive, appropriate, or insufficient. Select one architecture for the final recommendation; do not average the three portfolios mechanically.
+
+## Cross-Portfolio Capital Competition
+
+Do not optimize each sleeve independently. Every holding and candidate must compete for capital against every other holding and candidate.
+
+A stock can be the best company in its sleeve and still receive a 0% allocation if other opportunities offer superior valuation-adjusted expected returns. For every retained or added position, identify:
+
+- why it deserves capital over the portfolio's next-best alternative;
+- its expected-return advantage;
+- what position would receive the capital if it were removed.
+
 ## Formatting Requirement
 
 - Follow a very similar structure and formatting style as:
   - `Analysis 2026-05-10/Event Horizon Fund Analysis 2026-05-10.md`
 - Keep headings/tables style consistent so versions are easy to compare.
 - You may propose an improved section layout if it increases clarity, but preserve overall comparability with the reference format.
+- Match the May 10, 2026 report's depth, analytical rigor, table quality, and comprehensive treatment of strategic questions while producing a clean standalone report without carrying forward obsolete V8.3 or V9.0 reconciliation material.
 
 ## Hard Allocation Constraints
 
@@ -103,8 +186,11 @@ Current Allocation Snapshot (V9.1)
 - `Keep / Increase / Reduce / Remove / Add` decision for every ticker
 - Per-ticker decision framework table:
   - `Ticker | Current % | Recommended % | Action | Confidence (1-5) | Why | What would falsify this`
+- Zero-based portfolio compared with V9.1
+- Forward-return and valuation table for every recommended holding
+- Comparison of the three required portfolio architectures
 - Top 5 risks and invalidation triggers
-- What changed vs `2026-03-31` (new evidence only)
+- What changed vs `2026-05-10` (new evidence only)
 
 3) Near-term execution plan (separate file):
 
@@ -119,11 +205,13 @@ Current Allocation Snapshot (V9.1)
 ## Locked Output Structure (in this order)
 
 1. Executive verdict
-2. What changed since last cycle
-3. Sleeve-by-sleeve review
-4. Final allocation + checksum (100.0%)
-5. Risk and invalidation dashboard
-6. Near-term deployment strategy
+2. Prior-cycle accountability and what changed since last cycle
+3. Zero-based portfolio test and bottleneck map
+4. Sleeve-by-sleeve review, alternatives, and forward-return analysis
+5. Portfolio architecture comparison and cross-portfolio capital competition
+6. Final allocation + checksum (100.0%)
+7. Risk, scenario, and invalidation dashboard
+8. Near-term deployment strategy summary, with the full plan in the separate deployment file
 
 ## Deployment Execution Rules (explicit)
 
@@ -139,6 +227,7 @@ Current Allocation Snapshot (V9.1)
 - No duplicate sections.
 - Be decisive; avoid vague language.
 - If uncertain, state uncertainty and provide conditional plan branches.
+- Prefer valuation-adjusted expected return over narrative completeness or diversification for its own sake.
 - Focus on bottleneck economics:
   - scarcity
   - lead times
