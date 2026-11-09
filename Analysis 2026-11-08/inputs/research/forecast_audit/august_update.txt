@@ -1,0 +1,279 @@
+Q2.5 2026 Timelines Update: Uplift and Revenue
+More methods for forecasting coding automation
+Eli Lifland
+,
+Daniel Kokotajlo
+,
+and
+Brendan Halstead
+Aug 16, 2026
+117
+27
+16
+Share
+Tl;dr: Our timelines haven’t changed much (they got slightly shorter) but our modeling and evidence base have noticeably improved, so we feel somewhat more confident.
+Summary
+We intend to regularly update our AI timelines forecasts as new evidence comes in and new analyses are done. Today’s “Q2” update was delayed by the crunch to publish
+AI 2040: Plan A
+, our
+domestic regulation blog post
+, and the time needed to implement and document changes to our model.
+The original
+AI Futures Model
+predicted when Automated Coder (AC), an AI for which the leading AI company would rather fire its human software engineers than forego AI usage for coding, would happen using
+METR’s measurements of coding time horizon
+.
+(More precisely, time horizon anchors are used to set the
+effective compute
+required for AC.) While serviceable, this method has huge weaknesses, including (a) it’s unclear what time horizon corresponds to AC (it’s even unclear whether any finite value would) (b) people strongly disagree about the extent to which we should expect the time horizon trend to be superexponential as a function of effective compute, in a way that can lead to vastly different predictions.
+So we’ve been on the lookout for other methods for setting the effective compute required for AC, and now we have two candidates: coding uplift (i.e., how much of a speedup AIs are providing to software engineers at AGI companies) and
+revenue
+. Coding uplift is our favorite method: the basic idea is to estimate the doubling time of the quantity (uplift - 1) and extrapolate that until AC-level uplift is reached. The
+way we anchor the model
+using uplift-relevant estimates is a bit complex, so we first explain a
+simpler 3-parameter uplift model
+that gives similar results. With coding uplift, the value corresponding to AC is much less uncertain than with time horizons, and while we also expect coding uplift to be somewhat superexponential this isn’t nearly as important as with time horizons.
+Surprisingly,
+all 3 methods predict quite similar AC arrival dates
+.
+1
+We take this to be a somewhat encouraging sign about the robustness of our forecasts, though we are still very uncertain.
+You can explore the uplift-anchored version of the model at
+aifuturesmodel.com
+and the other options for AC forecasting via the dropdown at the top of the second graph.
+Each author assigned weights to the 3 AC anchoring methods which the model aggregates into an overall forecast. We also
+re-evaluated AI 2027’s predictions
+; reality seems to be going about 70-90% as fast as AI 2027 predicted.
+Incorporating all of the above, our latest timelines forecasts (conditional on going as fast as is technically feasible): (
+link
+)
+Here’s how our forecasts have shifted recently:
+We describe in the appendix:
+How our AGI forecasts have changed since 2021
+.
+We
+changed the modeling
+to take into account that training is needed to apply software improvements, which reduces the chance of very fast takeoffs.
+Some authors made
+minor adjustments to some other parameters
+, and we
+clarify that our forecasts are conditional on going as fast as is technically feasible
+.
+We made some
+minor changes
+to the model and website code.
+A 3-parameter uplift model for predicting when Automated Coder will arrive
+A simple method to predict the AC arrival date is to assume that (coding uplift - 1) grows exponentially. We think that this is the best simple model for predicting when AC will arrive.
+Specifically, this model takes as input 3 parameters, for which we list Daniel’s median estimates:
+Present day coding uplift, i.e. the speedup factor due to AI assistance: 2x.
+Daniel thinks 1.04x is something like a lower bound given the
+METR study
+which found 1.04x - 1.2x uplift, with METR thinking that these numbers were biased downward due to selection effects (people were less likely to participate in the study if they thought AI would be useful to them.) Otherwise, he’s integrating various sources of evidence including the
+Apr 2026 Anthropic internal survey
+having a geometric mean of 4x, and a private estimate of 1.7x AI R&D labor uplift by Ryan Greenblatt (which was an estimate for AI R&D labor as a whole, so presumably coding-only would be higher).
+Present day doubling time of the quantity (uplift-1): 5 months.
+According to Anthropic employee surveys, coding uplift has gone from 1.25x to 4x in 7 months.
+2
+This would be a ~2 month uplift doubling time, but correcting for Mythos Preview being above the long-term Anthropic ECI trend gives us a ~3.5 month doubling time.
+3
+Now, probably their employees are biased towards overestimating coding uplift. But unless the bias has been significantly increasing over time, that’s still more than three doublings of uplift-1 in less than a year – a 3.6 month doubling time!
+Daniel’s median is longer, 5 months, because he’s partly deferring to the opinions of other researchers he respects (Eli and Ryan) whose subjective sense is that the doubling time is longer.
+Uplift corresponding to AC: 20x.
+The full AI Futures Model says 32x in the median case, but we expect the true uplift to be a little lower because the model doesn’t account for the fact that AIs can be used to accomplish coding tasks less efficiently than humans.
+Comparing Daniel’s median estimates with Eli and Brendan’s:
+This simple model extrapolates the uplift trend (assuming the doubling time stays constant, i.e. the trend is exponential)
+4
+and sees when it reaches the uplift corresponding to AC.
+What does this method say?
+See
+ac-arrival.vercel.app
+for a vibe-coded app in which you can play around with the simple extrapolation.
+See
+below
+for a more complicated version that uses present day uplift and uplift doubling times as anchors for setting the behavior of the full AI Futures Model. Factors that are accounted for in the full model are:
+The (uplift-1) doubling time decreases over time because the percentage of coding tasks automated is modeled as a logistic curve with an asymptote above 1.
+(If the asymptote was at exactly 1, then that would mean there would always be some important coding tasks that humans do better than AIs, which we think is unrealistic; eventually AIs will be able to do all of them.) However, even in the full model the trend is approximately exponential when far from AC.
+Changes in the effective compute growth rate caused by AI R&D automation, human labor trends, and compute trends.
+The full model doesn’t have uplift at AC set as a parameter, instead it is inferred from model behavior.
+Adding uplift and revenue anchors to the AI Futures Model
+We’ll now discuss how uplift and revenue estimates can be used to estimate the effective compute required for AC by anchoring the AI Futures Model.
+Our overall forecast is made by using each method separately and then aggregating the results via a weighted mixture. You can explore the uplift-anchored version of the model at
+aifuturesmodel.com
+and the revenue (and time horizon) option via the dropdown at the top of the second graph.
+We give the following weights:
+We give the most weight to uplift because (a) the value corresponding to AC is more clear than for revenue or time horizon and (b) the trajectory of (uplift - 1) seems closer to exponential in log(effective compute) than for time horizon. The main advantage of time horizon relative to uplift is that it’s more measurable, and the main advantage relative to revenue is that it’s a more direct measurement of coding capabilities.
+Uplift
+Our model already issues predictions about coding uplift, so we aren’t fitting an entirely new function and AC requirement like for the other two methods.
+There is a module in the AI Futures Model (AIFM) which aggregates human labor and AI agents to produce an estimated “aggregate coding labor” (and therefore an estimated coding uplift) at each capability level.
+This module is generally calibrated by three degrees of freedom:
+One is pinned down by the uplift at present day
+Another parameter sets the “shape” of the distribution of coding task difficulties (e.g. is there a long tail of capability levels where AIs can’t yet do all tasks, despite having been able to do
+most
+tasks at much lower capability? Or does automation happen more “all at once” in capability space?)
+The last degree of freedom is the capability level (in effective compute or
+ECI
+) where the definition of AC actually becomes satisfied, that is, when AIs alone can do the full spectrum of tasks so that you’d rather hire only AIs than only humans.
+In time horizon and revenue mode, we use one of those trends to choose the capability level pinning down the third degree of freedom. In uplift mode, we don’t directly specify the capability level corresponding to AC, and instead we constrain the remaining degree of freedom by specifying the rate at which coding uplift is increasing today (specifically, the doubling time of uplift - 1).
+With the automation module calibrated, we can then read off the capability level corresponding to the AC definition, and therefore the AC date.
+Revenue
+We fit a function from AI capabilities (operationalized as effective compute or
+ECI
+) to leading AI company annualized revenue (specifically, the leading AI model developer’s revenue; so not including Nvidia). In particular, we fit an exponential function from ECI to annualized revenue (equivalent in our model to an exponential function from log(effective compute) to annualized revenue). We extrapolate the function into the future, and make guesses about which level of AI company revenue would correspond to having just achieved the AC milestone.
+We estimate the following median parameters:
+Modeling annualized revenue as an exponential function of ECI is a bit more sophisticated than modeling it as a function of time; it allows us to incorporate effects like a slowdown in datacenter growth or a feedback loop from AI R&D automation.
+Empirically, revenue has grown by 10x for every 15 ECI points so far. However, this method doesn’t take into account various other drivers of revenue growth besides capabilities (such as % of total compute allocated to inference and inference margins). It also doesn’t take into account that even holding those factors constant, revenue might not be an exponential function of ECI.
+We try to intuitively take these factors into account by our choice of parameter values — even though Anthropic’s annualized revenue has grown 10x/yr for several years, we think it’ll slow down soon, and use 5-7x/yr as our median current growth rate.
+Update to the grading of AI 2027’s predictions
+Comparing the AI 2027 pace of progress to reality
+We’ve updated our assessment of how the pace of AI progress has compared to AI 2027. Depending on what metrics you include and what aggregation method you use, reality seems to be going at roughly 70-90% the speed of AI 2027. That’s the quantitative assessment. The qualitative assessment will be discussed in the next section.
+If progress were to continue at 75% of the pace of AI 2027, Automated Coder would be reached in mid-2027.
+5
+Part of the reason that the relative uplift pace of progress is so much lower than the others is that since publication, we’ve revised our estimates downward for what AI software R&D uplift was at the
+beginning
+of AI 2027
+.
+This is reflecting a real way that we estimate reality is behind schedule, but it makes the “pace” of progress framing not as natural as the others.
+As for the public salience metric, which is our biggest predictive error, we wonder if we should have picked a better operationalization. AI does seem much more salient today than it was a year ago, even if that particular survey isn’t showing any progress.
+A few minor methodological changes we’ve made since
+our previous evaluation
+:
+We removed old predictions from the evaluation, in particular mid-2025 benchmark predictions and late-2025 compute predictions. We also didn’t evaluate the prediction for DeepCent’s compute budget (i.e., the largest Chinese company’s compute budget) because we have too little data on the current value.
+We separately estimated public and internal AI software R&D uplift; previously we had estimated one number to grade against both AI 2027 estimates.
+Details about the estimates can be found in
+this spreadsheet
+.
+Grading other predictions
+Whereas the early 2026 section in AI 2027 was very on-point (it was titled “Coding Automation”) the mid-2026 section seems more of a miss:
+We aren’t China experts, but we probably would have heard by now if the CCP had consolidated the various Chinese AI projects and heavily prioritized acquiring compute. In general it seems that “China Wakes Up” has not yet happened. That said, we expect there has been
+some
+degree of AGI wakeup in China, as there has been across the world.
+Other notes:
+“About six months behind the best OpenBrain models” seems basically right;
+this analysis
+shows about a 7 month gap according to the ECI meta-benchmark.
+We don’t have a great sense of how much compute China has right now but 12% still seems like a reasonable estimate.
+We say that OpenBrain has improved security to
+SL3
+: “protection against cybercrime syndicates and insider threats. This includes world-renowned criminal hacker groups, well-resourced terrorist organizations, and disgruntled employees.” It’s unclear how to count current AI agents in this classification scheme, but
+Anthropic and OpenAI are not secure against them yet
+, which makes us think that they don’t deserve the SL3 designation. That said, if we were to only focus on model weight security instead of security more broadly, perhaps the situation looks better.
+Updated forecasts
+Daniel
+I’m struck by the fact that all three AC extrapolation methods gave basically the same answer, independently: (
+link
+)
+I didn’t do the math in my head, I just made guesses about the parameters and then we calculated the results. I think this is some reason to be somewhat more confident in these predictions.
+Another source of evidence I’d like to incorporate is the AI 2027 grading / tracking. In a nutshell, the methodology is:
+Make a detailed, concrete trajectory of how you think the future will go.
+Wait a while.
+Check to see if things are roughly on track, or are veering off in a different direction entirely. If they are roughly on track, quantitatively estimate how fast progress is going in reality vs. your scenario.
+Adjust your guess about how the future will go, to be correspondingly faster or slower.
+It still seems like things are roughly on track for AI 2027, just going a bit slower. How much slower? About 75% speed, as mentioned
+above
+. This would predict AC happening in mid-2027. If we think it’s more like 60% speed, then that would predict early 2028. Again, interesting convergence with the other three methods.
+Are there any other major factors to consider, in forming my all-things-considered views? Well there are
+many other things to say
+, but overall I’m pretty happy with what I’ve said so far as a summary of the most important points. I’m not aware of any other arguments or considerations strong enough to push me significantly away from the above. So I’ll just go with what the model says for AC, except slightly more confident since all 3 anchoring methods give similar results, and one month sooner to incorporate the 75% AI 2027 speed method. (
+link
+)
+Here’s how my forecast has changed since April: (
+link
+)
+I increase the speed of post-AC takeoff for reasons
+previously described
+. (
+link
+)
+My forecasts for the arrival date of AC, TED-AI, and ASI: (
+link
+)
+Eli
+The top adjustments I apply to get my AC timelines are:
+Unknown model limitations and mistakes.
+With our previous (AI 2027) timelines model, my instinct was to push my overall forecasts longer due to unknown unknowns, and I'm glad I did. My median for SC (the superhuman coder milestone, similar but somewhat stronger than the automated coder milestone) was 2030 as opposed to the model's output of Dec 2028, and I now think that the former looks more right. I again want to lengthen my overall forecasts for this reason, but by less than last time because our new model is much more well-tested and well-considered than our previous one, and is thus less likely to have simple bugs or unknown simple conceptual issues.
+Data bottlenecks.
+Our model implicitly assumes now that any data progress is proportional to algorithmic progress. But data in practice could be either more or less bottlenecking. My guess is that modeling data would lengthen timelines a bit, at least in cases where synthetic data is tough to fully rely upon.
+My all-things-considered adjustment: (
+link
+)
+And a comparison vs. April: (
+link
+)
+Compared to the model’s takeoff predictions, I speed mine up, primarily to take into account automation of hardware R&D, hardware production, and general economic automation: (
+link
+)
+My forecasts for the arrival date of AC, TED-AI, and ASI: (
+link
+)
+Brendan
+This is my first set of parameters and all-things-considered views.
+Various factors the model isn’t considering for timelines to AC:
+We are not tracking research taste as a timelines indicator; preliminary results from P-Zero Research indicate Opus 5 is at parity with “expert humans” in research taste on their verifiable tasks. (This is also an update towards AC sooner, because if human-level research taste is nearer than we previously guessed, that’s evidence that human-level coding ability is too.)
+It seems plausible that “epistemics and alignment” will be the bottleneck for AC. On one hand, this should already be priced into the uplift trend, since these issues have contributed to reduced uplift so far. But if these are gross complements with e.g. “narrow technical capability” and cannot be increased as quickly, then perhaps the uplift trend will slow down once we become “alignment bottlenecked”.
+The input time series are somewhat rough. They do not account very precisely for the rumored “pretraining overhang” Ryan has talked about, which might result in above-trend progress in 2026. They also haven’t been updated since last December, and my expectations for AI capex are more bullish than they were in December.
+Other unknown unknowns, which should shift the median later.
+Overall, the model’s 70% on AC by Jan 2030 and nearly 90% by Jan 2035 feels too confident, so I reduce these to 60% and 80%.
+Here is my all-things-considered adjustment: (
+link
+)
+For takeoff from AC to TED-AI:
+As usual, we don’t account for hardware R&D automation (or any sort of unprecedented speedup in compute production during takeoff). Accounting for it would make 5+ year takeoffs quite unlikely.
+To try to adjust for this, I added a “maximum takeoff length” sampled uniformly from (infinity, ten years, five years, two years) and capped each simulation’s TED-AI date at the AC date plus this quantity.
+I also want to account for unknown serial bottlenecks that an idealized mathematical model like ours might not include (after all, in real life AI R&D has many more steps and interacting stages than are present in our model).
+6
+I think this should mostly affect very short takeoffs, so with 25% probability, each rollout’s takeoff length is floored at 6 months.
+To combine these changes to the model’s takeoff with my changes to the model’s timelines to AC, I also reweighted all the rollouts according to my all things considered distribution for AC. This yields the following distribution for TED-AI arrival: (
+link
+)
+Appendix
+How our AGI forecasts have changed since 2021
+Below, we include plots that extend our analysis of
+how our views have changed since publishing AI 2027
+. When we refer to AGI in the below plots, we mean Top-Expert-Dominating AI: an AI that is at least as good as top human experts at virtually all cognitive tasks.
+Zooming in on the changes since 2024:
+Explicitly simulating the training run of the leading AI model
+This was originally motivated by our research for Plan A; see
+Plan A Takeoff Forecast
+We think this improves our takeoff speed estimates. But also, it allows us to predict the effect of various policies to
+pace the frontier
+that involve reducing compute available for AI development.
+Incorporating this change leads to a somewhat slower takeoff; see the charts below for how it affected model predictions given each of Daniel and Eli’s parameter estimates.
+Research taste parameter adjustments
+Based on a forthcoming research taste evaluation from P-Zero Research which updated us toward faster research taste progress, Eli adjusted his:
+Automated research taste slope median up from 2.1 to 2.3.
+Median to top taste multiplier median up from 3.7 to 4.
+Brendan’s median estimates of 2.69 and 4.35 were influenced by this research as well. Daniel didn’t update his estimates as the research taste slope estimate of 3 was already higher than Brendan and Eli’s, and his median to top taste multiplier estimate of 4 was very similar.
+Clarification regarding what we’re forecasting
+We have previously not been very clear on whether we’re forecasting when AI milestones will actually appear in the world, or whether we are assuming things go as fast as is technically feasible; e.g., assuming that there isn’t government intervention to slow down AI. In our supplementary materials, we implied that we were adjusting for non-technical slowdowns. But in practice, we hadn’t thought much about this and some of us were explicitly assuming the opposite.
+We’ve discussed this issue, and we’ve decided that from now on our forecasts are for what will happen conditional on things going as fast as is technically feasible.
+We think this is more informative to forecast than to attempt to account for the likelihood of various levels of slowdown. We’ve edited our supplementary materials to reflect this.
+Various minor code changes
+We had formerly been making use of an approximation that the rate of progress at the present day matches what it would have been in a counterfactual “human-only” trajectory, which is easier to simulate. But that assumption is increasingly false, since AIs are (in our estimation) starting to non-negligibly speed things up. In particular, this assumption would have caused us to underestimate the rate of effective compute growth that underlies today's observed progress rates on things like time horizon. We’d then be plugging in our actual (with-automation) model trajectory to that calibrated relationship, resulting in an incorrectly sped-up prediction that would underestimate time required to e.g. reach automated coder.
+We reconfigured the front page a bit, adding a few extra metrics. We switched to showing Epoch Capabilities Index by default instead of “effective compute”.
+(Why privilege ECI like this, as opposed to time horizon or any other metric? Technically, effective compute
+requires
+an underlying capability metric to define, since you need to measure software efficiency in terms of training compute required to reach “equal capability level” (which requires a metric). Also, the idea of “training compute” as a single scalar that determines capability seems increasingly fraught).
+We model ECI as the unique affine transform of log(effective compute) satisfying the properties that:
+The current effective compute maps to the current ECI (today, 161)
+The current growth rate of effective compute maps to the current ECI growth rate (today, 15 pts/yr)
+This is the same as saying that each OOM of training compute adds a constant number of ECI points, and that the ECI reachable at a given training compute otherwise grows at a (currently) constant number of points per year, via the process of software R&D.
+1
+It’s possible we were subconsciously biased to confirm our existing views when choosing parameter estimates, but we did our best not to look at results when doing so. An exception is that Eli looked at the results of the simplified uplift model before setting his uplift parameters.
+2
+Sonnet 4.5 (Sep 25): median 1.25x (selected for top 30 Claude Code usage); Mythos Preview (Apr 7 26, Feb 24 internal deployment): 4x geomean
+3
+Since we’re using these numbers only to calibrate a relationship between uplift minus 1 and general capabilities, we obtain 3.5 months by reading off the release date of Mythos Preview as though it had been on the long term AECI trend rather than its actual release date.
+4
+Steady exponential growth is a reasonable default assumption for many metrics in AI and roughly matches our past estimates. Our more sophisticated modeling suggests that progress will look exponential for some time until the trend goes superexponential as we approach AC.
+5
+(2027-2025.25)*(1/.75)+2025.25
+6
+One example: until recently, we weren’t accounting for the
+time required to retrain models with new algorithms during takeoff
+. There might be similar things we haven’t thought of yet.
+117
+27
+16
+Share
+Previous
+Next

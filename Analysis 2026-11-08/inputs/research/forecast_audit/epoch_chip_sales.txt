@@ -1,0 +1,246 @@
+Updated
+Oct. 21, 2026
+AI chip sales
+Our open database of AI chip sales, using financial reports, company disclosures, and more to estimate compute, power usage, and spending over time for a wide variety of AI chips.
+Download this data
+Compute capacity (H100e)
+Chip power (GW)
+Cost (USD)
+Number of units
+Graph
+Table
+Settings
+Color by
+None
+Chip type
+Designer
+Country of chip designer
+Filter by chip designer
+All
+All
+Nvidia
+Amazon
+Google
+Huawei
+AMD
+Cambricon
+All
+Nvidia
+Amazon
+Google
+Huawei
+AMD
+Cambricon
+Display
+Show cumulative
+Chart type
+Bar chart
+Area chart
+Show data as
+Absolute
+Percentage
+Show trend
+Project trend
+Additional settings
+Show time as
+Quarterly
+Annual
+Show incomplete historic data
+Apply
+More about this dataset
+Documentation
+Downloads
+Citations
+FAQ
+Documentation
+The AI chip sales hub tracks and estimates sales and shipments of leading AI chips over time, as well as their estimated total computing power, cost, and power draw. The analysis is primarily based on data on chip volumes, revenue, and prices sourced from company earnings commentary, analyst estimates, and media reports.
+Read the complete documentation
+Downloads
+AI chip sales: All datasets
+ZIP
+,
+Updated Oct. 21, 2026
+AI chip sales: Chip types
+CSV
+,
+Updated Oct. 21, 2026
+AI chip sales: Organizations
+CSV
+,
+Updated Oct. 21, 2026
+AI chip sales: Timelines by chip
+CSV
+,
+Updated Oct. 21, 2026
+Citations
+Epoch AI’s data is free to use, distribute, and reproduce provided the source and authors are credited under the
+Creative Commons Attribution license
+.
+Citation
+Epoch AI, 'Data on AI chip sales'. Published online at epoch.ai. Retrieved from 'https://epoch.ai/data/ai-chip-sales' [online resource]. Accessed 9 Nov 2026.
+BibTeX Citation
+@misc{EpochAIChipSales2026,
+title = {{Data on AI chip sales}},
+author = {{Epoch AI}},
+year = {2026},
+month = {10},
+url = {https://epoch.ai/data/ai-chip-sales},
+note = {Accessed: 9 Nov 2026}
+}
+Python Import
+import pandas as pd
+# All tables are also bundled at https://epoch.ai/data/ai_chip_sales.zip
+chip_types_url = "https://epoch.ai/data/ai_chip_sales_chip_types.csv"
+chip_types_df = pd.read_csv(chip_types_url)
+organizations_url = "https://epoch.ai/data/ai_chip_sales_organizations.csv"
+organizations_df = pd.read_csv(organizations_url)
+timelines_by_chip_url = "https://epoch.ai/data/ai_chip_sales_timelines_by_chip.csv"
+timelines_by_chip_df = pd.read_csv(timelines_by_chip_url)
+Frequently asked questions
+What does the AI chip sales data explorer measure?
+Our AI chip sales data explorer compiles our estimates of the number of dedicated AI accelerators that have been sold or shipped by major chip designers over time. This is broken down by chip manufacturer, by specific chip models, and by time period.
+What is the purpose of this work?
+The total quantity of AI chips, and its growth rate over time, is a key factor in the AI field’s ability to conduct research and to train and deploy AI models. Our analysis of total AI chip sales complements our data on the
+training compute
+of individual models, as well as our data on
+large AI data centers
+and
+GPU clusters
+.
+Note that our main objective in measuring AI compute is to help understand its implications for AI progress and AI’s societal impacts, not to perform industry or financial analysis.
+How do you estimate production volumes for different manufacturers?
+Our methodology varies by designer based on available data. Please refer to the Documentation section for a detailed overview of our methodology for each chip designer.
+How confident are you in these estimates?
+Our figures are estimates, because chip companies do not consistently disclose exact sales, though Nvidia has provided the most informative direct
+disclosures
+on total Hopper and Blackwell sales.
+When feasible, we model our uncertainty in 90% confidence intervals. These can be viewed in the tooltips and in the table view; most of our intervals span a factor of roughly 2x, or ~1.5x in either direction from the median. We do not always round our estimates for specific chips and quarters, because it is slightly more accurate to aggregate unrounded estimates, but they nevertheless should
+not
+be viewed as precise figures.
+Our uncertainty, and the robustness of our methodologies, varies by chip designer. And the level of detail in our analysis varies roughly in proportion to the size and importance of each chipmaker.
+We have the highest confidence in our Nvidia estimates, which are based on Nvidia-reported compute revenue and extensive media and analyst coverage, and corroborated by direct disclosures from Nvidia of Hopper and Blackwell shipments. We are least confident in our Amazon Trainium estimates; while large-scale
+Trainium data centers
+provide a robust floor on volumes, our central estimates rely on indirect evidence and fairly limited analyst coverage.
+For more information on how we produce our estimates, see our methodology page.
+What does "H100e" compute capacity mean?
+H100e (H100-equivalent) compute capacity is total computing power measured in terms of the equivalent number of Nvidia H100 GPUs. We divide the peak number of dense 8-bit operations (FP8 or INT8) each chip can perform by the Nvidia H100’s spec, and then multiply this ratio by the number of chips. For example, since a TPUv7 can perform ~2.3x as many operations as an H100, then one million TPUv7s have a compute capacity of 2.3 million H100e.
+We use H100e because citing a reference chip is much more intuitive than total operations per second. The H100 is chosen because it was the most widely-used AI chip in 2023 and 2024.
+We choose 8-bit number formats since our understanding is that they are now widely used for inference, and for training at major AI labs (see more on number format trends
+here
+).  Alternative metrics such as different bit counts or total processing performance (operations x bit width) can lead to different performance ratios between chip types, but in most cases this choice does not matter because peak operations per second usually scales inversely with the bit width of the number format.
+Is H100-equivalent compute a true measure of relative chip performance?
+No, this is an imperfect proxy based on specifications
+on paper.
+While operations/second is the single most useful metric because the basic purpose of AI chips is to perform computer operations, real-world performance can diverge from paper specs for several reasons:
+Memory and memory bandwidth are also critically important, since loading and transferring data often
+bottlenecks
+AI workloads. We may incorporate memory metrics into our visualization in a future update. Our data downloads and
+ML hardware dataset
+include memory, bandwidth, and other chip specs, which can be used in your own analysis.
+Other features of chips’ design and software ecosystem can lead some chips to have better FLOP utilization, easier engineering, fewer bugs and crashes, etc. than others in practice.
+This dataset does not indicate how these chips are networked into servers and clusters. A networked cluster of 100,000 chips can perform large-scale training runs, but 100,000 of the same type of chip arranged in individual chips or many small servers cannot. You can visit our
+GPU clusters
+and
+AI data centers
+datasets for extensive but non-comprehensive data on large AI chip clusters.
+How are chip costs calculated?
+Chip costs are based on approximate average purchase prices for each chip type, multiplied by the number of chips. This price is the price paid by the final customer or user, not the underlying production cost to the chip designer or manufacturer. These are intended for useful reference, and we don’t currently implement confidence intervals for total chip costs.
+For AI chips that are sold directly to external customers, such as Nvidia’s and AMD’s, this is the price paid by those customers, synthesized from reports or analyst estimates. For custom chips such as Google’s TPU, this is the estimated price paid to the relevant supply partners (e.g. Broadcom). This is a fair comparison while Google is the sole direct customer of TPU, but once TPUs are sold to external customers such as Anthropic in
+2026
+, future chip costs will be adjusted to account for the average price paid by all TPU customers.
+Note that chip prices do
+not
+represent the full capital cost of AI hardware, due to the substantial overhead costs of servers, compute clusters, and data center facilities. You can find more information about AI capital costs
+here
+.
+How is chip power measured?
+The power figures are based on each chip’s thermal design power (TDP), which is a specification that
+roughly means
+the maximum possible
+sustained
+electric power draw of the chip. This is multiplied by the total quantity of a given chip.
+Importantly, the total power draw of an AI
+data center
+is typically much higher (roughly
+twice
+as high) than the total TDP of the chips inside, due to overheads at the server, cluster, and facility level.
+Do you track deployed, delivered, or just produced compute?
+We strive to track the total number of chips that are delivered and ready for installation or use, but not necessarily already online in a data center. This can vary by designer in practice due to differences in available evidence:
+For NVIDIA and AMD, our revenue-based estimates reflect chips that have been delivered to customers since revenue is recognized upon
+delivery
+, not when the order is placed or payment is made, under
+generally-accepted accounting principles.
+For Amazon Trainium, our estimates draw more heavily on data center capacity tracking from our AI data centers database, which is closer to deployed/operational compute.
+For Google TPUs, our estimates are based on Broadcom revenue and thus likely reflect chips produced and delivered to Google.
+For Huawei, third-party analyst estimates generally refer to chips shipped or produced, though the distinction is often unclear in source materials.
+In all cases, delivered chips may take additional time to be installed and brought online in data centers.
+Does this track all AI chip production?
+No. We focus on the largest designers of dedicated AI accelerators: NVIDIA, Google (TPUs), Amazon (Trainium/Inferentia), AMD (Instinct series), and Huawei (Ascend series), prioritizing both overall volume and geographic diversity. Together, these account for the large majority of global AI compute capacity.
+We do not currently track:
+Custom chips from other major tech companies such as Microsoft (Maia), Meta (MTIA), or Tesla (Dojo), as these are not yet deployed at large scale for AI training and inference or have very limited public information.
+Consumer GPUs such as NVIDIA’s RTX series have some utility for AI workloads but are not dedicated AI accelerators.
+AI chips from smaller players such as Intel, Cerebras, Groq, Cambricon, or SambaNova.
+We may expand coverage as other manufacturers scale production or more data becomes available.
+How far back does this data go?
+Our data and estimates date back to 2022 for Nvidia, 2023 for Google, and 2024 for other chip designers. This is mainly due to greater availability of information over time. In addition, given a
+trend
+of rapid growth in the stock of computing power over time, the last two years of shipments would make up a large majority of the total compute stock even if chips had infinite lifetimes. We may later expand our coverage to earlier years.
+How do you group sales by quarter, and why are some quarters incomplete?
+We show estimates of chip sales by calendar quarter. However, some of the underlying information used for our estimates don’t line up with calendar quarters, usually because they’re based on fiscal quarters that don’t line up with the calendar (this applies to Nvidia as well as Google TPUs, which are estimated using Broadcom fiscal quarters). In other cases, our estimates are initially broken down by years or half-years rather than quarters.
+In these cases, we interpolate our numbers to fit calendar quarters by assuming a constant rate of sales per time period. This method is simple but slightly imperfect since chip sales have usually grown over time in recent years (or shrunk when a new generation is introduced).
+Do you account for chip failures or retirements?
+We do not explicitly account for chip retirements. AI hardware generally lasts for several years, though exact figures are a
+matter of controversy
+, so many chips sold in 2023 or earlier are likely still in service. Given growth in chip deployments over time, chip retirements likely have only a small impact on the cumulative stock.
+How is the data licensed?
+Epoch AI’s data is free to use, distribute, and reproduce provided the source and authors are credited under the
+Creative Commons Attribution license
+.
+Related work
+See all our publications
+AI chip owners
+AI chip users
+How much does it cost to train frontier AI models?
+Trends in AI supercomputers
+Investigating the trajectory of AI for the benefit of society
+Get the latest from Epoch AI in your inbox
+Subscribe
+Our work
+Latest
+Trends in AI
+Publications
+Data Insights
+Newsletter: Gradient Updates
+Podcast
+Data on AI
+Models
+AI data centers
+Hardware
+Companies
+Chip sales
+Polling
+Benchmarking
+Capabilities & benchmarking
+FrontierMath
+Company
+About
+Team
+Consultations
+Transparency
+Donate
+Careers
+© 2026 Epoch AI
+Privacy policy
+Cookie policy
+Designed by And—Now
+Feedback
+Feedback
+Have a question? Noticed something wrong? Let us know.
+Message
+If you would like a reply, please include your name and email address.
+Name
+Email address
+Cancel
+Submit
+AI chip sales
+Our open database of AI chip sales, using financial reports, company disclosures, and more to estimate compute, power usage, and spending over time for a wide variety of AI chips.

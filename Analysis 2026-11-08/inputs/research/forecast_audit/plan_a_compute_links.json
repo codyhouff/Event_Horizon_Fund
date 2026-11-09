@@ -1,0 +1,634 @@
+[
+  {
+    "text": "AI 2040",
+    "url": "/"
+  },
+  {
+    "text": "PDF",
+    "url": "/AI-2040.pdf"
+  },
+  {
+    "text": "Supplements",
+    "url": "/supplements"
+  },
+  {
+    "text": "FAQ FAQ",
+    "url": "/supplements/faq"
+  },
+  {
+    "text": "How Plan A solves our 5 biggest problems How Plan A solves our 5 biggest problems",
+    "url": "/supplements/how-plan-a-solves-our-5-biggest-problems"
+  },
+  {
+    "text": "Covert AI Projects Covert AI Projects",
+    "url": "/supplements/covert-ai-projects"
+  },
+  {
+    "text": "Verification Plan Verification Plan",
+    "url": "/supplements/verification-plan"
+  },
+  {
+    "text": "Transparency Plan Transparency Plan",
+    "url": "/supplements/transparency-plan"
+  },
+  {
+    "text": "Capability Scaling Strategy Capability Scaling Strategy",
+    "url": "/supplements/capability-scaling-strategy"
+  },
+  {
+    "text": "Security in Plan A Security in Plan A",
+    "url": "/supplements/security-in-plan-a"
+  },
+  {
+    "text": "Plan A Assumptions Plan A Assumptions",
+    "url": "/supplements/plan-a-assumptions"
+  },
+  {
+    "text": "Comparing Possible Plans Comparing Possible Plans",
+    "url": "/supplements/comparing-possible-plans"
+  },
+  {
+    "text": "Deal Decline Deal Decline",
+    "url": "/supplements/deal-decline"
+  },
+  {
+    "text": "Takeoff Forecast Takeoff Forecast",
+    "url": "/supplements/takeoff-forecast"
+  },
+  {
+    "text": "Economics of Plan A Economics of Plan A",
+    "url": "/supplements/economics-of-plan-a"
+  },
+  {
+    "text": "Compute in Plan A Compute in Plan A",
+    "url": "/supplements/compute-supplement"
+  },
+  {
+    "text": "Economic Growth Explorer Economic Growth Explorer",
+    "url": "/supplements/econ-explorer"
+  },
+  {
+    "text": "Space Governance Plan Space Governance Plan",
+    "url": "/supplements/space-governance-plan"
+  },
+  {
+    "text": "AI for Epistemics AI for Epistemics",
+    "url": "/supplements/ai-for-epistemics"
+  },
+  {
+    "text": "Alignment Roadmap Alignment Roadmap",
+    "url": "/supplements/alignment-roadmap"
+  },
+  {
+    "text": "About",
+    "url": "/about"
+  },
+  {
+    "text": "Summary",
+    "url": "/summary"
+  },
+  {
+    "text": "",
+    "url": "https://ai-futures.org/"
+  },
+  {
+    "text": "Compute Definitions",
+    "url": "/supplements/compute-supplement#compute-definitions"
+  },
+  {
+    "text": "Part 1. Pre-deal compute (pre-2029)",
+    "url": "/supplements/compute-supplement#part-1-pre-deal-compute-pre-2029"
+  },
+  {
+    "text": "1.1. AI-relevant compute",
+    "url": "/supplements/compute-supplement#11-ai-relevant-compute"
+  },
+  {
+    "text": "1.2. All compute",
+    "url": "/supplements/compute-supplement#12-all-compute"
+  },
+  {
+    "text": "1.3. Regional ownership",
+    "url": "/supplements/compute-supplement#13-regional-ownership"
+  },
+  {
+    "text": "1.4. Datacenter sizes",
+    "url": "/supplements/compute-supplement#14-datacenter-sizes"
+  },
+  {
+    "text": "Part 2. Post-deal compute (post-2029)",
+    "url": "/supplements/compute-supplement#part-2-post-deal-compute-post-2029"
+  },
+  {
+    "text": "2.1. The no-deal counterfactual",
+    "url": "/supplements/compute-supplement#21-the-no-deal-counterfactual"
+  },
+  {
+    "text": "2.2. AI-relevant compute after the deal",
+    "url": "/supplements/compute-supplement#22-ai-relevant-compute-after-the-deal"
+  },
+  {
+    "text": "2.3. Company concentration",
+    "url": "/supplements/compute-supplement#23-company-concentration"
+  },
+  {
+    "text": "2.4. Compute allocation",
+    "url": "/supplements/compute-supplement#24-compute-allocation"
+  },
+  {
+    "text": "2.5. AI copies and speed",
+    "url": "/supplements/compute-supplement#25-ai-copies-and-speed"
+  },
+  {
+    "text": "Appendix. The effective-H100e model",
+    "url": "/supplements/compute-supplement#appendix-the-effective-h100e-model"
+  },
+  {
+    "text": "",
+    "url": "#top-toc"
+  },
+  {
+    "text": "",
+    "url": "#top-toc"
+  },
+  {
+    "text": "",
+    "url": "#top-toc"
+  },
+  {
+    "text": "H100 SXM",
+    "url": "https://www.nvidia.com/en-us/data-center/h100/"
+  },
+  {
+    "text": "appendix",
+    "url": "#appendix-the-effective-h100e-model"
+  },
+  {
+    "text": "",
+    "url": "#top-toc"
+  },
+  {
+    "text": "",
+    "url": "#top-toc"
+  },
+  {
+    "text": "",
+    "url": "#top-toc"
+  },
+  {
+    "text": "Epoch AI \u2014 hyperscaler capex",
+    "url": "https://epoch.ai/data-insights/hyperscaler-capex-trend"
+  },
+  {
+    "text": "AI Chip Sales",
+    "url": "https://epoch.ai/data/ai-chip-sales?view=graph&tab=h100_equivalents&timePeriod=annual&cumulative=false"
+  },
+  {
+    "text": "",
+    "url": "#top-toc"
+  },
+  {
+    "text": "Source: Epoch AI",
+    "url": "https://epoch.ai/data-insights/hyperscaler-capex-vs-cash-flow"
+  },
+  {
+    "text": "hyperscalers are ~60-90% of global AI spend",
+    "url": "https://epoch.ai/data-insights/hyperscalers-control-most-compute"
+  },
+  {
+    "text": "hyperscaler Broad CapEx",
+    "url": "https://epoch.ai/data-insights/hyperscaler-capex-trend"
+  },
+  {
+    "text": "~60\u201390% of global spend",
+    "url": "https://epoch.ai/data-insights/hyperscalers-control-most-compute"
+  },
+  {
+    "text": "Morgan Stanley podcast",
+    "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/credit-markets-ai-financing-gap-vishy-tirupattur-vishwas-patkar"
+  },
+  {
+    "text": "",
+    "url": "#top-toc"
+  },
+  {
+    "text": "ASML's annual reports",
+    "url": "https://www.asml.com/en/investors/annual-report"
+  },
+  {
+    "text": "Frederick Chen",
+    "url": "https://frederickchen.substack.com/p/estimating-euv-production-wafer-throughput"
+  },
+  {
+    "text": "SemiAnalysis",
+    "url": "https://newsletter.semianalysis.com/p/asmls-euv-tools-have-a-throughput"
+  },
+  {
+    "text": "TSMC alone runs ~56% of capacity",
+    "url": "https://www.digitimes.com/news/a20241112PD204/euv-tsmc-adoption-2023-technology.html"
+  },
+  {
+    "text": "Epoch's direct estimate",
+    "url": "https://epoch.ai/data-insights/ai-chip-supply-chain-constraints"
+  },
+  {
+    "text": "Cerebras",
+    "url": "https://www.cerebras.ai/blog/100x-defect-tolerance-how-cerebras-solved-the-yield-problem"
+  },
+  {
+    "text": "TrendForce",
+    "url": "https://www.trendforce.com/news/2025/12/30/news-samsung-reportedly-plans-50-hbm-capacity-surge-in-2026-spotlight-on-hbm4/"
+  },
+  {
+    "text": "1c ~6",
+    "url": "https://www.tweaktown.com/news/106957/sk-hynix-ramps-1c-dram-to-6-euv-layers-preps-for-high-na-designs-destroy-samsung-in-hbm/index.html"
+  },
+  {
+    "text": "~3x a DDR5 wafer",
+    "url": "https://www.tomshardware.com/pc-components/ram/hbm-is-eating-your-ram"
+  },
+  {
+    "text": "appendix",
+    "url": "#appendix-the-effective-h100e-model"
+  },
+  {
+    "text": "",
+    "url": "#top-toc"
+  },
+  {
+    "text": "",
+    "url": "#top-toc"
+  },
+  {
+    "text": "IDC Worldwide Quarterly Mobile Phone Tracker",
+    "url": "https://www.idc.com/promo/smartphone-market-share"
+  },
+  {
+    "text": "Gartner",
+    "url": "https://www.gartner.com/en/newsroom/press-releases/2024-01-10-gartner-says-worldwide-pc-shipments-grew"
+  },
+  {
+    "text": "IDC PCD Tracker",
+    "url": "https://www.idc.com/promo/pcdforecast"
+  },
+  {
+    "text": "Jon Peddie Research AIB Report",
+    "url": "https://www.jonpeddie.com/reports/add-in-board-report/"
+  },
+  {
+    "text": "TechInsights via DCD",
+    "url": "https://www.datacenterdynamics.com/en/news/nvidia-gpu-shipments-totaled-376m-in-2023-equating-to-a-98-market-share-report/"
+  },
+  {
+    "text": "Epoch AI",
+    "url": "https://epoch.ai/data-insights/nvidia-chip-production"
+  },
+  {
+    "text": "~25 to 35B MCUs/yr alone",
+    "url": "https://www.statista.com/statistics/935382/worldwide-microcontroller-unit-shipments"
+  },
+  {
+    "text": "Federal Register 88 FR 73458",
+    "url": "https://www.govinfo.gov/content/pkg/FR-2023-10-25/pdf/2023-23055.pdf"
+  },
+  {
+    "text": "CSET explainer",
+    "url": "https://cset.georgetown.edu/article/bis-2023-update-explainer/"
+  },
+  {
+    "text": "Princeton ISCA 2025",
+    "url": "https://parallel.princeton.edu/papers/sanctions-isca-2025.pdf"
+  },
+  {
+    "text": "Apple Neural Engine TOPS table",
+    "url": "https://github.com/hollance/neural-engine/blob/master/docs/supported-devices.md"
+  },
+  {
+    "text": "Canalys AI-PC share",
+    "url": "https://canalys.com/newsroom/ai-capable-pc-shipment-q4-2024"
+  },
+  {
+    "text": "Steam Hardware Survey",
+    "url": "https://store.steampowered.com/hwsurvey/videocard/"
+  },
+  {
+    "text": "TrendForce mix",
+    "url": "https://www.trendforce.com/presscenter/news/20240903-12283.html"
+  },
+  {
+    "text": "AnySilicon",
+    "url": "https://anysilicon.com/die-per-wafer-formula-free-calculators/"
+  },
+  {
+    "text": "SemiAnalysis",
+    "url": "https://www.semianalysis.com/"
+  },
+  {
+    "text": "",
+    "url": "#top-toc"
+  },
+  {
+    "text": "TrendForce",
+    "url": "https://www.trendforce.com/presscenter/news/20240903-12283.html"
+  },
+  {
+    "text": "NVIDIA DGX/HGX H100 specs",
+    "url": "https://www.nvidia.com/en-us/data-center/dgx-h100/"
+  },
+  {
+    "text": "SEMI",
+    "url": "https://www.semi.org/en/products-services/market-data"
+  },
+  {
+    "text": "SemiAnalysis",
+    "url": "https://www.semianalysis.com/p/the-memory-wall"
+  },
+  {
+    "text": "ASML",
+    "url": "https://www.asml.com/en/investors"
+  },
+  {
+    "text": "TSMC",
+    "url": "https://investor.tsmc.com/english/quarterly-results"
+  },
+  {
+    "text": "",
+    "url": "#top-toc"
+  },
+  {
+    "text": "appendix",
+    "url": "#appendix-the-effective-h100e-model"
+  },
+  {
+    "text": "appendix",
+    "url": "#appendix-the-effective-h100e-model"
+  },
+  {
+    "text": "NVIDIA's DGX Station",
+    "url": "https://www.nvidia.com/en-us/products/workstations/dgx-station/"
+  },
+  {
+    "text": "",
+    "url": "#top-toc"
+  },
+  {
+    "text": "",
+    "url": "#top-toc"
+  },
+  {
+    "text": "chip dies smuggled in",
+    "url": "https://www.reuters.com/technology/us-ordered-tsmc-halt-shipments-china-chips-used-ai-applications-source-says-2024-11-10/"
+  },
+  {
+    "text": "lease from abroad",
+    "url": "https://www.the-substrate.net/p/how-much-us-compute-is-china-renting"
+  },
+  {
+    "text": "SemiAnalysis",
+    "url": "https://newsletter.semianalysis.com/p/huawei-ascend-production-ramp"
+  },
+  {
+    "text": "rent abroad",
+    "url": "https://www.the-substrate.net/p/how-much-us-compute-is-china-renting"
+  },
+  {
+    "text": "Epoch",
+    "url": "https://epoch.ai/publications/chip-smuggling"
+  },
+  {
+    "text": "enforcement",
+    "url": "https://www.ft.com/content/57fcd3ce-464f-4dc2-8ea2-5712d4972c69"
+  },
+  {
+    "text": "confirmed-rental floor",
+    "url": "https://www.the-substrate.net/p/how-much-us-compute-is-china-renting"
+  },
+  {
+    "text": "SemiAnalysis CXMT piece",
+    "url": "https://newsletter.semianalysis.com/p/chinas-cxmt-is-set-to-challenge-dram"
+  },
+  {
+    "text": "SemiAnalysis CXMT piece",
+    "url": "https://newsletter.semianalysis.com/p/chinas-cxmt-is-set-to-challenge-dram"
+  },
+  {
+    "text": "NXT:1980Fi-class",
+    "url": "https://www.asml.com/en/products/duv-lithography-systems/twinscan-nxt1980fi"
+  },
+  {
+    "text": "AEI",
+    "url": "https://www.aei.org/research-products/report/the-lithography-loophole-how-china-is-printing-its-way-to-chip-self-sufficiency/"
+  },
+  {
+    "text": "~2.4M nameplate",
+    "url": "https://www.aei.org/research-products/report/the-lithography-loophole-how-china-is-printing-its-way-to-chip-self-sufficiency/"
+  },
+  {
+    "text": "SMIC \u22647nm starts",
+    "url": "https://newsletter.semianalysis.com/p/huawei-ascend-production-ramp"
+  },
+  {
+    "text": "SAQP quad-patterning",
+    "url": "https://www.techpowerup.com/344000/chinese-smic-achieves-5-nm-production-on-n-3-node-without-euv-tools"
+  },
+  {
+    "text": "CXMT HBM starts",
+    "url": "https://newsletter.semianalysis.com/p/chinas-cxmt-is-set-to-challenge-dram"
+  },
+  {
+    "text": "",
+    "url": "#top-toc"
+  },
+  {
+    "text": "",
+    "url": "#top-toc"
+  },
+  {
+    "text": "Epoch's datacenter dataset",
+    "url": "https://epoch.ai/data/data-centers"
+  },
+  {
+    "text": "Epoch's observed current dataset",
+    "url": "https://epoch.ai/data/data-centers"
+  },
+  {
+    "text": "",
+    "url": "#top-toc"
+  },
+  {
+    "text": "",
+    "url": "#top-toc"
+  },
+  {
+    "text": "",
+    "url": "#top-toc"
+  },
+  {
+    "text": "Jones 1995",
+    "url": "https://web.stanford.edu/~chadj/JonesJPE95.pdf"
+  },
+  {
+    "text": "Bloom et al. 2020",
+    "url": "https://web.stanford.edu/~chadj/IdeaPF.pdf"
+  },
+  {
+    "text": "Bloom et al. 2020",
+    "url": "https://web.stanford.edu/~chadj/IdeaPF.pdf"
+  },
+  {
+    "text": "around 35%/year",
+    "url": "https://epoch.ai/data/machine-learning-hardware?view=graph"
+  },
+  {
+    "text": "Epoch estimates",
+    "url": "https://epoch.ai/blog/limits-to-the-energy-efficiency-of-cmos-microprocessors"
+  },
+  {
+    "text": "Epoch\u2019s terms",
+    "url": "https://epoch.ai/data-insights/gpus-power-usage-in-ai-data-centers"
+  },
+  {
+    "text": "CMOS practical limit",
+    "url": "https://epoch.ai/blog/limits-to-the-energy-efficiency-of-cmos-microprocessors"
+  },
+  {
+    "text": "",
+    "url": "#top-toc"
+  },
+  {
+    "text": "owned by hyperscalers",
+    "url": "https://epoch.ai/data/ai-chip-owners?view=graph&tab=h100_equivalents"
+  },
+  {
+    "text": "AI company end-users are less concentrated",
+    "url": "https://epochai.substack.com/p/frontier-labs-dont-use-most-ai-compute"
+  },
+  {
+    "text": "",
+    "url": "#top-toc"
+  },
+  {
+    "text": "around half of its compute on inference",
+    "url": "https://www.theinformation.com/articles/openai-boost-revenue-forecasts-predicts-112-billion-cash-burn-2030?rc=9mzoog"
+  },
+  {
+    "text": "one third on inference in 2024",
+    "url": "https://epoch.ai/data-insights/openai-compute-spend"
+  },
+  {
+    "text": "",
+    "url": "#top-toc"
+  },
+  {
+    "text": "Nesov's",
+    "url": "https://www.lesswrong.com/posts/yLHiQGCPdvzL9fBn3/model-size-scaling-in-2023-2031"
+  },
+  {
+    "text": "Sardana and Frankle",
+    "url": "https://arxiv.org/abs/2401.00448"
+  },
+  {
+    "text": "forecast",
+    "url": "https://www.lesswrong.com/posts/yLHiQGCPdvzL9fBn3/model-size-scaling-in-2023-2031"
+  },
+  {
+    "text": "sparse-MoE scaling paper",
+    "url": "https://arxiv.org/abs/2501.12370"
+  },
+  {
+    "text": "data-constrained scaling result",
+    "url": "https://arxiv.org/abs/2605.01640"
+  },
+  {
+    "text": "\u201cModel size scaling in 2023\u20132031\u201d",
+    "url": "https://www.lesswrong.com/posts/yLHiQGCPdvzL9fBn3/model-size-scaling-in-2023-2031"
+  },
+  {
+    "text": "Cerebras",
+    "url": "https://www.cerebras.ai/blog/llama-405b-inference"
+  },
+  {
+    "text": "Groq",
+    "url": "https://groq.com/blog/inside-the-lpu-deconstructing-groq-speed"
+  },
+  {
+    "text": "Etched",
+    "url": "https://www.etched.com/"
+  },
+  {
+    "text": "Taalas",
+    "url": "https://www.taalas.com/"
+  },
+  {
+    "text": "",
+    "url": "#top-toc"
+  },
+  {
+    "text": "",
+    "url": "#top-toc"
+  },
+  {
+    "text": "",
+    "url": "#top-toc"
+  },
+  {
+    "text": "",
+    "url": "#top-toc"
+  },
+  {
+    "text": "",
+    "url": "#top-toc"
+  },
+  {
+    "text": "",
+    "url": "#top-toc"
+  },
+  {
+    "text": "",
+    "url": "#top-toc"
+  },
+  {
+    "text": "",
+    "url": "#top-toc"
+  },
+  {
+    "text": "",
+    "url": "#top-toc"
+  },
+  {
+    "text": "",
+    "url": "#top-toc"
+  },
+  {
+    "text": "",
+    "url": "#top-toc"
+  },
+  {
+    "text": "Compute Definitions",
+    "url": "/supplements/compute-supplement#four-categories-of-compute"
+  },
+  {
+    "text": "CNBC",
+    "url": "https://www.cnbc.com/2026/02/09/alphabet-highlights-new-ai-related-risks-in-tapping-debt-market.html"
+  },
+  {
+    "text": "Fortune",
+    "url": "https://fortune.com/2026/03/07/big-tech-trillion-dollar-borrowing-ai-century-bonds/"
+  },
+  {
+    "text": "CNBC",
+    "url": "https://www.cnbc.com/2026/06/11/spacex-raises-75-billion-in-record-setting-ipo-ahead-of-nasdaq-debut.html"
+  },
+  {
+    "text": "TechCrunch",
+    "url": "https://techcrunch.com/2026/05/20/anthropic-will-pay-xai-1-25-billion-per-month-for-compute/"
+  },
+  {
+    "text": "sparse-MoE ratio",
+    "url": "https://arxiv.org/abs/2501.12370"
+  },
+  {
+    "text": "NVIDIA, Massively Scale Your Deep Learning Training with NCCL 2.4",
+    "url": "https://developer.nvidia.com/blog/massively-scale-deep-learning-training-nccl-2-4/"
+  }
+]

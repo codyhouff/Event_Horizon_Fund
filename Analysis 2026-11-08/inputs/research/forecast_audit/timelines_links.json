@@ -1,0 +1,590 @@
+[
+  {
+    "text": "AI 2027",
+    "url": "/"
+  },
+  {
+    "text": "English EN",
+    "url": "/"
+  },
+  {
+    "text": "Espa\u00f1ol ES",
+    "url": "/es"
+  },
+  {
+    "text": "Fran\u00e7ais FR",
+    "url": "/fr"
+  },
+  {
+    "text": "Italiano IT",
+    "url": "/it"
+  },
+  {
+    "text": "\u65e5\u672c\u8a9e JA",
+    "url": "/ja"
+  },
+  {
+    "text": "AI 2040",
+    "url": "https://ai-2040.com"
+  },
+  {
+    "text": "Supplements",
+    "url": "/research"
+  },
+  {
+    "text": "Summary",
+    "url": "/summary"
+  },
+  {
+    "text": "Compute Forecast",
+    "url": "/research/compute-forecast"
+  },
+  {
+    "text": "Timelines Forecast",
+    "url": "/research/timelines-forecast"
+  },
+  {
+    "text": "Takeoff Forecast",
+    "url": "/research/takeoff-forecast"
+  },
+  {
+    "text": "AI Goals Forecast",
+    "url": "/research/ai-goals-forecast"
+  },
+  {
+    "text": "Security Forecast",
+    "url": "/research/security-forecast"
+  },
+  {
+    "text": "About",
+    "url": "/about"
+  },
+  {
+    "text": "aifuturesmodel.com",
+    "url": "https://www.aifuturesmodel.com/"
+  },
+  {
+    "text": "the appendix",
+    "url": "#2025-may-7-update"
+  },
+  {
+    "text": "an analysis of the importance of superexponentiality in the model",
+    "url": "#the-importance-of-each-source-of-superexponential-progress"
+  },
+  {
+    "text": "superhuman coder (SC)",
+    "url": "#defining-a-superhuman-coder-sc"
+  },
+  {
+    "text": "takeoff forecast",
+    "url": "https://ai-2027.com/research/takeoff-forecast"
+  },
+  {
+    "text": "time-horizon-extension",
+    "url": "#method-1-time-horizon-extension"
+  },
+  {
+    "text": "METR\u2019s report",
+    "url": "https://arxiv.org/pdf/2503.14499"
+  },
+  {
+    "text": "benchmarks-and-gaps",
+    "url": "#method-2-benchmarks-and-gaps"
+  },
+  {
+    "text": "RE-Bench",
+    "url": "https://metr.org/blog/2024-11-22-evaluating-r-d-capabilities-of-llms/"
+  },
+  {
+    "text": "FutureSearch",
+    "url": "https://futuresearch.ai/"
+  },
+  {
+    "text": "here",
+    "url": "http://futuresearch.ai/ai-2027"
+  },
+  {
+    "text": "Time-horizon-extension model",
+    "url": "?tab=t.0#heading=h.ym96g6tkhuod"
+  },
+  {
+    "text": "Updated time horizon model",
+    "url": "#2025-may-7-update"
+  },
+  {
+    "text": "Benchmarks-and-gaps model",
+    "url": "?tab=t.0#heading=h.nc76pumi87i1"
+  },
+  {
+    "text": "Updated benchmarks and gaps model",
+    "url": "#2025-may-7-update"
+  },
+  {
+    "text": "the AI 2027 scenario",
+    "url": "https://ai-2027.com/"
+  },
+  {
+    "text": "the appendix",
+    "url": "#the-importance-of-each-source-of-superexponential-progress"
+  },
+  {
+    "text": "here",
+    "url": "https://github.com/uvafan/timelines-takeoff-ai-2027"
+  },
+  {
+    "text": "METR\u2019s recent report",
+    "url": "https://arxiv.org/pdf/2503.14499"
+  },
+  {
+    "text": "When will this time horizon and reliability be reached?",
+    "url": "#forecasting-scs-arrival"
+  },
+  {
+    "text": "intermediate speedups",
+    "url": "#intermediate-speedups"
+  },
+  {
+    "text": "METR\u2019s recent report",
+    "url": "https://arxiv.org/pdf/2503.14499"
+  },
+  {
+    "text": "this paper",
+    "url": "https://metr.org/hcast.pdf"
+  },
+  {
+    "text": "METR\u2019s time horizon paper",
+    "url": "https://arxiv.org/pdf/2503.14499#page=2"
+  },
+  {
+    "text": "appendix",
+    "url": "#superhuman-coder-sc-time-horizon-and-reliability-requirements"
+  },
+  {
+    "text": "HCAST",
+    "url": "https://metr.org/hcast.pdf"
+  },
+  {
+    "text": "Figure 1",
+    "url": "https://arxiv.org/pdf/2503.14499#page=1.66"
+  },
+  {
+    "text": "Figure 19",
+    "url": "https://arxiv.org/pdf/2503.14499#page=36.69"
+  },
+  {
+    "text": "Figure 11",
+    "url": "https://arxiv.org/pdf/2503.14499#page=17.5"
+  },
+  {
+    "text": "Figure 6",
+    "url": "https://arxiv.org/pdf/2503.14499#page=12"
+  },
+  {
+    "text": "3.5 month doubling time for 2024-2025",
+    "url": "https://arxiv.org/pdf/2503.14499#page=36.69"
+  },
+  {
+    "text": "7 month doubling time for 2019-2025",
+    "url": "https://arxiv.org/pdf/2503.14499#page=1.66"
+  },
+  {
+    "text": "Section 7.2.2 of the report",
+    "url": "https://arxiv.org/pdf/2503.14499#page=20.25"
+  },
+  {
+    "text": "Figure 13 from the METR report",
+    "url": "https://arxiv.org/pdf/2503.14499#page=22"
+  },
+  {
+    "text": "their data",
+    "url": "https://github.com/METR/eval-analysis-public"
+  },
+  {
+    "text": "Below",
+    "url": "#cost-and-speed"
+  },
+  {
+    "text": "below",
+    "url": "#gap-between-internal-and-external-deployment"
+  },
+  {
+    "text": "RE-Bench",
+    "url": "https://metr.org/blog/2024-11-22-evaluating-r-d-capabilities-of-llms/"
+  },
+  {
+    "text": "a scaffold called \u201cmodular\u201d",
+    "url": "https://github.com/poking-agents/modular-public"
+  },
+  {
+    "text": "below",
+    "url": "#what-are-the-gaps-in-task-difficulty-between-re-bench-saturation-and-sc"
+  },
+  {
+    "text": "RE-Bench paper",
+    "url": "https://arxiv.org/abs/2411.15114"
+  },
+  {
+    "text": "the appendix",
+    "url": "#re-bench-saturation-resolution-criteria"
+  },
+  {
+    "text": "Benchmarks have been found to often follow logistic curves",
+    "url": "https://www.alignmentforum.org/posts/75o8oja43LXGAqbAR/palm-2-and-gpt-4-in-extrapolating-gpt-n-performance"
+  },
+  {
+    "text": "this paper",
+    "url": "https://arxiv.org/abs/2502.15850"
+  },
+  {
+    "text": "gaps",
+    "url": "#what-are-the-gaps-in-task-difficulty-between-re-bench-saturation-and-sc"
+  },
+  {
+    "text": "methodology",
+    "url": "#methodology"
+  },
+  {
+    "text": "forecast how quickly all gaps in task difficulty will be crossed",
+    "url": "#how-fast-can-the-task-difficulty-gaps-be-crossed"
+  },
+  {
+    "text": "RE-Bench paper",
+    "url": "https://arxiv.org/pdf/2411.15114#page=19"
+  },
+  {
+    "text": "this summary table",
+    "url": "#summary-table"
+  },
+  {
+    "text": "intermediate speedups",
+    "url": "#intermediate-speedups"
+  },
+  {
+    "text": "potential slowdowns",
+    "url": "#compute-scaling-and-algorithmic-progress-slowdown"
+  },
+  {
+    "text": "gap between internal and external deployment",
+    "url": "#gap-between-internal-and-external-deployment"
+  },
+  {
+    "text": "FutureSearch",
+    "url": "https://futuresearch.ai/"
+  },
+  {
+    "text": "appendix",
+    "url": "#individual-forecaster-views-for-benchmark-gap-model-factors"
+  },
+  {
+    "text": "Time horizon: Achieving tasks that take humans lots of time.",
+    "url": "#time-horizon"
+  },
+  {
+    "text": "below",
+    "url": "#time-horizon"
+  },
+  {
+    "text": "Engineering complexity: Handling complex codebases",
+    "url": "#engineering-complexity-handling-complex-codebases"
+  },
+  {
+    "text": "Feedback loops: working without externally provided feedback",
+    "url": "#feedback-loops-working-without-externally-provided-feedback"
+  },
+  {
+    "text": "Parallel projects: handling several interacting projects",
+    "url": "#parallel-projects-handling-several-interacting-projects"
+  },
+  {
+    "text": "Specialization: Specializing in skills specific to frontier AI development",
+    "url": "#specialization-specializing-in-skills-specific-to-frontier-ai-development"
+  },
+  {
+    "text": "Cost and speed",
+    "url": "#cost-and-speed"
+  },
+  {
+    "text": "Other task difficulty gaps",
+    "url": "#cost-and-speed"
+  },
+  {
+    "text": "METR\u2019s recent report",
+    "url": "https://arxiv.org/pdf/2503.14499"
+  },
+  {
+    "text": "above",
+    "url": "#metrs-time-horizon-report"
+  },
+  {
+    "text": "above",
+    "url": "#how-high-does-re-bench-go"
+  },
+  {
+    "text": "above",
+    "url": "#superhuman-coder-sc-initial-time-horizon-and-reliability-requirements"
+  },
+  {
+    "text": "above",
+    "url": "#saturating-re-bench-time-horizon-and-reliability-level"
+  },
+  {
+    "text": "HCAST",
+    "url": "https://metr.org/hcast.pdf"
+  },
+  {
+    "text": "Method 1",
+    "url": "#forecasting-scs-arrival"
+  },
+  {
+    "text": "HCAST",
+    "url": "https://metr.org/hcast.pdf"
+  },
+  {
+    "text": "below",
+    "url": "#bookmark=id.hsqzm8pu5c8u"
+  },
+  {
+    "text": "time horizon milestone",
+    "url": "#time-horizon"
+  },
+  {
+    "text": "Method 1",
+    "url": "#forecasting-scs-arrival"
+  },
+  {
+    "text": "rate of increase of frontier AI training costs",
+    "url": "https://epoch.ai/data-insights/cost-trend-large-scale"
+  },
+  {
+    "text": "here",
+    "url": "https://ai-2027.com/research/takeoff-forecast#accounting-for-ai-randd-automation-the-ai-randd-progress-multiplier"
+  },
+  {
+    "text": "takeoff forecast",
+    "url": "https://ai-2027.com/research/takeoff-forecast"
+  },
+  {
+    "text": "takeoff forecast",
+    "url": "https://ai-2027.com/research/takeoff-forecast"
+  },
+  {
+    "text": "Peter Johnson",
+    "url": "https://www.lesswrong.com/users/peter-johnson-1"
+  },
+  {
+    "text": "more",
+    "url": "#model-updates"
+  },
+  {
+    "text": "more",
+    "url": "#the-importance-of-each-source-of-superexponential-progress"
+  },
+  {
+    "text": "more",
+    "url": "#clarifications"
+  },
+  {
+    "text": "Davidson\u2019s takeoff model",
+    "url": "https://www.openphilanthropy.org/research/what-a-compute-centric-framework-says-about-takeoff-speeds/"
+  },
+  {
+    "text": "here",
+    "url": "https://www.lesswrong.com/posts/ATSyAdBnxxDDAwhgu/recent-and-forecasted-rates-of-software-and-hardware"
+  },
+  {
+    "text": "here",
+    "url": "https://www.lesswrong.com/posts/ATSyAdBnxxDDAwhgu/recent-and-forecasted-rates-of-software-and-hardware"
+  },
+  {
+    "text": "here",
+    "url": "https://www.lesswrong.com/posts/ATSyAdBnxxDDAwhgu/recent-and-forecasted-rates-of-software-and-hardware"
+  },
+  {
+    "text": "here",
+    "url": "https://github.com/uvafan/timelines-takeoff-ai-2027/pull/4"
+  },
+  {
+    "text": "greatly decrease the starting time horizon",
+    "url": "https://www.lesswrong.com/posts/TpSFoqoG2M5MAAesg/ai-2027-what-superintelligence-looks-like-1#7ZH52oZenutNoad95"
+  },
+  {
+    "text": "this file",
+    "url": "https://github.com/uvafan/timelines-takeoff-ai-2027/blob/main/timelines/params.yaml"
+  },
+  {
+    "text": "this file",
+    "url": "https://github.com/uvafan/timelines-takeoff-ai-2027/blob/main/timelines/simple_params.yaml"
+  },
+  {
+    "text": "time horizon forecast above",
+    "url": "#time-horizon"
+  },
+  {
+    "text": "their report",
+    "url": "https://arxiv.org/pdf/2503.14499"
+  },
+  {
+    "text": "RE-Bench paper",
+    "url": "https://arxiv.org/abs/2411.15114"
+  },
+  {
+    "text": "Epoch has measured",
+    "url": "https://epoch.ai/data-insights/llm-inference-price-trends"
+  },
+  {
+    "text": "Figure 11",
+    "url": "https://arxiv.org/pdf/2411.15114#page=20"
+  },
+  {
+    "text": "updated data",
+    "url": "#running-an-extrapolation"
+  },
+  {
+    "text": "OpenRouter",
+    "url": "https://openrouter.ai/"
+  },
+  {
+    "text": "Epoch\u2019s estimates",
+    "url": "https://epoch.ai/data-insights/llm-inference-price-trends"
+  },
+  {
+    "text": "GPT-4",
+    "url": "https://openrouter.ai/openai/gpt-4"
+  },
+  {
+    "text": "Phi 4",
+    "url": "https://openrouter.ai/microsoft/phi-4-multimodal-instruct"
+  },
+  {
+    "text": "RE-Bench case",
+    "url": "https://arxiv.org/pdf/2411.15114#page=20"
+  },
+  {
+    "text": "Claude 3.5 Sonnet Old",
+    "url": "https://openrouter.ai/anthropic/claude-3.5-sonnet-20240620:beta"
+  },
+  {
+    "text": "Claude 3.5 Sonnet New",
+    "url": "https://openrouter.ai/anthropic/claude-3.5-sonnet"
+  },
+  {
+    "text": "point",
+    "url": "https://a16z.com/llmflation-llm-inference-cost/"
+  },
+  {
+    "text": "towards",
+    "url": "https://www.businessinsider.com/sam-altman-cost-using-ai-drop-10-times-every-year-2025-2"
+  },
+  {
+    "text": "Epoch analysis",
+    "url": "https://epoch.ai/data-insights/llm-inference-price-trends?insight-option=All+benchmarks"
+  },
+  {
+    "text": "RE-Bench paper",
+    "url": "https://arxiv.org/abs/2411.15114"
+  },
+  {
+    "text": "here",
+    "url": "#summary-table"
+  },
+  {
+    "text": "the time horizon paper",
+    "url": "https://arxiv.org/pdf/2503.14499#page=28.48"
+  },
+  {
+    "text": "HCAST paper",
+    "url": "https://metr.org/hcast.pdf#page=14.18"
+  },
+  {
+    "text": "Baseliners were found to take 5-18x longer to resolve METR issues in METR code repositories.",
+    "url": "https://arxiv.org/pdf/2503.14499#page=16.71"
+  },
+  {
+    "text": "AI 2025 Forecasting Survey",
+    "url": "https://ai2025.org/"
+  },
+  {
+    "text": "PASS@k",
+    "url": "https://arxiv.org/pdf/2107.03374"
+  },
+  {
+    "text": "METR",
+    "url": "https://metr.org/"
+  },
+  {
+    "text": "futuresearch.ai",
+    "url": "http://futuresearch.ai"
+  },
+  {
+    "text": "futuresearch.ai/ai-2027",
+    "url": "http://futuresearch.ai/ai-2027"
+  },
+  {
+    "text": "compute supplement",
+    "url": "https://ai-2027.com/supplements/compute-forecast#section-3-compute-usage"
+  },
+  {
+    "text": "above",
+    "url": "#heading=h.30sildo24x0l'"
+  },
+  {
+    "text": "here",
+    "url": "https://arxiv.org/pdf/2503.14499#page=29"
+  },
+  {
+    "text": "",
+    "url": "https://ai-futures.org/"
+  },
+  {
+    "text": "AI Futures Project",
+    "url": "https://ai-futures.org/"
+  },
+  {
+    "text": "Design by Lightcone Infrastructure",
+    "url": "https://lightconeinfrastructure.com"
+  },
+  {
+    "text": "",
+    "url": "https://lightconeinfrastructure.com"
+  },
+  {
+    "text": "Home",
+    "url": "/"
+  },
+  {
+    "text": "About",
+    "url": "/about"
+  },
+  {
+    "text": "Summary",
+    "url": "/summary"
+  },
+  {
+    "text": "Compute Forecast",
+    "url": "/research/compute-forecast"
+  },
+  {
+    "text": "Timelines Forecast",
+    "url": "/research/timelines-forecast"
+  },
+  {
+    "text": "Takeoff Forecast",
+    "url": "/research/takeoff-forecast"
+  },
+  {
+    "text": "AI\u00a0Goals Forecast",
+    "url": "/research/ai-goals-forecast"
+  },
+  {
+    "text": "Security Forecast",
+    "url": "/research/security-forecast"
+  },
+  {
+    "text": "Design by Lightcone Infrastructure",
+    "url": "https://lightconeinfrastructure.com"
+  },
+  {
+    "text": "",
+    "url": "https://lightconeinfrastructure.com"
+  }
+]

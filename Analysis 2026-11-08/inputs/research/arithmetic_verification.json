@@ -1,0 +1,21 @@
+{
+  "holdings": 8,
+  "underwritten": 56,
+  "allocation_sum": 100,
+  "funding_sales": 77,
+  "funding_buys": 77,
+  "probabilities_checked": 56,
+  "capex_shock_pct": -47.9,
+  "top10_excluded": [
+    "MOD",
+    "META",
+    "CRWV",
+    "MSFT",
+    "TLN",
+    "LRCX",
+    "ETN",
+    "VRSK",
+    "RELX",
+    "AXON"
+  ]
+}

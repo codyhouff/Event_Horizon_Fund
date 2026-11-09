@@ -1,0 +1,730 @@
+[
+  {
+    "text": "AI 2027",
+    "url": "/"
+  },
+  {
+    "text": "English EN",
+    "url": "/"
+  },
+  {
+    "text": "Espa\u00f1ol ES",
+    "url": "/es"
+  },
+  {
+    "text": "Fran\u00e7ais FR",
+    "url": "/fr"
+  },
+  {
+    "text": "Italiano IT",
+    "url": "/it"
+  },
+  {
+    "text": "\u65e5\u672c\u8a9e JA",
+    "url": "/ja"
+  },
+  {
+    "text": "AI 2040",
+    "url": "https://ai-2040.com"
+  },
+  {
+    "text": "Supplements",
+    "url": "/research"
+  },
+  {
+    "text": "Summary",
+    "url": "/summary"
+  },
+  {
+    "text": "Compute Forecast",
+    "url": "/research/compute-forecast"
+  },
+  {
+    "text": "Timelines Forecast",
+    "url": "/research/timelines-forecast"
+  },
+  {
+    "text": "Takeoff Forecast",
+    "url": "/research/takeoff-forecast"
+  },
+  {
+    "text": "AI Goals Forecast",
+    "url": "/research/ai-goals-forecast"
+  },
+  {
+    "text": "Security Forecast",
+    "url": "/research/security-forecast"
+  },
+  {
+    "text": "About",
+    "url": "/about"
+  },
+  {
+    "text": "AI 2027",
+    "url": "https://ai-2027.com"
+  },
+  {
+    "text": "compute production",
+    "url": "#section-1-compute-production"
+  },
+  {
+    "text": "compute distribution",
+    "url": "#section-2-compute-distribution"
+  },
+  {
+    "text": "compute usage",
+    "url": "#section-3-compute-usage"
+  },
+  {
+    "text": "AI-relevant compute",
+    "url": "#introduction"
+  },
+  {
+    "text": "Section 1",
+    "url": "#section-1-compute-production"
+  },
+  {
+    "text": "Section 2",
+    "url": "#section-2-compute-distribution"
+  },
+  {
+    "text": "Section 3",
+    "url": "#section-3-compute-usage"
+  },
+  {
+    "text": "Section 4",
+    "url": "#section-4-ai-research-automation"
+  },
+  {
+    "text": "specialized inference chips",
+    "url": "#2027-in-house-inference-chip"
+  },
+  {
+    "text": "Section 5",
+    "url": "#section-5-industry-metrics"
+  },
+  {
+    "text": "revenue and cost",
+    "url": "#financials"
+  },
+  {
+    "text": "power usage",
+    "url": "#power-requirements"
+  },
+  {
+    "text": "Section 5.",
+    "url": "#section-5-industry-metrics"
+  },
+  {
+    "text": "AI 2027",
+    "url": "https://ai-2027.com"
+  },
+  {
+    "text": "AI 2027",
+    "url": "https://ai-2027.com"
+  },
+  {
+    "text": "A100 SXM GPU",
+    "url": "https://www.nvidia.com/en-us/data-center/a100/"
+  },
+  {
+    "text": "inference compute for running research agents",
+    "url": "#section-4-ai-research-automation"
+  },
+  {
+    "text": "full spreadsheet model",
+    "url": "https://docs.google.com/spreadsheets/d/1Ko-olwjDy6h8rXLZBFpP-e2GibGqRhfV28S4v8xtzrM/edit?gid=1866551567#gid=1866551567"
+  },
+  {
+    "text": "historical trend",
+    "url": "https://epoch.ai/blog/trends-in-machine-learning-hardware"
+  },
+  {
+    "text": "GB200",
+    "url": "https://www.nvidia.com/en-us/data-center/gb200-nvl72/"
+  },
+  {
+    "text": "Rubin series",
+    "url": "https://wccftech.com/nvidia-unveils-next-gen-rubin-rubin-ultra-blackwell-ultra-gpus-supercharged-vera-cpus/"
+  },
+  {
+    "text": "H100",
+    "url": "https://www.nvidia.com/en-us/data-center/h100/"
+  },
+  {
+    "text": "Rubin GPU",
+    "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-rubin-revealed-as-blackwell-successor-powerful-vera-cpu-coming-too"
+  },
+  {
+    "text": "die size",
+    "url": "https://videocardz.com/newz/nvidia-r100-rubin-gpu-with-hbm4-memory-reportedly-enters-mass-production-in-q4-2025"
+  },
+  {
+    "text": "SK Hynix",
+    "url": "https://news.skhynix.com/sk-hynix-begins-volume-production-of-industry-first-hbm3e/"
+  },
+  {
+    "text": "Micron",
+    "url": "https://www.micron.com/products/memory/hbm/hbm3e"
+  },
+  {
+    "text": "Samsung",
+    "url": "https://semiconductor.samsung.com/us/news-events/tech-blog/leading-memory-innovation-with-hbm3e/"
+  },
+  {
+    "text": "Google\u2019s in-house TPU",
+    "url": "https://www.theregister.com/2024/05/21/google_now_thirdlargest_in_datacenter/"
+  },
+  {
+    "text": "supported by Broadcom",
+    "url": "https://www.semianalysis.com/p/broadcoms-google-tpu-revenue-explosion"
+  },
+  {
+    "text": "late 2026",
+    "url": "https://www.trendforce.com/news/2024/06/03/news-nvidia-ceo-jensen-huang-announces-the-latest-rubin-architecture-rubin-ultra-gpu-to-feature-12-hbm4/"
+  },
+  {
+    "text": "70% capacity",
+    "url": "https://www.semianalysis.com/p/ai-capacity-constraints-cowos-and"
+  },
+  {
+    "text": "mostly used by AI accelerators",
+    "url": "https://www.semianalysis.com/p/ai-capacity-constraints-cowos-and"
+  },
+  {
+    "text": "expanded 2.5x",
+    "url": "https://www.cna.com.tw/news/afe/202402180022.aspx"
+  },
+  {
+    "text": "1.6x per year",
+    "url": "https://www.anandtech.com/show/21405/tsmc-to-expand-cowos-capacity-by-60-every-year-through-2026"
+  },
+  {
+    "text": "roadmaps",
+    "url": "https://www.trendforce.com/news/2024/05/24/news-sk-hynix-revealed-progress-for-hbm3e-achieving-nearly-80-yield/"
+  },
+  {
+    "text": "expanded 2.5x",
+    "url": "https://www.eenewseurope.com/en/hbm-to-be-20-of-dram-market-in-2024/"
+  },
+  {
+    "text": "1.6x increase in demand",
+    "url": "https://www.reuters.com/technology/nvidia-supplier-sk-hynix-says-hbm-chips-almost-sold-out-2025-2024-05-02/"
+  },
+  {
+    "text": "Google TPU designers",
+    "url": "https://www.datacenterdynamics.com/en/news/openai-appoints-former-google-tpu-leader-as-head-of-hardware-hiring-for-experts-in-data-center-facility-design/"
+  },
+  {
+    "text": "first in-house chip in 2025",
+    "url": "https://www.reuters.com/technology/openai-set-finalize-first-custom-chip-design-this-year-2025-02-10/"
+  },
+  {
+    "text": "research automation",
+    "url": "#research-automation"
+  },
+  {
+    "text": "growth in compute availability",
+    "url": "#section-1-compute-production"
+  },
+  {
+    "text": "compute production section",
+    "url": "#section-1-compute-production"
+  },
+  {
+    "text": "Appendix B",
+    "url": "https://epochai.org/blog/can-ai-scaling-continue-through-2030#appendix-b-fraction-of-total-resources-allocated-to-the-largest-training-run"
+  },
+  {
+    "text": "this report",
+    "url": "https://www.ft.com/content/e85e43d1-5ce4-4531-94f1-9e9c1c5b4ff1"
+  },
+  {
+    "text": "Omdia (and reported by the Financial Times)",
+    "url": "https://www.ft.com/content/e85e43d1-5ce4-4531-94f1-9e9c1c5b4ff1"
+  },
+  {
+    "text": "6th generation",
+    "url": "https://cloud.google.com/blog/products/compute/introducing-trillium-6th-gen-tpus"
+  },
+  {
+    "text": "2024 spending on AI servers",
+    "url": "https://www.ft.com/content/e85e43d1-5ce4-4531-94f1-9e9c1c5b4ff1"
+  },
+  {
+    "text": "$80B in AI spending for 2025",
+    "url": "https://blogs.microsoft.com/on-the-issues/2025/01/03/the-golden-opportunity-for-american-ai/"
+  },
+  {
+    "text": "$31B",
+    "url": "https://www.ft.com/content/e85e43d1-5ce4-4531-94f1-9e9c1c5b4ff1"
+  },
+  {
+    "text": "$56B",
+    "url": "https://www.forbes.com/sites/petercohan/2024/07/31/microsoft-stock-drops-as-ai-capital-expenditures-surge-to-56-billion/?ref=wheresyoured.at"
+  },
+  {
+    "text": "$75B in AI spending for 2025",
+    "url": "https://www.nasdaq.com/articles/alphabet-will-spend-75-billion-artificial-intelligence-ai-2025-it-spent-69-billion#:~:text=Alphabet%20says%20it%20will%20spend,artificial%20intelligence%20training%20and%20inference."
+  },
+  {
+    "text": "$22B",
+    "url": "https://www.ft.com/content/e85e43d1-5ce4-4531-94f1-9e9c1c5b4ff1"
+  },
+  {
+    "text": "$52B",
+    "url": "https://www.datacenterdynamics.com/en/news/google-expects-2025-capex-to-surge-to-75bn-on-ai-data-center-buildout/"
+  },
+  {
+    "text": "$100B in spending for 2025",
+    "url": "https://www.cnbc.com/2025/02/06/amazon-expects-to-spend-100-billion-on-capital-expenditures-in-2025.html"
+  },
+  {
+    "text": "$26B",
+    "url": "https://www.ft.com/content/e85e43d1-5ce4-4531-94f1-9e9c1c5b4ff1"
+  },
+  {
+    "text": "$78B",
+    "url": "https://www.geekwire.com/2025/amazon-on-pace-for-100b-in-yearly-capex-jassy-sees-cost-efficiencies-driving-long-term-ai-demand/"
+  },
+  {
+    "text": "$65B in spending for 2025",
+    "url": "https://www.reuters.com/technology/meta-invest-up-65-bln-capital-expenditure-this-year-2025-01-24/"
+  },
+  {
+    "text": "$20B",
+    "url": "https://www.ft.com/content/e85e43d1-5ce4-4531-94f1-9e9c1c5b4ff1"
+  },
+  {
+    "text": "$40B",
+    "url": "https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-Fourth-Quarter-and-Full-Year-2024-Results/default.aspx#:~:text=Capital%20expenditures%20%E2%80%93%20Capital%20expenditures%2C%20including,and%20full%20year%202024%2C%20respectively."
+  },
+  {
+    "text": "announced (minute 1:05:00)",
+    "url": "https://x.com/i/broadcasts/1gqGvjeBljOGB"
+  },
+  {
+    "text": "compute production section",
+    "url": "#section-1-compute-production"
+  },
+  {
+    "text": "Domestic production also ramps up through SMIC",
+    "url": "https://www.reuters.com/technology/chinas-smic-q4-profit-slumps-384-misses-estimates-despite-revenue-growth-2025-02-11/#:~:text=SMIC%20has%20ramped%20up%20investment,2024%2C%20its%20financial%20results%20showed."
+  },
+  {
+    "text": "cost reports",
+    "url": "https://www.nytimes.com/2024/09/27/technology/openai-chatgpt-investors-funding.html"
+  },
+  {
+    "text": "Microsoft",
+    "url": "https://blogs.microsoft.com/blog/2023/01/23/microsoftandopenaiextendpartnership/"
+  },
+  {
+    "text": "Oracle",
+    "url": "https://www.theinformation.com/briefings/microsoft-to-rent-oracle-cloud-servers-for-openai"
+  },
+  {
+    "text": "Coreweave",
+    "url": "https://www.cnbc.com/2023/06/01/microsoft-inks-deal-with-coreweave-to-meet-openai-cloud-demand.html"
+  },
+  {
+    "text": "400k Trainium2 cluster",
+    "url": "https://semianalysis.com/2024/12/03/amazons-ai-self-sufficiency-trainium2-architecture-networking/"
+  },
+  {
+    "text": "200k H100 cluster",
+    "url": "https://x.com/_SFTahoe/status/1891706233968627761"
+  },
+  {
+    "text": "Total compute usage and costs",
+    "url": "#total-compute-usage-and-costs"
+  },
+  {
+    "text": "1) Training runs",
+    "url": "#compute-usage-on-training-runs"
+  },
+  {
+    "text": "2) Synthetic data generation",
+    "url": "#synthetic-data-generation"
+  },
+  {
+    "text": "3) Research experiments",
+    "url": "#research-experiments"
+  },
+  {
+    "text": "4) Research automation",
+    "url": "#research-automation"
+  },
+  {
+    "text": "5) External deployment",
+    "url": "#compute-usage-on-external-deployment"
+  },
+  {
+    "text": "6) Monitoring",
+    "url": "#compute-usage-on-monitoring"
+  },
+  {
+    "text": "compute production",
+    "url": "#section-1-compute-production"
+  },
+  {
+    "text": "distribution",
+    "url": "#section-2-compute-distribution"
+  },
+  {
+    "text": "financials section",
+    "url": "#financials"
+  },
+  {
+    "text": "100k H100s",
+    "url": "https://www.youtube.com/watch?v=gYtiOiYb_5A&t=714s"
+  },
+  {
+    "text": "Coreweave",
+    "url": "https://www.cnbc.com/2023/06/01/microsoft-inks-deal-with-coreweave-to-meet-openai-cloud-demand.html"
+  },
+  {
+    "text": "Oracle",
+    "url": "https://www.oracle.com/news/announcement/openai-selects-oracle-cloud-infrastructure-to-extend-microsoft-azure-ai-platform-2024-06-11/"
+  },
+  {
+    "text": "tweeted",
+    "url": "https://x.com/sama/status/1756089361609981993"
+  },
+  {
+    "text": "increase in revenue",
+    "url": "#financials"
+  },
+  {
+    "text": "research automation compute usage section",
+    "url": "#research-automation"
+  },
+  {
+    "text": "AI 2027",
+    "url": "https://ai-2027.com"
+  },
+  {
+    "text": "H100 NVL and H100 SXM",
+    "url": "https://www.nvidia.com/en-us/data-center/h100/"
+  },
+  {
+    "text": "NVIDIA H100",
+    "url": "https://www.nvidia.com/en-us/data-center/h100/"
+  },
+  {
+    "text": "NVIDIA H200",
+    "url": "https://www.nvidia.com/en-us/data-center/h200/"
+  },
+  {
+    "text": "NVIDIA B200",
+    "url": "https://www.cudocompute.com/blog/nvidias-blackwell-architecture-breaking-down-the-b100-b200-and-gb200"
+  },
+  {
+    "text": "NVIDIA R200 Ultra",
+    "url": "https://wccftech.com/nvidia-unveils-next-gen-rubin-rubin-ultra-blackwell-ultra-gpus-supercharged-vera-cpus/"
+  },
+  {
+    "text": "Cerebras WSE-3",
+    "url": "https://cerebras.ai/product-chip/"
+  },
+  {
+    "text": "hardware R&D automation",
+    "url": "#hardware-randd-automation"
+  },
+  {
+    "text": "Google TPU designers",
+    "url": "https://www.datacenterdynamics.com/en/news/openai-appoints-former-google-tpu-leader-as-head-of-hardware-hiring-for-experts-in-data-center-facility-design/"
+  },
+  {
+    "text": "first in-house chip in 2025",
+    "url": "https://www.reuters.com/technology/openai-set-finalize-first-custom-chip-design-this-year-2025-02-10/"
+  },
+  {
+    "text": "Research automation share",
+    "url": "#research-automation"
+  },
+  {
+    "text": "2027-ICs",
+    "url": "#2027-in-house-inference-chip"
+  },
+  {
+    "text": "Capability Level Milestone",
+    "url": "https://ai-2027.com/supplements/takeoff-forecast#milestone-definitions"
+  },
+  {
+    "text": "AI R&D Progress Multiplier",
+    "url": "https://ai-2027.com/supplements/takeoff-forecast#ai-randd-progress-multiplier-definition"
+  },
+  {
+    "text": "frontier training runs",
+    "url": "#training-runs"
+  },
+  {
+    "text": "AI 2027",
+    "url": "https://ai-2027.com"
+  },
+  {
+    "text": "mixture of experts",
+    "url": "https://en.wikipedia.org/wiki/Mixture_of_experts"
+  },
+  {
+    "text": "compute distribution projection",
+    "url": "#2027-projection"
+  },
+  {
+    "text": "internal usage projection",
+    "url": "#research-automation"
+  },
+  {
+    "text": "research automation compute usage section",
+    "url": "#research-automation"
+  },
+  {
+    "text": "AI 2027",
+    "url": "https://ai-2027.com"
+  },
+  {
+    "text": "compute production forecast",
+    "url": "#section-1-compute-production"
+  },
+  {
+    "text": "share of the global stock",
+    "url": "#section-2-compute-distribution"
+  },
+  {
+    "text": "compute production",
+    "url": "#section-1-compute-production"
+  },
+  {
+    "text": "compute distribution",
+    "url": "#section-2-compute-distribution"
+  },
+  {
+    "text": "in-house inference chips",
+    "url": "#2027-in-house-inference-chip"
+  },
+  {
+    "text": "$5.4B in computing costs in 2024",
+    "url": "https://www.nytimes.com/2024/10/17/technology/microsoft-openai-partnership-deal.html"
+  },
+  {
+    "text": "trained in mid 2022",
+    "url": "https://openai.com/index/gpt-4/"
+  },
+  {
+    "text": "cost around $100M to train",
+    "url": "https://www.semianalysis.com/p/gpt-4-architecture-infrastructure"
+  },
+  {
+    "text": "doubled from the A100 to H100",
+    "url": "https://epoch.ai/blog/trends-in-machine-learning-hardware#computational-price-performance:~:text=ML%20hardware%20trends.-,Computational%20price%2Dperformance,-Price%2Dperformance%20ratio"
+  },
+  {
+    "text": "2023 revenue of $1B",
+    "url": "https://www.businessinsider.com/openai-cfo-revenue-forecast-chatgpt-2025-2"
+  },
+  {
+    "text": "2024 revenue around $4B",
+    "url": "https://www.nytimes.com/2024/09/27/technology/openai-chatgpt-investors-funding.html"
+  },
+  {
+    "text": "FutureSearch",
+    "url": "https://futuresearch.ai/"
+  },
+  {
+    "text": "FutureSearch's full report",
+    "url": "https://futuresearch.ai/openbrain-revenue"
+  },
+  {
+    "text": "chips we expect to be in use",
+    "url": "#chips-in-use"
+  },
+  {
+    "text": "inference compute for running research agents",
+    "url": "#section-4-ai-research-automation"
+  },
+  {
+    "text": "timelines forecast",
+    "url": "https://ai-2027.com/supplements/timelines-forecast"
+  },
+  {
+    "text": "hardware R&D automation",
+    "url": "#hardware-randd-automation"
+  },
+  {
+    "text": "2M H100e were available prior to 2023.",
+    "url": "https://x.com/EpochAIResearch/status/1890173317224575042"
+  },
+  {
+    "text": "power efficiency trend",
+    "url": "https://epochai.org/blog/trends-in-machine-learning-hardware"
+  },
+  {
+    "text": "this X post",
+    "url": "https://x.com/robi_rahman/status/2000800905101455613?s=20"
+  },
+  {
+    "text": "this X reply",
+    "url": "https://x.com/romeovdean/status/2001120718009069766?s=20"
+  },
+  {
+    "text": "GTC 2025 announcement",
+    "url": "https://blogs.nvidia.com/blog/nvidia-keynote-at-gtc-2025-ai-news-live-updates/"
+  },
+  {
+    "text": "transistor density",
+    "url": "https://www.anandtech.com/show/16024/tsmc-details-3nm-process-technology-details-full-node-scaling-for-2h22"
+  },
+  {
+    "text": "650k were actual H100s",
+    "url": "https://www.tomshardware.com/tech-industry/nvidia-ai-and-hpc-gpu-sales-reportedly-approached-half-a-million-units-in-q3-thanks-to-meta-facebook"
+  },
+  {
+    "text": "A100s",
+    "url": "https://www.google.com/search?client=safari&rls=en&q=nvidia+a100&ie=UTF-8&oe=UTF-8"
+  },
+  {
+    "text": "A800s",
+    "url": "https://www.nvidia.com/en-us/design-visualization/a800/"
+  },
+  {
+    "text": "H800s",
+    "url": "https://www.techpowerup.com/gpu-specs/h800-pcie-80-gb.c4181#:~:text=The%20H800%20PCIe%2080%20GB,run%20all%20the%20latest%20games."
+  },
+  {
+    "text": "Chinese market",
+    "url": "https://www.semianalysis.com/i/138243514/ai-semiconductor-controls"
+  },
+  {
+    "text": "revenue by node",
+    "url": "https://www.trendforce.com/news/2024/01/24/news-tsmcs-2023-wafer-average-selling-price-rises-by-22-driven-by-n3-process-success/"
+  },
+  {
+    "text": "node pricing",
+    "url": "https://www.techpowerup.com/301393/tsmc-3-nm-wafer-pricing-to-reach-usd-20-000-next-gen-cpus-gpus-to-be-more-expensive"
+  },
+  {
+    "text": "28 functioning H100-sized chips",
+    "url": "https://www.trendforce.com/news/2024/03/18/news-tsmc-boosts-investment-in-advanced-packaging-with-ntd-500-billion-plan-to-build-six-plants-in-chiayi-science-park/"
+  },
+  {
+    "text": "less performant but also smaller",
+    "url": "https://en.wikipedia.org/wiki/Tensor_Processing_Unit#:~:text=Google%20stated%20the%20first%2Dgeneration,a%20performance%20of%20180%20teraFLOPS."
+  },
+  {
+    "text": "here",
+    "url": "https://www.semianalysis.com/p/multi-datacenter-training-openais"
+  },
+  {
+    "text": "8T dense-equivalent parameters",
+    "url": "https://epoch.ai/gradient-updates/moe-vs-dense-models-inference"
+  },
+  {
+    "text": "12 HBM4E stacks per GPU",
+    "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-confirms-blackwell-ultra-and-vera-rubin-gpus-are-on-track-for-2025-and-2026-post-rubin-gpus-in-the-works#:~:text=Speaking%20of%20Rubin%20Ultra%2C%20this%20could%20indeed%20be%20quite%20a%20breakthrough%20product.%20It%20is%20projected%20to%20come%20with%2012%20stacks%20of%20HBM4E%20in%202027%20once%20Nvidia%20learns%20how%20to%20efficiently%20use%205.5%2Dreticle%2Dsize%20CoWoS%20interposers%20and%20100mm%20%C3%97%20100mm%20substrates%20made%20by%20TSMC."
+  },
+  {
+    "text": "efficient inference on Llama 405b",
+    "url": "https://cerebras.ai/press-release/cerebras-inference-llama-405b"
+  },
+  {
+    "text": "TSMC\u2019s 2N node",
+    "url": "https://www.tomshardware.com/tech-industry/sram-scaling-isnt-dead-after-all-tsmcs-2nm-process-tech-claims-major-improvements"
+  },
+  {
+    "text": "12-Hi HBM4e stacks",
+    "url": "https://www.tomshardware.com/pc-components/ddr5/micron-plans-hbm4e-in-2028-256gb-ddr5-12800-ram-sticks-in-2026#:~:text=The%20extended%20version%20of%20HBM4%20is%20projected%20to%20gain%20clocks%20and%20increase%20bandwidth%20towards%202%2B%20TB/s%20and%20capacity%20to%2048GB%20to%2064GB%20per%20stack.%C2%A0"
+  },
+  {
+    "text": "directly on top of logic with 3D packaging",
+    "url": "https://www.tomshardware.com/news/sk-hynix-plans-to-stack-hbm4-directly-on-logic-processors"
+  },
+  {
+    "text": "10T dense-equivalent parameters",
+    "url": "https://epoch.ai/gradient-updates/moe-vs-dense-models-inference"
+  },
+  {
+    "text": "200B active parameters",
+    "url": "https://epoch.ai/gradient-updates/frontier-language-models-have-become-much-smaller"
+  },
+  {
+    "text": "very sparse 100T fp8 parameter neural network",
+    "url": "https://epoch.ai/gradient-updates/movarec-s-paradox"
+  },
+  {
+    "text": "OpenAI\u2019s API",
+    "url": "https://platform.openai.com/docs/models"
+  },
+  {
+    "text": "raw calculations here",
+    "url": "https://docs.google.com/spreadsheets/d/1dtvcuK0sG0Gf8F5A1vYLjmOP4q3tSraemyKL4FIKCSs/edit?gid=0#gid=0"
+  },
+  {
+    "text": "cost 1.3x more",
+    "url": "https://medium.com/@paulgoll/nvidias-blackwell-gpus-b100-b200-and-gb200-2441119b6941#:~:text=B100%20Pricing:%20Analysts%20estimate%20that,for%20this%20high%2Dperformance%20chip."
+  },
+  {
+    "text": "AI 2027",
+    "url": "https://ai-2027.com"
+  },
+  {
+    "text": "25% efficiency gain",
+    "url": "https://www.techradar.com/news/the-future-of-leading-edge-chips-according-to-tsmc-5nm-4nm-3nm-and-beyond"
+  },
+  {
+    "text": "",
+    "url": "https://ai-futures.org/"
+  },
+  {
+    "text": "AI Futures Project",
+    "url": "https://ai-futures.org/"
+  },
+  {
+    "text": "Design by Lightcone Infrastructure",
+    "url": "https://lightconeinfrastructure.com"
+  },
+  {
+    "text": "",
+    "url": "https://lightconeinfrastructure.com"
+  },
+  {
+    "text": "Home",
+    "url": "/"
+  },
+  {
+    "text": "About",
+    "url": "/about"
+  },
+  {
+    "text": "Summary",
+    "url": "/summary"
+  },
+  {
+    "text": "Compute Forecast",
+    "url": "/research/compute-forecast"
+  },
+  {
+    "text": "Timelines Forecast",
+    "url": "/research/timelines-forecast"
+  },
+  {
+    "text": "Takeoff Forecast",
+    "url": "/research/takeoff-forecast"
+  },
+  {
+    "text": "AI\u00a0Goals Forecast",
+    "url": "/research/ai-goals-forecast"
+  },
+  {
+    "text": "Security Forecast",
+    "url": "/research/security-forecast"
+  },
+  {
+    "text": "Design by Lightcone Infrastructure",
+    "url": "https://lightconeinfrastructure.com"
+  },
+  {
+    "text": "",
+    "url": "https://lightconeinfrastructure.com"
+  }
+]

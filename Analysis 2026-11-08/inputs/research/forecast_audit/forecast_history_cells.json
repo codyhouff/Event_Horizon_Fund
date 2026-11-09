@@ -1,0 +1,1281 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Action completed."
+    }
+  ],
+  "structuredContent": {
+    "spreadsheetId": "1Us2N32YOgxt9lPICFHrG-8CTqVS1jlutBXKTzAFhpCk",
+    "spreadsheetUrl": "https://docs.google.com/spreadsheets/d/1Us2N32YOgxt9lPICFHrG-8CTqVS1jlutBXKTzAFhpCk/edit",
+    "properties": {
+      "title": "[Link-shared] TED-AI medians over time",
+      "locale": "en_US",
+      "timeZone": "America/Los_Angeles"
+    },
+    "sheets": [
+      {
+        "properties": {
+          "sheetId": 0,
+          "title": "Sheet1",
+          "index": 0,
+          "sheetType": "GRID",
+          "gridProperties": {
+            "rowCount": 1000,
+            "columnCount": 26
+          }
+        },
+        "data": [
+          {
+            "rowData": [
+              {
+                "values": [
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Person"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Person"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Date"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Date"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Predicted AGI Year (Median)"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Predicted AGI Year (Median)"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Note"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Note"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Full Rationale"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Full Rationale"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Source Link"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Source Link"
+                    }
+                  }
+                ]
+              },
+              {
+                "values": [
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Daniel"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Daniel"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "2020-03-01"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "2020-03-01"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "2050.5"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "2050.5"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "40% for HLMI by 2040"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "40% for HLMI by 2040"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Daniel updated to 40% for HLMI by 2040, meaning maybe something like 2050 median."
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Daniel updated to 40% for HLMI by 2040, meaning maybe something like 2050 median."
+                    }
+                  }
+                ]
+              },
+              {
+                "values": [
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Daniel"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Daniel"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "2020-11-01"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "2020-11-01"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "2030.5"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "2030.5"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "50% point of no return by 2030"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "50% point of no return by 2030"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "\"I currently have something like 50% chance that the point of no return will happen by 2030.\""
+                    },
+                    "effectiveValue": {
+                      "stringValue": "\"I currently have something like 50% chance that the point of no return will happen by 2030.\""
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "https://www.lesswrong.com/posts/4FhiSuNv4QbtKDzL8/how-can-i-bet-on-short-timelines"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "https://www.lesswrong.com/posts/4FhiSuNv4QbtKDzL8/how-can-i-bet-on-short-timelines"
+                    },
+                    "hyperlink": "https://www.lesswrong.com/posts/4FhiSuNv4QbtKDzL8/how-can-i-bet-on-short-timelines"
+                  }
+                ]
+              },
+              {
+                "values": [
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Daniel"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Daniel"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "2021-08-01"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "2021-08-01"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "2029.5"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "2029.5"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Median when writing AI 2027 story draft"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Median when writing AI 2027 story draft"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "\"When I wrote this story, my AI timelines median was something like 2029.\""
+                    },
+                    "effectiveValue": {
+                      "stringValue": "\"When I wrote this story, my AI timelines median was something like 2029.\""
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "https://www.lesswrong.com/posts/6Xgy6CAf2jqHhynHL/what-2026-looks-like?commentId=3DgfEkZsQ9kQqfuD9"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "https://www.lesswrong.com/posts/6Xgy6CAf2jqHhynHL/what-2026-looks-like?commentId=3DgfEkZsQ9kQqfuD9"
+                    },
+                    "hyperlink": "https://www.lesswrong.com/posts/6Xgy6CAf2jqHhynHL/what-2026-looks-like?commentId=3DgfEkZsQ9kQqfuD9"
+                  }
+                ]
+              },
+              {
+                "values": [
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Daniel"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Daniel"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "2022-03-01"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "2022-03-01"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "2029.5"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "2029.5"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Before joined OpenAI, median was 2029"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Before joined OpenAI, median was 2029"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "\"My timelines were already fairly short (2029 median) when I joined OpenAI in early 2022, and things have gone mostly as I expected.\""
+                    },
+                    "effectiveValue": {
+                      "stringValue": "\"My timelines were already fairly short (2029 median) when I joined OpenAI in early 2022, and things have gone mostly as I expected.\""
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "https://www.lesswrong.com/posts/CcqaJFf7TvAjuZFCx/retirement-accounts-and-short-timelines?commentId=gssbqWumamKXpKGXh"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "https://www.lesswrong.com/posts/CcqaJFf7TvAjuZFCx/retirement-accounts-and-short-timelines?commentId=gssbqWumamKXpKGXh"
+                    },
+                    "hyperlink": "https://www.lesswrong.com/posts/CcqaJFf7TvAjuZFCx/retirement-accounts-and-short-timelines?commentId=gssbqWumamKXpKGXh"
+                  }
+                ]
+              },
+              {
+                "values": [
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Daniel"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Daniel"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "2022-12-01"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "2022-12-01"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "2027.5"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "2027.5"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Updated after joining OpenAI"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Updated after joining OpenAI"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Daniel joined OpenAI in late 2022 and his median dropped to 2027. \"My overall timelines have shortened somewhat since I wrote this story… When I wrote this story, my AI timelines median was something like 2029.\""
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Daniel joined OpenAI in late 2022 and his median dropped to 2027. \"My overall timelines have shortened somewhat since I wrote this story… When I wrote this story, my AI timelines median was something like 2029.\""
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "https://www.lesswrong.com/posts/6Xgy6CAf2jqHhynHL/what-2026-looks-like?commentId=a4y2hqLmsxQr4YBgf"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "https://www.lesswrong.com/posts/6Xgy6CAf2jqHhynHL/what-2026-looks-like?commentId=a4y2hqLmsxQr4YBgf"
+                    },
+                    "hyperlink": "https://www.lesswrong.com/posts/6Xgy6CAf2jqHhynHL/what-2026-looks-like?commentId=a4y2hqLmsxQr4YBgf"
+                  }
+                ]
+              },
+              {
+                "values": [
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Daniel"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Daniel"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "2025-01-01"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "2025-01-01"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "2027.5"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "2027.5"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Still 2027 median"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Still 2027 median"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "\"I still have 2027 as my median year for AGI.\""
+                    },
+                    "effectiveValue": {
+                      "stringValue": "\"I still have 2027 as my median year for AGI.\""
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "https://www.alignmentforum.org/posts/K2D45BNxnZjdpSX2j/ai-timelines?commentId=bR9DPknoRraTo6dWz"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "https://www.alignmentforum.org/posts/K2D45BNxnZjdpSX2j/ai-timelines?commentId=bR9DPknoRraTo6dWz"
+                    },
+                    "hyperlink": "https://www.alignmentforum.org/posts/K2D45BNxnZjdpSX2j/ai-timelines?commentId=bR9DPknoRraTo6dWz"
+                  }
+                ]
+              },
+              {
+                "values": [
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Daniel"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Daniel"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "2025-02-01"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "2025-02-01"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "2028.5"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "2028.5"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Updated based on benchmarks+gaps"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Updated based on benchmarks+gaps"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "\"My AGI timelines median is now in 2028 btw, up from the 2027 it's been at since 2022. Lots of reasons for this but the main one is that I'm convinced by the benchmarks+gaps argument Eli Lifland and Nikola Jurkovic have been developing. (But the reason I'm convinced is probably that my intuitions have been shaped by events like the pretraining slowdown)\""
+                    },
+                    "effectiveValue": {
+                      "stringValue": "\"My AGI timelines median is now in 2028 btw, up from the 2027 it's been at since 2022. Lots of reasons for this but the main one is that I'm convinced by the benchmarks+gaps argument Eli Lifland and Nikola Jurkovic have been developing. (But the reason I'm convinced is probably that my intuitions have been shaped by events like the pretraining slowdown)\""
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "https://www.lesswrong.com/posts/cxuzALcmucCndYv4a/daniel-kokotajlo-s-shortform?commentId=dq6bpAHeu5Cbbiuyd"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "https://www.lesswrong.com/posts/cxuzALcmucCndYv4a/daniel-kokotajlo-s-shortform?commentId=dq6bpAHeu5Cbbiuyd"
+                    },
+                    "hyperlink": "https://www.lesswrong.com/posts/cxuzALcmucCndYv4a/daniel-kokotajlo-s-shortform?commentId=dq6bpAHeu5Cbbiuyd"
+                  }
+                ]
+              },
+              {
+                "values": [
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Daniel"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Daniel"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "2025-04-01"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "2025-04-01"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "2028.5"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "2028.5"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "AI 2027 publication"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "AI 2027 publication"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "\"between the beginning of the project last summer and the present, Daniel's median for the intelligence explosion shifted from 2027 to 2028\""
+                    },
+                    "effectiveValue": {
+                      "stringValue": "\"between the beginning of the project last summer and the present, Daniel's median for the intelligence explosion shifted from 2027 to 2028\""
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "https://www.astralcodexten.com/p/introducing-ai-2027"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "https://www.astralcodexten.com/p/introducing-ai-2027"
+                    },
+                    "hyperlink": "https://www.astralcodexten.com/p/introducing-ai-2027"
+                  }
+                ]
+              },
+              {
+                "values": [
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Daniel"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Daniel"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "2025-08-01"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "2025-08-01"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "2030"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "2030"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "After conversation with Ryan Greenblatt"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "After conversation with Ryan Greenblatt"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "\"Had a good conversation with @RyanPGreenblatt yesterday about AGI timelines. I recommend and directionally agree with his take here; my bottom-line numbers are somewhat different (median ~EOY 2029) as he describes in a footnote.\""
+                    },
+                    "effectiveValue": {
+                      "stringValue": "\"Had a good conversation with @RyanPGreenblatt yesterday about AGI timelines. I recommend and directionally agree with his take here; my bottom-line numbers are somewhat different (median ~EOY 2029) as he describes in a footnote.\""
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "https://x.com/DKokotajlo/status/1958229951536316528"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "https://x.com/DKokotajlo/status/1958229951536316528"
+                    },
+                    "hyperlink": "https://x.com/DKokotajlo/status/1958229951536316528"
+                  }
+                ]
+              },
+              {
+                "values": [
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Daniel"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Daniel"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "2025-11-01"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "2025-11-01"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "2030.5"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "2030.5"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Things going slower than AI 2027"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Things going slower than AI 2027"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "\"Yep! Things seem to be going somewhat slower than the AI 2027 scenario. Our timelines were longer than 2027 when we published and now they are a bit longer still; 'around 2030, lots of uncertainty though' is what I say these days.\""
+                    },
+                    "effectiveValue": {
+                      "stringValue": "\"Yep! Things seem to be going somewhat slower than the AI 2027 scenario. Our timelines were longer than 2027 when we published and now they are a bit longer still; 'around 2030, lots of uncertainty though' is what I say these days.\""
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "https://x.com/dkokotajlo/status/1991564542103662729"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "https://x.com/dkokotajlo/status/1991564542103662729"
+                    },
+                    "hyperlink": "https://x.com/dkokotajlo/status/1991564542103662729"
+                  }
+                ]
+              },
+              {
+                "values": [
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Daniel"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Daniel"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "2026-01-21"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "2026-01-21"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "2030.95"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "2030.95"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Minor adjustment"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Minor adjustment"
+                    }
+                  },
+                  {},
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "https://www.aifuturesmodel.com/forecast/daniel-01-26-26?timeline=TED-AI&show=atc"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "https://www.aifuturesmodel.com/forecast/daniel-01-26-26?timeline=TED-AI&show=atc"
+                    },
+                    "hyperlink": "https://www.aifuturesmodel.com/forecast/daniel-01-26-26?timeline=TED-AI&show=atc"
+                  }
+                ]
+              },
+              {
+                "values": [
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Daniel"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Daniel"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "2026-04-02"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "2026-04-02"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "2029.5"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "2029.5"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Faster METR doubling time, lower AC horizon requirement due to CC's impressiveness"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Faster METR doubling time, lower AC horizon requirement due to CC's impressiveness"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "https://blog.aifutures.org/q1-2026-timelines-update"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "https://blog.aifutures.org/q1-2026-timelines-update"
+                    },
+                    "hyperlink": "https://blog.aifutures.org/q1-2026-timelines-update"
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "https://www.aifuturesmodel.com/forecast/daniel-04-02-26?timeline=AC%2CTED-AI&cmode=forecaster&csim=daniel-01-26-26&ctype=atc"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "https://www.aifuturesmodel.com/forecast/daniel-04-02-26?timeline=AC%2CTED-AI&cmode=forecaster&csim=daniel-01-26-26&ctype=atc"
+                    },
+                    "hyperlink": "https://www.aifuturesmodel.com/forecast/daniel-04-02-26?timeline=AC%2CTED-AI&cmode=forecaster&csim=daniel-01-26-26&ctype=atc"
+                  }
+                ]
+              },
+              {
+                "values": [
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Eli"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Eli"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "2021-06-01"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "2021-06-01"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "2060.5"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "2060.5"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Similar to Holden's timelines"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Similar to Holden's timelines"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "'Before my TAI timelines were roughly similar to Holden's: \"more than a 10% chance we'll see transformative AI within 15 years (by 2036); a ~50% chance we'll see it within 40 years (by 2060); and a ~2/3 chance we'll see it this century (by 2100)\".' I was generally applying a heuristic that people into AI and AI safety are biased toward / selected for short timelines."
+                    },
+                    "effectiveValue": {
+                      "stringValue": "'Before my TAI timelines were roughly similar to Holden's: \"more than a 10% chance we'll see transformative AI within 15 years (by 2036); a ~50% chance we'll see it within 40 years (by 2060); and a ~2/3 chance we'll see it this century (by 2100)\".' I was generally applying a heuristic that people into AI and AI safety are biased toward / selected for short timelines."
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "https://www.lesswrong.com/posts/XAkhqkNQByEaT8MED/personal-forecasting-retrospective-2020-2022#AI_benchmarks"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "https://www.lesswrong.com/posts/XAkhqkNQByEaT8MED/personal-forecasting-retrospective-2020-2022#AI_benchmarks"
+                    },
+                    "hyperlink": "https://www.lesswrong.com/posts/XAkhqkNQByEaT8MED/personal-forecasting-retrospective-2020-2022#AI_benchmarks"
+                  }
+                ]
+              },
+              {
+                "values": [
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Eli"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Eli"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "2022-07-01"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "2022-07-01"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "2050.5"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "2050.5"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Updated after MATH/MMLU progress"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Updated after MATH/MMLU progress"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "\"I (and the crowd) badly underestimated progress on MATH and MMLU… I'm now at ~20% by 2036; my median is now ~2050 though still with a fat right tail.\""
+                    },
+                    "effectiveValue": {
+                      "stringValue": "\"I (and the crowd) badly underestimated progress on MATH and MMLU… I'm now at ~20% by 2036; my median is now ~2050 though still with a fat right tail.\""
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "https://www.lesswrong.com/posts/XAkhqkNQByEaT8MED/personal-forecasting-retrospective-2020-2022#AI_benchmarks"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "https://www.lesswrong.com/posts/XAkhqkNQByEaT8MED/personal-forecasting-retrospective-2020-2022#AI_benchmarks"
+                    },
+                    "hyperlink": "https://www.lesswrong.com/posts/XAkhqkNQByEaT8MED/personal-forecasting-retrospective-2020-2022#AI_benchmarks"
+                  }
+                ]
+              },
+              {
+                "values": [
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Eli"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Eli"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "2024-01-01"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "2024-01-01"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "2038.5"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "2038.5"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Scenario workshop survey"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Scenario workshop survey"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "I reported a median of 2038 in our scenario workshop survey. I forget exactly why I updated toward shorter timelines, probably faster progress than expected e.g. GPT-4 and perhaps further digesting Ajeya's update."
+                    },
+                    "effectiveValue": {
+                      "stringValue": "I reported a median of 2038 in our scenario workshop survey. I forget exactly why I updated toward shorter timelines, probably faster progress than expected e.g. GPT-4 and perhaps further digesting Ajeya's update."
+                    }
+                  }
+                ]
+              },
+              {
+                "values": [
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Eli"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Eli"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "2024-07-01"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "2024-07-01"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "2035.5"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "2035.5"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Updated, influenced by shorter timelines peers"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Updated, influenced by shorter timelines peers"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "I forget why I updated, I think it was at least in part due to spending a bunch of time around people with shorter timelines."
+                    },
+                    "effectiveValue": {
+                      "stringValue": "I forget why I updated, I think it was at least in part due to spending a bunch of time around people with shorter timelines."
+                    }
+                  }
+                ]
+              },
+              {
+                "values": [
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Eli"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Eli"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "2024-12-01"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "2024-12-01"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "2032.5"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "2032.5"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Updated on timelines model, RE-Bench"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Updated on timelines model, RE-Bench"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Updated on early versions of the timelines model predicting shorter timelines than I expected. Also, RE-Bench scores were higher than I would have guessed."
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Updated on early versions of the timelines model predicting shorter timelines than I expected. Also, RE-Bench scores were higher than I would have guessed."
+                    }
+                  }
+                ]
+              },
+              {
+                "values": [
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Eli"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Eli"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "2025-04-01"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "2025-04-01"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "2031.5"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "2031.5"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "AI 2027 timelines model variants"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "AI 2027 timelines model variants"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Updated based on the two variants of the AI 2027 timelines model giving 2027 and 2028 superhuman coder (SC) medians. My SC median was 2030, higher than the within-model median because I placed some weight on the model being confused, a poor framework, missing factors, etc. I also gave some weight to other heuristics and alternative models, which seemed to overall point in the direction of longer timelines. I shifted my median back by a year from SC to get one for TED-AI/AGI."
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Updated based on the two variants of the AI 2027 timelines model giving 2027 and 2028 superhuman coder (SC) medians. My SC median was 2030, higher than the within-model median because I placed some weight on the model being confused, a poor framework, missing factors, etc. I also gave some weight to other heuristics and alternative models, which seemed to overall point in the direction of longer timelines. I shifted my median back by a year from SC to get one for TED-AI/AGI."
+                    }
+                  }
+                ]
+              },
+              {
+                "values": [
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Eli"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Eli"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "2025-07-01"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "2025-07-01"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "2033.5"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "2033.5"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Corrections to timelines model"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Corrections to timelines model"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Updated based on corrections to our timelines model and downlift."
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Updated based on corrections to our timelines model and downlift."
+                    }
+                  }
+                ]
+              },
+              {
+                "values": [
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Eli"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Eli"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "2025-11-01"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "2025-11-01"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "2035.5"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "2035.5"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "AI Futures Model intermediate results"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "AI Futures Model intermediate results"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Updated based on the AI Futures Model's intermediate results."
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Updated based on the AI Futures Model's intermediate results."
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "https://x.com/eli_lifland/status/1992254167394755023"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "https://x.com/eli_lifland/status/1992254167394755023"
+                    },
+                    "hyperlink": "https://x.com/eli_lifland/status/1992254167394755023"
+                  }
+                ]
+              },
+              {
+                "values": [
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Eli"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Eli"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "2026-01-21"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "2026-01-21"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "2035"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "2035"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Minor adjustment"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Minor adjustment"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "For Automated Coder (AC), my all-things-considered median is about 1.5 years later than the model's output. For TED-AI, my all-things-considered median is instead 1.5 years earlier than the model's output, because I believe the model's takeoff is too slow, due to modeling neither hardware R&D automation nor broad economic automation."
+                    },
+                    "effectiveValue": {
+                      "stringValue": "For Automated Coder (AC), my all-things-considered median is about 1.5 years later than the model's output. For TED-AI, my all-things-considered median is instead 1.5 years earlier than the model's output, because I believe the model's takeoff is too slow, due to modeling neither hardware R&D automation nor broad economic automation."
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "https://www.aifuturesmodel.com/forecast/eli-01-26-26?timeline=TED-AI&show=atc"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "https://www.aifuturesmodel.com/forecast/eli-01-26-26?timeline=TED-AI&show=atc"
+                    },
+                    "hyperlink": "https://www.aifuturesmodel.com/forecast/eli-01-26-26?timeline=TED-AI&show=atc"
+                  }
+                ]
+              },
+              {
+                "values": [
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Eli"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Eli"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "2026-04-02"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "2026-04-02"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "2033.5"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "2033.5"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Faster METR doubling time"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Faster METR doubling time"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "https://blog.aifutures.org/q1-2026-timelines-update"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "https://blog.aifutures.org/q1-2026-timelines-update"
+                    },
+                    "hyperlink": "https://blog.aifutures.org/q1-2026-timelines-update"
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "https://www.aifuturesmodel.com/forecast/eli-04-02-26?timeline=AC%2CTED-AI&cmode=forecaster&csim=eli-01-26-26&ctype=atc"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "https://www.aifuturesmodel.com/forecast/eli-04-02-26?timeline=AC%2CTED-AI&cmode=forecaster&csim=eli-01-26-26&ctype=atc"
+                    },
+                    "hyperlink": "https://www.aifuturesmodel.com/forecast/eli-04-02-26?timeline=AC%2CTED-AI&cmode=forecaster&csim=eli-01-26-26&ctype=atc"
+                  }
+                ]
+              },
+              {
+                "values": [
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Daniel"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Daniel"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "numberValue": 46247
+                    },
+                    "effectiveValue": {
+                      "numberValue": 46247
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "numberValue": 2028.9
+                    },
+                    "effectiveValue": {
+                      "numberValue": 2028.9
+                    }
+                  }
+                ]
+              },
+              {
+                "values": [
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Eli"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Eli"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "numberValue": 46247
+                    },
+                    "effectiveValue": {
+                      "numberValue": 46247
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "numberValue": 2032.5
+                    },
+                    "effectiveValue": {
+                      "numberValue": 2032.5
+                    }
+                  }
+                ]
+              },
+              {
+                "values": [
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Brendan"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Brendan"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "numberValue": 46247
+                    },
+                    "effectiveValue": {
+                      "numberValue": 46247
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "numberValue": 2031.3
+                    },
+                    "effectiveValue": {
+                      "numberValue": 2031.3
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "isError": false
+}

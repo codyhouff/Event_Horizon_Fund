@@ -1,0 +1,369 @@
+[
+  {
+    "name": "race",
+    "url": "https://ai-2027.com/race",
+    "final_url": "https://ai-2027.com/race",
+    "bytes": 1958755,
+    "text_characters": 120370,
+    "lines": 1141,
+    "links": 298,
+    "retrieved_utc": "2026-11-09T06:36:59.343006+00:00"
+  },
+  {
+    "name": "summary",
+    "url": "https://ai-2027.com/summary",
+    "final_url": "https://ai-2027.com/summary",
+    "bytes": 483974,
+    "text_characters": 8038,
+    "lines": 54,
+    "links": 37,
+    "retrieved_utc": "2026-11-09T06:36:59.176315+00:00"
+  },
+  {
+    "name": "compute",
+    "url": "https://ai-2027.com/research/compute-forecast",
+    "final_url": "https://ai-2027.com/research/compute-forecast",
+    "bytes": 2233011,
+    "text_characters": 52036,
+    "lines": 1812,
+    "links": 182,
+    "retrieved_utc": "2026-11-09T06:37:01.997332+00:00"
+  },
+  {
+    "name": "timelines",
+    "url": "https://ai-2027.com/research/timelines-forecast",
+    "final_url": "https://ai-2027.com/research/timelines-forecast",
+    "bytes": 1399429,
+    "text_characters": 65323,
+    "lines": 723,
+    "links": 147,
+    "retrieved_utc": "2026-11-09T06:37:00.022117+00:00"
+  },
+  {
+    "name": "takeoff",
+    "url": "https://ai-2027.com/research/takeoff-forecast",
+    "final_url": "https://ai-2027.com/research/takeoff-forecast",
+    "bytes": 1519590,
+    "text_characters": 69279,
+    "lines": 826,
+    "links": 156,
+    "retrieved_utc": "2026-11-09T06:37:03.546473+00:00"
+  },
+  {
+    "name": "goals",
+    "url": "https://ai-2027.com/research/ai-goals-forecast",
+    "final_url": "https://ai-2027.com/research/ai-goals-forecast",
+    "bytes": 1160723,
+    "text_characters": 61602,
+    "lines": 493,
+    "links": 77,
+    "retrieved_utc": "2026-11-09T06:36:59.805787+00:00"
+  },
+  {
+    "name": "security",
+    "url": "https://ai-2027.com/research/security-forecast",
+    "final_url": "https://ai-2027.com/research/security-forecast",
+    "bytes": 1225162,
+    "text_characters": 37141,
+    "lines": 637,
+    "links": 53,
+    "retrieved_utc": "2026-11-09T06:37:01.998330+00:00"
+  },
+  {
+    "name": "plan_a",
+    "url": "https://ai-2040.com/",
+    "final_url": "https://ai-2040.com/",
+    "bytes": 1075630,
+    "text_characters": 15535,
+    "lines": 210,
+    "links": 70,
+    "retrieved_utc": "2026-11-09T06:36:59.542349+00:00"
+  },
+  {
+    "name": "plan_a_compute",
+    "url": "https://ai-2040.com/supplements/compute-supplement",
+    "final_url": "https://ai-2040.com/supplements/compute-supplement",
+    "bytes": 2829359,
+    "text_characters": 105795,
+    "lines": 6705,
+    "links": 158,
+    "retrieved_utc": "2026-11-09T06:37:03.435505+00:00"
+  },
+  {
+    "name": "plan_a_economics",
+    "url": "https://ai-2040.com/supplements/economics-of-plan-a",
+    "final_url": "https://ai-2040.com/supplements/economics-of-plan-a",
+    "bytes": 1317526,
+    "text_characters": 60382,
+    "lines": 2619,
+    "links": 135,
+    "retrieved_utc": "2026-11-09T06:37:02.200522+00:00"
+  },
+  {
+    "name": "trillion_cluster",
+    "url": "https://situational-awareness.ai/racing-to-the-trillion-dollar-cluster/",
+    "final_url": "https://situational-awareness.ai/racing-to-the-trillion-dollar-cluster/",
+    "bytes": 157955,
+    "text_characters": 32760,
+    "lines": 420,
+    "links": 158,
+    "retrieved_utc": "2026-11-09T06:37:01.838990+00:00"
+  },
+  {
+    "name": "timelines_update",
+    "url": "https://blog.aifutures.org/p/q1-2026-timelines-update",
+    "final_url": "https://blog.aifutures.org/p/q1-2026-timelines-update",
+    "bytes": 212657,
+    "text_characters": 4420,
+    "lines": 71,
+    "links": 44,
+    "retrieved_utc": "2026-11-09T06:37:02.665396+00:00"
+  },
+  {
+    "name": "old_track_record",
+    "url": "https://www.lesswrong.com/posts/u9Kr97di29CkMvjaj/evaluating-what-2026-looks-like-so-far",
+    "final_url": "https://www.lesswrong.com/posts/u9Kr97di29CkMvjaj/evaluating-what-2026-looks-like-so-far",
+    "bytes": 536412,
+    "text_characters": 15302,
+    "lines": 294,
+    "links": 47,
+    "retrieved_utc": "2026-11-09T06:37:03.436574+00:00",
+    "archived_bytes": 536298,
+    "embedded_token_redactions": 2,
+    "sanitization_note": "Embedded third-party Mapbox tokens redacted before publication; original response byte count retained in bytes."
+  },
+  {
+    "name": "software_explosion",
+    "url": "https://www.forethought.org/research/will-ai-r-and-d-automation-cause-a-software-intelligence-explosion",
+    "final_url": "https://www.forethought.org/research/will-ai-r-and-d-automation-cause-a-software-intelligence-explosion",
+    "bytes": 538430,
+    "text_characters": 91611,
+    "lines": 1224,
+    "links": 263,
+    "retrieved_utc": "2026-11-09T06:37:03.338580+00:00"
+  },
+  {
+    "name": "model_app",
+    "url": "https://www.aifuturesmodel.com/",
+    "final_url": "https://www.aifuturesmodel.com/",
+    "bytes": 3330981,
+    "text_characters": 0,
+    "lines": 0,
+    "links": 0,
+    "retrieved_utc": "2026-11-09T06:37:03.576858+00:00"
+  },
+  {
+    "name": "scorecard",
+    "url": "https://blog.aifutures.org/p/grading-ai-2027s-2025-predictions",
+    "final_url": "https://blog.aifutures.org/p/grading-ai-2027s-2025-predictions",
+    "bytes": 220361,
+    "text_characters": 16763,
+    "lines": 177,
+    "links": 74,
+    "retrieved_utc": "2026-11-09T06:43:30.227761+00:00"
+  },
+  {
+    "name": "forecast_history",
+    "url": "https://blog.aifutures.org/p/clarifying-how-our-ai-timelines-forecasts",
+    "final_url": "https://blog.aifutures.org/p/clarifying-how-our-ai-timelines-forecasts",
+    "bytes": 237391,
+    "text_characters": 11334,
+    "lines": 197,
+    "links": 65,
+    "retrieved_utc": "2026-11-09T06:43:30.165573+00:00"
+  },
+  {
+    "name": "metr_11",
+    "url": "https://metr.org/blog/2026-01-29-time-horizon-1-1/",
+    "final_url": "https://metr.org/blog/2026-01-29-time-horizon-1-1/",
+    "bytes": 75259,
+    "text_characters": 13837,
+    "lines": 307,
+    "links": 54,
+    "retrieved_utc": "2026-11-09T06:43:30.479320+00:00"
+  },
+  {
+    "name": "metr_live",
+    "url": "https://metr.org/time-horizons/",
+    "final_url": "https://metr.org/time-horizons/",
+    "bytes": 685671,
+    "text_characters": 14055,
+    "lines": 217,
+    "links": 50,
+    "retrieved_utc": "2026-11-09T06:43:30.800530+00:00"
+  },
+  {
+    "name": "epoch_companies",
+    "url": "https://epoch.ai/data/ai-companies",
+    "final_url": "https://epoch.ai/data/ai-companies",
+    "bytes": 144450,
+    "text_characters": 10050,
+    "lines": 213,
+    "links": 145,
+    "retrieved_utc": "2026-11-09T06:43:30.165573+00:00"
+  },
+  {
+    "name": "epoch_revenue_csv",
+    "url": "https://epoch.ai/data/ai_companies_revenue_reports.csv",
+    "final_url": "https://epoch.ai/data/ai_companies_revenue_reports.csv",
+    "bytes": 44303,
+    "text_characters": 43951,
+    "lines": 155,
+    "links": 0,
+    "retrieved_utc": "2026-11-09T06:43:30.332339+00:00"
+  },
+  {
+    "name": "epoch_compute_csv",
+    "url": "https://epoch.ai/data/ai_companies_compute_spend.csv",
+    "final_url": "https://epoch.ai/data/ai_companies_compute_spend.csv",
+    "bytes": 9041,
+    "text_characters": 8986,
+    "lines": 34,
+    "links": 0,
+    "retrieved_utc": "2026-11-09T06:43:30.349751+00:00"
+  },
+  {
+    "name": "august_update",
+    "url": "https://blog.aifutures.org/p/q25-2026-timelines-update-uplift",
+    "final_url": "https://blog.aifutures.org/p/q25-2026-timelines-update-uplift",
+    "bytes": 452483,
+    "text_characters": 24751,
+    "lines": 279,
+    "links": 101,
+    "retrieved_utc": "2026-11-09T06:45:11.291802+00:00"
+  },
+  {
+    "name": "august_forecast_table",
+    "url": "https://datawrapper.dwcdn.net/4aHow/2/",
+    "final_url": "https://datawrapper.dwcdn.net/4aHow/2/",
+    "bytes": 78425,
+    "text_characters": 1031,
+    "lines": 7,
+    "links": 1,
+    "retrieved_utc": "2026-11-09T06:45:11.042057+00:00"
+  },
+  {
+    "name": "metr_uplift_update",
+    "url": "https://metr.org/blog/2026-02-24-uplift-update/",
+    "final_url": "https://metr.org/blog/2026-02-24-uplift-update/",
+    "bytes": 65123,
+    "text_characters": 11855,
+    "lines": 189,
+    "links": 48,
+    "retrieved_utc": "2026-11-09T06:45:11.489622+00:00"
+  },
+  {
+    "name": "plan_a_full",
+    "url": "https://ai-2040.com/?choices=plan-a-root",
+    "final_url": "https://ai-2040.com/?choices=plan-a-root",
+    "bytes": 1075630,
+    "text_characters": 15535,
+    "lines": 210,
+    "links": 70,
+    "retrieved_utc": "2026-11-09T06:45:11.371615+00:00"
+  },
+  {
+    "name": "epoch_chip_sales",
+    "url": "https://epoch.ai/data/ai-chip-sales",
+    "final_url": "https://epoch.ai/data/ai-chip-sales",
+    "bytes": 152422,
+    "text_characters": 13493,
+    "lines": 246,
+    "links": 151,
+    "retrieved_utc": "2026-11-09T06:45:11.303919+00:00"
+  },
+  {
+    "name": "epoch_chip_types_csv",
+    "url": "https://epoch.ai/data/ai_chip_sales_chip_types.csv",
+    "final_url": "https://epoch.ai/data/ai_chip_sales_chip_types.csv",
+    "bytes": 7311,
+    "text_characters": 7251,
+    "lines": 45,
+    "links": 0,
+    "retrieved_utc": "2026-11-09T06:48:52.972975+00:00"
+  },
+  {
+    "name": "epoch_chip_timelines_csv",
+    "url": "https://epoch.ai/data/ai_chip_sales_timelines_by_chip.csv",
+    "final_url": "https://epoch.ai/data/ai_chip_sales_timelines_by_chip.csv",
+    "bytes": 47354,
+    "text_characters": 47181,
+    "lines": 173,
+    "links": 0,
+    "retrieved_utc": "2026-11-09T06:48:52.972975+00:00"
+  },
+  {
+    "name": "august_table_csv",
+    "url": "https://datawrapper.dwcdn.net/4aHow/2/dataset.csv",
+    "final_url": "https://datawrapper.dwcdn.net/4aHow/2/dataset.csv",
+    "bytes": 4089,
+    "text_characters": 719,
+    "lines": 79,
+    "links": 23,
+    "retrieved_utc": "2026-11-09T06:48:52.959453+00:00"
+  },
+  {
+    "name": "metr_data",
+    "url": "https://metr.org/assets/benchmark_results_1_1.yaml",
+    "final_url": "https://metr.org/assets/benchmark_results_1_1.yaml",
+    "bytes": 16255,
+    "text_characters": 12690,
+    "lines": 541,
+    "links": 0,
+    "retrieved_utc": "2026-11-09T06:48:53.043238+00:00"
+  },
+  {
+    "name": "metr_survey",
+    "url": "https://metr.org/blog/2026-05-11-ai-usage-survey/",
+    "final_url": "https://metr.org/blog/2026-05-11-ai-usage-survey/",
+    "bytes": 89186,
+    "text_characters": 28494,
+    "lines": 386,
+    "links": 91,
+    "retrieved_utc": "2026-11-09T06:48:53.272580+00:00"
+  },
+  {
+    "name": "plan_a_pdf",
+    "url": "https://ai-2040.com/AI-2040.pdf",
+    "final_url": "https://ai-2040.com/AI-2040.pdf",
+    "bytes": 14484354,
+    "pages": 90,
+    "retrieved_utc": "2026-11-09T06:49:14.806894+00:00"
+  },
+  {
+    "name": "micron_2024_anchor",
+    "url": "https://micron.gcs-web.com/static-files/21b50828-dd30-429f-9502-b1ebc452c6e3",
+    "final_url": "https://micron.gcs-web.com/static-files/21b50828-dd30-429f-9502-b1ebc452c6e3",
+    "bytes": 119758,
+    "pages": 10,
+    "retrieved_utc": "2026-11-09T07:07:48.607705+00:00"
+  },
+  {
+    "name": "micron_q4_2026",
+    "url": "https://s25.q4cdn.com/621799436/files/doc_financials/2026/q4/Q4-FY26-Prepared-Remarks.pdf",
+    "final_url": "https://s25.q4cdn.com/621799436/files/doc_financials/2026/q4/Q4-FY26-Prepared-Remarks.pdf",
+    "bytes": 116740,
+    "pages": 10,
+    "retrieved_utc": "2026-11-09T07:07:48.163979+00:00"
+  },
+  {
+    "name": "asml_2025",
+    "url": "https://www.asml.com/investors/annual-report/2025",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "asml_q3_2026",
+    "url": "https://investor.asml.com/news-releases/news-release-details/asml-reports-eu11.7-billion-total-net-sales-and-eu5.0-billion-net-income-q3-2026",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "model_about",
+    "url": "https://www.aifuturesmodel.com/about",
+    "final_url": "https://www.aifuturesmodel.com/about",
+    "bytes": 29287,
+    "text_characters": 3588,
+    "lines": 55,
+    "links": 19,
+    "retrieved_utc": "2026-11-09T07:07:46.812891+00:00"
+  }
+]

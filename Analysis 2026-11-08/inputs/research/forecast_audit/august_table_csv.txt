@@ -1,0 +1,79 @@
+,"
+Apr 2025 forecasts
+¹
+(AI 2027 publication)",
+Apr 2026 forecasts
+¹,
+Aug 2026 forecasts
+¹
+"In what year do we predict that AGI² is most likely to be built?
+","
+Daniel:
+2027
+Other authors:
+2027 or 2028
+","
+Daniel:
+2027
+Eli:
+2028
+","
+Daniel:
+2028
+Eli:
+2028
+"
+Probability that AGI² has been built by end of 2027,"
+Daniel:
+40%
+Other authors:
+~20%
+","
+Daniel:
+25%
+Eli:
+12%
+","
+Daniel:
+23%
+Eli:
+9%
+"
+Our AGI median: by what year do we think it's 50% likely that AGI² will have been built? ,"
+Daniel:
+2028
+Eli: 2031
+Other authors:
+2030-2032
+","
+Daniel:
+2029
+Eli:
+2033
+","
+Daniel:
+2028
+Eli:
+2032
+"
+Superintelligence³ median,
+Daniel: 2028 or 2029⁴
+,"
+Daniel:
+2030
+Eli: 2035","
+Daniel:
+2029
+Eli:
+2033
+"
+Superhuman Coder⁵ median,"
+Daniel: 2028
+Eli:
+2030
+","
+Daniel:
+2029
+Eli: 2032","
+Daniel: 2028
+Eli: 2031"

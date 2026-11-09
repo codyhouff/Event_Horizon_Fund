@@ -1,0 +1,1175 @@
+{
+  "source_series": [
+    {
+      "year": 2023,
+      "chips_m": 1.5,
+      "chip_tam_bn": 50,
+      "HBM_tam_bn": 2.5,
+      "HBM_wafers_m": 0.66,
+      "HBM_capacity_m": 1.5,
+      "packaging_double_m": 1.534843125,
+      "packaging_single_m": 2.5317,
+      "logic_m": 60.48,
+      "binding": "HBM",
+      "H100e_stock_m": 2.5389771505510756,
+      "source_stock_power_GW": 2.4958235561606847,
+      "cohort_IT_peak_GW": 1.5,
+      "leading_edge_wafer_share": 0.0248015873015873,
+      "training_GW": 0.03858725349660922,
+      "palo_verde_units": 0.01086999841239659,
+      "flow_FLOPs_per_dollar": 30000000000.0
+    },
+    {
+      "year": 2024,
+      "chips_m": 4.332,
+      "chip_tam_bn": 144.4,
+      "HBM_tam_bn": 6.6880000000000015,
+      "HBM_wafers_m": 1.884,
+      "HBM_capacity_m": 4.332,
+      "packaging_double_m": 5.755146666666667,
+      "packaging_single_m": 7.076,
+      "logic_m": 82.68,
+      "binding": "HBM",
+      "H100e_stock_m": 6.870977150551076,
+      "source_stock_power_GW": 6.754194941244399,
+      "cohort_IT_peak_GW": 5.832,
+      "leading_edge_wafer_share": 0.05239477503628447,
+      "training_GW": 0.2088495652827581,
+      "palo_verde_units": 0.05883275531006082,
+      "flow_FLOPs_per_dollar": 30000000000.0
+    },
+    {
+      "year": 2025,
+      "chips_m": 7.660454545454546,
+      "chip_tam_bn": 255.34848484848487,
+      "HBM_tam_bn": 12.546910666666669,
+      "HBM_wafers_m": 3.0144,
+      "HBM_capacity_m": 7.660454545454546,
+      "packaging_double_m": 14.37588,
+      "packaging_single_m": 15.9732,
+      "logic_m": 54.306,
+      "binding": "HBM",
+      "H100e_stock_m": 26.022113514187442,
+      "source_stock_power_GW": 17.05663064526464,
+      "cohort_IT_peak_GW": 18.601977727272725,
+      "leading_edge_wafer_share": 0.14106092412356913,
+      "training_GW": 2.109663654330815,
+      "palo_verde_units": 0.5942905621744201,
+      "flow_FLOPs_per_dollar": 75000000000.0
+    },
+    {
+      "year": 2026,
+      "chips_m": 11.885123232323233,
+      "chip_tam_bn": 396.17077441077447,
+      "HBM_tam_bn": 20.620308512111887,
+      "HBM_wafers_m": 4.82304,
+      "HBM_capacity_m": 11.885123232323233,
+      "packaging_double_m": 23.001408,
+      "packaging_single_m": 25.55712,
+      "logic_m": 64.635,
+      "binding": "HBM",
+      "H100e_stock_m": 55.73492159499552,
+      "source_stock_power_GW": 36.5323889302966,
+      "cohort_IT_peak_GW": 38.414478155555564,
+      "leading_edge_wafer_share": 0.18388061007694334,
+      "training_GW": 5.648173922432993,
+      "palo_verde_units": 1.5910860713417057,
+      "flow_FLOPs_per_dollar": 74999999999.99998
+    },
+    {
+      "year": 2027,
+      "chips_m": 20.85213194343435,
+      "chip_tam_bn": 695.0710647811451,
+      "HBM_tam_bn": 40.71841203266472,
+      "HBM_wafers_m": 7.716864,
+      "HBM_capacity_m": 20.85213194343435,
+      "packaging_double_m": 36.658494,
+      "packaging_single_m": 40.73166,
+      "logic_m": 61.35,
+      "binding": "HBM",
+      "H100e_stock_m": 180.84771325560163,
+      "source_stock_power_GW": 77.0353759111359,
+      "cohort_IT_peak_GW": 92.63002120848488,
+      "leading_edge_wafer_share": 0.3398880512377237,
+      "training_GW": 15.88030837170396,
+      "palo_verde_units": 4.473470152623297,
+      "flow_FLOPs_per_dollar": 179999999999.99997
+    },
+    {
+      "year": 2028,
+      "chips_m": 31.57548311272728,
+      "chip_tam_bn": 1052.5161037575763,
+      "HBM_tam_bn": 71.47867543539066,
+      "HBM_wafers_m": 12.3469824,
+      "HBM_capacity_m": 31.57548311272728,
+      "packaging_double_m": 64.80708822000001,
+      "packaging_single_m": 68.21798760000001,
+      "logic_m": 79.212,
+      "binding": "HBM",
+      "H100e_stock_m": 370.3006119319653,
+      "source_stock_power_GW": 157.7362872152271,
+      "cohort_IT_peak_GW": 174.72627730157578,
+      "leading_edge_wafer_share": 0.3986199453709953,
+      "training_GW": 32.51624143789468,
+      "palo_verde_units": 9.159799176639464,
+      "flow_FLOPs_per_dollar": 179999999999.99994
+    },
+    {
+      "year": 2029,
+      "chips_m": 55.0366275770182,
+      "chip_tam_bn": 1834.5542525672738,
+      "HBM_tam_bn": 148.76530411385852,
+      "HBM_wafers_m": 19.75517184,
+      "HBM_capacity_m": 55.0366275770182,
+      "packaging_double_m": 113.35470120000001,
+      "packaging_single_m": 113.35470120000001,
+      "logic_m": 75.6486,
+      "binding": "HBM",
+      "H100e_stock_m": 920.6668877021474,
+      "source_stock_power_GW": 217.20451688559032,
+      "cohort_IT_peak_GW": 306.81418348641944,
+      "leading_edge_wafer_share": 0.7275300214018263,
+      "training_GW": 44.77520447033402,
+      "palo_verde_units": 12.61313924687674,
+      "flow_FLOPs_per_dollar": 299999999999.99994
+    },
+    {
+      "year": 2030,
+      "chips_m": 92.17500083293093,
+      "chip_tam_bn": 3072.5000277643653,
+      "HBM_tam_bn": 306.4245544659464,
+      "HBM_wafers_m": 31.608274944,
+      "HBM_capacity_m": 92.17500083293093,
+      "packaging_double_m": 177.87968496000002,
+      "packaging_single_m": 177.87968496000002,
+      "logic_m": 92.658735,
+      "binding": "HBM",
+      "H100e_stock_m": 1842.4168960314566,
+      "source_stock_power_GW": 434.6645645127484,
+      "cohort_IT_peak_GW": 528.0341854854537,
+      "leading_edge_wafer_share": 0.9947794002684252,
+      "training_GW": 89.60308483049856,
+      "palo_verde_units": 25.241117249740082,
+      "flow_FLOPs_per_dollar": 299999999999.99994
+    }
+  ],
+  "flat_3pct_HBM_2030_bn": 164.71829737392665,
+  "slow_HBM": [
+    {
+      "year": 2024,
+      "chips_m": 4.332,
+      "ratio_to_original": 1.0
+    },
+    {
+      "year": 2025,
+      "chips_m": 6.224119318181819,
+      "ratio_to_original": 0.8125
+    },
+    {
+      "year": 2026,
+      "chips_m": 7.846038383838384,
+      "ratio_to_original": 0.66015625
+    },
+    {
+      "year": 2027,
+      "chips_m": 11.184602997979802,
+      "ratio_to_original": 0.536376953125
+    },
+    {
+      "year": 2028,
+      "chips_m": 13.760793658181822,
+      "ratio_to_original": 0.4358062744140625
+    },
+    {
+      "year": 2029,
+      "chips_m": 19.488062441781825,
+      "ratio_to_original": 0.3540925979614258
+    },
+    {
+      "year": 2030,
+      "chips_m": 26.518769478523645,
+      "ratio_to_original": 0.28770023584365845
+    }
+  ],
+  "scorecard": {
+    "category_means": [
+      0.885,
+      0.33499999999999996,
+      1.065,
+      1.0808283849465583,
+      0.1
+    ],
+    "all_mean": 0.6931656769893116,
+    "all_median": 0.885,
+    "corrected_lab_pace": 1.02,
+    "corrected_mean": 0.7021656769893116,
+    "original_lab_pace": 0.84,
+    "unused_revenue_display_bn": 352.226110369968,
+    "normalized_revenue_display_bn": 35.2226110369968
+  },
+  "architectures": {
+    "Current": {
+      "weights": {
+        "TSM": 11,
+        "NVDA": 6,
+        "AVGO": 3,
+        "MU": 6,
+        "ASML": 8,
+        "AMAT": 4,
+        "SNPS": 5,
+        "ANET": 4,
+        "VRT": 6,
+        "DELL": 2,
+        "CEG": 9,
+        "VST": 6,
+        "PWR": 4,
+        "CRWD": 3,
+        "PLTR": 2,
+        "AVAV": 1,
+        "KTOS": 1,
+        "MRNA": 1,
+        "MP": 3,
+        "INTC": 3,
+        "GEV": 5,
+        "CCJ": 2,
+        "BE": 3,
+        "COHR": 2
+      },
+      "expected_total_return": 0.6150694021921261,
+      "expected_cagr": 0.1224306561171784,
+      "bear_base_bull_returns": [
+        -0.6816506015146767,
+        0.5556275666605255,
+        2.1548718307152877
+      ],
+      "delay_return": -0.0003350568751597782,
+      "holdings": 24,
+      "HHI": 0.0572,
+      "top3": 28
+    },
+    "Concentrated": {
+      "weights": {
+        "NVDA": 15,
+        "AVGO": 15,
+        "VRT": 15,
+        "CLS": 12,
+        "NVT": 12,
+        "NRG": 12,
+        "VST": 11,
+        "COHR": 8
+      },
+      "expected_total_return": 1.3479025451549047,
+      "expected_cagr": 0.22830997233584793,
+      "bear_base_bull_returns": [
+        -0.5663714575939083,
+        1.2771841955332035,
+        3.5910272465325326
+      ],
+      "delay_return": 0.17869283084538323,
+      "holdings": 8,
+      "HHI": 0.1292,
+      "top3": 45
+    },
+    "Core-satellite": {
+      "weights": {
+        "NVDA": 12,
+        "AVGO": 10,
+        "VRT": 10,
+        "CLS": 8,
+        "NVT": 8,
+        "VST": 8,
+        "NRG": 8,
+        "COHR": 6,
+        "MSFT": 6,
+        "GOOGL": 6,
+        "TSM": 5,
+        "ASML": 4,
+        "MU": 3,
+        "PWR": 3,
+        "SNPS": 3
+      },
+      "expected_total_return": 1.136504396808761,
+      "expected_cagr": 0.20070290242154654,
+      "bear_base_bull_returns": [
+        -0.5658434870068783,
+        1.0729833640913817,
+        3.1157557151662694
+      ],
+      "delay_return": 0.13175621385050418,
+      "holdings": 15,
+      "HHI": 0.0776,
+      "top3": 32
+    },
+    "Upstream challenge": {
+      "weights": {
+        "NVDA": 15,
+        "AVGO": 15,
+        "VRT": 15,
+        "CLS": 12,
+        "NVT": 9,
+        "NRG": 8,
+        "VST": 7,
+        "COHR": 4,
+        "TSM": 5,
+        "MU": 5,
+        "ASML": 5
+      },
+      "expected_total_return": 1.2454050787423965,
+      "expected_cagr": 0.21517117757861137,
+      "bear_base_bull_returns": [
+        -0.5753601182182992,
+        1.1688122854947807,
+        3.405790977816057
+      ],
+      "delay_return": 0.1537353425935919,
+      "holdings": 11,
+      "HHI": 0.1104,
+      "top3": 45
+    }
+  },
+  "immediate_capex_shock_returns": {
+    "Current": -0.4355,
+    "Concentrated": -0.479,
+    "Core-satellite": -0.447,
+    "Upstream challenge": -0.488
+  },
+  "bull_reweighted_architectures": {
+    "Current": {
+      "weights": {
+        "TSM": 11,
+        "NVDA": 6,
+        "AVGO": 3,
+        "MU": 6,
+        "ASML": 8,
+        "AMAT": 4,
+        "SNPS": 5,
+        "ANET": 4,
+        "VRT": 6,
+        "DELL": 2,
+        "CEG": 9,
+        "VST": 6,
+        "PWR": 4,
+        "CRWD": 3,
+        "PLTR": 2,
+        "AVAV": 1,
+        "KTOS": 1,
+        "MRNA": 1,
+        "MP": 3,
+        "INTC": 3,
+        "GEV": 5,
+        "CCJ": 2,
+        "BE": 3,
+        "COHR": 2
+      },
+      "expected_total_return": 1.1937757600655376,
+      "expected_cagr": 0.208379841966418,
+      "bear_base_bull_returns": [
+        -0.6816506015146767,
+        0.5556275666605255,
+        2.1548718307152877
+      ],
+      "delay_return": -0.0003350568751597782,
+      "holdings": 24,
+      "HHI": 0.0572,
+      "top3": 28
+    },
+    "Concentrated": {
+      "weights": {
+        "NVDA": 15,
+        "AVGO": 15,
+        "VRT": 15,
+        "CLS": 12,
+        "NVT": 12,
+        "NRG": 12,
+        "VST": 11,
+        "COHR": 8
+      },
+      "expected_total_return": 2.192991348897407,
+      "expected_cagr": 0.3227458323707588,
+      "bear_base_bull_returns": [
+        -0.5663714575939083,
+        1.2771841955332035,
+        3.5910272465325326
+      ],
+      "delay_return": 0.17869283084538323,
+      "holdings": 8,
+      "HHI": 0.1292,
+      "top3": 45
+    },
+    "Core-satellite": {
+      "weights": {
+        "NVDA": 12,
+        "AVGO": 10,
+        "VRT": 10,
+        "CLS": 8,
+        "NVT": 8,
+        "VST": 8,
+        "NRG": 8,
+        "COHR": 6,
+        "MSFT": 6,
+        "GOOGL": 6,
+        "TSM": 5,
+        "ASML": 4,
+        "MU": 3,
+        "PWR": 3,
+        "SNPS": 3
+      },
+      "expected_total_return": 1.8811521926217725,
+      "expected_cagr": 0.2903969292907176,
+      "bear_base_bull_returns": [
+        -0.5658434870068783,
+        1.0729833640913817,
+        3.1157557151662694
+      ],
+      "delay_return": 0.13175621385050418,
+      "holdings": 15,
+      "HHI": 0.0776,
+      "top3": 32
+    },
+    "Upstream challenge": {
+      "weights": {
+        "NVDA": 15,
+        "AVGO": 15,
+        "VRT": 15,
+        "CLS": 12,
+        "NVT": 9,
+        "NRG": 8,
+        "VST": 7,
+        "COHR": 4,
+        "TSM": 5,
+        "MU": 5,
+        "ASML": 5
+      },
+      "expected_total_return": 2.059164447437048,
+      "expected_cagr": 0.30917084981529275,
+      "bear_base_bull_returns": [
+        -0.5753601182182992,
+        1.1688122854947807,
+        3.405790977816057
+      ],
+      "delay_return": 0.1537353425935919,
+      "holdings": 11,
+      "HHI": 0.1104,
+      "top3": 45
+    }
+  },
+  "scarcity_operating_architectures": {
+    "Current": {
+      "weights": {
+        "TSM": 11,
+        "NVDA": 6,
+        "AVGO": 3,
+        "MU": 6,
+        "ASML": 8,
+        "AMAT": 4,
+        "SNPS": 5,
+        "ANET": 4,
+        "VRT": 6,
+        "DELL": 2,
+        "CEG": 9,
+        "VST": 6,
+        "PWR": 4,
+        "CRWD": 3,
+        "PLTR": 2,
+        "AVAV": 1,
+        "KTOS": 1,
+        "MRNA": 1,
+        "MP": 3,
+        "INTC": 3,
+        "GEV": 5,
+        "CCJ": 2,
+        "BE": 3,
+        "COHR": 2
+      },
+      "expected_total_return": 0.7190482879960787,
+      "expected_cagr": 0.13943085274988198,
+      "bear_base_bull_returns": [
+        -0.6816506015146767,
+        0.6616638166987476,
+        2.368497482550306
+      ],
+      "delay_return": 0.02520928185929394,
+      "holdings": 24,
+      "HHI": 0.0572,
+      "top3": 28
+    },
+    "Concentrated": {
+      "weights": {
+        "NVDA": 15,
+        "AVGO": 15,
+        "VRT": 15,
+        "CLS": 12,
+        "NVT": 12,
+        "NRG": 12,
+        "VST": 11,
+        "COHR": 8
+      },
+      "expected_total_return": 1.3479025451549047,
+      "expected_cagr": 0.22830997233584793,
+      "bear_base_bull_returns": [
+        -0.5663714575939083,
+        1.2771841955332035,
+        3.5910272465325326
+      ],
+      "delay_return": 0.17869283084538323,
+      "holdings": 8,
+      "HHI": 0.1292,
+      "top3": 45
+    },
+    "Core-satellite": {
+      "weights": {
+        "NVDA": 12,
+        "AVGO": 10,
+        "VRT": 10,
+        "CLS": 8,
+        "NVT": 8,
+        "VST": 8,
+        "NRG": 8,
+        "COHR": 6,
+        "MSFT": 6,
+        "GOOGL": 6,
+        "TSM": 5,
+        "ASML": 4,
+        "MU": 3,
+        "PWR": 3,
+        "SNPS": 3
+      },
+      "expected_total_return": 1.1865267079443087,
+      "expected_cagr": 0.20741661449850124,
+      "bear_base_bull_returns": [
+        -0.5658434870068783,
+        1.1239751487476597,
+        3.2187526947437313
+      ],
+      "delay_return": 0.14406210439774925,
+      "holdings": 15,
+      "HHI": 0.0776,
+      "top3": 32
+    },
+    "Upstream challenge": {
+      "weights": {
+        "NVDA": 15,
+        "AVGO": 15,
+        "VRT": 15,
+        "CLS": 12,
+        "NVT": 9,
+        "NRG": 8,
+        "VST": 7,
+        "COHR": 4,
+        "TSM": 5,
+        "MU": 5,
+        "ASML": 5
+      },
+      "expected_total_return": 1.3070097034631516,
+      "expected_cagr": 0.22312129026913352,
+      "bear_base_bull_returns": [
+        -0.5753601182182992,
+        1.2313992088863057,
+        3.5351878038290714
+      ],
+      "delay_return": 0.16888879414723124,
+      "holdings": 11,
+      "HHI": 0.1104,
+      "top3": 45
+    }
+  },
+  "marginal_5pp_COHR_swaps": {
+    "TSM": {
+      "weights": {
+        "NVDA": 15,
+        "AVGO": 15,
+        "VRT": 15,
+        "CLS": 12,
+        "NVT": 12,
+        "NRG": 12,
+        "VST": 11,
+        "COHR": 3,
+        "TSM": 5
+      },
+      "original": {
+        "weights": {
+          "NVDA": 15,
+          "AVGO": 15,
+          "VRT": 15,
+          "CLS": 12,
+          "NVT": 12,
+          "NRG": 12,
+          "VST": 11,
+          "COHR": 3,
+          "TSM": 5
+        },
+        "expected_total_return": 1.3293414511822697,
+        "expected_cagr": 0.2259634231940526,
+        "bear_base_bull_returns": [
+          -0.5573893643528154,
+          1.2488615754461794,
+          3.52286009402477
+        ],
+        "delay_return": 0.1723272413875998,
+        "holdings": 9,
+        "HHI": 0.1262,
+        "top3": 45
+      },
+      "stronger_upstream": {
+        "weights": {
+          "NVDA": 15,
+          "AVGO": 15,
+          "VRT": 15,
+          "CLS": 12,
+          "NVT": 12,
+          "NRG": 12,
+          "VST": 11,
+          "COHR": 3,
+          "TSM": 5
+        },
+        "expected_total_return": 1.3490127688465536,
+        "expected_cagr": 0.22844988321924764,
+        "bear_base_bull_returns": [
+          -0.5573893643528154,
+          1.2691249790745118,
+          3.561018557425241
+        ],
+        "delay_return": 0.1769900295874154,
+        "holdings": 9,
+        "HHI": 0.1262,
+        "top3": 45
+      },
+      "stronger_stock_cagr": 0.19359914324665728
+    },
+    "MU": {
+      "weights": {
+        "NVDA": 15,
+        "AVGO": 15,
+        "VRT": 15,
+        "CLS": 12,
+        "NVT": 12,
+        "NRG": 12,
+        "VST": 11,
+        "COHR": 3,
+        "MU": 5
+      },
+      "original": {
+        "weights": {
+          "NVDA": 15,
+          "AVGO": 15,
+          "VRT": 15,
+          "CLS": 12,
+          "NVT": 12,
+          "NRG": 12,
+          "VST": 11,
+          "COHR": 3,
+          "MU": 5
+        },
+        "expected_total_return": 1.3278733851185476,
+        "expected_cagr": 0.22577722095853447,
+        "bear_base_bull_returns": [
+          -0.5556931578180709,
+          1.2450397126400823,
+          3.555225203919795
+        ],
+        "delay_return": 0.17137462578411689,
+        "holdings": 9,
+        "HHI": 0.1262,
+        "top3": 45
+      },
+      "stronger_upstream": {
+        "weights": {
+          "NVDA": 15,
+          "AVGO": 15,
+          "VRT": 15,
+          "CLS": 12,
+          "NVT": 12,
+          "NRG": 12,
+          "VST": 11,
+          "COHR": 3,
+          "MU": 5
+        },
+        "expected_total_return": 1.3438516459881127,
+        "expected_cagr": 0.22779904993081135,
+        "bear_base_bull_returns": [
+          -0.5556931578180709,
+          1.2606918865531256,
+          3.5959860734850126
+        ],
+        "delay_return": 0.1751217674622636,
+        "holdings": 9,
+        "HHI": 0.1262,
+        "top3": 45
+      },
+      "stronger_stock_cagr": 0.1790832621787093
+    },
+    "ASML": {
+      "weights": {
+        "NVDA": 15,
+        "AVGO": 15,
+        "VRT": 15,
+        "CLS": 12,
+        "NVT": 12,
+        "NRG": 12,
+        "VST": 11,
+        "COHR": 3,
+        "ASML": 5
+      },
+      "original": {
+        "weights": {
+          "NVDA": 15,
+          "AVGO": 15,
+          "VRT": 15,
+          "CLS": 12,
+          "NVT": 12,
+          "NRG": 12,
+          "VST": 11,
+          "COHR": 3,
+          "ASML": 5
+        },
+        "expected_total_return": 1.3151026814848654,
+        "expected_cagr": 0.22415367618019655,
+        "bear_base_bull_returns": [
+          -0.557718690082623,
+          1.232247715061051,
+          3.499462061735218
+        ],
+        "delay_return": 0.167973130153535,
+        "holdings": 9,
+        "HHI": 0.1262,
+        "top3": 45
+      },
+      "stronger_upstream": {
+        "weights": {
+          "NVDA": 15,
+          "AVGO": 15,
+          "VRT": 15,
+          "CLS": 12,
+          "NVT": 12,
+          "NRG": 12,
+          "VST": 11,
+          "COHR": 3,
+          "ASML": 5
+        },
+        "expected_total_return": 1.3410577276717714,
+        "expected_cagr": 0.22744627438285092,
+        "bear_base_bull_returns": [
+          -0.557718690082623,
+          1.2589190609112002,
+          3.5499395547825436
+        ],
+        "delay_return": 0.17471665182921203,
+        "holdings": 9,
+        "HHI": 0.1262,
+        "top3": 45
+      },
+      "stronger_stock_cagr": 0.17098429691682604
+    }
+  },
+  "upstream_expected_wealth_break_even_uplift": 0.43073721616216626,
+  "scarcity_operating_inputs": {
+    "TSM": {
+      "revenue": [
+        140,
+        370,
+        520
+      ],
+      "margin": [
+        0.32,
+        0.47,
+        0.49
+      ],
+      "terminal_values": [
+        141.79245283018872,
+        789.1730769230768,
+        1410.3203883495144
+      ],
+      "expected_terminal": 782.6147487564642
+    },
+    "MU": {
+      "revenue": [
+        120,
+        280,
+        450
+      ],
+      "margin": [
+        0.2,
+        0.42,
+        0.5
+      ],
+      "terminal_values": [
+        284.0,
+        1334.0,
+        3074.5
+      ],
+      "expected_terminal": 1367.1000000000001
+    },
+    "ASML": {
+      "revenue": [
+        40,
+        90,
+        130
+      ],
+      "margin": [
+        0.24,
+        0.37,
+        0.4
+      ],
+      "terminal_values": [
+        528.7012987012986,
+        2704.0,
+        5036.301369863014
+      ],
+      "expected_terminal": 2743.2506671410783
+    }
+  },
+  "challenger_hurdles": {
+    "TSM": {
+      "price": 375.44000244140625,
+      "expected_cagr": 0.1349399224241945,
+      "bull_reweighted_cagr": 0.20656331891426816,
+      "price_for_COHR_cagr": 307.8600993282494,
+      "expected_wealth_required": 774.2783010463986,
+      "expected_wealth_uplift_to_COHR": 0.2195149785913022
+    },
+    "MU": {
+      "price": 690.0,
+      "expected_cagr": 0.13016075976534403,
+      "bull_reweighted_cagr": 0.24086539017208342,
+      "price_for_COHR_cagr": 555.975165799616,
+      "expected_wealth_required": 1423.002408501726,
+      "expected_wealth_uplift_to_COHR": 0.24106262733448958
+    },
+    "ASML": {
+      "price": 1424.75,
+      "expected_cagr": 0.08562116854195367,
+      "bull_reweighted_cagr": 0.15531385090325522,
+      "price_for_COHR_cagr": 971.5559957673133,
+      "expected_wealth_required": 2938.2937413229483,
+      "expected_wealth_uplift_to_COHR": 0.4664620528379986
+    },
+    "LRCX": {
+      "price": 200.44000244140625,
+      "expected_cagr": 0.16059959511791488,
+      "bull_reweighted_cagr": 0.2347459212240508,
+      "price_for_COHR_cagr": 180.3422600030489,
+      "expected_wealth_required": 413.3718930930622,
+      "expected_wealth_uplift_to_COHR": 0.11144222345898047
+    },
+    "MSFT": {
+      "price": 530.6099853515625,
+      "expected_cagr": 0.17568210913603766,
+      "bull_reweighted_cagr": 0.24302548819215275,
+      "price_for_COHR_cagr": 503.68949394004426,
+      "expected_wealth_required": 1094.2888219280276,
+      "expected_wealth_uplift_to_COHR": 0.05344660100201071
+    },
+    "GOOGL": {
+      "price": 284.7799987792969,
+      "expected_cagr": 0.10173503055104338,
+      "bull_reweighted_cagr": 0.17818112799523833,
+      "price_for_COHR_cagr": 206.44179517786202,
+      "expected_wealth_required": 587.3081509508088,
+      "expected_wealth_uplift_to_COHR": 0.3794687191803472
+    }
+  },
+  "tail_sensitivity": [
+    {
+      "zero_recovery_probability_sensitivity": 0,
+      "Current": {
+        "expected_wealth": 1.6150694021921261,
+        "cagr": 0.1224306561171784
+      },
+      "Concentrated": {
+        "expected_wealth": 2.3479025451549047,
+        "cagr": 0.22830997233584793
+      },
+      "Core-satellite": {
+        "expected_wealth": 2.136504396808761,
+        "cagr": 0.20070290242154654
+      },
+      "Upstream challenge": {
+        "expected_wealth": 2.2454050787423965,
+        "cagr": 0.21517117757861137
+      }
+    },
+    {
+      "zero_recovery_probability_sensitivity": 0.05,
+      "Current": {
+        "expected_wealth": 1.5343159320825197,
+        "cagr": 0.10864490692307882
+      },
+      "Concentrated": {
+        "expected_wealth": 2.2305074178971593,
+        "cagr": 0.21322380810917752
+      },
+      "Core-satellite": {
+        "expected_wealth": 2.029679176968323,
+        "cagr": 0.18595580960186964
+      },
+      "Upstream challenge": {
+        "expected_wealth": 2.1331348248052766,
+        "cagr": 0.200246384683211
+      }
+    },
+    {
+      "zero_recovery_probability_sensitivity": 0.1,
+      "Current": {
+        "expected_wealth": 1.4535624619729135,
+        "cagr": 0.09429688739815001
+      },
+      "Concentrated": {
+        "expected_wealth": 2.1131122906394144,
+        "cagr": 0.1975223343747503
+      },
+      "Core-satellite": {
+        "expected_wealth": 1.9228539571278849,
+        "cagr": 0.17060723675802114
+      },
+      "Upstream challenge": {
+        "expected_wealth": 2.0208645708681567,
+        "cagr": 0.18471286402693932
+      }
+    },
+    {
+      "zero_recovery_probability_sensitivity": 0.2,
+      "Current": {
+        "expected_wealth": 1.292055521753701,
+        "cagr": 0.06367997357010502
+      },
+      "Concentrated": {
+        "expected_wealth": 1.878322036123924,
+        "cagr": 0.1640173152698472
+      },
+      "Core-satellite": {
+        "expected_wealth": 1.7092035174470088,
+        "cagr": 0.13785526486900124
+      },
+      "Upstream challenge": {
+        "expected_wealth": 1.7963240629939172,
+        "cagr": 0.15156623619074772
+      }
+    },
+    {
+      "zero_recovery_probability_sensitivity": 0.3,
+      "Current": {
+        "expected_wealth": 1.1305485815344882,
+        "cagr": 0.030004158860921892
+      },
+      "Concentrated": {
+        "expected_wealth": 1.6435317816084332,
+        "cagr": 0.12716484798521765
+      },
+      "Core-satellite": {
+        "expected_wealth": 1.4955530777661326,
+        "cagr": 0.10183108088724713
+      },
+      "Upstream challenge": {
+        "expected_wealth": 1.5717835551196775,
+        "cagr": 0.1151079666370296
+      }
+    }
+  ],
+  "latest_revenue": [
+    {
+      "Id": "October 2026 81B",
+      "Company": "Anthropic",
+      "Date": "2026-10-31",
+      "Annualized revenue (USD)": "81000000000.0",
+      "Annualized revenue type": "Annualized run rate",
+      "Scope": "Full company",
+      "Revenue amount (normalize to annual)": "81000000000.0",
+      "Period revenue": "",
+      "Period type": "",
+      "Other revenue info": "",
+      "Confidence": "Likely",
+      "Source 1": "https://www.ft.com/content/314e17df-e7af-4814-b208-70a0557cb452?syn-25a6b1a6=1",
+      "Source 2": "",
+      "Source 3": "",
+      "Notes": "Annualised revenue run rate is $81bn, per FT. Presume this refers to last day of October, since Anthropic plans to report a revenue run rate amount as of Oct 31 in its S-1 filing, so FT's sources are most likely conveying this figure.",
+      "Report date": "2026-11-06",
+      "Source type": "Media report",
+      "Graph note": ""
+    },
+    {
+      "Id": "OpenAI September 50B",
+      "Company": "OpenAI",
+      "Date": "2026-09-30",
+      "Annualized revenue (USD)": "50000000000.0",
+      "Annualized revenue type": "Annualized run rate",
+      "Scope": "Full company",
+      "Revenue amount (normalize to annual)": "50000000000.0",
+      "Period revenue": "",
+      "Period type": "",
+      "Other revenue info": "",
+      "Confidence": "Likely",
+      "Source 1": "https://www.ft.com/content/b66a9858-f8fb-46cb-b506-44bfe26fca2a?syn-25a6b1a6=1",
+      "Source 2": "https://www.axios.com/2026/09/29/scoop-openais-annual-recurring-revenue-nears-70b",
+      "Source 3": "https://www.ft.com/content/211d10ae-cf9e-481d-99ed-0321d2eb0676?syn-25a6b1a6=1",
+      "Notes": "FT report supersedes previous reports about OpenAI nearing 70B revenue, which was based on investor analysis attempting to gross up OpenAI revenue to include cloud partner revenue that wasn't shared with OpenAI. https://www.ft.com/content/b66a9858-f8fb-46cb-b506-44bfe26fca2a?syn-25a6b1a6=1 \n\n\npreviously, OpenAI run rate was reported to be \"nearing\" 70B (Axios) or \"about\" 70B (FT) as of September 29. ",
+      "Report date": "2026-09-08",
+      "Source type": "Media report",
+      "Graph note": ""
+    }
+  ],
+  "chip_totals_H100e": {
+    "2022": 289697.0,
+    "2023": 1290869.0,
+    "2024": 5093040.0,
+    "2025": 13613952.0,
+    "2026": 11307570.0
+  },
+  "metr_observations": [
+    {
+      "model": "claude_3_5_sonnet_20240620_inspect",
+      "release_date": "2024-06-20",
+      "p50_minutes": 11.395377,
+      "p80_minutes": 1.671757
+    },
+    {
+      "model": "claude_3_5_sonnet_20241022_inspect",
+      "release_date": "2024-10-22",
+      "p50_minutes": 20.522872,
+      "p80_minutes": 2.595677
+    },
+    {
+      "model": "claude_3_7_sonnet_inspect",
+      "release_date": "2025-02-24",
+      "p50_minutes": 60.388937,
+      "p80_minutes": 12.09179
+    },
+    {
+      "model": "claude_3_opus_inspect",
+      "release_date": "2024-03-04",
+      "p50_minutes": 3.952262,
+      "p80_minutes": 0.638973
+    },
+    {
+      "model": "claude_4_1_opus_inspect",
+      "release_date": "2025-08-05",
+      "p50_minutes": 100.472004,
+      "p80_minutes": 23.455761
+    },
+    {
+      "model": "claude_4_opus_inspect",
+      "release_date": "2025-05-22",
+      "p50_minutes": 100.366123,
+      "p80_minutes": 20.429752
+    },
+    {
+      "model": "claude_opus_4_5_inspect",
+      "release_date": "2025-11-24",
+      "p50_minutes": 292.994594,
+      "p80_minutes": 49.430584
+    },
+    {
+      "model": "claude_opus_4_6_inspect",
+      "release_date": "2026-02-05",
+      "p50_minutes": 718.80683,
+      "p80_minutes": 69.874587
+    },
+    {
+      "model": "davinci_002",
+      "release_date": "2020-05-28",
+      "p50_minutes": 0.144057,
+      "p80_minutes": 0.056238
+    },
+    {
+      "model": "gpt_5_3_codex",
+      "release_date": "2026-02-05",
+      "p50_minutes": 349.530732,
+      "p80_minutes": 54.739407
+    },
+    {
+      "model": "gemini_3_pro",
+      "release_date": "2025-11-18",
+      "p50_minutes": 224.325884,
+      "p80_minutes": 54.142849
+    },
+    {
+      "model": "gemini_3_1_pro",
+      "release_date": "2026-02-19",
+      "p50_minutes": 384.147435,
+      "p80_minutes": 89.801503
+    },
+    {
+      "model": "gpt2",
+      "release_date": "2019-02-14",
+      "p50_minutes": 0.053778,
+      "p80_minutes": 0.0128
+    },
+    {
+      "model": "gpt_3_5_turbo_instruct",
+      "release_date": "2022-03-15",
+      "p50_minutes": 0.599247,
+      "p80_minutes": 0.25538
+    },
+    {
+      "model": "gpt_4",
+      "release_date": "2023-03-14",
+      "p50_minutes": 3.987428,
+      "p80_minutes": 0.889561
+    },
+    {
+      "model": "gpt_4_1106_inspect",
+      "release_date": "2023-11-06",
+      "p50_minutes": 4.044959,
+      "p80_minutes": 0.783032
+    },
+    {
+      "model": "gpt_4_turbo_inspect",
+      "release_date": "2024-04-09",
+      "p50_minutes": 3.732787,
+      "p80_minutes": 0.927933
+    },
+    {
+      "model": "gpt_4o_inspect",
+      "release_date": "2024-05-13",
+      "p50_minutes": 6.991195,
+      "p80_minutes": 1.267009
+    },
+    {
+      "model": "gpt_5_1_codex_max_inspect",
+      "release_date": "2025-11-19",
+      "p50_minutes": 223.714694,
+      "p80_minutes": 50.632499
+    },
+    {
+      "model": "gpt_5_2",
+      "release_date": "2025-12-11",
+      "p50_minutes": 352.249302,
+      "p80_minutes": 66.002649
+    },
+    {
+      "model": "gpt_5_2025_08_07_inspect",
+      "release_date": "2025-08-07",
+      "p50_minutes": 203.012577,
+      "p80_minutes": 38.312431
+    },
+    {
+      "model": "gpt_5_4",
+      "release_date": "2026-03-05",
+      "p50_minutes": 341.735276,
+      "p80_minutes": 53.877851
+    },
+    {
+      "model": "o1_inspect",
+      "release_date": "2024-12-05",
+      "p50_minutes": 38.831588,
+      "p80_minutes": 7.090121
+    },
+    {
+      "model": "o1_preview",
+      "release_date": "2024-09-12",
+      "p50_minutes": 20.326586,
+      "p80_minutes": 4.420545
+    },
+    {
+      "model": "o3_inspect",
+      "release_date": "2025-04-16",
+      "p50_minutes": 119.732634,
+      "p80_minutes": 29.981603
+    },
+    {
+      "model": "claude_mythos_preview_early_inspect",
+      "release_date": "2026-04-07",
+      "p50_minutes": 1044.780145,
+      "p80_minutes": 185.911829
+    }
+  ]
+}

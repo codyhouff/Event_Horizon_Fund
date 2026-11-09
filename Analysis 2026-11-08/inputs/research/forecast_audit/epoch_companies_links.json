@@ -1,0 +1,582 @@
+[
+  {
+    "text": "",
+    "url": "/"
+  },
+  {
+    "text": "Latest",
+    "url": "/latest"
+  },
+  {
+    "text": "Trends in AI",
+    "url": "/trends"
+  },
+  {
+    "text": "Data on AI",
+    "url": "/data"
+  },
+  {
+    "text": "Capabilities & benchmarking",
+    "url": "/benchmarks"
+  },
+  {
+    "text": "Papers & reports",
+    "url": "/publications?type=paper&type=report"
+  },
+  {
+    "text": "Data Insights",
+    "url": "/data-insights"
+  },
+  {
+    "text": "Newsletter",
+    "url": "/gradient-updates"
+  },
+  {
+    "text": "Podcast",
+    "url": "/epoch-after-hours"
+  },
+  {
+    "text": "All publications",
+    "url": "/publications"
+  },
+  {
+    "text": "AI capabilities",
+    "url": "/benchmarks"
+  },
+  {
+    "text": "AI models",
+    "url": "/data/ai-models"
+  },
+  {
+    "text": "AI data centers",
+    "url": "/data/ai-data-centers"
+  },
+  {
+    "text": "AI chip sales",
+    "url": "/data/ai-chip-sales"
+  },
+  {
+    "text": "AI companies",
+    "url": "/data/ai-companies"
+  },
+  {
+    "text": "Polling on AI usage",
+    "url": "/data/polling"
+  },
+  {
+    "text": "All data explorers",
+    "url": "/data"
+  },
+  {
+    "text": "Epoch Capabilities Index",
+    "url": "/eci"
+  },
+  {
+    "text": "MirrorCode",
+    "url": "/MirrorCode"
+  },
+  {
+    "text": "FrontierMath: Open Problems",
+    "url": "/frontiermath/open-problems"
+  },
+  {
+    "text": "Epoch Automation Reports",
+    "url": "/benchmarks/epoch-automation-reports"
+  },
+  {
+    "text": "Earthborne Rangers",
+    "url": "/benchmarks/ebr-bench?view=graph&tab=release-date"
+  },
+  {
+    "text": "Scaling",
+    "url": "/topics/scaling"
+  },
+  {
+    "text": "Software progress",
+    "url": "/topics/software-progress"
+  },
+  {
+    "text": "Open models",
+    "url": "/topics/open-models"
+  },
+  {
+    "text": "Capabilities & benchmarks",
+    "url": "/topics/capabilities"
+  },
+  {
+    "text": "Math",
+    "url": "/topics/math"
+  },
+  {
+    "text": "Leading companies",
+    "url": "/topics/leading-companies"
+  },
+  {
+    "text": "Finances",
+    "url": "/topics/finances"
+  },
+  {
+    "text": "Geopolitics",
+    "url": "/topics/geopolitics"
+  },
+  {
+    "text": "Chips",
+    "url": "/topics/chips"
+  },
+  {
+    "text": "Data centers",
+    "url": "/topics/data-centers"
+  },
+  {
+    "text": "Energy",
+    "url": "/topics/energy"
+  },
+  {
+    "text": "Adoption & use",
+    "url": "/topics/adoption-and-use"
+  },
+  {
+    "text": "Economic impact",
+    "url": "/topics/economic-impact"
+  },
+  {
+    "text": "Future of AI",
+    "url": "/topics/future-of-ai"
+  },
+  {
+    "text": "AI impacts observatory",
+    "url": "/topics/ai-impacts"
+  },
+  {
+    "text": "About us",
+    "url": "/about"
+  },
+  {
+    "text": "Our team",
+    "url": "/about/team"
+  },
+  {
+    "text": "Transparency",
+    "url": "/about/transparency"
+  },
+  {
+    "text": "Careers",
+    "url": "/about/careers"
+  },
+  {
+    "text": "Press",
+    "url": "/about/press"
+  },
+  {
+    "text": "Work with our experts",
+    "url": "/about/consultations"
+  },
+  {
+    "text": "Donate",
+    "url": "/about/donate"
+  },
+  {
+    "text": "Contact",
+    "url": "/contact"
+  },
+  {
+    "text": "",
+    "url": "/"
+  },
+  {
+    "text": "Latest",
+    "url": "/latest"
+  },
+  {
+    "text": "Trends in AI",
+    "url": "/trends"
+  },
+  {
+    "text": "Data on AI",
+    "url": "/data"
+  },
+  {
+    "text": "Capabilities & benchmarking",
+    "url": "/benchmarks"
+  },
+  {
+    "text": "Papers & reports",
+    "url": "/publications?type=paper&type=report"
+  },
+  {
+    "text": "Data Insights",
+    "url": "/data-insights"
+  },
+  {
+    "text": "Newsletter",
+    "url": "/gradient-updates"
+  },
+  {
+    "text": "Podcast",
+    "url": "/epoch-after-hours"
+  },
+  {
+    "text": "All publications",
+    "url": "/publications"
+  },
+  {
+    "text": "AI capabilities",
+    "url": "/benchmarks"
+  },
+  {
+    "text": "AI models",
+    "url": "/data/ai-models"
+  },
+  {
+    "text": "AI data centers",
+    "url": "/data/ai-data-centers"
+  },
+  {
+    "text": "AI chip sales",
+    "url": "/data/ai-chip-sales"
+  },
+  {
+    "text": "AI companies",
+    "url": "/data/ai-companies"
+  },
+  {
+    "text": "Polling on AI usage",
+    "url": "/data/polling"
+  },
+  {
+    "text": "All data explorers",
+    "url": "/data"
+  },
+  {
+    "text": "Epoch Capabilities Index",
+    "url": "/eci"
+  },
+  {
+    "text": "MirrorCode",
+    "url": "/MirrorCode"
+  },
+  {
+    "text": "FrontierMath: Open Problems",
+    "url": "/frontiermath/open-problems"
+  },
+  {
+    "text": "Epoch Automation Reports",
+    "url": "/benchmarks/epoch-automation-reports"
+  },
+  {
+    "text": "Earthborne Rangers",
+    "url": "/benchmarks/ebr-bench?view=graph&tab=release-date"
+  },
+  {
+    "text": "Navigate by topic",
+    "url": "/topics"
+  },
+  {
+    "text": "Scaling",
+    "url": "/topics/scaling"
+  },
+  {
+    "text": "Software progress",
+    "url": "/topics/software-progress"
+  },
+  {
+    "text": "Open models",
+    "url": "/topics/open-models"
+  },
+  {
+    "text": "Capabilities & benchmarks",
+    "url": "/topics/capabilities"
+  },
+  {
+    "text": "Math",
+    "url": "/topics/math"
+  },
+  {
+    "text": "Leading companies",
+    "url": "/topics/leading-companies"
+  },
+  {
+    "text": "Finances",
+    "url": "/topics/finances"
+  },
+  {
+    "text": "Geopolitics",
+    "url": "/topics/geopolitics"
+  },
+  {
+    "text": "Chips",
+    "url": "/topics/chips"
+  },
+  {
+    "text": "Data centers",
+    "url": "/topics/data-centers"
+  },
+  {
+    "text": "Energy",
+    "url": "/topics/energy"
+  },
+  {
+    "text": "Adoption & use",
+    "url": "/topics/adoption-and-use"
+  },
+  {
+    "text": "Economic impact",
+    "url": "/topics/economic-impact"
+  },
+  {
+    "text": "Future of AI",
+    "url": "/topics/future-of-ai"
+  },
+  {
+    "text": "AI impacts observatory",
+    "url": "/topics/ai-impacts"
+  },
+  {
+    "text": "About",
+    "url": "/about"
+  },
+  {
+    "text": "About us",
+    "url": "/about"
+  },
+  {
+    "text": "Our team",
+    "url": "/about/team"
+  },
+  {
+    "text": "Transparency",
+    "url": "/about/transparency"
+  },
+  {
+    "text": "Careers",
+    "url": "/about/careers"
+  },
+  {
+    "text": "Press",
+    "url": "/about/press"
+  },
+  {
+    "text": "Work with our experts",
+    "url": "/about/consultations"
+  },
+  {
+    "text": "Donate",
+    "url": "/about/donate"
+  },
+  {
+    "text": "Contact",
+    "url": "/contact"
+  },
+  {
+    "text": "Download this data",
+    "url": "/data/ai_companies.zip"
+  },
+  {
+    "text": "Read the complete documentation",
+    "url": "/data/ai-companies-documentation"
+  },
+  {
+    "text": "",
+    "url": "/data/ai_companies.zip"
+  },
+  {
+    "text": "",
+    "url": "/data/ai_companies.csv"
+  },
+  {
+    "text": "",
+    "url": "/data/ai_companies_compute_spend.csv"
+  },
+  {
+    "text": "",
+    "url": "/data/ai_companies_funding_rounds.csv"
+  },
+  {
+    "text": "",
+    "url": "/data/ai_companies_staff_reports.csv"
+  },
+  {
+    "text": "",
+    "url": "/data/ai_companies_revenue_reports.csv"
+  },
+  {
+    "text": "",
+    "url": "/data/ai_companies_usage_reports.csv"
+  },
+  {
+    "text": "Creative Commons Attribution license",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "text": "incentives",
+    "url": "https://www.investopedia.com/terms/s/securities-fraud.asp"
+  },
+  {
+    "text": "recurring",
+    "url": "https://stripe.com/resources/more/what-is-annualized-run-rate-arr-how-to-calculate-arr-and-use-it-strategically#annualized-run-rate-vs-annual-recurring-revenue"
+  },
+  {
+    "text": "Post-money valuation",
+    "url": "https://www.investopedia.com/terms/p/postmoneyvaluation.asp"
+  },
+  {
+    "text": "merged",
+    "url": "https://blog.google/technology/ai/april-ai-update/"
+  },
+  {
+    "text": "active users",
+    "url": "https://en.wikipedia.org/wiki/Active_users"
+  },
+  {
+    "text": "AI chip-hours",
+    "url": "https://spectrum.ieee.org/gpu-prices"
+  },
+  {
+    "text": "Download the data in CSV format.",
+    "url": "#download-this-data"
+  },
+  {
+    "text": "Explore the data",
+    "url": "#explore-the-data"
+  },
+  {
+    "text": "table format",
+    "url": "?view=table#explore-the-data"
+  },
+  {
+    "text": "data@epoch.ai",
+    "url": "mailto:data@epoch.ai"
+  },
+  {
+    "text": "See all our publications",
+    "url": "/publications"
+  },
+  {
+    "text": "",
+    "url": "/publications/compute-trends"
+  },
+  {
+    "text": "",
+    "url": "/publications/how-much-does-it-cost-to-train-frontier-ai-models"
+  },
+  {
+    "text": "",
+    "url": "/publications/trends-in-ai-supercomputers"
+  },
+  {
+    "text": "Subscribe",
+    "url": "https://epochai.substack.com/subscribe"
+  },
+  {
+    "text": "",
+    "url": "https://x.com/EpochAIResearch"
+  },
+  {
+    "text": "",
+    "url": "https://substack.com/@epochai"
+  },
+  {
+    "text": "",
+    "url": "https://bsky.app/profile/epochai.bsky.social"
+  },
+  {
+    "text": "",
+    "url": "https://github.com/epoch-research"
+  },
+  {
+    "text": "",
+    "url": "https://www.linkedin.com/company/epochai"
+  },
+  {
+    "text": "Latest",
+    "url": "/latest"
+  },
+  {
+    "text": "Trends in AI",
+    "url": "/trends"
+  },
+  {
+    "text": "Publications",
+    "url": "/publications"
+  },
+  {
+    "text": "Data Insights",
+    "url": "/data-insights"
+  },
+  {
+    "text": "Newsletter: Gradient Updates",
+    "url": "/gradient-updates"
+  },
+  {
+    "text": "Podcast",
+    "url": "/epoch-after-hours"
+  },
+  {
+    "text": "Models",
+    "url": "/data/ai-models"
+  },
+  {
+    "text": "AI data centers",
+    "url": "/data/ai-data-centers"
+  },
+  {
+    "text": "Hardware",
+    "url": "/data/machine-learning-hardware"
+  },
+  {
+    "text": "Companies",
+    "url": "/data/ai-companies"
+  },
+  {
+    "text": "Chip sales",
+    "url": "/data/ai-chip-sales"
+  },
+  {
+    "text": "Polling",
+    "url": "/data/polling"
+  },
+  {
+    "text": "Capabilities & benchmarking",
+    "url": "/benchmarks"
+  },
+  {
+    "text": "FrontierMath",
+    "url": "/frontiermath"
+  },
+  {
+    "text": "About",
+    "url": "/about"
+  },
+  {
+    "text": "Team",
+    "url": "/about/team"
+  },
+  {
+    "text": "Consultations",
+    "url": "/about/consultations"
+  },
+  {
+    "text": "Transparency",
+    "url": "/about/transparency"
+  },
+  {
+    "text": "Donate",
+    "url": "/about/donate"
+  },
+  {
+    "text": "Careers",
+    "url": "/about/careers"
+  },
+  {
+    "text": "Privacy policy",
+    "url": "/privacy"
+  },
+  {
+    "text": "Cookie policy",
+    "url": "/cookies"
+  },
+  {
+    "text": "Designed by And\u2014Now",
+    "url": "https://and-now.co.uk/"
+  }
+]

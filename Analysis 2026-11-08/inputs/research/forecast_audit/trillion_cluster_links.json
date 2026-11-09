@@ -1,0 +1,634 @@
+[
+  {
+    "text": "Skip to content",
+    "url": "#content"
+  },
+  {
+    "text": "SITUATIONAL AWARENESS",
+    "url": "https://situational-awareness.ai/"
+  },
+  {
+    "text": "Introduction",
+    "url": "https://situational-awareness.ai/"
+  },
+  {
+    "text": "I. From GPT-4 to AGI: Counting the OOMs",
+    "url": "https://situational-awareness.ai/from-gpt-4-to-agi/"
+  },
+  {
+    "text": "II. From AGI to Superintelligence: the Intelligence Explosion",
+    "url": "https://situational-awareness.ai/from-agi-to-superintelligence/"
+  },
+  {
+    "text": "IIIa. Racing to the Trillion-Dollar Cluster",
+    "url": "https://situational-awareness.ai/racing-to-the-trillion-dollar-cluster/"
+  },
+  {
+    "text": "IIIb. Lock Down the Labs: Security for AGI",
+    "url": "https://situational-awareness.ai/lock-down-the-labs/"
+  },
+  {
+    "text": "IIIc. Superalignment",
+    "url": "https://situational-awareness.ai/superalignment/"
+  },
+  {
+    "text": "IIId. The Free World Must Prevail",
+    "url": "https://situational-awareness.ai/the-free-world-must-prevail/"
+  },
+  {
+    "text": "IV. The Project",
+    "url": "https://situational-awareness.ai/the-project/"
+  },
+  {
+    "text": "V. Parting Thoughts",
+    "url": "https://situational-awareness.ai/parting-thoughts/"
+  },
+  {
+    "text": "Full series as PDF",
+    "url": "https://situational-awareness.ai/wp-content/uploads/2024/06/situationalawareness.pdf"
+  },
+  {
+    "text": "About",
+    "url": "https://situational-awareness.ai/leopold-aschenbrenner/"
+  },
+  {
+    "text": "Dwarkesh podcast",
+    "url": "https://www.dwarkeshpatel.com/p/leopold-aschenbrenner"
+  },
+  {
+    "text": "Toggle",
+    "url": "#"
+  },
+  {
+    "text": "Training compute",
+    "url": "#Training_compute"
+  },
+  {
+    "text": "Overall compute",
+    "url": "#Overall_compute"
+  },
+  {
+    "text": "Will it be done? Can it be done?",
+    "url": "#Will_it_be_done_Can_it_be_done"
+  },
+  {
+    "text": "AI revenue",
+    "url": "#AI_revenue"
+  },
+  {
+    "text": "Historical precedents",
+    "url": "#Historical_precedents"
+  },
+  {
+    "text": "Power",
+    "url": "#Power"
+  },
+  {
+    "text": "Chips",
+    "url": "#Chips"
+  },
+  {
+    "text": "The Clusters of Democracy",
+    "url": "#The_Clusters_of_Democracy"
+  },
+  {
+    "text": "Niels Bohr",
+    "url": "https://blog.nuclearsecrecy.com/2015/06/12/what-remains-of-the-manhattan-project/"
+  },
+  {
+    "text": "$14B annualized",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2023"
+  },
+  {
+    "text": "$90B annualized",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-first-quarter-fiscal-2025"
+  },
+  {
+    "text": "Earlier",
+    "url": "https://situational-awareness.ai/from-gpt-4-to-agi/#Compute"
+  },
+  {
+    "text": "1",
+    "url": "#footnote-1-138"
+  },
+  {
+    "text": "Details on the calculations for the largest training clusters",
+    "url": "javascript:void(0)"
+  },
+  {
+    "text": "OpenAI GPT-4 tech report",
+    "url": "https://arxiv.org/pdf/2303.08774"
+  },
+  {
+    "text": "Semianalysis",
+    "url": "https://www.semianalysis.com/p/gpt-4-architecture-infrastructure%5C"
+  },
+  {
+    "text": "JP Morgan",
+    "url": "https://colab.research.google.com/drive/1O99z9b1I5O66bT78r9ScslE_nOj5irN9"
+  },
+  {
+    "text": "public",
+    "url": "https://www.semianalysis.com/p/gpt-4-architecture-infrastructure%5C"
+  },
+  {
+    "text": "estimates",
+    "url": "https://colab.research.google.com/drive/1O99z9b1I5O66bT78r9ScslE_nOj5irN9"
+  },
+  {
+    "text": "total-cost-of-ownership analysis",
+    "url": "https://pytorchtoatoms.substack.com/p/metas-24k-h100-cluster-capextco-and"
+  },
+  {
+    "text": "wants to crush competition",
+    "url": "https://www.semianalysis.com/p/nvidia-b100-b200-gb200-cogs-pricing"
+  },
+  {
+    "text": "other bottleneck components like memory and interconnect are improving more slowly",
+    "url": "https://twitter.com/karpathy/status/1691571869051445433"
+  },
+  {
+    "text": "Epoch\u2019s data",
+    "url": "https://epochai.org/blog/trends-in-gpu-price-performance"
+  },
+  {
+    "text": "estimates",
+    "url": "https://www.semianalysis.com/p/ai-datacenter-energy-dilemma-race"
+  },
+  {
+    "text": "consumes about 27 TWh",
+    "url": "https://www.energy.gov/sites/prod/files/2016/09/f33/OR_Energy%20Sector%20Risk%20Profile.pdf"
+  },
+  {
+    "text": "consumes about 92 TWh annually",
+    "url": "https://www.energy.gov/sites/prod/files/2016/09/f33/WA_Energy%20Sector%20Risk%20Profile.pdf"
+  },
+  {
+    "text": "bought 350k H100s",
+    "url": "https://www.cnbc.com/2024/01/18/mark-zuckerberg-indicates-meta-is-spending-billions-on-nvidia-ai-chips.html"
+  },
+  {
+    "text": "bought a 1GW datacenter campus",
+    "url": "https://www.datacenterdynamics.com/en/news/aws-acquires-talens-nuclear-data-center-campus-in-pennsylvania/"
+  },
+  {
+    "text": "suggest",
+    "url": "https://twitter.com/rediminds/status/1749852816938529247?lang=en"
+  },
+  {
+    "text": "Microsoft and OpenAI are rumored to be working on a $100B cluster, slated for 2028",
+    "url": "https://www.reuters.com/technology/microsoft-openai-planning-100-billion-data-center-project-information-reports-2024-03-29/"
+  },
+  {
+    "text": "International Space Station",
+    "url": "https://en.wikipedia.org/wiki/International_Space_Station_programme#:~:text=Cost,-This%20section%20is&text=The%20ISS%20has%20been%20described,cost%20was%20US%24150%20billion."
+  },
+  {
+    "text": "2",
+    "url": "#footnote-2-138"
+  },
+  {
+    "text": "3",
+    "url": "#footnote-3-138"
+  },
+  {
+    "text": "4",
+    "url": "#footnote-4-138"
+  },
+  {
+    "text": "Thomas Woodside",
+    "url": "https://twitter.com/Thomas_Woodside/status/1795247239990014409/photo/1"
+  },
+  {
+    "text": "5",
+    "url": "#footnote-5-138"
+  },
+  {
+    "text": "Tesla is spending $10B",
+    "url": "https://twitter.com/heyitsyashu/status/1784594856037208516?s=12"
+  },
+  {
+    "text": "Graphic source",
+    "url": "https://basehitinvesting.substack.com/p/big-tech-capex-and-earnings-quality"
+  },
+  {
+    "text": "6",
+    "url": "#footnote-6-138"
+  },
+  {
+    "text": "7",
+    "url": "#footnote-7-138"
+  },
+  {
+    "text": "8",
+    "url": "#footnote-8-138"
+  },
+  {
+    "text": "9",
+    "url": "#footnote-9-138"
+  },
+  {
+    "text": "AMD forecasted",
+    "url": "https://www.bloomberg.com/news/articles/2023-12-06/amd-ceo-debuts-new-nvidia-chip-rival-gives-eye-popping-forecast?embedded-checkout=true"
+  },
+  {
+    "text": "up to $7T",
+    "url": "https://www.wsj.com/tech/ai/sam-altman-seeks-trillions-of-dollars-to-reshape-business-of-chips-and-ai-89ab3db0"
+  },
+  {
+    "text": "August 2023",
+    "url": "https://www.theinformation.com/articles/openai-passes-1-billion-revenue-pace-as-big-companies-boost-ai-spending"
+  },
+  {
+    "text": "February 2024",
+    "url": "https://www.reuters.com/technology/openai-hits-2-bln-revenue-milestone-ft-2024-02-09/"
+  },
+  {
+    "text": "Microsoft",
+    "url": "https://x.com/ttunguz/status/1783941512159776840"
+  },
+  {
+    "text": "350 million paid subscribers to Microsoft Office",
+    "url": "https://office365itpros.com/2022/04/28/office-365-number-of-users/"
+  },
+  {
+    "text": "10",
+    "url": "#footnote-10-138"
+  },
+  {
+    "text": "11",
+    "url": "#footnote-11-138"
+  },
+  {
+    "text": "more later",
+    "url": "https://situational-awareness.ai/the-project/"
+  },
+  {
+    "text": "reached 0.4% of GDP",
+    "url": "https://sgp.fas.org/crs/misc/RL34645.pdf"
+  },
+  {
+    "text": "telecoms invested",
+    "url": "https://www.latimes.com/archives/la-xpm-2002-jun-30-fi-billions30-story.html"
+  },
+  {
+    "text": "private British railway investments totaled",
+    "url": "https://x.com/michael_nielsen/status/1782129830932210166"
+  },
+  {
+    "text": "US GDP",
+    "url": "https://fred.stlouisfed.org/series/GDP"
+  },
+  {
+    "text": "Many trillions",
+    "url": "https://www2.deloitte.com/content/dam/Deloitte/global/Documents/deloitte-financing-the-green-energy-transition-report-2023.pdf"
+  },
+  {
+    "text": "40% of its GDP on investment for two decades",
+    "url": "https://carnegieendowment.org/chinafinancialmarkets/91161#:~:text=It%20currently%20invests%2042%E2%80%9344,percent%20in%202010%20and%202011"
+  },
+  {
+    "text": "UK",
+    "url": "https://bankunderground.co.uk/2017/08/08/your-country-needs-funds-the-extraordinary-story-of-britains-early-efforts-to-finance-the-first-world-war/"
+  },
+  {
+    "text": "France",
+    "url": "https://encyclopedia.1914-1918-online.net/article/war_finance_france"
+  },
+  {
+    "text": "Germany",
+    "url": "https://encyclopedia.1914-1918-online.net/article/war_finance_germany"
+  },
+  {
+    "text": "US",
+    "url": "https://www.theatlantic.com/business/archive/2012/11/the-long-story-of-us-debt-from-1790-to-2011-in-1-little-chart/265185/"
+  },
+  {
+    "text": "UK",
+    "url": "https://obr.uk/box/post-world-war-ii-debt-reduction/"
+  },
+  {
+    "text": "US",
+    "url": "https://www.theatlantic.com/business/archive/2012/11/the-long-story-of-us-debt-from-1790-to-2011-in-1-little-chart/265185/"
+  },
+  {
+    "text": "12",
+    "url": "#footnote-12-138"
+  },
+  {
+    "text": "power",
+    "url": "https://www.wsj.com/business/energy-oil/big-techs-latest-obsession-is-finding-enough-energy-f00055b2"
+  },
+  {
+    "text": "aluminum smelting companies",
+    "url": "https://en.wikipedia.org/wiki/Aluminerie_Alouette"
+  },
+  {
+    "text": "13",
+    "url": "#footnote-13-138"
+  },
+  {
+    "text": "barely grown 5% in the last decade",
+    "url": "https://en.wikipedia.org/wiki/Electricity_sector_of_the_United_States"
+  },
+  {
+    "text": "14",
+    "url": "#footnote-14-138"
+  },
+  {
+    "text": "starting to get excited",
+    "url": "https://twitter.com/hayekandkeynes/status/1776365744323780997?s=12"
+  },
+  {
+    "text": "instead of",
+    "url": "https://www.wsj.com/business/energy-oil/data-centers-energy-georgia-development-7a5352e9?st=gi5gnqcodm9uy16"
+  },
+  {
+    "text": "15",
+    "url": "#footnote-15-138"
+  },
+  {
+    "text": "producing",
+    "url": "https://www.eia.gov/petroleum/drilling/pdf/appalachia.pdf"
+  },
+  {
+    "text": "new wells",
+    "url": "https://ir.rangeresources.com/static-files/cd9b4c2c-f4fe-4118-9659-a4c3528b95b1"
+  },
+  {
+    "text": "16",
+    "url": "#footnote-16-138"
+  },
+  {
+    "text": "rig count",
+    "url": "https://www.eia.gov/petroleum/drilling/pdf/appalachia.pdf"
+  },
+  {
+    "text": "17",
+    "url": "#footnote-17-138"
+  },
+  {
+    "text": "18",
+    "url": "#footnote-18-138"
+  },
+  {
+    "text": "doubled in a decade",
+    "url": "https://en.wikipedia.org/wiki/Shale_gas_in_the_United_States#/media/File:Shale_gas_production_USA.svg"
+  },
+  {
+    "text": "19",
+    "url": "#footnote-19-138"
+  },
+  {
+    "text": "20",
+    "url": "#footnote-20-138"
+  },
+  {
+    "text": "21",
+    "url": "#footnote-21-138"
+  },
+  {
+    "text": "transmission lines",
+    "url": "https://ifp.org/how-cost-allocation-works-for-transmission-lines/"
+  },
+  {
+    "text": "22",
+    "url": "#footnote-22-138"
+  },
+  {
+    "text": "doubled",
+    "url": "https://www.macrotrends.net/stocks/charts/TSM/taiwan-semiconductor-manufacturing/revenue"
+  },
+  {
+    "text": "23",
+    "url": "#footnote-23-138"
+  },
+  {
+    "text": "is",
+    "url": "https://twitter.com/ericjhonsa/status/1770545692978925955?s=12"
+  },
+  {
+    "text": "enormous",
+    "url": "https://twitter.com/dnystedt/status/1787662436478410867?s=12"
+  },
+  {
+    "text": "CoWoS alternatives",
+    "url": "https://x.com/dnystedt/status/1793096268400759110?s=46&t=EfdUOH7OfS4lpc8-o1U6Dg"
+  },
+  {
+    "text": "Gigafab",
+    "url": "https://www.asianometry.com/p/the-economics-of-tsmcs-giga-fabs"
+  },
+  {
+    "text": "technological marvel",
+    "url": "https://www.construction-physics.com/p/how-to-build-a-20-billion-semiconductor"
+  },
+  {
+    "text": "glacial 50% CAGR",
+    "url": "https://www.fierceelectronics.com/ai/tsmc-bullish-ai-q1-revenues-rises-q2-outlook-bright"
+  },
+  {
+    "text": "seem much more functional",
+    "url": "https://twitter.com/dnystedt/status/1768446340881907914?s=12"
+  },
+  {
+    "text": "24",
+    "url": "#footnote-24-138"
+  },
+  {
+    "text": "shipped to China",
+    "url": "https://www.nytimes.com/2023/11/27/us/politics/ai-us-uae-china-security-g42.html"
+  },
+  {
+    "text": "more later",
+    "url": "https://situational-awareness.ai/lock-down-the-labs/"
+  },
+  {
+    "text": "25",
+    "url": "#footnote-25-138"
+  },
+  {
+    "text": "IIIb. Lock Down the Labs: Security for AGI",
+    "url": "https://situational-awareness.ai/lock-down-the-labs/"
+  },
+  {
+    "text": "26",
+    "url": "#footnote-26-138"
+  },
+  {
+    "text": "\u21a9",
+    "url": "#note-1-138"
+  },
+  {
+    "text": "\u21a9",
+    "url": "#note-2-138"
+  },
+  {
+    "text": "here",
+    "url": "https://x.com/akhenosiris/status/1781162128881164566"
+  },
+  {
+    "text": "\u21a9",
+    "url": "#note-3-138"
+  },
+  {
+    "text": "total-cost-of-ownership analysis",
+    "url": "https://pytorchtoatoms.substack.com/p/metas-24k-h100-cluster-capextco-and"
+  },
+  {
+    "text": "\u21a9",
+    "url": "#note-4-138"
+  },
+  {
+    "text": "apparently",
+    "url": "https://www.cnbc.com/2024/04/25/microsoft-says-cloud-ai-demand-exceeds-supply-despite-spending-surge.html"
+  },
+  {
+    "text": "\u21a9",
+    "url": "#note-5-138"
+  },
+  {
+    "text": "\u21a9",
+    "url": "#note-6-138"
+  },
+  {
+    "text": "\u21a9",
+    "url": "#note-7-138"
+  },
+  {
+    "text": "\u21a9",
+    "url": "#note-8-138"
+  },
+  {
+    "text": "150k 5nm",
+    "url": "https://wccftech.com/tsmc-boosts-5nm-production-to-150000-wafers-month-amidst-strong-demand/#:~:text=The%20DigiTimes%20report%20is%20quite,mark%20a%2025%25%20production%20increase."
+  },
+  {
+    "text": "100k 3nm wafers",
+    "url": "https://wccftech.com/tsmc-3nm-wafer-production-reaching-100000-units-by-end-of-2024/"
+  },
+  {
+    "text": "150k or so",
+    "url": "https://www.digitimes.com/news/a20200902PD200.html"
+  },
+  {
+    "text": "35 H100s per wafer",
+    "url": "https://www.reddit.com/r/AMD_Stock/comments/18es0ks/amd_can_get_65_more_mi300x_from_the_same_5nm/"
+  },
+  {
+    "text": "\u21a9",
+    "url": "#note-9-138"
+  },
+  {
+    "text": "sonic boom",
+    "url": "https://situational-awareness.ai/from-gpt-4-to-agi/#sonic_boom"
+  },
+  {
+    "text": "\u21a9",
+    "url": "#note-10-138"
+  },
+  {
+    "text": "Tyler Cowen here",
+    "url": "https://www.bloomberg.com/opinion/articles/2024-03-27/ai-could-have-a-surprising-effect-on-interest-rates?sref=o4HC3q1q"
+  },
+  {
+    "text": "Chow, Mazlish and Halperin here",
+    "url": "https://basilhalperin.com/papers/agi_emh.pdf"
+  },
+  {
+    "text": "\u21a9",
+    "url": "#note-11-138"
+  },
+  {
+    "text": "\u21a9",
+    "url": "#note-12-138"
+  },
+  {
+    "text": "\u21a9",
+    "url": "#note-13-138"
+  },
+  {
+    "text": "\u21a9",
+    "url": "#note-14-138"
+  },
+  {
+    "text": "Austin Vernon",
+    "url": "https://austinvernon.site/"
+  },
+  {
+    "text": "\u21a9",
+    "url": "#note-15-138"
+  },
+  {
+    "text": "\u21a9",
+    "url": "#note-16-138"
+  },
+  {
+    "text": "\u21a9",
+    "url": "#note-17-138"
+  },
+  {
+    "text": "\u21a9",
+    "url": "#note-18-138"
+  },
+  {
+    "text": "generates about",
+    "url": "https://www.eia.gov/tools/faqs/faq.php?id=667&t=6"
+  },
+  {
+    "text": "was about",
+    "url": "https://en.wikipedia.org/wiki/Shale_gas_in_the_United_States#/media/File:Shale_gas_production_USA.svg"
+  },
+  {
+    "text": "\u21a9",
+    "url": "#note-19-138"
+  },
+  {
+    "text": "seem to be",
+    "url": "https://atb-archive.nrel.gov/electricity/2019/index.html?t=cg"
+  },
+  {
+    "text": "\u21a9",
+    "url": "#note-20-138"
+  },
+  {
+    "text": "Casey Handmer\u2019s calculation",
+    "url": "https://caseyhandmer.wordpress.com/2024/03/12/how-to-feed-the-ais/"
+  },
+  {
+    "text": "\u21a9",
+    "url": "#note-21-138"
+  },
+  {
+    "text": "\u21a9",
+    "url": "#note-22-138"
+  },
+  {
+    "text": "\u21a9",
+    "url": "#note-23-138"
+  },
+  {
+    "text": "\u21a9",
+    "url": "#note-24-138"
+  },
+  {
+    "text": "\u21a9",
+    "url": "#note-25-138"
+  },
+  {
+    "text": "\u21a9",
+    "url": "#note-26-138"
+  },
+  {
+    "text": "",
+    "url": "#"
+  },
+  {
+    "text": "",
+    "url": "#"
+  },
+  {
+    "text": "",
+    "url": "#"
+  }
+]

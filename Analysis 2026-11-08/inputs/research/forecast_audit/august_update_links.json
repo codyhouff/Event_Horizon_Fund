@@ -1,0 +1,406 @@
+[
+  {
+    "text": "",
+    "url": "/"
+  },
+  {
+    "text": "AI Futures Project",
+    "url": "/"
+  },
+  {
+    "text": "",
+    "url": "https://substack.com/@elifland"
+  },
+  {
+    "text": "",
+    "url": "https://substack.com/@danielkokotajlo"
+  },
+  {
+    "text": "",
+    "url": "https://substack.com/@brendanhalstead"
+  },
+  {
+    "text": "Eli Lifland",
+    "url": "https://substack.com/@elifland"
+  },
+  {
+    "text": "Daniel Kokotajlo",
+    "url": "https://substack.com/@danielkokotajlo"
+  },
+  {
+    "text": "Brendan Halstead",
+    "url": "https://substack.com/@brendanhalstead"
+  },
+  {
+    "text": "AI 2040: Plan A",
+    "url": "https://ai-2040.com/"
+  },
+  {
+    "text": "domestic regulation blog post",
+    "url": "https://blog.aifutures.org/p/how-to-pace-the-us-frontier"
+  },
+  {
+    "text": "AI Futures Model",
+    "url": "https://www.aifuturesmodel.com"
+  },
+  {
+    "text": "METR\u2019s measurements of coding time horizon",
+    "url": "https://metr.org/time-horizons/"
+  },
+  {
+    "text": "effective compute",
+    "url": "https://www.aifuturesmodel.com/#section-modelingeffectivecompute"
+  },
+  {
+    "text": "revenue",
+    "url": "https://blog.aifutures.org/i/211256047/revenue"
+  },
+  {
+    "text": "way we anchor the model",
+    "url": "https://blog.aifutures.org/i/211256047/uplift"
+  },
+  {
+    "text": "simpler 3-parameter uplift model",
+    "url": "https://blog.aifutures.org/i/211256047/a-3-parameter-uplift-model-for-predicting-when-automated-coder-will-arrive"
+  },
+  {
+    "text": "all 3 methods predict quite similar AC arrival dates",
+    "url": "https://blog.aifutures.org/i/211256047/daniel"
+  },
+  {
+    "text": "1",
+    "url": "#footnote-1"
+  },
+  {
+    "text": "aifuturesmodel.com",
+    "url": "http://aifuturesmodel.com"
+  },
+  {
+    "text": "re-evaluated AI 2027\u2019s predictions",
+    "url": "https://blog.aifutures.org/i/211256047/comparing-the-ai-2027-pace-of-progress-to-reality"
+  },
+  {
+    "text": "link",
+    "url": "https://www.aifuturesmodel.com/forecast/daniel-08-16-26?takeoff=ASI%2CTED-AI&cmode=forecaster&csim=eli-08-16-26%2Cbrendan-08-16-26&ctype=atc"
+  },
+  {
+    "text": "",
+    "url": "https://substackcdn.com/image/fetch/$s_!AmOC!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F92b6f1d5-0397-40f0-ac65-01e8beefc856_2048x1282.png"
+  },
+  {
+    "text": "How our AGI forecasts have changed since 2021",
+    "url": "https://blog.aifutures.org/i/211256047/how-our-agi-forecasts-have-changed-since-2021"
+  },
+  {
+    "text": "changed the modeling",
+    "url": "https://blog.aifutures.org/i/211256047/explicitly-simulating-the-training-run-of-the-leading-ai-model"
+  },
+  {
+    "text": "minor adjustments to some other parameters",
+    "url": "https://blog.aifutures.org/i/211256047/research-taste-parameter-adjustments"
+  },
+  {
+    "text": "clarify that our forecasts are conditional on going as fast as is technically feasible",
+    "url": "https://blog.aifutures.org/i/211256047/clarification-regarding-what-were-forecasting"
+  },
+  {
+    "text": "minor changes",
+    "url": "https://blog.aifutures.org/i/211256047/various-minor-code-changes"
+  },
+  {
+    "text": "METR study",
+    "url": "https://metr.org/blog/2026-02-24-uplift-update"
+  },
+  {
+    "text": "Apr 2026 Anthropic internal survey",
+    "url": "https://www-cdn.anthropic.com/08ab9158070959f88f296514c21b7facce6f52bc.pdf#page=44"
+  },
+  {
+    "text": "2",
+    "url": "#footnote-2"
+  },
+  {
+    "text": "3",
+    "url": "#footnote-3"
+  },
+  {
+    "text": "4",
+    "url": "#footnote-4"
+  },
+  {
+    "text": "ac-arrival.vercel.app",
+    "url": "https://ac-arrival.vercel.app/"
+  },
+  {
+    "text": "",
+    "url": "https://substackcdn.com/image/fetch/$s_!k_Zy!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc881ff30-29e6-402d-9c5c-ae0b8d248d60_1511x686.png"
+  },
+  {
+    "text": "below",
+    "url": "https://blog.aifutures.org/i/211256047/uplift"
+  },
+  {
+    "text": "aifuturesmodel.com",
+    "url": "http://aifuturesmodel.com"
+  },
+  {
+    "text": "ECI",
+    "url": "https://epoch.ai/benchmarks?view=graph&tab=eci"
+  },
+  {
+    "text": "ECI",
+    "url": "https://epoch.ai/benchmarks?view=graph&tab=eci"
+  },
+  {
+    "text": "5",
+    "url": "#footnote-5"
+  },
+  {
+    "text": "our previous evaluation",
+    "url": "https://blog.aifutures.org/p/grading-ai-2027s-2025-predictions"
+  },
+  {
+    "text": "this spreadsheet",
+    "url": "https://docs.google.com/spreadsheets/d/1JfEJRIwGe7fSCIW14eC7q0sEhVWHEdetykVh9g9XnF8/edit?gid=1928509176#gid=1928509176"
+  },
+  {
+    "text": "",
+    "url": "https://substackcdn.com/image/fetch/$s_!CBCk!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F923b45e4-6a45-4542-9f06-a165b24b6578_766x1288.png"
+  },
+  {
+    "text": "this analysis",
+    "url": "https://epoch.ai/data-insights/us-vs-china-eci"
+  },
+  {
+    "text": "SL3",
+    "url": "https://www.rand.org/pubs/research_briefs/RBA2849-1.html#:~:text=What%20Are%20the%20Security%20Needs%20of%20Different%20AI%20Systems%3F"
+  },
+  {
+    "text": "Anthropic and OpenAI are not secure against them yet",
+    "url": "https://www.weforum.org/stories/cybersecurity/ai-organizations-reveal-agents-hacked-other-companies-and-other-cybersecurity-news/"
+  },
+  {
+    "text": "link",
+    "url": "https://aifuturesmodel.com/forecast/daniel-08-16-26?takeoff=ASI%2CTED-AI&breakout=1&show=model"
+  },
+  {
+    "text": "",
+    "url": "https://substackcdn.com/image/fetch/$s_!omnk!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fba3486eb-ed99-472c-b73b-07b9c1e36fff_2048x1328.png"
+  },
+  {
+    "text": "above",
+    "url": "https://blog.aifutures.org/i/211256047/comparing-the-ai-2027-pace-of-progress-to-reality"
+  },
+  {
+    "text": "many other things to say",
+    "url": "https://blog.aifutures.org/p/ai-futures-model-dec-2025-update?open=false#\u00a7why-our-approach-to-modeling-comparing-to-other-approaches"
+  },
+  {
+    "text": "link",
+    "url": "https://aifuturesmodel.com/forecast/daniel-08-16-26?takeoff=ASI%2CTED-AI"
+  },
+  {
+    "text": "",
+    "url": "https://substackcdn.com/image/fetch/$s_!1GHb!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd30041c3-eb5f-4e7c-8b19-92d933b04a4b_2048x1236.png"
+  },
+  {
+    "text": "link",
+    "url": "https://aifuturesmodel.com/forecast/daniel-08-16-26?cmode=forecaster&csim=daniel-04-02-26&ctype=atc"
+  },
+  {
+    "text": "",
+    "url": "https://substackcdn.com/image/fetch/$s_!q3sL!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F35e97cac-3ff5-4a82-a624-4e4640d04be5_2048x1236.png"
+  },
+  {
+    "text": "previously described",
+    "url": "https://blog.aifutures.org/i/182911449/daniel"
+  },
+  {
+    "text": "link",
+    "url": "https://aifuturesmodel.com/forecast/daniel-08-16-26?takeoff=ASI%2CTED-AI"
+  },
+  {
+    "text": "",
+    "url": "https://substackcdn.com/image/fetch/$s_!S3oB!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe30e82ed-fc35-4426-8bf5-c18fef09aeee_2048x1328.png"
+  },
+  {
+    "text": "link",
+    "url": "https://aifuturesmodel.com/forecast/daniel-08-16-26?timeline=AC%2CTED-AI%2CASI&show=atc"
+  },
+  {
+    "text": "",
+    "url": "https://substackcdn.com/image/fetch/$s_!Wh3U!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8749ffb0-43d4-40a6-a824-e2f71fdab9c3_2048x1282.png"
+  },
+  {
+    "text": "link",
+    "url": "https://aifuturesmodel.com/forecast/eli-08-16-26"
+  },
+  {
+    "text": "",
+    "url": "https://substackcdn.com/image/fetch/$s_!XZQr!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdb6347bc-a0a1-4845-bc5f-141d27a21746_2048x1236.png"
+  },
+  {
+    "text": "link",
+    "url": "https://aifuturesmodel.com/forecast/eli-08-16-26?cmode=forecaster&csim=eli-04-02-26&ctype=atc"
+  },
+  {
+    "text": "",
+    "url": "https://substackcdn.com/image/fetch/$s_!qF4B!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F58501ad9-44bd-4481-a37e-1c1252797a23_2048x1236.png"
+  },
+  {
+    "text": "link",
+    "url": "https://aifuturesmodel.com/forecast/eli-08-16-26?takeoff=ASI%2CTED-AI"
+  },
+  {
+    "text": "",
+    "url": "https://substackcdn.com/image/fetch/$s_!3VnN!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0c4fdaf6-0496-4231-830a-09ec35b2a10e_2048x1328.png"
+  },
+  {
+    "text": "link",
+    "url": "https://aifuturesmodel.com/forecasteli-08-16-26?timeline=AC%2CTED-AI%2CASI&show=atc"
+  },
+  {
+    "text": "",
+    "url": "https://substackcdn.com/image/fetch/$s_!Zg0_!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4884a5a8-2590-4701-af5e-c30fe09629e5_2048x1282.png"
+  },
+  {
+    "text": "link",
+    "url": "https://aifuturesmodel.com/forecast/brendan-08-16-26"
+  },
+  {
+    "text": "",
+    "url": "https://substackcdn.com/image/fetch/$s_!hXo1!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F245abc7c-3753-4eee-bc1e-d1e568f40459_2048x1236.png"
+  },
+  {
+    "text": "6",
+    "url": "#footnote-6"
+  },
+  {
+    "text": "link",
+    "url": "https://aifuturesmodel.com/forecast/brendan-08-16-26?timeline=TED-AI"
+  },
+  {
+    "text": "",
+    "url": "https://substackcdn.com/image/fetch/$s_!jdwo!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa0ee5e87-ab7f-4644-953a-6977b3e2f925_2048x1236.png"
+  },
+  {
+    "text": "how our views have changed since publishing AI 2027",
+    "url": "https://blog.aifutures.org/p/clarifying-how-our-ai-timelines-forecasts"
+  },
+  {
+    "text": "",
+    "url": "https://substackcdn.com/image/fetch/$s_!wumd!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9faff267-a800-4b1e-93b1-b727e8594b1a_1769x1036.png"
+  },
+  {
+    "text": "",
+    "url": "https://substackcdn.com/image/fetch/$s_!2oLI!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd232cc99-520e-47d3-8f4c-302b2e76fb04_1786x1036.png"
+  },
+  {
+    "text": "Plan A Takeoff Forecast",
+    "url": "https://ai-2040.com/supplements/takeoff-forecast"
+  },
+  {
+    "text": "pace the frontier",
+    "url": "https://blog.aifutures.org/p/how-to-pace-the-us-frontier"
+  },
+  {
+    "text": "",
+    "url": "https://substackcdn.com/image/fetch/$s_!gWJn!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6a4d85e5-ac37-4305-a350-4caa50d65d5d_2000x832.png"
+  },
+  {
+    "text": "",
+    "url": "https://substackcdn.com/image/fetch/$s_!mv0t!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3051c471-79a8-4d01-b193-f6d465ec5f77_2000x832.png"
+  },
+  {
+    "text": "1",
+    "url": "#footnote-anchor-1"
+  },
+  {
+    "text": "2",
+    "url": "#footnote-anchor-2"
+  },
+  {
+    "text": "3",
+    "url": "#footnote-anchor-3"
+  },
+  {
+    "text": "4",
+    "url": "#footnote-anchor-4"
+  },
+  {
+    "text": "5",
+    "url": "#footnote-anchor-5"
+  },
+  {
+    "text": "6",
+    "url": "#footnote-anchor-6"
+  },
+  {
+    "text": "time required to retrain models with new algorithms during takeoff",
+    "url": "https://blog.aifutures.org/i/211256047/explicitly-simulating-the-training-run-of-the-leading-ai-model"
+  },
+  {
+    "text": "",
+    "url": "https://substack.com/profile/29659703-eskimo1?utm_source=comment"
+  },
+  {
+    "text": "Eskimo1",
+    "url": "https://substack.com/profile/29659703-eskimo1?utm_source=substack-feed-item"
+  },
+  {
+    "text": "Aug 16",
+    "url": "https://blog.aifutures.org/p/q25-2026-timelines-update-uplift/comment/316112598"
+  },
+  {
+    "text": "1 reply",
+    "url": "https://blog.aifutures.org/p/q25-2026-timelines-update-uplift/comment/316112598"
+  },
+  {
+    "text": "",
+    "url": "https://substack.com/profile/1688129-lenny-eusebi?utm_source=comment"
+  },
+  {
+    "text": "Lenny Eusebi",
+    "url": "https://substack.com/profile/1688129-lenny-eusebi?utm_source=substack-feed-item"
+  },
+  {
+    "text": "Aug 16",
+    "url": "https://blog.aifutures.org/p/q25-2026-timelines-update-uplift/comment/316184183"
+  },
+  {
+    "text": "4 replies",
+    "url": "https://blog.aifutures.org/p/q25-2026-timelines-update-uplift/comment/316184183"
+  },
+  {
+    "text": "25 more comments...",
+    "url": "https://blog.aifutures.org/p/q25-2026-timelines-update-uplift/comments"
+  },
+  {
+    "text": "Privacy",
+    "url": "https://substack.com/privacy"
+  },
+  {
+    "text": "Terms",
+    "url": "https://substack.com/tos"
+  },
+  {
+    "text": "Collection notice",
+    "url": "https://substack.com/ccpa#personal-data-collected"
+  },
+  {
+    "text": "Start your Substack",
+    "url": "https://substack.com/signup?utm_source=substack&utm_medium=web&utm_content=footer"
+  },
+  {
+    "text": "Get the app",
+    "url": "https://substack.com/app/app-store-redirect?utm_campaign=app-marketing&utm_content=web-footer-button"
+  },
+  {
+    "text": "Substack",
+    "url": "https://substack.com"
+  },
+  {
+    "text": "turn on JavaScript",
+    "url": "https://enable-javascript.com/"
+  }
+]

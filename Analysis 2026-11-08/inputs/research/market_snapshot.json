@@ -1,0 +1,2248 @@
+[
+  {
+    "ticker": "TSM",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/TSM?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 411.67999267578125,
+    "first_adjusted": 409.6192626953125,
+    "last_date": "2026-11-06",
+    "last_close": 375.44000244140625,
+    "last_adjusted": 375.44000244140625,
+    "price_return_pct": -8.80295153495978,
+    "total_return_pct": -8.34415355103303,
+    "dividends": [
+      {
+        "amount": 0.955,
+        "date": 1781184600
+      },
+      {
+        "amount": 1.107,
+        "date": 1789565400
+      }
+    ],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:34:50.248569+00:00"
+  },
+  {
+    "ticker": "NVDA",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 215.1999969482422,
+    "first_adjusted": 214.709228515625,
+    "last_date": "2026-11-06",
+    "last_close": 186.63999938964844,
+    "last_adjusted": 186.63999938964844,
+    "price_return_pct": -13.271374518403324,
+    "total_return_pct": -13.07313584983325,
+    "dividends": [
+      {
+        "amount": 0.25,
+        "date": 1780579800
+      },
+      {
+        "amount": 0.25,
+        "date": 1789047000
+      }
+    ],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:34:50.259368+00:00"
+  },
+  {
+    "ticker": "AVGO",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/AVGO?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 430.0,
+    "first_adjusted": 428.5401611328125,
+    "last_date": "2026-11-06",
+    "last_close": 293.69000244140625,
+    "last_adjusted": 293.69000244140625,
+    "price_return_pct": -31.699999432231106,
+    "total_return_pct": -31.46733280142061,
+    "dividends": [
+      {
+        "amount": 0.65,
+        "date": 1782135000
+      },
+      {
+        "amount": 0.65,
+        "date": 1789997400
+      }
+    ],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:34:50.193772+00:00"
+  },
+  {
+    "ticker": "MU",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/MU?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 746.8099975585938,
+    "first_adjusted": 746.5776977539062,
+    "last_date": "2026-11-06",
+    "last_close": 690.0,
+    "last_adjusted": 690.0,
+    "price_return_pct": -7.60702156429508,
+    "total_return_pct": -7.578273222481913,
+    "dividends": [
+      {
+        "amount": 0.15,
+        "date": 1783344600
+      },
+      {
+        "amount": 0.15,
+        "date": 1791984600
+      }
+    ],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:34:50.226174+00:00"
+  },
+  {
+    "ticker": "ASML",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/ASML?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 1592.02001953125,
+    "first_adjusted": 1587.8690185546875,
+    "last_date": "2026-11-06",
+    "last_close": 1424.75,
+    "last_adjusted": 1424.75,
+    "price_return_pct": -10.50677865096825,
+    "total_return_pct": -10.272825821815069,
+    "dividends": [
+      {
+        "amount": 2.138,
+        "date": 1785245400
+      },
+      {
+        "amount": 2.096,
+        "date": 1793107800
+      }
+    ],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:34:50.243281+00:00"
+  },
+  {
+    "ticker": "AMAT",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/AMAT?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 435.44000244140625,
+    "first_adjusted": 434.434814453125,
+    "last_date": "2026-11-06",
+    "last_close": 332.7200012207031,
+    "last_adjusted": 332.7200012207031,
+    "price_return_pct": -23.589932170856386,
+    "total_return_pct": -23.41313583729758,
+    "dividends": [
+      {
+        "amount": 0.53,
+        "date": 1779370200
+      },
+      {
+        "amount": 0.53,
+        "date": 1787232600
+      }
+    ],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:34:50.213571+00:00"
+  },
+  {
+    "ticker": "SNPS",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/SNPS?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 516.47998046875,
+    "first_adjusted": 516.47998046875,
+    "last_date": "2026-11-06",
+    "last_close": 450.4599914550781,
+    "last_adjusted": 450.4599914550781,
+    "price_return_pct": -12.782681131948825,
+    "total_return_pct": -12.782681131948825,
+    "dividends": [],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:34:51.009714+00:00"
+  },
+  {
+    "ticker": "ANET",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/ANET?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 141.77000427246094,
+    "first_adjusted": 141.77000427246094,
+    "last_date": "2026-11-06",
+    "last_close": 170.8000030517578,
+    "last_adjusted": 170.8000030517578,
+    "price_return_pct": 20.476827188003412,
+    "total_return_pct": 20.476827188003412,
+    "dividends": [],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:34:51.035121+00:00"
+  },
+  {
+    "ticker": "VRT",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/VRT?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 339.9700012207031,
+    "first_adjusted": 339.81597900390625,
+    "last_date": "2026-11-06",
+    "last_close": 182.86000061035156,
+    "last_adjusted": 182.86000061035156,
+    "price_return_pct": -46.21290115193377,
+    "total_return_pct": -46.18852205056269,
+    "dividends": [
+      {
+        "amount": 0.063,
+        "date": 1781530200
+      },
+      {
+        "amount": 0.063,
+        "date": 1789392600
+      }
+    ],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:34:51.059636+00:00"
+  },
+  {
+    "ticker": "DELL",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/DELL?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 260.4599914550781,
+    "first_adjusted": 259.67059326171875,
+    "last_date": "2026-11-06",
+    "last_close": 328.5299987792969,
+    "last_adjusted": 328.5299987792969,
+    "price_return_pct": 26.134534883434824,
+    "total_return_pct": 26.51798367024778,
+    "dividends": [
+      {
+        "amount": 0.63,
+        "date": 1784640600
+      },
+      {
+        "amount": 0.63,
+        "date": 1792503000
+      }
+    ],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:34:51.060269+00:00"
+  },
+  {
+    "ticker": "CEG",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/CEG?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 303.6300048828125,
+    "first_adjusted": 302.6936950683594,
+    "last_date": "2026-11-06",
+    "last_close": 249.9499969482422,
+    "last_adjusted": 249.9499969482422,
+    "price_return_pct": -17.67941477170162,
+    "total_return_pct": -17.424775930072055,
+    "dividends": [
+      {
+        "amount": 0.427,
+        "date": 1778851800
+      },
+      {
+        "amount": 0.427,
+        "date": 1787059800
+      }
+    ],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:34:51.075278+00:00"
+  },
+  {
+    "ticker": "VST",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/VST?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 147.72000122070312,
+    "first_adjusted": 147.27224731445312,
+    "last_date": "2026-11-06",
+    "last_close": 124.80000305175781,
+    "last_adjusted": 124.80000305175781,
+    "price_return_pct": -15.515839412092458,
+    "total_return_pct": -15.258981018136408,
+    "dividends": [
+      {
+        "amount": 0.229,
+        "date": 1782135000
+      },
+      {
+        "amount": 0.23,
+        "date": 1789997400
+      }
+    ],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:34:51.075278+00:00"
+  },
+  {
+    "ticker": "PWR",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/PWR?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 745.0,
+    "first_adjusted": 744.7587280273438,
+    "last_date": "2026-11-06",
+    "last_close": 540.9000244140625,
+    "last_adjusted": 540.9000244140625,
+    "price_return_pct": -27.395969877307046,
+    "total_return_pct": -27.37244908203299,
+    "dividends": [
+      {
+        "amount": 0.11,
+        "date": 1782912600
+      },
+      {
+        "amount": 0.11,
+        "date": 1790861400
+      }
+    ],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:34:51.934275+00:00"
+  },
+  {
+    "ticker": "CRWD",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/CRWD?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 131.9425048828125,
+    "first_adjusted": 131.9425048828125,
+    "last_date": "2026-11-06",
+    "last_close": 216.89999389648438,
+    "last_adjusted": 216.89999389648438,
+    "price_return_pct": 64.38978029796286,
+    "total_return_pct": 64.38978029796286,
+    "dividends": [],
+    "splits": {
+      "1782999000": {
+        "date": 1782999000,
+        "numerator": 4.0,
+        "denominator": 1.0,
+        "splitRatio": "4:1"
+      }
+    },
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:34:51.944250+00:00"
+  },
+  {
+    "ticker": "PLTR",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/PLTR?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 137.8000030517578,
+    "first_adjusted": 137.8000030517578,
+    "last_date": "2026-11-06",
+    "last_close": 160.3800048828125,
+    "last_adjusted": 160.3800048828125,
+    "price_return_pct": 16.386067729311748,
+    "total_return_pct": 16.386067729311748,
+    "dividends": [],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:34:51.966970+00:00"
+  },
+  {
+    "ticker": "AVAV",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/AVAV?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 168.2899932861328,
+    "first_adjusted": 168.2899932861328,
+    "last_date": "2026-11-06",
+    "last_close": 112.76000213623047,
+    "last_adjusted": 112.76000213623047,
+    "price_return_pct": -32.99660904703241,
+    "total_return_pct": -32.99660904703241,
+    "dividends": [],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:34:52.000484+00:00"
+  },
+  {
+    "ticker": "KTOS",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/KTOS?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 57.88999938964844,
+    "first_adjusted": 57.88999938964844,
+    "last_date": "2026-11-06",
+    "last_close": 35.099998474121094,
+    "last_adjusted": 35.099998474121094,
+    "price_return_pct": -39.36776845017989,
+    "total_return_pct": -39.36776845017989,
+    "dividends": [],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:34:51.975521+00:00"
+  },
+  {
+    "ticker": "MRNA",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/MRNA?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 54.349998474121094,
+    "first_adjusted": 54.349998474121094,
+    "last_date": "2026-11-06",
+    "last_close": 254.19000244140625,
+    "last_adjusted": 254.19000244140625,
+    "price_return_pct": 367.69090998675836,
+    "total_return_pct": 367.69090998675836,
+    "dividends": [],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:34:51.975521+00:00"
+  },
+  {
+    "ticker": "MP",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/MP?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 67.43000030517578,
+    "first_adjusted": 67.43000030517578,
+    "last_date": "2026-11-06",
+    "last_close": 35.40999984741211,
+    "last_adjusted": 35.40999984741211,
+    "price_return_pct": -47.486282534253355,
+    "total_return_pct": -47.486282534253355,
+    "dividends": [],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:34:52.860638+00:00"
+  },
+  {
+    "ticker": "INTC",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/INTC?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 124.91999816894531,
+    "first_adjusted": 124.91999816894531,
+    "last_date": "2026-11-06",
+    "last_close": 56.279998779296875,
+    "last_adjusted": 56.279998779296875,
+    "price_return_pct": -54.947166503170905,
+    "total_return_pct": -54.947166503170905,
+    "dividends": [],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:34:52.892400+00:00"
+  },
+  {
+    "ticker": "GEV",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/GEV?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 1040.1500244140625,
+    "first_adjusted": 1039.0108642578125,
+    "last_date": "2026-11-06",
+    "last_close": 774.1099853515625,
+    "last_adjusted": 774.1099853515625,
+    "price_return_pct": -25.57708338394413,
+    "total_return_pct": -25.49548691153237,
+    "dividends": [
+      {
+        "amount": 0.5,
+        "date": 1781616600
+      },
+      {
+        "amount": 0.5,
+        "date": 1793107800
+      }
+    ],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:34:52.860638+00:00"
+  },
+  {
+    "ticker": "CCJ",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/CCJ?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 116.75,
+    "first_adjusted": 116.75,
+    "last_date": "2026-11-06",
+    "last_close": 71.30000305175781,
+    "last_adjusted": 71.30000305175781,
+    "price_return_pct": -38.9293335745115,
+    "total_return_pct": -38.9293335745115,
+    "dividends": [],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:34:52.908948+00:00"
+  },
+  {
+    "ticker": "BE",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/BE?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 261.0299987792969,
+    "first_adjusted": 261.0299987792969,
+    "last_date": "2026-11-06",
+    "last_close": 173.24000549316406,
+    "last_adjusted": 173.24000549316406,
+    "price_return_pct": -33.63214714656609,
+    "total_return_pct": -33.63214714656609,
+    "dividends": [],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:34:52.849598+00:00"
+  },
+  {
+    "ticker": "COHR",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/COHR?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 335.260009765625,
+    "first_adjusted": 335.260009765625,
+    "last_date": "2026-11-06",
+    "last_close": 192.80999755859375,
+    "last_adjusted": 192.80999755859375,
+    "price_return_pct": -42.489413606655866,
+    "total_return_pct": -42.489413606655866,
+    "dividends": [],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:34:52.892400+00:00"
+  },
+  {
+    "ticker": "GOOGL",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/GOOGL?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 400.79998779296875,
+    "first_adjusted": 400.3034362792969,
+    "last_date": "2026-11-06",
+    "last_close": 284.7799987792969,
+    "last_adjusted": 284.7799987792969,
+    "price_return_pct": -28.947103928955563,
+    "total_return_pct": -28.85896723089777,
+    "dividends": [
+      {
+        "amount": 0.22,
+        "date": 1780925400
+      },
+      {
+        "amount": 0.22,
+        "date": 1788528600
+      }
+    ],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:34:53.744229+00:00"
+  },
+  {
+    "ticker": "MSFT",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/MSFT?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 415.1199951171875,
+    "first_adjusted": 413.44451904296875,
+    "last_date": "2026-11-06",
+    "last_close": 530.6099853515625,
+    "last_adjusted": 530.6099853515625,
+    "price_return_pct": 27.82086904818266,
+    "total_return_pct": 28.338860696425616,
+    "dividends": [
+      {
+        "amount": 0.91,
+        "date": 1779370200
+      },
+      {
+        "amount": 0.91,
+        "date": 1787232600
+      }
+    ],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:34:53.792044+00:00"
+  },
+  {
+    "ticker": "AMZN",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/AMZN?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 272.67999267578125,
+    "first_adjusted": 272.67999267578125,
+    "last_date": "2026-11-06",
+    "last_close": 259.29998779296875,
+    "last_adjusted": 259.29998779296875,
+    "price_return_pct": -4.906852443230569,
+    "total_return_pct": -4.906852443230569,
+    "dividends": [],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:34:53.792044+00:00"
+  },
+  {
+    "ticker": "META",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/META?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 609.6300048828125,
+    "first_adjusted": 608.585205078125,
+    "last_date": "2026-11-06",
+    "last_close": 610.1500244140625,
+    "last_adjusted": 610.1500244140625,
+    "price_return_pct": 0.08530084265618854,
+    "total_return_pct": 0.25712411719516215,
+    "dividends": [
+      {
+        "amount": 0.525,
+        "date": 1781530200
+      },
+      {
+        "amount": 0.525,
+        "date": 1789997400
+      }
+    ],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:34:53.762277+00:00"
+  },
+  {
+    "ticker": "LITE",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/LITE?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 903.7999877929688,
+    "first_adjusted": 903.7999877929688,
+    "last_date": "2026-11-06",
+    "last_close": 538.5900268554688,
+    "last_adjusted": 538.5900268554688,
+    "price_return_pct": -40.408272391032355,
+    "total_return_pct": -40.408272391032355,
+    "dividends": [],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:34:53.779896+00:00"
+  },
+  {
+    "ticker": "MRVL",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/MRVL?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 170.1300048828125,
+    "first_adjusted": 170.05088806152344,
+    "last_date": "2026-11-06",
+    "last_close": 141.1999969482422,
+    "last_adjusted": 141.1999969482422,
+    "price_return_pct": -17.00464768369203,
+    "total_return_pct": -16.966033780925137,
+    "dividends": [
+      {
+        "amount": 0.06,
+        "date": 1783690200
+      },
+      {
+        "amount": 0.06,
+        "date": 1791552600
+      }
+    ],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:34:53.792044+00:00"
+  },
+  {
+    "ticker": "AMD",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/AMD?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 455.19000244140625,
+    "first_adjusted": 455.19000244140625,
+    "last_date": "2026-11-06",
+    "last_close": 449.0400085449219,
+    "last_adjusted": 449.0400085449219,
+    "price_return_pct": -1.351082814538751,
+    "total_return_pct": -1.351082814538751,
+    "dividends": [],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:34:54.660433+00:00"
+  },
+  {
+    "ticker": "KLAC",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/KLAC?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 186.91900634765625,
+    "first_adjusted": 186.46998596191406,
+    "last_date": "2026-11-06",
+    "last_close": 138.49000549316406,
+    "last_adjusted": 138.49000549316406,
+    "price_return_pct": -25.909083191046733,
+    "total_return_pct": -25.730672001310584,
+    "dividends": [
+      {
+        "amount": 0.23,
+        "date": 1779111000
+      },
+      {
+        "amount": 0.23,
+        "date": 1786973400
+      }
+    ],
+    "splits": {
+      "1781271000": {
+        "date": 1781271000,
+        "numerator": 10.0,
+        "denominator": 1.0,
+        "splitRatio": "10:1"
+      }
+    },
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:34:54.692053+00:00"
+  },
+  {
+    "ticker": "LRCX",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/LRCX?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 294.04998779296875,
+    "first_adjusted": 293.53118896484375,
+    "last_date": "2026-11-06",
+    "last_close": 200.44000244140625,
+    "last_adjusted": 200.44000244140625,
+    "price_return_pct": -31.8347183260114,
+    "total_return_pct": -31.714240265823012,
+    "dividends": [
+      {
+        "amount": 0.26,
+        "date": 1781703000
+      },
+      {
+        "amount": 0.33,
+        "date": 1790170200
+      }
+    ],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:34:54.692053+00:00"
+  },
+  {
+    "ticker": "CDNS",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/CDNS?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 362.70001220703125,
+    "first_adjusted": 362.70001220703125,
+    "last_date": "2026-11-06",
+    "last_close": 319.9200134277344,
+    "last_adjusted": 319.9200134277344,
+    "price_return_pct": -11.794871061343615,
+    "total_return_pct": -11.794871061343615,
+    "dividends": [],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:34:54.649704+00:00"
+  },
+  {
+    "ticker": "ETN",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/ETN?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 401.510009765625,
+    "first_adjusted": 400.5245666503906,
+    "last_date": "2026-11-06",
+    "last_close": 341.7200012207031,
+    "last_adjusted": 341.7200012207031,
+    "price_return_pct": -14.89128716363095,
+    "total_return_pct": -14.681887286333861,
+    "dividends": [
+      {
+        "amount": 1.1,
+        "date": 1778247000
+      },
+      {
+        "amount": 1.1,
+        "date": 1786109400
+      }
+    ],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:34:54.708363+00:00"
+  },
+  {
+    "ticker": "NVT",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/NVT?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 169.9499969482422,
+    "first_adjusted": 169.44606018066406,
+    "last_date": "2026-11-06",
+    "last_close": 106.22000122070312,
+    "last_adjusted": 106.22000122070312,
+    "price_return_pct": -37.49926264897072,
+    "total_return_pct": -37.31338391258496,
+    "dividends": [
+      {
+        "amount": 0.21,
+        "date": 1784899800
+      },
+      {
+        "amount": 0.21,
+        "date": 1792762200
+      }
+    ],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:34:54.708363+00:00"
+  },
+  {
+    "ticker": "MOD",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/MOD?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 273.0,
+    "first_adjusted": 273.0,
+    "last_date": "2026-11-06",
+    "last_close": 96.61000061035156,
+    "last_adjusted": 96.61000061035156,
+    "price_return_pct": -64.61172138814962,
+    "total_return_pct": -64.61172138814962,
+    "dividends": [],
+    "splits": {
+      "1790947800": {
+        "date": 1790947800,
+        "numerator": 1086.0,
+        "denominator": 1000.0,
+        "splitRatio": "1086:1000"
+      }
+    },
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:34:55.535934+00:00"
+  },
+  {
+    "ticker": "TLN",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/TLN?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 386.3699951171875,
+    "first_adjusted": 386.3699951171875,
+    "last_date": "2026-11-06",
+    "last_close": 338.6400146484375,
+    "last_adjusted": 338.6400146484375,
+    "price_return_pct": -12.353438691395613,
+    "total_return_pct": -12.353438691395613,
+    "dividends": [],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:34:55.581542+00:00"
+  },
+  {
+    "ticker": "NRG",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/NRG?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 138.11000061035156,
+    "first_adjusted": 136.94097900390625,
+    "last_date": "2026-11-06",
+    "last_close": 88.29000091552734,
+    "last_adjusted": 88.29000091552734,
+    "price_return_pct": -36.0726952969763,
+    "total_return_pct": -35.5269682181775,
+    "dividends": [
+      {
+        "amount": 0.475,
+        "date": 1785763800
+      },
+      {
+        "amount": 0.475,
+        "date": 1793629800
+      }
+    ],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:34:55.545245+00:00"
+  },
+  {
+    "ticker": "CORZ",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/CORZ?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 22.920000076293945,
+    "first_adjusted": 22.920000076293945,
+    "last_date": "2026-11-06",
+    "last_close": 11.760000228881836,
+    "last_adjusted": 11.760000228881836,
+    "price_return_pct": -48.6910986486202,
+    "total_return_pct": -48.6910986486202,
+    "dividends": [],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:34:55.575653+00:00"
+  },
+  {
+    "ticker": "IREN",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/IREN?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 61.20000076293945,
+    "first_adjusted": 61.20000076293945,
+    "last_date": "2026-11-06",
+    "last_close": 21.639999389648438,
+    "last_adjusted": 21.639999389648438,
+    "price_return_pct": -64.64052431392639,
+    "total_return_pct": -64.64052431392639,
+    "dividends": [],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:34:55.567214+00:00"
+  },
+  {
+    "ticker": "CRWV",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/CRWV?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 114.1500015258789,
+    "first_adjusted": 114.1500015258789,
+    "last_date": "2026-11-06",
+    "last_close": 46.400001525878906,
+    "last_adjusted": 46.400001525878906,
+    "price_return_pct": -59.35172938621505,
+    "total_return_pct": -59.35172938621505,
+    "dividends": [],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:34:55.581542+00:00"
+  },
+  {
+    "ticker": "APLD",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/APLD?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 41.25,
+    "first_adjusted": 41.25,
+    "last_date": "2026-11-06",
+    "last_close": 15.550000190734863,
+    "last_adjusted": 15.550000190734863,
+    "price_return_pct": -62.30302984064275,
+    "total_return_pct": -62.30302984064275,
+    "dividends": [],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:34:56.459784+00:00"
+  },
+  {
+    "ticker": "CLS",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/CLS?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 375.54998779296875,
+    "first_adjusted": 375.54998779296875,
+    "last_date": "2026-11-06",
+    "last_close": 206.67999267578125,
+    "last_adjusted": 206.67999267578125,
+    "price_return_pct": -44.96604995505452,
+    "total_return_pct": -44.96604995505452,
+    "dividends": [],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:34:56.491767+00:00"
+  },
+  {
+    "ticker": "PANW",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/PANW?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 207.8800048828125,
+    "first_adjusted": 207.8800048828125,
+    "last_date": "2026-11-06",
+    "last_close": 313.8399963378906,
+    "last_adjusted": 313.8399963378906,
+    "price_return_pct": 50.97170914288298,
+    "total_return_pct": 50.97170914288298,
+    "dividends": [],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:34:56.474979+00:00"
+  },
+  {
+    "ticker": "ZS",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/ZS?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 152.1300048828125,
+    "first_adjusted": 152.1300048828125,
+    "last_date": "2026-11-06",
+    "last_close": 197.66000366210938,
+    "last_adjusted": 197.66000366210938,
+    "price_return_pct": 29.928348989648136,
+    "total_return_pct": 29.928348989648136,
+    "dividends": [],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:34:56.474979+00:00"
+  },
+  {
+    "ticker": "OKTA",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/OKTA?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 83.9000015258789,
+    "first_adjusted": 83.9000015258789,
+    "last_date": "2026-11-06",
+    "last_close": 168.69000244140625,
+    "last_adjusted": 168.69000244140625,
+    "price_return_pct": 101.0607859040073,
+    "total_return_pct": 101.0607859040073,
+    "dividends": [],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:34:56.451402+00:00"
+  },
+  {
+    "ticker": "RELX",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/RELX?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 33.58000183105469,
+    "first_adjusted": 33.317935943603516,
+    "last_date": "2026-11-06",
+    "last_close": 40.16999816894531,
+    "last_adjusted": 40.16999816894531,
+    "price_return_pct": 19.62476467704124,
+    "total_return_pct": 20.565686412688123,
+    "dividends": [
+      {
+        "amount": 0.656,
+        "date": 1778247000
+      },
+      {
+        "amount": 0.279,
+        "date": 1786109400
+      }
+    ],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:34:56.474979+00:00"
+  },
+  {
+    "ticker": "VRSK",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/VRSK?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 171.8699951171875,
+    "first_adjusted": 170.94422912597656,
+    "last_date": "2026-11-06",
+    "last_close": 204.58999633789062,
+    "last_adjusted": 204.58999633789062,
+    "price_return_pct": 19.03764598258899,
+    "total_return_pct": 19.682306553395822,
+    "dividends": [
+      {
+        "amount": 0.5,
+        "date": 1781530200
+      },
+      {
+        "amount": 0.5,
+        "date": 1789479000
+      }
+    ],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:34:57.338990+00:00"
+  },
+  {
+    "ticker": "MSI",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/MSI?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 383.989990234375,
+    "first_adjusted": 381.8551330566406,
+    "last_date": "2026-11-06",
+    "last_close": 514.510009765625,
+    "last_adjusted": 514.510009765625,
+    "price_return_pct": 33.990474452624355,
+    "total_return_pct": 34.73958190560913,
+    "dividends": [
+      {
+        "amount": 1.21,
+        "date": 1781703000
+      },
+      {
+        "amount": 1.21,
+        "date": 1789565400
+      }
+    ],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:34:57.387097+00:00"
+  },
+  {
+    "ticker": "AXON",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/AXON?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 403.5400085449219,
+    "first_adjusted": 403.5400085449219,
+    "last_date": "2026-11-06",
+    "last_close": 313.0,
+    "last_adjusted": 313.0,
+    "price_return_pct": -22.436439170279442,
+    "total_return_pct": -22.436439170279442,
+    "dividends": [],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:34:57.424872+00:00"
+  },
+  {
+    "ticker": "FCX",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/FCX?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 61.650001525878906,
+    "first_adjusted": 61.368221282958984,
+    "last_date": "2026-11-06",
+    "last_close": 59.41999816894531,
+    "last_adjusted": 59.41999816894531,
+    "price_return_pct": -3.617199191791587,
+    "total_return_pct": -3.174644911135238,
+    "dividends": [
+      {
+        "amount": 0.15,
+        "date": 1784122200
+      },
+      {
+        "amount": 0.15,
+        "date": 1792071000
+      }
+    ],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:34:57.397084+00:00"
+  },
+  {
+    "ticker": "BNTX",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/BNTX?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 94.125,
+    "first_adjusted": 94.125,
+    "last_date": "2026-11-06",
+    "last_close": 87.51000213623047,
+    "last_adjusted": 87.51000213623047,
+    "price_return_pct": -7.02788617664758,
+    "total_return_pct": -7.02788617664758,
+    "dividends": [],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:34:57.369320+00:00"
+  },
+  {
+    "ticker": "LEU",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/LEU?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 207.3300018310547,
+    "first_adjusted": 207.3300018310547,
+    "last_date": "2026-11-06",
+    "last_close": 104.5999984741211,
+    "last_adjusted": 104.5999984741211,
+    "price_return_pct": -49.549029300952,
+    "total_return_pct": -49.549029300952,
+    "dividends": [],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:34:57.397084+00:00"
+  },
+  {
+    "ticker": "EQIX",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/EQIX?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 1072.0799560546875,
+    "first_adjusted": 1061.7305908203125,
+    "last_date": "2026-11-06",
+    "last_close": 1012.7100219726562,
+    "last_adjusted": 1012.7100219726562,
+    "price_return_pct": -5.5378270759315225,
+    "total_return_pct": -4.617044029011352,
+    "dividends": [
+      {
+        "amount": 5.16,
+        "date": 1779283800
+      },
+      {
+        "amount": 5.16,
+        "date": 1787146200
+      }
+    ],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:34:58.309151+00:00"
+  },
+  {
+    "ticker": "DLR",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/DLR?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 195.30999755859375,
+    "first_adjusted": 192.69509887695312,
+    "last_date": "2026-11-06",
+    "last_close": 174.1999969482422,
+    "last_adjusted": 174.1999969482422,
+    "price_return_pct": -10.808458795878318,
+    "total_return_pct": -9.598117459396892,
+    "dividends": [
+      {
+        "amount": 1.22,
+        "date": 1781530200
+      },
+      {
+        "amount": 1.22,
+        "date": 1789479000
+      }
+    ],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:34:58.309151+00:00"
+  },
+  {
+    "ticker": "HPE",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/HPE?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 31.350000381469727,
+    "first_adjusted": 31.179683685302734,
+    "last_date": "2026-11-06",
+    "last_close": 44.77000045776367,
+    "last_adjusted": 44.77000045776367,
+    "price_return_pct": 42.80701726634173,
+    "total_return_pct": 43.58708994494081,
+    "dividends": [
+      {
+        "amount": 0.143,
+        "date": 1781616600
+      },
+      {
+        "amount": 0.143,
+        "date": 1789651800
+      }
+    ],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:34:58.297426+00:00"
+  },
+  {
+    "ticker": "SMCI",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/SMCI?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 35.369998931884766,
+    "first_adjusted": 35.369998931884766,
+    "last_date": "2026-11-06",
+    "last_close": 28.760000228881836,
+    "last_adjusted": 28.760000228881836,
+    "price_return_pct": -18.688150700067606,
+    "total_return_pct": -18.688150700067606,
+    "dividends": [],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:34:58.289163+00:00"
+  },
+  {
+    "ticker": "GFS",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/GFS?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 74.12000274658203,
+    "first_adjusted": 73.82811737060547,
+    "last_date": "2026-11-06",
+    "last_close": 38.619998931884766,
+    "last_adjusted": 38.619998931884766,
+    "price_return_pct": -47.89530828280266,
+    "total_return_pct": -47.68930821028731,
+    "dividends": [
+      {
+        "amount": 0.12,
+        "date": 1782307800
+      },
+      {
+        "amount": 0.12,
+        "date": 1790170200
+      }
+    ],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:34:58.297426+00:00"
+  },
+  {
+    "ticker": "ARM",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/ARM?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 213.27000427246094,
+    "first_adjusted": 213.27000427246094,
+    "last_date": "2026-11-06",
+    "last_close": 174.6199951171875,
+    "last_adjusted": 174.6199951171875,
+    "price_return_pct": -18.122571567024735,
+    "total_return_pct": -18.122571567024735,
+    "dividends": [],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:34:58.260555+00:00"
+  },
+  {
+    "ticker": "ENTG",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/ENTG?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 149.11000061035156,
+    "first_adjusted": 148.88455200195312,
+    "last_date": "2026-11-06",
+    "last_close": 127.9800033569336,
+    "last_adjusted": 127.9800033569336,
+    "price_return_pct": -14.170744528822087,
+    "total_return_pct": -14.040777477535272,
+    "dividends": [
+      {
+        "amount": 0.1,
+        "date": 1785331800
+      },
+      {
+        "amount": 0.1,
+        "date": 1793194200
+      }
+    ],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:34:59.146288+00:00"
+  },
+  {
+    "ticker": "ONTO",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/ONTO?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 284.6700134277344,
+    "first_adjusted": 284.6700134277344,
+    "last_date": "2026-11-06",
+    "last_close": 173.27999877929688,
+    "last_adjusted": 173.27999877929688,
+    "price_return_pct": -39.129521689756295,
+    "total_return_pct": -39.129521689756295,
+    "dividends": [],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:34:59.191651+00:00"
+  },
+  {
+    "ticker": "AMKR",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/AMKR?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 76.61000061035156,
+    "first_adjusted": 76.38333129882812,
+    "last_date": "2026-11-06",
+    "last_close": 32.81999969482422,
+    "last_adjusted": 32.81999969482422,
+    "price_return_pct": -57.15964047337499,
+    "total_return_pct": -57.03251071045163,
+    "dividends": [
+      {
+        "amount": 0.084,
+        "date": 1780493400
+      },
+      {
+        "amount": 0.084,
+        "date": 1788355800
+      }
+    ],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:34:59.176003+00:00"
+  },
+  {
+    "ticker": "KLIC",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/KLIC?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 102.66000366210938,
+    "first_adjusted": 102.21527862548828,
+    "last_date": "2026-11-06",
+    "last_close": 64.01000213623047,
+    "last_adjusted": 64.01000213623047,
+    "price_return_pct": -37.64854875038757,
+    "total_return_pct": -37.377265906831845,
+    "dividends": [
+      {
+        "amount": 0.205,
+        "date": 1781789400
+      },
+      {
+        "amount": 0.205,
+        "date": 1789651800
+      }
+    ],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:34:59.154275+00:00"
+  },
+  {
+    "ticker": "HUBB",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/HUBB?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 492.5799865722656,
+    "first_adjusted": 489.58697509765625,
+    "last_date": "2026-11-06",
+    "last_close": 429.45001220703125,
+    "last_adjusted": 429.45001220703125,
+    "price_return_pct": -12.816187438823745,
+    "total_return_pct": -12.283203179298162,
+    "dividends": [
+      {
+        "amount": 1.42,
+        "date": 1780061400
+      },
+      {
+        "amount": 1.42,
+        "date": 1788183000
+      }
+    ],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:34:59.191225+00:00"
+  },
+  {
+    "ticker": "APH",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/APH?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 64.01499938964844,
+    "first_adjusted": 63.819583892822266,
+    "last_date": "2026-11-06",
+    "last_close": 74.58999633789062,
+    "last_adjusted": 74.58999633789062,
+    "price_return_pct": 16.51956111703443,
+    "total_return_pct": 16.876343887099043,
+    "dividends": [
+      {
+        "amount": 0.125,
+        "date": 1782221400
+      },
+      {
+        "amount": 0.125,
+        "date": 1790083800
+      }
+    ],
+    "splits": {
+      "1788442200": {
+        "date": 1788442200,
+        "numerator": 2.0,
+        "denominator": 1.0,
+        "splitRatio": "2:1"
+      }
+    },
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:34:59.208317+00:00"
+  },
+  {
+    "ticker": "POWL",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/POWL?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 309.3900146484375,
+    "first_adjusted": 309.1468200683594,
+    "last_date": "2026-11-06",
+    "last_close": 133.1199951171875,
+    "last_adjusted": 133.1199951171875,
+    "price_return_pct": -56.973402884882084,
+    "total_return_pct": -56.93955542296969,
+    "dividends": [
+      {
+        "amount": 0.09,
+        "date": 1779283800
+      },
+      {
+        "amount": 0.09,
+        "date": 1787146200
+      }
+    ],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:35:00.077177+00:00"
+  },
+  {
+    "ticker": "MYRG",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/MYRG?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 437.8599853515625,
+    "first_adjusted": 437.8599853515625,
+    "last_date": "2026-11-06",
+    "last_close": 262.9100036621094,
+    "last_adjusted": 262.9100036621094,
+    "price_return_pct": -39.955690755569705,
+    "total_return_pct": -39.955690755569705,
+    "dividends": [],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:35:00.092032+00:00"
+  },
+  {
+    "ticker": "MTZ",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/MTZ?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 414.2900085449219,
+    "first_adjusted": 414.2900085449219,
+    "last_date": "2026-11-06",
+    "last_close": 174.10000610351562,
+    "last_adjusted": 174.10000610351562,
+    "price_return_pct": -57.976296190440756,
+    "total_return_pct": -57.976296190440756,
+    "dividends": [],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:35:00.077177+00:00"
+  },
+  {
+    "ticker": "CAT",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/CAT?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 897.4500122070312,
+    "first_adjusted": 893.662841796875,
+    "last_date": "2026-11-06",
+    "last_close": 558.6300048828125,
+    "last_adjusted": 558.6300048828125,
+    "price_return_pct": -37.75363560260969,
+    "total_return_pct": -37.48984754031138,
+    "dividends": [
+      {
+        "amount": 1.63,
+        "date": 1784554200
+      },
+      {
+        "amount": 1.63,
+        "date": 1793021400
+      }
+    ],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:35:00.123635+00:00"
+  },
+  {
+    "ticker": "CMI",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/CMI?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 679.5499877929688,
+    "first_adjusted": 674.9102172851562,
+    "last_date": "2026-11-06",
+    "last_close": 450.07000732421875,
+    "last_adjusted": 450.07000732421875,
+    "price_return_pct": -33.76940395717632,
+    "total_return_pct": -33.314091889935085,
+    "dividends": [
+      {
+        "amount": 2.0,
+        "date": 1779456600
+      },
+      {
+        "amount": 2.2,
+        "date": 1787319000
+      }
+    ],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:35:00.110709+00:00"
+  },
+  {
+    "ticker": "GNRC",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/GNRC?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 269.4100036621094,
+    "first_adjusted": 269.4100036621094,
+    "last_date": "2026-11-06",
+    "last_close": 176.77999877929688,
+    "last_adjusted": 176.77999877929688,
+    "price_return_pct": -34.38254096866717,
+    "total_return_pct": -34.38254096866717,
+    "dividends": [],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:35:00.077177+00:00"
+  },
+  {
+    "ticker": "EQT",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/EQT?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 55.959999084472656,
+    "first_adjusted": 55.61021423339844,
+    "last_date": "2026-11-06",
+    "last_close": 49.400001525878906,
+    "last_adjusted": 49.400001525878906,
+    "price_return_pct": -11.722654871189885,
+    "total_return_pct": -11.167395761963805,
+    "dividends": [
+      {
+        "amount": 0.165,
+        "date": 1785936600
+      },
+      {
+        "amount": 0.17,
+        "date": 1793802600
+      }
+    ],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:35:01.034689+00:00"
+  },
+  {
+    "ticker": "GLW",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/GLW?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 186.94000244140625,
+    "first_adjusted": 186.30311584472656,
+    "last_date": "2026-11-06",
+    "last_close": 106.12999725341797,
+    "last_adjusted": 106.12999725341797,
+    "price_return_pct": -43.227775827871326,
+    "total_return_pct": -43.03369711654661,
+    "dividends": [
+      {
+        "amount": 0.28,
+        "date": 1780061400
+      },
+      {
+        "amount": 0.28,
+        "date": 1788183000
+      }
+    ],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:35:01.061460+00:00"
+  },
+  {
+    "ticker": "FN",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/FN?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 621.280029296875,
+    "first_adjusted": 621.280029296875,
+    "last_date": "2026-11-06",
+    "last_close": 327.1300048828125,
+    "last_adjusted": 327.1300048828125,
+    "price_return_pct": -47.34580391179847,
+    "total_return_pct": -47.34580391179847,
+    "dividends": [],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:35:01.075023+00:00"
+  },
+  {
+    "ticker": "CIEN",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/CIEN?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 548.1099853515625,
+    "first_adjusted": 548.1099853515625,
+    "last_date": "2026-11-06",
+    "last_close": 243.38999938964844,
+    "last_adjusted": 243.38999938964844,
+    "price_return_pct": -55.59467882462751,
+    "total_return_pct": -55.59467882462751,
+    "dividends": [],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:35:01.091536+00:00"
+  },
+  {
+    "ticker": "LHX",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/LHX?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 299.6400146484375,
+    "first_adjusted": 297.0079040527344,
+    "last_date": "2026-11-06",
+    "last_close": 259.8900146484375,
+    "last_adjusted": 259.8900146484375,
+    "price_return_pct": -13.265918454395354,
+    "total_return_pct": -12.497273270446874,
+    "dividends": [
+      {
+        "amount": 1.25,
+        "date": 1780666200
+      },
+      {
+        "amount": 1.25,
+        "date": 1788528600
+      }
+    ],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:35:01.075023+00:00"
+  },
+  {
+    "ticker": "CACI",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/CACI?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 480.989990234375,
+    "first_adjusted": 480.989990234375,
+    "last_date": "2026-11-06",
+    "last_close": 611.1599731445312,
+    "last_adjusted": 611.1599731445312,
+    "price_return_pct": 27.06292969771107,
+    "total_return_pct": 27.06292969771107,
+    "dividends": [],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:35:01.028702+00:00"
+  },
+  {
+    "ticker": "TDY",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/TDY?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 621.3800048828125,
+    "first_adjusted": 621.3800048828125,
+    "last_date": "2026-11-06",
+    "last_close": 618.5999755859375,
+    "last_adjusted": 618.5999755859375,
+    "price_return_pct": -0.4473960016462497,
+    "total_return_pct": -0.4473960016462497,
+    "dividends": [],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:35:01.949023+00:00"
+  },
+  {
+    "ticker": "DRS",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/DRS?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 41.36000061035156,
+    "first_adjusted": 41.19087600708008,
+    "last_date": "2026-11-06",
+    "last_close": 34.040000915527344,
+    "last_adjusted": 34.040000915527344,
+    "price_return_pct": -17.69825818859435,
+    "total_return_pct": -17.36033749397223,
+    "dividends": [
+      {
+        "amount": 0.09,
+        "date": 1779197400
+      },
+      {
+        "amount": 0.09,
+        "date": 1786627800
+      }
+    ],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:35:01.959731+00:00"
+  },
+  {
+    "ticker": "LMT",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/LMT?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 506.510009765625,
+    "first_adjusted": 500.122314453125,
+    "last_date": "2026-11-06",
+    "last_close": 567.0800170898438,
+    "last_adjusted": 567.0800170898438,
+    "price_return_pct": 11.958304111748163,
+    "total_return_pct": 13.388265370629536,
+    "dividends": [
+      {
+        "amount": 3.45,
+        "date": 1780320600
+      },
+      {
+        "amount": 3.45,
+        "date": 1788269400
+      }
+    ],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:35:01.992698+00:00"
+  },
+  {
+    "ticker": "NOC",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/NOC?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 549.52001953125,
+    "first_adjusted": 544.6350708007812,
+    "last_date": "2026-11-06",
+    "last_close": 525.010009765625,
+    "last_adjusted": 525.010009765625,
+    "price_return_pct": -4.460257842204262,
+    "total_return_pct": -3.60334140919375,
+    "dividends": [
+      {
+        "amount": 2.47,
+        "date": 1780320600
+      },
+      {
+        "amount": 2.47,
+        "date": 1788183000
+      }
+    ],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:35:02.013592+00:00"
+  },
+  {
+    "ticker": "RTX",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/RTX?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 176.08999633789062,
+    "first_adjusted": 174.7789306640625,
+    "last_date": "2026-11-06",
+    "last_close": 189.52999877929688,
+    "last_adjusted": 189.52999877929688,
+    "price_return_pct": 7.632462218703706,
+    "total_return_pct": 8.439843440618699,
+    "dividends": [
+      {
+        "amount": 0.73,
+        "date": 1779456600
+      },
+      {
+        "amount": 0.73,
+        "date": 1786714200
+      }
+    ],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:35:02.035481+00:00"
+  },
+  {
+    "ticker": "GD",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/GD?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 346.5299987792969,
+    "first_adjusted": 343.3487548828125,
+    "last_date": "2026-11-06",
+    "last_close": 354.05999755859375,
+    "last_adjusted": 354.05999755859375,
+    "price_return_pct": 2.1729716924429043,
+    "total_return_pct": 3.1196392948729557,
+    "dividends": [
+      {
+        "amount": 1.59,
+        "date": 1782999000
+      },
+      {
+        "amount": 1.59,
+        "date": 1791552600
+      }
+    ],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:35:01.982453+00:00"
+  },
+  {
+    "ticker": "NOW",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/NOW?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 91.18000030517578,
+    "first_adjusted": 91.18000030517578,
+    "last_date": "2026-11-06",
+    "last_close": 101.97000122070312,
+    "last_adjusted": 101.97000122070312,
+    "price_return_pct": 11.833736432785313,
+    "total_return_pct": 11.833736432785313,
+    "dividends": [],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:35:03.874472+00:00"
+  },
+  {
+    "ticker": "SNOW",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/SNOW?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 152.4499969482422,
+    "first_adjusted": 152.4499969482422,
+    "last_date": "2026-11-06",
+    "last_close": 275.8800048828125,
+    "last_adjusted": 275.8800048828125,
+    "price_return_pct": 80.96425739941185,
+    "total_return_pct": 80.96425739941185,
+    "dividends": [],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:35:03.846501+00:00"
+  },
+  {
+    "ticker": "SPGI",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/SPGI?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 397.4645080566406,
+    "first_adjusted": 395.6531066894531,
+    "last_date": "2026-11-06",
+    "last_close": 467.79998779296875,
+    "last_adjusted": 467.79998779296875,
+    "price_return_pct": 17.696040353445852,
+    "total_return_pct": 18.23488300324241,
+    "dividends": [
+      {
+        "amount": 0.917692,
+        "date": 1780061400
+      },
+      {
+        "amount": 0.97,
+        "date": 1787751000
+      }
+    ],
+    "splits": {
+      "1782912600": {
+        "date": 1782912600,
+        "numerator": 1057.0,
+        "denominator": 1000.0,
+        "splitRatio": "1057:1000"
+      }
+    },
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:35:03.858307+00:00"
+  },
+  {
+    "ticker": "MCO",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/MCO?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 451.32000732421875,
+    "first_adjusted": 449.2961730957031,
+    "last_date": "2026-11-06",
+    "last_close": 505.6700134277344,
+    "last_adjusted": 505.6700134277344,
+    "price_return_pct": 12.042454405189208,
+    "total_return_pct": 12.547144558033718,
+    "dividends": [
+      {
+        "amount": 1.03,
+        "date": 1778851800
+      },
+      {
+        "amount": 1.03,
+        "date": 1786714200
+      }
+    ],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:35:03.826383+00:00"
+  },
+  {
+    "ticker": "FICO",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/FICO?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 1126.0,
+    "first_adjusted": 1126.0,
+    "last_date": "2026-11-06",
+    "last_close": 704.5499877929688,
+    "last_adjusted": 704.5499877929688,
+    "price_return_pct": -37.42895312673456,
+    "total_return_pct": -37.42895312673456,
+    "dividends": [],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:35:03.838353+00:00"
+  },
+  {
+    "ticker": "GEN",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/GEN?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 22.68000030517578,
+    "first_adjusted": 22.460092544555664,
+    "last_date": "2026-11-06",
+    "last_close": 29.790000915527344,
+    "last_adjusted": 29.790000915527344,
+    "price_return_pct": 31.34920861852455,
+    "total_return_pct": 32.635254536154854,
+    "dividends": [
+      {
+        "amount": 0.125,
+        "date": 1779111000
+      },
+      {
+        "amount": 0.125,
+        "date": 1786973400
+      }
+    ],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:35:03.874472+00:00"
+  },
+  {
+    "ticker": "CLBT",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/CLBT?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 13.619999885559082,
+    "first_adjusted": 13.619999885559082,
+    "last_date": "2026-11-06",
+    "last_close": 12.449999809265137,
+    "last_adjusted": 12.449999809265137,
+    "price_return_pct": -8.590309002384533,
+    "total_return_pct": -8.590309002384533,
+    "dividends": [],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:35:04.759803+00:00"
+  },
+  {
+    "ticker": "CGNT",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/CGNT?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 11.109999656677246,
+    "first_adjusted": 11.109999656677246,
+    "last_date": "2026-11-06",
+    "last_close": 8.09000015258789,
+    "last_adjusted": 8.09000015258789,
+    "price_return_pct": -27.18271464818902,
+    "total_return_pct": -27.18271464818902,
+    "dividends": [],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:35:04.759803+00:00"
+  },
+  {
+    "ticker": "ARLO",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/ARLO?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 15.25,
+    "first_adjusted": 15.25,
+    "last_date": "2026-11-06",
+    "last_close": 12.34000015258789,
+    "last_adjusted": 12.34000015258789,
+    "price_return_pct": -19.081966212538426,
+    "total_return_pct": -19.081966212538426,
+    "dividends": [],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:35:04.728462+00:00"
+  },
+  {
+    "ticker": "ABT",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/ABT?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 84.31999969482422,
+    "first_adjusted": 83.21061706542969,
+    "last_date": "2026-11-06",
+    "last_close": 109.93000030517578,
+    "last_adjusted": 109.93000030517578,
+    "price_return_pct": 30.372391725617586,
+    "total_return_pct": 32.11054572367402,
+    "dividends": [
+      {
+        "amount": 0.63,
+        "date": 1784122200
+      },
+      {
+        "amount": 0.63,
+        "date": 1792071000
+      }
+    ],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:35:04.759803+00:00"
+  },
+  {
+    "ticker": "QDEL",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/QDEL?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 10.800000190734863,
+    "first_adjusted": 10.800000190734863,
+    "last_date": "2026-11-06",
+    "last_close": 10.699999809265137,
+    "last_adjusted": 10.699999809265137,
+    "price_return_pct": -0.9259294417005237,
+    "total_return_pct": -0.9259294417005237,
+    "dividends": [],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:35:04.740759+00:00"
+  },
+  {
+    "ticker": "PFE",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/PFE?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 25.68000030517578,
+    "first_adjusted": 24.875274658203125,
+    "last_date": "2026-11-06",
+    "last_close": 29.389999389648438,
+    "last_adjusted": 29.389999389648438,
+    "price_return_pct": 14.44703676161916,
+    "total_return_pct": 18.14944676382293,
+    "dividends": [
+      {
+        "amount": 0.43,
+        "date": 1778247000
+      },
+      {
+        "amount": 0.43,
+        "date": 1784899800
+      },
+      {
+        "amount": 0.43,
+        "date": 1793975400
+      }
+    ],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:35:04.794581+00:00"
+  },
+  {
+    "ticker": "IBM",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/IBM?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 229.75999450683594,
+    "first_adjusted": 228.12355041503906,
+    "last_date": "2026-11-06",
+    "last_close": 245.0,
+    "last_adjusted": 245.0,
+    "price_return_pct": 6.63301090595676,
+    "total_return_pct": 7.397942717556605,
+    "dividends": [
+      {
+        "amount": 1.69,
+        "date": 1778247000
+      },
+      {
+        "amount": 1.69,
+        "date": 1786368600
+      }
+    ],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:35:05.657408+00:00"
+  },
+  {
+    "ticker": "NVTS",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/NVTS?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 18.200000762939453,
+    "first_adjusted": 18.200000762939453,
+    "last_date": "2026-11-06",
+    "last_close": 8.609999656677246,
+    "last_adjusted": 8.609999656677246,
+    "price_return_pct": -52.692311561822926,
+    "total_return_pct": -52.692311561822926,
+    "dividends": [],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:35:05.680020+00:00"
+  },
+  {
+    "ticker": "ALAB",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/ALAB?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 199.7899932861328,
+    "first_adjusted": 199.7899932861328,
+    "last_date": "2026-11-06",
+    "last_close": 190.7100067138672,
+    "last_adjusted": 190.7100067138672,
+    "price_return_pct": -4.544765442412102,
+    "total_return_pct": -4.544765442412102,
+    "dividends": [],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:35:05.665385+00:00"
+  },
+  {
+    "ticker": "CRDO",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/CRDO?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 188.5050048828125,
+    "first_adjusted": 188.5050048828125,
+    "last_date": "2026-11-06",
+    "last_close": 120.51000213623047,
+    "last_adjusted": 120.51000213623047,
+    "price_return_pct": -36.07066177837153,
+    "total_return_pct": -36.07066177837153,
+    "dividends": [],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:35:05.675077+00:00"
+  },
+  {
+    "ticker": "SPY",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 737.6199951171875,
+    "first_adjusted": 733.9021606445312,
+    "last_date": "2026-11-06",
+    "last_close": 735.2899780273438,
+    "last_adjusted": 735.2899780273438,
+    "price_return_pct": -0.31588312481599656,
+    "total_return_pct": 0.1891011441625512,
+    "dividends": [
+      {
+        "amount": 1.904,
+        "date": 1781789400
+      },
+      {
+        "amount": 1.889,
+        "date": 1789738200
+      }
+    ],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:35:05.730173+00:00"
+  },
+  {
+    "ticker": "QQQ",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 711.22998046875,
+    "first_adjusted": 709.709716796875,
+    "last_date": "2026-11-06",
+    "last_close": 656.0999755859375,
+    "last_adjusted": 656.0999755859375,
+    "price_return_pct": -7.751361218839225,
+    "total_return_pct": -7.553756126222111,
+    "dividends": [
+      {
+        "amount": 0.813,
+        "date": 1782135000
+      },
+      {
+        "amount": 0.751,
+        "date": 1789997400
+      }
+    ],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:35:05.678026+00:00"
+  },
+  {
+    "ticker": "SMH",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/SMH?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 566.5399780273438,
+    "first_adjusted": 566.5399780273438,
+    "last_date": "2026-11-06",
+    "last_close": 463.9599914550781,
+    "last_adjusted": 463.9599914550781,
+    "price_return_pct": -18.106398586282058,
+    "total_return_pct": -18.106398586282058,
+    "dividends": [],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:35:06.567825+00:00"
+  },
+  {
+    "ticker": "XLU",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/XLU?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 44.720001220703125,
+    "first_adjusted": 44.111900329589844,
+    "last_date": "2026-11-06",
+    "last_close": 43.130001068115234,
+    "last_adjusted": 43.130001068115234,
+    "price_return_pct": -3.555456415890701,
+    "total_return_pct": -2.225928273636313,
+    "dividends": [
+      {
+        "amount": 0.284,
+        "date": 1782135000
+      },
+      {
+        "amount": 0.3,
+        "date": 1789997400
+      }
+    ],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:35:06.575586+00:00"
+  },
+  {
+    "ticker": "ITA",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/ITA?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 74.49666595458984,
+    "first_adjusted": 74.35820007324219,
+    "last_date": "2026-11-06",
+    "last_close": 68.9800033569336,
+    "last_adjusted": 68.9800033569336,
+    "price_return_pct": -7.405247640235313,
+    "total_return_pct": -7.232822622133295,
+    "dividends": [
+      {
+        "amount": 0.054667,
+        "date": 1781530200
+      },
+      {
+        "amount": 0.083667,
+        "date": 1789479000
+      }
+    ],
+    "splits": {
+      "1793889000": {
+        "date": 1793889000,
+        "numerator": 3.0,
+        "denominator": 1.0,
+        "splitRatio": "3:1"
+      }
+    },
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:35:06.630782+00:00"
+  },
+  {
+    "ticker": "IBB",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/IBB?period1=1778198400&period2=1794096000&interval=1d&events=div%2Csplits",
+    "first_date": "2026-05-08",
+    "first_close": 169.94000244140625,
+    "first_adjusted": 169.90696716308594,
+    "last_date": "2026-11-06",
+    "last_close": 213.6300048828125,
+    "last_adjusted": 213.6300048828125,
+    "price_return_pct": 25.709074858034175,
+    "total_return_pct": 25.73351667077832,
+    "dividends": [
+      {
+        "amount": 0.024,
+        "date": 1781530200
+      },
+      {
+        "amount": 0.011,
+        "date": 1789479000
+      }
+    ],
+    "splits": {},
+    "currency": "USD",
+    "retrieved_utc": "2026-11-09T04:35:06.560430+00:00"
+  }
+]

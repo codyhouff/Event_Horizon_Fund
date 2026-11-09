@@ -1,0 +1,7 @@
+How our timelines forecasts have shifted since AI 2027 and our last update
+1. These are our all-things-considered forecasts, meaning that they are our forecast for what will happen in the world conditional on going as fast as technically feasible (e.g. no government-imposed slowdown). This includes adjustments on top of the outputs of our quantitative timelines and takeoff models.
+2. We operationalize the term "AGI" as TED-AI, which is defined as: AIs at least as good as top human experts at virtually all cognitive tasks.
+3. Superintelligence is defined as: the gap between an ASI and the best humans is 2x greater than the gap between the best humans and the median professional, at virtually all cognitive tasks.
+4. This wasn't recorded at the time, so we aren't sure what Daniel's exact median was.
+5. Superhuman Coder is defined as: AIs providing equivalent software engineering productivity as if there were 30x as many agents as an AI company has engineers, accomplishing tasks 30x faster than the best engineer.
+Get the data

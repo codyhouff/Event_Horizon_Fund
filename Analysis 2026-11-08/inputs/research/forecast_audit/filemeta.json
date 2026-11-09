@@ -1,0 +1,27 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Action completed."
+    }
+  ],
+  "structuredContent": {
+    "id": "1Ko-olwjDy6h8rXLZBFpP-e2GibGqRhfV28S4v8xtzrM",
+    "title": "[shared 2024-10-02] AI chip compute forecast",
+    "mime_type": "application/vnd.google-apps.spreadsheet",
+    "size": null,
+    "url": "https://docs.google.com/spreadsheets/d/1Ko-olwjDy6h8rXLZBFpP-e2GibGqRhfV28S4v8xtzrM/edit?usp=drivesdk",
+    "display_url": "https://docs.google.com/spreadsheets/d/1Ko-olwjDy6h8rXLZBFpP-e2GibGqRhfV28S4v8xtzrM/edit?usp=drivesdk",
+    "file_or_folder": "file",
+    "created_time": null,
+    "modified_time": "2025-04-23T23:24:26.008Z",
+    "parent_ids": null,
+    "drive_id": null,
+    "current_user_can_share": null,
+    "has_augmented_permissions": null,
+    "shared": null,
+    "permissions": null,
+    "source_visibility_status": "access_not_verified"
+  },
+  "isError": false
+}

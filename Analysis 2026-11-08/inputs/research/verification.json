@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "report_words": 40379,
+  "sections": 9,
+  "targeted_questions": 15,
+  "underwritten_stocks": 56,
+  "current_holdings": 24,
+  "final_holdings": 8,
+  "allocation_checksum": 100,
+  "exact_funding_pp": 77,
+  "tranche_reserves_pp": [
+    7.7,
+    3.85,
+    -0.0
+  ],
+  "unique_source_urls": 112,
+  "analysis_pdf": {
+    "pages": 89,
+    "characters": 252158,
+    "hyperlinks": 149,
+    "pages_outside_geometry": [],
+    "previews": [
+      "analysis_preview_1.png",
+      "analysis_preview_5.png",
+      "analysis_preview_12.png",
+      "analysis_preview_13.png",
+      "analysis_preview_14.png",
+      "analysis_preview_16.png",
+      "analysis_preview_21.png",
+      "analysis_preview_36.png",
+      "analysis_preview_61.png",
+      "analysis_preview_73.png"
+    ],
+    "sha256": "9b26b6eb7e4ed4071a842d87e947ad67e025e2c3d7db8ff4b36278c106d64409"
+  },
+  "deployment_pdf": {
+    "pages": 13,
+    "characters": 15192,
+    "hyperlinks": 3,
+    "pages_outside_geometry": [],
+    "previews": [
+      "deployment_preview_1.png",
+      "deployment_preview_3.png"
+    ],
+    "sha256": "4456a58edaaa87e0912ccbc94f89fed6bc6fda1dd956bae0a36050f788425e30"
+  },
+  "canonical_copies_identical": true,
+  "forecast_audit_status": "PASS",
+  "forecast_requested_sources": 10,
+  "manual_visual_review": "See saved preview PNGs; reviewed separately"
+}

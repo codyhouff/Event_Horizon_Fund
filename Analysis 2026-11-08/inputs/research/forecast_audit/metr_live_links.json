@@ -1,0 +1,202 @@
+[
+  {
+    "text": "Research",
+    "url": "/research"
+  },
+  {
+    "text": "Notes",
+    "url": "/notes"
+  },
+  {
+    "text": "Updates",
+    "url": "/blog"
+  },
+  {
+    "text": "Risk Assessment",
+    "url": "/risk-assessment"
+  },
+  {
+    "text": "About",
+    "url": "/about"
+  },
+  {
+    "text": "Donate",
+    "url": "/donate"
+  },
+  {
+    "text": "Careers",
+    "url": "/careers"
+  },
+  {
+    "text": "Search",
+    "url": "/search"
+  },
+  {
+    "text": "",
+    "url": "/"
+  },
+  {
+    "text": "Our Work",
+    "url": "#"
+  },
+  {
+    "text": "Research",
+    "url": "/research"
+  },
+  {
+    "text": "Notes",
+    "url": "/notes"
+  },
+  {
+    "text": "Updates",
+    "url": "/blog"
+  },
+  {
+    "text": "Risk Assessment",
+    "url": "/risk-assessment"
+  },
+  {
+    "text": "About",
+    "url": "/about"
+  },
+  {
+    "text": "Donate",
+    "url": "/donate"
+  },
+  {
+    "text": "Careers",
+    "url": "/careers"
+  },
+  {
+    "text": "",
+    "url": "#"
+  },
+  {
+    "text": "arXiv",
+    "url": "https://arxiv.org/abs/2503.14499"
+  },
+  {
+    "text": "release announcement.",
+    "url": "/blog/2026-01-29-time-horizon-1-1/"
+  },
+  {
+    "text": "",
+    "url": "/assets/benchmark_results_1_1.yaml"
+  },
+  {
+    "text": "GitHub",
+    "url": "https://github.com/METR/eval-analysis-public"
+  },
+  {
+    "text": "here",
+    "url": "/assets/benchmark_results_1_1.yaml"
+  },
+  {
+    "text": "updated it",
+    "url": "#updates"
+  },
+  {
+    "text": "What does running a time horizon evaluation involve?",
+    "url": "#what-does-running-a-time-horizon-evaluation-involve"
+  },
+  {
+    "text": "Why has METR reported time horizons for some models but not others?",
+    "url": "#why-has-metr-reported-time-horizons-for-some-models-but-not-others"
+  },
+  {
+    "text": "our paper",
+    "url": "https://arxiv.org/abs/2503.14499"
+  },
+  {
+    "text": "accompanying blog post",
+    "url": "/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/"
+  },
+  {
+    "text": "",
+    "url": "/assets/task_results_1_1.yaml"
+  },
+  {
+    "text": "RE-Bench",
+    "url": "https://metr.org/blog/2024-11-22-evaluating-r-d-capabilities-of-llms/"
+  },
+  {
+    "text": "HCAST",
+    "url": "https://arxiv.org/html/2503.17354v1"
+  },
+  {
+    "text": "follow-up work",
+    "url": "https://metr.org/blog/2025-07-14-how-does-time-horizon-vary-across-domains/"
+  },
+  {
+    "text": "holistically rather than algorithmically",
+    "url": "https://metr.org/blog/2025-08-12-research-update-towards-reconciling-slowdown-with-time-horizons/"
+  },
+  {
+    "text": "What does running a time horizon evaluation involve?",
+    "url": "#what-does-running-a-time-horizon-evaluation-involve"
+  },
+  {
+    "text": "",
+    "url": "/"
+  },
+  {
+    "text": "Research",
+    "url": "/research"
+  },
+  {
+    "text": "Notes",
+    "url": "/notes"
+  },
+  {
+    "text": "Updates",
+    "url": "/blog"
+  },
+  {
+    "text": "Frontier AI Safety Policies",
+    "url": "/fsp"
+  },
+  {
+    "text": "Substack Substack",
+    "url": "https://metr.substack.com"
+  },
+  {
+    "text": "twitter X (Twitter)",
+    "url": "https://x.com/METR_Evals"
+  },
+  {
+    "text": "Bluesky Bluesky",
+    "url": "https://bsky.app/profile/metr.org"
+  },
+  {
+    "text": "LinkedIn",
+    "url": "https://www.linkedin.com/company/metr-evals/"
+  },
+  {
+    "text": "GitHub",
+    "url": "https://github.com/METR/"
+  },
+  {
+    "text": "About Us",
+    "url": "/about"
+  },
+  {
+    "text": "Careers",
+    "url": "/careers"
+  },
+  {
+    "text": "Donate",
+    "url": "/donate"
+  },
+  {
+    "text": "Privacy",
+    "url": "/privacy"
+  },
+  {
+    "text": "info@metr.org",
+    "url": "mailto:info@metr.org"
+  },
+  {
+    "text": "press@metr.org",
+    "url": "mailto:press@metr.org"
+  }
+]

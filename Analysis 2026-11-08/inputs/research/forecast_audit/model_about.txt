@@ -1,0 +1,55 @@
+This is the website for the AI Futures Model (Aug 2025 version), the
+AI Futures Project’s
+improved timelines and takeoff model (see our old models
+here
+and
+here
+). We previously published the
+AI 2027
+scenario, and this model will inform our future scenarios. Our blog is
+here
+. The code for the model is available
+here
+.
+We created this website in collaboration with
+Lightcone Infrastructure
+.
+You can reach us at
+info@ai-futures.org
+. We look forward to hearing from you.
+Core contributors to this project included Eli Lifland,* Brendan Halstead,* Alex Kastner, and Daniel Kokotajlo.
+Eli and Brendan did the conceptual model development work. Eli wrote much of the content and managed the project. Brendan did much of the programming work. Alex wrote the website’s model explanation. Daniel provided high-level conceptual ideas used in the model, and gave feedback throughout the course of the project.
+* Equal contribution.
+Acknowledgements
+We acknowledge the following people for providing feedback on the model, the writeups, and/or the website: Andreas Robinson, Anson Ho, Aryan Bhatt, Benjamin Todd, Emery Cooper, Fabio Marinello, Iskandar Haykel, Jack Chen, Jacob Hilton, Jaime Sevilla, Parker Whitfill, Phil Trammell, Tom Davidson, Zach Stein-Perlman. Thank you to
+MATS
+and
+IAPS
+for funding some of Brendan’s work on the project, and to
+MATS
+for funding Alex’s work.
+Changelog
+2025 Dec 31:
+Fixed an issue with the thresholds for TED-AI and ASI in the case where research taste at AC is better than the best human. This makes our AC->TED-AI and AC->ASI takeoff distributions very slightly faster (0.5-1% increase in P(AC->ASI < 1 yr)). We’ve updated the
+Forecasts page
+accordingly.
+2026 Jan 2:
+Made minor changes to the exposition in the "After Full AI R&D Automation" section of the model explanation.
+2026 Jan 6:
+Fixed an issue that affected the initial research stock calculation when the “Coding Automation” model simplification was unchecked.
+2026 Jan 15:
+Added a final section at the bottom of the model explanation that succinctly recaps the whole model.
+2026 Jan 17:
+Fixed a numerical underflow causing incorrect coding labor calculation for certain values of the “Coding Labor Parallelization Penalty (λ)” and “Coding Automation Efficiency Improvement Factor (η)” parameters. This was formerly affecting approximately 3% of our Monte Carlo rollouts, and fixing the issue had a negligible effect on the outcome distributions.
+2026 Jan 26:
+Add all-things-considered forecasts for more quantities to the Forecasts page, and made minor updates to Eli’s all-things-considered AC timelines forecasts and AC to ASI takeoff speeds.
+2026 Apr 02:
+Adjust some of Eli and Daniel’s model parameters, and in particular estimate a lower present doubling time. Correspondingly, re-estimate all-things-considered distributions for some milestones. These changes are reflected on the
+Forecasts page
+. Update the time horizon data points to be METR’s version 1.1 and add the latest models’ time horizons to the frontpage. See
+this blog post
+for more details.
+2026 Aug 16:
+Add coding uplift and AI company revenue as alternative methods (alongside METR time horizons) for anchoring the effective compute required for AC. Explicitly simulate the training run of the leading AI model, accounting for the fact that training is needed to apply software improvements; this reduces the chance of very fast takeoffs. Update Eli's and Daniel's model parameters and add Brendan's forecast. With these changes, Daniel's model median for AC is now Dec 2027 (down from Feb 2028) and Eli's is Mar 2029 (down from Jul 2029). See our
+blog post
+for more details.

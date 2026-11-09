@@ -1,0 +1,626 @@
+[
+  {
+    "text": "AI 2027",
+    "url": "/"
+  },
+  {
+    "text": "English EN",
+    "url": "/"
+  },
+  {
+    "text": "Espa\u00f1ol ES",
+    "url": "/es"
+  },
+  {
+    "text": "Fran\u00e7ais FR",
+    "url": "/fr"
+  },
+  {
+    "text": "Italiano IT",
+    "url": "/it"
+  },
+  {
+    "text": "\u65e5\u672c\u8a9e JA",
+    "url": "/ja"
+  },
+  {
+    "text": "AI 2040",
+    "url": "https://ai-2040.com"
+  },
+  {
+    "text": "Supplements",
+    "url": "/research"
+  },
+  {
+    "text": "Summary",
+    "url": "/summary"
+  },
+  {
+    "text": "Compute Forecast",
+    "url": "/research/compute-forecast"
+  },
+  {
+    "text": "Timelines Forecast",
+    "url": "/research/timelines-forecast"
+  },
+  {
+    "text": "Takeoff Forecast",
+    "url": "/research/takeoff-forecast"
+  },
+  {
+    "text": "AI Goals Forecast",
+    "url": "/research/ai-goals-forecast"
+  },
+  {
+    "text": "Security Forecast",
+    "url": "/research/security-forecast"
+  },
+  {
+    "text": "About",
+    "url": "/about"
+  },
+  {
+    "text": "aifuturesmodel.com",
+    "url": "https://www.aifuturesmodel.com/"
+  },
+  {
+    "text": "timelines forecast",
+    "url": "https://ai-2027.com/research/timelines-forecast"
+  },
+  {
+    "text": "our scenario",
+    "url": "https://ai-2027.com/"
+  },
+  {
+    "text": "methodology",
+    "url": "#methodology"
+  },
+  {
+    "text": "software-driven intelligence explosion",
+    "url": "https://www.forethought.org/research/will-ai-r-and-d-automation-cause-a-software-intelligence-explosion"
+  },
+  {
+    "text": "AI capability milestones",
+    "url": "#milestone-definitions"
+  },
+  {
+    "text": "Human-only time required",
+    "url": "#human-only-software-only-forecast"
+  },
+  {
+    "text": "AI R&D speedup",
+    "url": "#accounting-for-ai-randd-automation-the-ai-randd-progress-multiplier"
+  },
+  {
+    "text": "AI R&D progress multiplier",
+    "url": "#ai-randd-progress-multiplier-definition"
+  },
+  {
+    "text": "reasoning",
+    "url": "#human-only-timeline-from-sc-to-sar"
+  },
+  {
+    "text": "reasoning",
+    "url": "#sc-would-5x-ai-randd"
+  },
+  {
+    "text": "reasoning",
+    "url": "#human-only-timeline-from-sar-to-siar"
+  },
+  {
+    "text": "reasoning",
+    "url": "#sar-would-25x-ai-randd"
+  },
+  {
+    "text": "reasoning",
+    "url": "#from-siar-to-asi"
+  },
+  {
+    "text": "reasoning",
+    "url": "#siar-would-250x-ai-randd"
+  },
+  {
+    "text": "reasoning",
+    "url": "#asi-would-2000x-ai-randd"
+  },
+  {
+    "text": "our methodology",
+    "url": "#methodology"
+  },
+  {
+    "text": "AI R&D progress multiplier",
+    "url": "#ai-randd-progress-multiplier-definition"
+  },
+  {
+    "text": "Address potential objections",
+    "url": "#addressing-common-objections"
+  },
+  {
+    "text": "here",
+    "url": "https://github.com/uvafan/timelines-takeoff-ai-2027"
+  },
+  {
+    "text": "software-driven intelligence explosion",
+    "url": "https://www.forethought.org/research/will-ai-r-and-d-automation-cause-a-software-intelligence-explosion"
+  },
+  {
+    "text": "below",
+    "url": "#milestone-definitions"
+  },
+  {
+    "text": "Human-only time required",
+    "url": "#human-only-software-only-forecast"
+  },
+  {
+    "text": "AI R&D speedup",
+    "url": "#accounting-for-ai-randd-automation-the-ai-randd-progress-multiplier"
+  },
+  {
+    "text": "AI R&D progress multiplier",
+    "url": "#ai-randd-progress-multiplier-definition"
+  },
+  {
+    "text": "This report",
+    "url": "https://www.forethought.org/research/will-ai-r-and-d-automation-cause-a-software-intelligence-explosion"
+  },
+  {
+    "text": "below",
+    "url": "#ai-randd-progress-multiplier-definition"
+  },
+  {
+    "text": "SC->SAR forecast",
+    "url": "#human-only-timeline-from-sc-to-sar"
+  },
+  {
+    "text": "appendix",
+    "url": "#ai-randd-progress-multiplier-clarifications"
+  },
+  {
+    "text": "above",
+    "url": "#methodology"
+  },
+  {
+    "text": "here",
+    "url": "#human-only-timeline-from-sc-to-sar"
+  },
+  {
+    "text": "here",
+    "url": "#sc-would-5x-ai-randd"
+  },
+  {
+    "text": "here",
+    "url": "#sar-would-25x-ai-randd"
+  },
+  {
+    "text": "more",
+    "url": "#human-only-timeline-from-sc-to-sar"
+  },
+  {
+    "text": "more",
+    "url": "#sc-would-5x-ai-randd"
+  },
+  {
+    "text": "next section",
+    "url": "#sar-would-25x-ai-randd"
+  },
+  {
+    "text": "more",
+    "url": "#sar-would-25x-ai-randd"
+  },
+  {
+    "text": "FutureSearch aggregate",
+    "url": "http://futuresearch.ai/ai-2027"
+  },
+  {
+    "text": "simulation",
+    "url": "https://github.com/uvafan/timelines-takeoff-ai-2027"
+  },
+  {
+    "text": "1)",
+    "url": "#case-1-the-first-sc-is-already-an-sar-15percent"
+  },
+  {
+    "text": "more",
+    "url": "#case-1-the-first-sc-is-already-an-sar-15percent"
+  },
+  {
+    "text": "2a)",
+    "url": "#sub-case-a-training-the-missing-sar-skills-isnt-more-compute-intensive-than-the-sc-25percent"
+  },
+  {
+    "text": "more",
+    "url": "#sub-case-a-training-the-missing-sar-skills-isn\u2019t-more-compute-intensive-than-the-sc-25%)"
+  },
+  {
+    "text": "2b)",
+    "url": "#sub-case-b-training-the-missing-sar-skills-would-be-more-compute-intensive-than-the-sc-absent-further-algorithmic-progress-30percent"
+  },
+  {
+    "text": "more",
+    "url": "#sub-case-b-training-the-missing-sar-skills-would-be-more-compute-intensive-than-the-sc-absent-further-algorithmic-progress-30percent"
+  },
+  {
+    "text": "3)",
+    "url": "#case-3-30percent-crossing-the-gap-from-sc-to-sar-is-a-scientific-rather-than-an-engineering-problem"
+  },
+  {
+    "text": "more",
+    "url": "#case-3-30percent-crossing-the-gap-from-sc-to-sar-is-a-scientific-rather-than-an-engineering-problem"
+  },
+  {
+    "text": "below",
+    "url": "#case-3-30percent-crossing-the-gap-from-sc-to-sar-is-a-scientific-rather-than-an-engineering-problem"
+  },
+  {
+    "text": "Epoch report",
+    "url": "https://epochai.org/blog/interviewing-ai-researchers-on-automation-of-ai-rnd"
+  },
+  {
+    "text": "Guesstimate model",
+    "url": "https://www.getguesstimate.com/models/25630"
+  },
+  {
+    "text": "FutureSearch aggregate",
+    "url": "http://futuresearch.ai/ai-2027"
+  },
+  {
+    "text": "more",
+    "url": "#human-only-timeline-from-sar-to-siar"
+  },
+  {
+    "text": "more",
+    "url": "#sar-would-25x-ai-randd"
+  },
+  {
+    "text": "next section",
+    "url": "#siar-would-250x-ai-randd"
+  },
+  {
+    "text": "more",
+    "url": "#siar-would-250x-ai-randd"
+  },
+  {
+    "text": "FutureSearch aggregate",
+    "url": "http://futuresearch.ai/ai-2027"
+  },
+  {
+    "text": "simulation",
+    "url": "https://github.com/uvafan/timelines-takeoff-ai-2027"
+  },
+  {
+    "text": "Davidson report",
+    "url": "https://www.openphilanthropy.org/research/what-a-compute-centric-framework-says-about-takeoff-speeds/"
+  },
+  {
+    "text": "above",
+    "url": "#human-only-timeline-from-sc-to-sar"
+  },
+  {
+    "text": "an SC speeds up algorithmic progress by 5x in the median case",
+    "url": "#sc-would-5x-ai-randd"
+  },
+  {
+    "text": "Above",
+    "url": "#human-only-timeline-from-sc-to-sar"
+  },
+  {
+    "text": "Davidson\u2019s calculations",
+    "url": "https://docs.google.com/document/d/1rw1pTbLi2brrEP0DcsZMAVhlKp6TKGKNUSFRkkdP_hs/edit?tab=t.0#heading=h.zdfvbdepj7yk"
+  },
+  {
+    "text": "below",
+    "url": "#davidsons-what-a-compute-centric-framework-says-about-takeoff-speeds"
+  },
+  {
+    "text": "Davidson\u2019s best guess (as of 2022)",
+    "url": "https://docs.google.com/document/d/1rw1pTbLi2brrEP0DcsZMAVhlKp6TKGKNUSFRkkdP_hs/edit?tab=t.0#heading=h.limc1xpm5tfc"
+  },
+  {
+    "text": "what having SARs will look like",
+    "url": "#what-having-sars-will-look-like"
+  },
+  {
+    "text": "Speedup decomposition",
+    "url": "#method-1-speedup-decomposition"
+  },
+  {
+    "text": "Surveys on subquestions",
+    "url": "#method-2-surveys-on-subquestions"
+  },
+  {
+    "text": "More direct survey",
+    "url": "#method-3-more-direct-survey"
+  },
+  {
+    "text": "recent survey",
+    "url": "https://www.forethought.org/research/could-advanced-ai-accelerate-the-pace-of-ai-progress-interviews-with-ai"
+  },
+  {
+    "text": "compute forecast",
+    "url": "https://ai-2027.com/research/compute-forecast"
+  },
+  {
+    "text": "following list:",
+    "url": "https://www.getguesstimate.com/models/25630"
+  },
+  {
+    "text": "Guesstimate",
+    "url": "https://www.getguesstimate.com/models/25630"
+  },
+  {
+    "text": "Twitter poll",
+    "url": "https://x.com/RichardMCNgo/status/1859290893943193834"
+  },
+  {
+    "text": "nine women can\u2019t make a baby in a month",
+    "url": "https://en.wikipedia.org/wiki/Brooks%27s_law"
+  },
+  {
+    "text": "Combining all these numbers",
+    "url": "https://www.getguesstimate.com/models/25630"
+  },
+  {
+    "text": "A recent report",
+    "url": "https://www.forethought.org/research/could-advanced-ai-accelerate-the-pace-of-ai-progress-interviews-with-ai"
+  },
+  {
+    "text": "SIAR to ASI, humans-only software-only time",
+    "url": "#human-only-timeline-from-siar-to-asi"
+  },
+  {
+    "text": "more",
+    "url": "#human-only-timeline-from-siar-to-asi"
+  },
+  {
+    "text": "SIAR progress multiplier",
+    "url": "#siar-would-250x-ai-randd"
+  },
+  {
+    "text": "more",
+    "url": "#siar-would-250x-ai-randd"
+  },
+  {
+    "text": "ASI progress multiplier",
+    "url": "#asi-would-2000x-ai-randd"
+  },
+  {
+    "text": "here",
+    "url": "#asi-would-2000x-ai-randd"
+  },
+  {
+    "text": "simulation",
+    "url": "https://github.com/uvafan/timelines-takeoff-ai-2027"
+  },
+  {
+    "text": "above",
+    "url": "#heading=h.wwky4apb3rya"
+  },
+  {
+    "text": "SAR to SIAR",
+    "url": "#human-only-timeline-from-sar-to-siar"
+  },
+  {
+    "text": "SAR to SIAR",
+    "url": "#human-only-timeline-from-sar-to-siar"
+  },
+  {
+    "text": "Above",
+    "url": "#human-only-timeline-from-siar-to-asi"
+  },
+  {
+    "text": "This 2023 report",
+    "url": "https://www.openphilanthropy.org/research/what-a-compute-centric-framework-says-about-takeoff-speeds/"
+  },
+  {
+    "text": "description",
+    "url": "https://takeoffspeeds.com/description.html"
+  },
+  {
+    "text": "playground",
+    "url": "https://takeoffspeeds.com/playground.html"
+  },
+  {
+    "text": "The section",
+    "url": "https://docs.google.com/document/d/1rw1pTbLi2brrEP0DcsZMAVhlKp6TKGKNUSFRkkdP_hs/edit?tab=t.0#heading=h.iaqy7rxuutko"
+  },
+  {
+    "text": "SAR->SIAR section",
+    "url": "#human-only-timeline-from-sar-to-siar"
+  },
+  {
+    "text": "best guess in 2022 was r=2",
+    "url": "https://docs.google.com/document/d/1rw1pTbLi2brrEP0DcsZMAVhlKp6TKGKNUSFRkkdP_hs/edit?tab=t.0#heading=h.limc1xpm5tfc"
+  },
+  {
+    "text": "here",
+    "url": "https://docs.google.com/document/d/1b6IREn9MkRgM5in5qQQcvbmT6Lury0Z5MqhpMRbFAFY/edit?tab=t.0#heading=h.iqumj8wd805w"
+  },
+  {
+    "text": "other issues with Davidson\u2019s model",
+    "url": "https://docs.google.com/document/d/1b6IREn9MkRgM5in5qQQcvbmT6Lury0Z5MqhpMRbFAFY/edit?tab=t.0#heading=h.cknbodkjl8nl"
+  },
+  {
+    "text": "this discussion",
+    "url": "https://www.lesswrong.com/posts/FG54euEAesRkSZuJN/ryan_greenblatt-s-shortform?commentId=z7sKoyGbgmfL5kLmY"
+  },
+  {
+    "text": "GATE",
+    "url": "https://epoch.ai/gate"
+  },
+  {
+    "text": "Epoch",
+    "url": "https://epoch.ai/"
+  },
+  {
+    "text": "scenario explorer",
+    "url": "https://epoch.ai/gate#ai-compute"
+  },
+  {
+    "text": "paper",
+    "url": "https://arxiv.org/pdf/2503.04941"
+  },
+  {
+    "text": "don\u2019t claim",
+    "url": "https://epoch.ai/gate#documentation-faq"
+  },
+  {
+    "text": "most AI value will come from broad automation, rather than R&D",
+    "url": "https://epochai.substack.com/p/most-ai-value-will-come-from-broad"
+  },
+  {
+    "text": "above section",
+    "url": "#davidsons-what-a-compute-centric-framework-says-about-takeoff-speeds"
+  },
+  {
+    "text": "here",
+    "url": "https://docs.google.com/document/d/1rw1pTbLi2brrEP0DcsZMAVhlKp6TKGKNUSFRkkdP_hs/edit?tab=t.0#heading=h.limc1xpm5tfc"
+  },
+  {
+    "text": "Davidson\u2019s model",
+    "url": "https://takeoffspeeds.com/playground.html"
+  },
+  {
+    "text": "Amdahl\u2019s Law",
+    "url": "https://en.wikipedia.org/wiki/Amdahl%27s_law"
+  },
+  {
+    "text": "above",
+    "url": "#views-on-experiment-selection"
+  },
+  {
+    "text": "article",
+    "url": "https://www.dwarkesh.com/p/ai-firm"
+  },
+  {
+    "text": "Lindy\u2019s Law",
+    "url": "https://en.wikipedia.org/wiki/Lindy_effect"
+  },
+  {
+    "text": "projections",
+    "url": "https://ai-2027.com/supplements/compute-forecast"
+  },
+  {
+    "text": "here",
+    "url": "https://docs.google.com/document/d/14PDTL2EVfVCxoQGy3myLwPdZ_ZeLOmKZJ0rK-A4MTCU/edit?"
+  },
+  {
+    "text": "FutureSearch",
+    "url": "https://futuresearch.ai/"
+  },
+  {
+    "text": "http://futuresearch.ai/ai-2027",
+    "url": "http://futuresearch.ai/ai-2027"
+  },
+  {
+    "text": "FutureSearch aggregate",
+    "url": "#heading=h.olwhwylhlp4e"
+  },
+  {
+    "text": "more",
+    "url": "#heading=h.q591y7b45azm"
+  },
+  {
+    "text": "compute supplement",
+    "url": "https://ai-2027.com/supplements/compute-forecast#section-3-compute-usage"
+  },
+  {
+    "text": "best of many tries in parallel",
+    "url": "https://arxiv.org/pdf/2412.03556"
+  },
+  {
+    "text": "clarification (2) below",
+    "url": "#ai-randd-progress-multiplier-definition"
+  },
+  {
+    "text": "this report",
+    "url": "https://www.forethought.org/research/could-advanced-ai-accelerate-the-pace-of-ai-progress-interviews-with-ai"
+  },
+  {
+    "text": "compute supplement",
+    "url": "https://ai-2027.com/supplements/compute-forecast#section-3-compute-usage"
+  },
+  {
+    "text": "best of many tries in parallel",
+    "url": "https://arxiv.org/pdf/2412.03556"
+  },
+  {
+    "text": "results",
+    "url": "https://x.com/RichardMCNgo/status/1859290893943193834"
+  },
+  {
+    "text": "this spreadsheet",
+    "url": "https://docs.google.com/spreadsheets/d/1dcNHLU6PlkqxnCmiVs6S_gO9lE7qncc1uNN88mcIBaA/edit?gid=0#gid=0"
+  },
+  {
+    "text": "here",
+    "url": "https://www.forethought.org/research/will-ai-r-and-d-automation-cause-a-software-intelligence-explosion"
+  },
+  {
+    "text": "the core points of the relevant section in the 2023 report",
+    "url": "https://docs.google.com/document/d/1rw1pTbLi2brrEP0DcsZMAVhlKp6TKGKNUSFRkkdP_hs/edit?tab=t.0#heading=h.iaqy7rxuutko"
+  },
+  {
+    "text": "this paper",
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4814445"
+  },
+  {
+    "text": "this report",
+    "url": "https://www.forethought.org/research/will-the-need-to-retrain-ai-models"
+  },
+  {
+    "text": "",
+    "url": "https://ai-futures.org/"
+  },
+  {
+    "text": "AI Futures Project",
+    "url": "https://ai-futures.org/"
+  },
+  {
+    "text": "Design by Lightcone Infrastructure",
+    "url": "https://lightconeinfrastructure.com"
+  },
+  {
+    "text": "",
+    "url": "https://lightconeinfrastructure.com"
+  },
+  {
+    "text": "Home",
+    "url": "/"
+  },
+  {
+    "text": "About",
+    "url": "/about"
+  },
+  {
+    "text": "Summary",
+    "url": "/summary"
+  },
+  {
+    "text": "Compute Forecast",
+    "url": "/research/compute-forecast"
+  },
+  {
+    "text": "Timelines Forecast",
+    "url": "/research/timelines-forecast"
+  },
+  {
+    "text": "Takeoff Forecast",
+    "url": "/research/takeoff-forecast"
+  },
+  {
+    "text": "AI\u00a0Goals Forecast",
+    "url": "/research/ai-goals-forecast"
+  },
+  {
+    "text": "Security Forecast",
+    "url": "/research/security-forecast"
+  },
+  {
+    "text": "Design by Lightcone Infrastructure",
+    "url": "https://lightconeinfrastructure.com"
+  },
+  {
+    "text": "",
+    "url": "https://lightconeinfrastructure.com"
+  }
+]

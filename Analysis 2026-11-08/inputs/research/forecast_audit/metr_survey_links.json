@@ -1,0 +1,366 @@
+[
+  {
+    "text": "Research",
+    "url": "/research"
+  },
+  {
+    "text": "Notes",
+    "url": "/notes"
+  },
+  {
+    "text": "Updates",
+    "url": "/blog"
+  },
+  {
+    "text": "Risk Assessment",
+    "url": "/risk-assessment"
+  },
+  {
+    "text": "About",
+    "url": "/about"
+  },
+  {
+    "text": "Donate",
+    "url": "/donate"
+  },
+  {
+    "text": "Careers",
+    "url": "/careers"
+  },
+  {
+    "text": "Search",
+    "url": "/search"
+  },
+  {
+    "text": "",
+    "url": "/"
+  },
+  {
+    "text": "Our Work",
+    "url": "#"
+  },
+  {
+    "text": "Research",
+    "url": "/research"
+  },
+  {
+    "text": "Notes",
+    "url": "/notes"
+  },
+  {
+    "text": "Updates",
+    "url": "/blog"
+  },
+  {
+    "text": "Risk Assessment",
+    "url": "/risk-assessment"
+  },
+  {
+    "text": "About",
+    "url": "/about"
+  },
+  {
+    "text": "Donate",
+    "url": "/donate"
+  },
+  {
+    "text": "Careers",
+    "url": "/careers"
+  },
+  {
+    "text": "",
+    "url": "#"
+  },
+  {
+    "text": "Joel Becker",
+    "url": "/team/joel-becker/"
+  },
+  {
+    "text": "1",
+    "url": "#fn:1"
+  },
+  {
+    "text": "our previous research",
+    "url": "/blog/2026-05-08-task-substitution-and-uplift/"
+  },
+  {
+    "text": "here",
+    "url": "#methodology"
+  },
+  {
+    "text": "here",
+    "url": "#results"
+  },
+  {
+    "text": "our study in early 2025",
+    "url": "https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/"
+  },
+  {
+    "text": "2",
+    "url": "#fn:2"
+  },
+  {
+    "text": "here",
+    "url": "#how-surveys-complement-other-evidence"
+  },
+  {
+    "text": "frontier AI companies",
+    "url": "https://metr.org/common-elements#automated-ai-research-and-development"
+  },
+  {
+    "text": "here",
+    "url": "#recommendations-for-ai-companies-tracking-ai-rd-acceleration-and-other-future-work"
+  },
+  {
+    "text": "3",
+    "url": "#fn:3"
+  },
+  {
+    "text": "they\u2019re very expensive",
+    "url": "https://metr.org/blog/2026-02-24-uplift-update/"
+  },
+  {
+    "text": "4",
+    "url": "#fn:4"
+  },
+  {
+    "text": "Here is the survey",
+    "url": "https://forms.gle/TNnafiPXetVHVYNQA"
+  },
+  {
+    "text": "willingness-to-accept",
+    "url": "https://en.wikipedia.org/wiki/Willingness_to_accept"
+  },
+  {
+    "text": "those used by Anthropic",
+    "url": "https://cdn.sanity.io/files/4zrzovbb/website/037f06850df7fbe871e206dad004c3db5fd50340.pdf#page=29"
+  },
+  {
+    "text": "5",
+    "url": "#fn:5"
+  },
+  {
+    "text": "previous research",
+    "url": "/blog/2026-05-08-task-substitution-and-uplift/"
+  },
+  {
+    "text": "6",
+    "url": "#fn:6"
+  },
+  {
+    "text": "7",
+    "url": "#fn:7"
+  },
+  {
+    "text": "8",
+    "url": "#fn:8"
+  },
+  {
+    "text": "9",
+    "url": "#fn:9"
+  },
+  {
+    "text": "anomalies",
+    "url": "#data-quality"
+  },
+  {
+    "text": "10",
+    "url": "#fn:10"
+  },
+  {
+    "text": "earlier research differentiating speed and value uplift",
+    "url": "/blog/2026-05-08-task-substitution-and-uplift/"
+  },
+  {
+    "text": "11",
+    "url": "#fn:11"
+  },
+  {
+    "text": "12",
+    "url": "#fn:12"
+  },
+  {
+    "text": "13",
+    "url": "#fn:13"
+  },
+  {
+    "text": "those used by Anthropic",
+    "url": "https://cdn.sanity.io/files/4zrzovbb/website/037f06850df7fbe871e206dad004c3db5fd50340.pdf#page=29"
+  },
+  {
+    "text": "willingness-to-accept",
+    "url": "https://en.wikipedia.org/wiki/Willingness_to_accept"
+  },
+  {
+    "text": "appendix section",
+    "url": "#willingness-to-accept-analysis"
+  },
+  {
+    "text": "14",
+    "url": "#fn:14"
+  },
+  {
+    "text": "\u21a9\ufe0e",
+    "url": "#fnref:1"
+  },
+  {
+    "text": "early",
+    "url": "https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/"
+  },
+  {
+    "text": "late 2025",
+    "url": "https://metr.org/blog/2026-02-24-uplift-update/"
+  },
+  {
+    "text": "autonomous AI capabilities had significantly advanced",
+    "url": "https://metr.org/time-horizons/"
+  },
+  {
+    "text": "\u21a9\ufe0e",
+    "url": "#fnref:2"
+  },
+  {
+    "text": "early",
+    "url": "https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/"
+  },
+  {
+    "text": "late 2025",
+    "url": "https://metr.org/blog/2026-02-24-uplift-update/"
+  },
+  {
+    "text": "our recent research distinguishing value and speed uplift",
+    "url": "/blog/2026-05-08-task-substitution-and-uplift/"
+  },
+  {
+    "text": "\u21a9\ufe0e",
+    "url": "#fnref:3"
+  },
+  {
+    "text": "\u21a9\ufe0e",
+    "url": "#fnref:4"
+  },
+  {
+    "text": "\u21a9\ufe0e",
+    "url": "#fnref:5"
+  },
+  {
+    "text": "\u21a9\ufe0e",
+    "url": "#fnref:6"
+  },
+  {
+    "text": "\u21a9\ufe0e",
+    "url": "#fnref:7"
+  },
+  {
+    "text": "\u21a9\ufe0e",
+    "url": "#fnref:8"
+  },
+  {
+    "text": "\u21a9\ufe0e",
+    "url": "#fnref:9"
+  },
+  {
+    "text": "\u21a9\ufe0e",
+    "url": "#fnref:10"
+  },
+  {
+    "text": "\u21a9\ufe0e",
+    "url": "#fnref:11"
+  },
+  {
+    "text": "\u21a9\ufe0e",
+    "url": "#fnref:12"
+  },
+  {
+    "text": "Claude Opus 4.6 system card",
+    "url": "https://www-cdn.anthropic.com/14e4fb01875d2a69f646fa5e574dea2b1c0ff7b5.pdf"
+  },
+  {
+    "text": "\u21a9\ufe0e",
+    "url": "#fnref:13"
+  },
+  {
+    "text": "\u21a9\ufe0e",
+    "url": "#fnref:14"
+  },
+  {
+    "text": "View open roles",
+    "url": "/careers"
+  },
+  {
+    "text": "Read more",
+    "url": "/blog/2026-05-11-ai-usage-survey/"
+  },
+  {
+    "text": "Read more",
+    "url": "/blog/2026-01-19-early-work-on-monitorability-evaluations/"
+  },
+  {
+    "text": "Read more",
+    "url": "/blog/2025-07-14-how-does-time-horizon-vary-across-domains/"
+  },
+  {
+    "text": "",
+    "url": "/"
+  },
+  {
+    "text": "Research",
+    "url": "/research"
+  },
+  {
+    "text": "Notes",
+    "url": "/notes"
+  },
+  {
+    "text": "Updates",
+    "url": "/blog"
+  },
+  {
+    "text": "Frontier AI Safety Policies",
+    "url": "/fsp"
+  },
+  {
+    "text": "Substack Substack",
+    "url": "https://metr.substack.com"
+  },
+  {
+    "text": "twitter X (Twitter)",
+    "url": "https://x.com/METR_Evals"
+  },
+  {
+    "text": "Bluesky Bluesky",
+    "url": "https://bsky.app/profile/metr.org"
+  },
+  {
+    "text": "LinkedIn",
+    "url": "https://www.linkedin.com/company/metr-evals/"
+  },
+  {
+    "text": "GitHub",
+    "url": "https://github.com/METR/"
+  },
+  {
+    "text": "About Us",
+    "url": "/about"
+  },
+  {
+    "text": "Careers",
+    "url": "/careers"
+  },
+  {
+    "text": "Donate",
+    "url": "/donate"
+  },
+  {
+    "text": "Privacy",
+    "url": "/privacy"
+  },
+  {
+    "text": "info@metr.org",
+    "url": "mailto:info@metr.org"
+  },
+  {
+    "text": "press@metr.org",
+    "url": "mailto:press@metr.org"
+  }
+]

@@ -1,0 +1,1347 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Action completed."
+    }
+  ],
+  "structuredContent": {
+    "spreadsheetId": "1JfEJRIwGe7fSCIW14eC7q0sEhVWHEdetykVh9g9XnF8",
+    "spreadsheetUrl": "https://docs.google.com/spreadsheets/d/1JfEJRIwGe7fSCIW14eC7q0sEhVWHEdetykVh9g9XnF8/edit",
+    "properties": {
+      "title": "[Link-shared] Grading AI 2027's predictions; Aug 2026 version",
+      "locale": "en_US",
+      "timeZone": "America/Los_Angeles"
+    },
+    "sheets": [
+      {
+        "properties": {
+          "sheetId": 1928509176,
+          "title": "Aug 2026 grades",
+          "index": 0,
+          "sheetType": "GRID",
+          "gridProperties": {
+            "rowCount": 992,
+            "columnCount": 31,
+            "frozenRowCount": 2,
+            "frozenColumnCount": 1
+          }
+        },
+        "data": [
+          {
+            "rowData": [
+              {},
+              {
+                "values": [
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Prediction"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Prediction"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Time period"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Time period"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Pace of progress"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Pace of progress"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Explanation"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Explanation"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Prediction source"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Prediction source"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Time at which AI 2027 predicted the resolution value to be achieved (when filled in, this is used for the pace of progress calculation rather than the final 3 columns)"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Time at which AI 2027 predicted the resolution value to be achieved (when filled in, this is used for the pace of progress calculation rather than the final 3 columns)"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Time when resolution value was achieved in reality"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Time when resolution value was achieved in reality"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Resolution value"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Resolution value"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Predicted value"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Predicted value"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Apr 2025 value"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Apr 2025 value"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Notes"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Notes"
+                    }
+                  }
+                ]
+              },
+              {
+                "values": [
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Coding time horizon, model trajectory"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Coding time horizon, model trajectory"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Mid 2026"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Mid 2026"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "formulaValue": "=ROUND((F3-2025.25)/(G3-2025.25), 2)"
+                    },
+                    "effectiveValue": {
+                      "numberValue": 1.05
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "The current best 80% time horizon is Mythos Preview at 186 minutes (version 1.1; there is no measurement for version 1.0). The methodology change from TH1.0 to TH1.1 drops the best model as of AI 2027 publication (Claude 3.7 Sonnet) by 2/3 from 15 to 10 minutes. Because we care more about the pace of progress rather than the absolute values, we look at when the AI 2027 trajectory reaches 186*(3/2)=279 minutes.\n\nIn a central AI-2027-speed trajectory from our AI 2027 timelines model, 279 minutes is achieved in May 2026."
+                    },
+                    "effectiveValue": {
+                      "stringValue": "The current best 80% time horizon is Mythos Preview at 186 minutes (version 1.1; there is no measurement for version 1.0). The methodology change from TH1.0 to TH1.1 drops the best model as of AI 2027 publication (Claude 3.7 Sonnet) by 2/3 from 15 to 10 minutes. Because we care more about the pace of progress rather than the absolute values, we look at when the AI 2027 trajectory reaches 186*(3/2)=279 minutes.\n\nIn a central AI-2027-speed trajectory from our AI 2027 timelines model, 279 minutes is achieved in May 2026."
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Timelines forecast generated the prediction, see on graph here"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Timelines forecast generated the prediction, see on graph here"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "numberValue": 2026.35
+                    },
+                    "effectiveValue": {
+                      "numberValue": 2026.35
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "numberValue": 2026.3
+                    },
+                    "effectiveValue": {
+                      "numberValue": 2026.3
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "numberValue": 279
+                    },
+                    "effectiveValue": {
+                      "numberValue": 279
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "numberValue": 231
+                    },
+                    "effectiveValue": {
+                      "numberValue": 231
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "numberValue": 10
+                    },
+                    "effectiveValue": {
+                      "numberValue": 10
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Eyeballed predicted/time achieved"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Eyeballed predicted/time achieved"
+                    }
+                  }
+                ]
+              },
+              {
+                "values": [
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Coding time horizon, erroneous graph trajectory"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Coding time horizon, erroneous graph trajectory"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Mid 2026"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Mid 2026"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "formulaValue": "=ROUND((F4-2025.25)/(G4-2025.25), 2)"
+                    },
+                    "effectiveValue": {
+                      "numberValue": 0.72
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "In our erroneous graph that we published alongside AI 2027, the curve depicting AI 2027's trajectory achieved an 80% time horizon of 279 minutes in Jan 2026."
+                    },
+                    "effectiveValue": {
+                      "stringValue": "In our erroneous graph that we published alongside AI 2027, the curve depicting AI 2027's trajectory achieved an 80% time horizon of 279 minutes in Jan 2026."
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Time horizon graph shared at the time of AI 2027 publication"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Time horizon graph shared at the time of AI 2027 publication"
+                    },
+                    "hyperlink": "https://aifuturesnotes.substack.com/i/181478264/how-big-of-a-problem-is-it-that-neither-the-original-nor-intended-curve-was-not-an-actual-model-trajectory"
+                  },
+                  {
+                    "userEnteredValue": {
+                      "numberValue": 2026.01
+                    },
+                    "effectiveValue": {
+                      "numberValue": 2026.01
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "numberValue": 2026.3
+                    },
+                    "effectiveValue": {
+                      "numberValue": 2026.3
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "numberValue": 279
+                    },
+                    "effectiveValue": {
+                      "numberValue": 279
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "numberValue": 1266
+                    },
+                    "effectiveValue": {
+                      "numberValue": 1266
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "numberValue": 10
+                    },
+                    "effectiveValue": {
+                      "numberValue": 10
+                    }
+                  }
+                ]
+              },
+              {
+                "values": [
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "AI software R&D uplift: OpenBrain"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "AI software R&D uplift: OpenBrain"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Mid 2026"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Mid 2026"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "formulaValue": "=ROUND((F5-2025.25)/(G5-2025.25), 2)"
+                    },
+                    "effectiveValue": {
+                      "numberValue": 0.31
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Eli estimates that internal serial coding uplift is currently 1.7x, which implies according to aifuturesmodel.com that overall AI software R&D uplift is roughly 1.2x. (Daniel estimates slightly higher: 2x coding uplift, 1.26x overall uplift.)\n\nIn AI 2027 1.2x OpenBrain uplift was reached in end of Aug 2025, and had 1.5x for end of Apr 2026 and 1.73x for end of Aug 2026. Note that the AI companies themselves seem to think uplift is higher than we think it is, e.g. Anthropic's informal survey "
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Eli estimates that internal serial coding uplift is currently 1.7x, which implies according to aifuturesmodel.com that overall AI software R&D uplift is roughly 1.2x. (Daniel estimates slightly higher: 2x coding uplift, 1.26x overall uplift.)\n\nIn AI 2027 1.2x OpenBrain uplift was reached in end of Aug 2025, and had 1.5x for end of Apr 2026 and 1.73x for end of Aug 2026. Note that the AI companies themselves seem to think uplift is higher than we think it is, e.g. Anthropic's informal survey "
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Side panel: capabilities graph at the top"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Side panel: capabilities graph at the top"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "numberValue": 2025.67
+                    },
+                    "effectiveValue": {
+                      "numberValue": 2025.67
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "numberValue": 2026.59
+                    },
+                    "effectiveValue": {
+                      "numberValue": 2026.59
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "numberValue": 1.2
+                    },
+                    "effectiveValue": {
+                      "numberValue": 1.2
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "formulaValue": "=1+0.5*(0.73/0.5)^(3/4+0.25*(6/30))"
+                    },
+                    "effectiveValue": {
+                      "numberValue": 1.6767874378330596
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "numberValue": 1.13
+                    },
+                    "effectiveValue": {
+                      "numberValue": 1.13
+                    }
+                  }
+                ]
+              },
+              {
+                "values": [
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "AI software R&D uplift: Public model"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "AI software R&D uplift: Public model"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Mid 2026"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Mid 2026"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "formulaValue": "=ROUND((F6-2025.25)/(G6-2025.25), 2)"
+                    },
+                    "effectiveValue": {
+                      "numberValue": 0.36
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Eli estimates that public coding uplift is currently 1.5x, which implies according to aifuturesmodel.com that overall AI software R&D uplift is roughly 1.15x. \n\nIn AI 2027 1.15x public uplift was reached slightly after EOAug 2025, and had 1.4x for end of Apr 2026 and 1.63x for end of Aug 2026."
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Eli estimates that public coding uplift is currently 1.5x, which implies according to aifuturesmodel.com that overall AI software R&D uplift is roughly 1.15x. \n\nIn AI 2027 1.15x public uplift was reached slightly after EOAug 2025, and had 1.4x for end of Apr 2026 and 1.63x for end of Aug 2026."
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Side panel: capabilities graph at the top"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Side panel: capabilities graph at the top"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "formulaValue": "=ROUND(2025.67+ROUND(4*(log(H6/1.14)/log(1.2/1.14)), 2)/12, 2)"
+                    },
+                    "effectiveValue": {
+                      "numberValue": 2025.73
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "numberValue": 2026.59
+                    },
+                    "effectiveValue": {
+                      "numberValue": 2026.59
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "numberValue": 1.15
+                    },
+                    "effectiveValue": {
+                      "numberValue": 1.15
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "formulaValue": "=1+0.4*(0.63/0.4)^(3/4+0.25*(6/30))"
+                    },
+                    "effectiveValue": {
+                      "numberValue": 1.575286837896853
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "numberValue": 1.08
+                    },
+                    "effectiveValue": {
+                      "numberValue": 1.08
+                    }
+                  }
+                ]
+              },
+              {
+                "values": [
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Economic value: OpenBrain annualized revenue"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Economic value: OpenBrain annualized revenue"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Mid 2026"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Mid 2026"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "formulaValue": "=ROUND((F7-2025.25)/(G7-2025.25), 2)"
+                    },
+                    "effectiveValue": {
+                      "numberValue": 1.43
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "The highest reported AGI company annualized revenue is Anthropic at $47B, as of May 15 2026.\n\nThis was reached in between EOAug (38B) and EODec 2026 (55B) in AI 2027."
+                    },
+                    "effectiveValue": {
+                      "stringValue": "The highest reported AGI company annualized revenue is Anthropic at $47B, as of May 15 2026.\n\nThis was reached in between EOAug (38B) and EODec 2026 (55B) in AI 2027."
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Side panel"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Side panel"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "formulaValue": "=ROUND(2025.25+ROUND(17+4*(log((H7/1000000000)/38)/log(55/38)), 2)/12, 2)"
+                    },
+                    "effectiveValue": {
+                      "numberValue": 2026.86
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "formulaValue": "=2026+4.5/12"
+                    },
+                    "effectiveValue": {
+                      "numberValue": 2026.375
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "formulaValue": "=47000000000"
+                    },
+                    "effectiveValue": {
+                      "numberValue": 47000000000
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "formulaValue": "=260000000000*(380000000000/260000000000)^(3/4+0.25*(6/30))"
+                    },
+                    "effectiveValue": {
+                      "numberValue": 352226110369.968
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "numberValue": 8600000000
+                    },
+                    "effectiveValue": {
+                      "numberValue": 8600000000
+                    }
+                  }
+                ]
+              },
+              {
+                "values": [
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Economic value: OpenBrain valuation"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Economic value: OpenBrain valuation"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Mid 2026"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Mid 2026"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "formulaValue": "=ROUND((F8-2025.25)/(G8-2025.25), 2)"
+                    },
+                    "effectiveValue": {
+                      "numberValue": 0.7
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "The top company valuation is OpenAI at $852B on March 31, 2026. Anthropic raised at $965B on May 28, but this is lower compared to the valuation trendline.\n\nWe projected $610B at EOAug 2025, $900B at EO2025, $1.3T at EOApr 2026, $1.8T at EOAug 2026.\n\nApr 2025 source: https://techcrunch.com/2025/03/31/openai-raises-40b-at-300b-post-money-valuation/"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "The top company valuation is OpenAI at $852B on March 31, 2026. Anthropic raised at $965B on May 28, but this is lower compared to the valuation trendline.\n\nWe projected $610B at EOAug 2025, $900B at EO2025, $1.3T at EOApr 2026, $1.8T at EOAug 2026.\n\nApr 2025 source: https://techcrunch.com/2025/03/31/openai-raises-40b-at-300b-post-money-valuation/"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Side panel"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Side panel"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "formulaValue": "=ROUND(2025.25+(5+4*(log((H8/1000000000)/610)/log(900/610)))/12, 2)"
+                    },
+                    "effectiveValue": {
+                      "numberValue": 2025.95
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "formulaValue": "=2026+3/12"
+                    },
+                    "effectiveValue": {
+                      "numberValue": 2026.25
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "formulaValue": "=852000000000"
+                    },
+                    "effectiveValue": {
+                      "numberValue": 852000000000
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "formulaValue": "=1300000000000*(1800000000000/1300000000000)^(3/4+0.25*(6/30))"
+                    },
+                    "effectiveValue": {
+                      "numberValue": 1686578945724.7551
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "numberValue": 300000000000
+                    },
+                    "effectiveValue": {
+                      "numberValue": 300000000000
+                    }
+                  }
+                ]
+              },
+              {
+                "values": [
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Compute: Agent-1 training FLOP"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Compute: Agent-1 training FLOP"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Early 2026"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Early 2026"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "formulaValue": "=(log(H9)-log(J9))/(log(I9)-log(J9))"
+                    },
+                    "effectiveValue": {
+                      "numberValue": 0.5833135397862336
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Best guess: Claude Mythos 5 total training compute: ~1.5e27 FLOP\n\nBase run: AWS confirmed ~500,000 Trainium 2 chips running in Indiana, training Anthropic's next-gen models — that fleet, run for a few months at realistic utilization, gives a base model of order 6.7e26–1.0e27 FLOP trained roughly October–December (estimate: https://x.com/scaling01/status/2061989029025853757, RL refinement: https://x.com/scaling01/status/2062177392471298265). Take ~7e26. RL on top: the RL-to-base ratio is plausibly 0.5–3x given the expanding fleet between the base run and June release; geometric midpoint ~1x. So 7e26 × 2 ≈ 1.5e27, 80% interval ~1e27–3e27. The leaked Microsoft slide's 6.1e27 is ~4x higher but widely dismissed as decorative (https://x.com/scaling01/status/2061897540161728791)."
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Best guess: Claude Mythos 5 total training compute: ~1.5e27 FLOP\n\nBase run: AWS confirmed ~500,000 Trainium 2 chips running in Indiana, training Anthropic's next-gen models — that fleet, run for a few months at realistic utilization, gives a base model of order 6.7e26–1.0e27 FLOP trained roughly October–December (estimate: https://x.com/scaling01/status/2061989029025853757, RL refinement: https://x.com/scaling01/status/2062177392471298265). Take ~7e26. RL on top: the RL-to-base ratio is plausibly 0.5–3x given the expanding fleet between the base run and June release; geometric midpoint ~1x. So 7e26 × 2 ≈ 1.5e27, 80% interval ~1e27–3e27. The leaked Microsoft slide's 6.1e27 is ~4x higher but widely dismissed as decorative (https://x.com/scaling01/status/2061897540161728791)."
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Scenario text"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Scenario text"
+                    }
+                  },
+                  {},
+                  {
+                    "userEnteredValue": {
+                      "numberValue": 2026.25
+                    },
+                    "effectiveValue": {
+                      "numberValue": 2026.25
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "numberValue": 1.5e+27
+                    },
+                    "effectiveValue": {
+                      "numberValue": 1.5e+27
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "numberValue": 4e+27
+                    },
+                    "effectiveValue": {
+                      "numberValue": 4e+27
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "numberValue": 3.8e+26
+                    },
+                    "effectiveValue": {
+                      "numberValue": 3.8e+26
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "I think in last update we incorrectly counted this as 4e27 being predicted for Dec 2025 checkpoint of Agent-1, because we later say Agent-1 continues post-training in early 2026 in the scenario, and 4e27 is the final FLOP count"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "I think in last update we incorrectly counted this as 4e27 being predicted for Dec 2025 checkpoint of Agent-1, because we later say Agent-1 continues post-training in early 2026 in the scenario, and 4e27 is the final FLOP count"
+                    }
+                  }
+                ]
+              },
+              {
+                "values": [
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Compute: Global AI datacenter spending"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Compute: Global AI datacenter spending"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Mid 2026"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Mid 2026"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "formulaValue": "=ROUND((F10-2025.25)/(G10-2025.25), 2)"
+                    },
+                    "effectiveValue": {
+                      "numberValue": 1.76
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Global AI datacenter spending: ~$850B/yr annualized as of Aug 7, 2026 (~$820B full-year)\n\nBottom-up: Big-5 guidance sums to $775–800B, ~75% AI-specific (~$590B — the haircut strips warehouses and general cloud, matching the hardware+infrastructure definition; tracker: https://alcapitaladvisory.com/research/intelligence/ai-infrastructure.html), plus China (~$60–90B; https://futurumgroup.com/insights/ai-capex-2026-the-690b-infrastructure-sprint/), neoclouds (~$50–80B), colo developers (~$40–60B), and sovereigns (~$30–50B) → ~$820B. Cross-checks: Goldman's build-out model at $765B (https://www.goldmansachs.com/insights/articles/tracking-trillions-the-assumptions-shaping-scale-of-the-ai-build-out) and Dell'Oro's >$1T total datacenter capex less the non-AI quarter (https://www.mobileworldlive.com/ai-cloud/data-centre-capex-to-top-1t-as-ai-spending-accelerates/). The year is back-loaded (Q1 ~$165B → Q4 ~$250B globally, anchored on Big-4 Q1 actuals of $129.8B; https://siliconanalysts.com/analysis/hyperscaler-ai-capex-depreciation-wall-2026), so five weeks into Q3 the run rate is ~$850B/yr, exiting 2026 near $1T/yr. Caveat: ~5–10% of the dollar growth is HBM/memory price inflation, not added FLOP/s (https://www.globaldatacenterhub.com/p/microsoft-q3-fy2026-the-190b-capex)."
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Global AI datacenter spending: ~$850B/yr annualized as of Aug 7, 2026 (~$820B full-year)\n\nBottom-up: Big-5 guidance sums to $775–800B, ~75% AI-specific (~$590B — the haircut strips warehouses and general cloud, matching the hardware+infrastructure definition; tracker: https://alcapitaladvisory.com/research/intelligence/ai-infrastructure.html), plus China (~$60–90B; https://futurumgroup.com/insights/ai-capex-2026-the-690b-infrastructure-sprint/), neoclouds (~$50–80B), colo developers (~$40–60B), and sovereigns (~$30–50B) → ~$820B. Cross-checks: Goldman's build-out model at $765B (https://www.goldmansachs.com/insights/articles/tracking-trillions-the-assumptions-shaping-scale-of-the-ai-build-out) and Dell'Oro's >$1T total datacenter capex less the non-AI quarter (https://www.mobileworldlive.com/ai-cloud/data-centre-capex-to-top-1t-as-ai-spending-accelerates/). The year is back-loaded (Q1 ~$165B → Q4 ~$250B globally, anchored on Big-4 Q1 actuals of $129.8B; https://siliconanalysts.com/analysis/hyperscaler-ai-capex-depreciation-wall-2026), so five weeks into Q3 the run rate is ~$850B/yr, exiting 2026 near $1T/yr. Caveat: ~5–10% of the dollar growth is HBM/memory price inflation, not added FLOP/s (https://www.globaldatacenterhub.com/p/microsoft-q3-fy2026-the-190b-capex)."
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Side panel"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Side panel"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "formulaValue": "=ROUND(2027+(7+(log((H10/1000000000)/843)/log(880/843)))/12, 2)"
+                    },
+                    "effectiveValue": {
+                      "numberValue": 2027.6
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "formulaValue": "=2026+7/12"
+                    },
+                    "effectiveValue": {
+                      "numberValue": 2026.5833333333333
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "formulaValue": "=850000000000"
+                    },
+                    "effectiveValue": {
+                      "numberValue": 850000000000
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "formulaValue": "=458000000000*(524000000000/458000000000)^(3/4+0.25*(6/30))"
+                    },
+                    "effectiveValue": {
+                      "numberValue": 510079800108.80493
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "numberValue": 308000000000
+                    },
+                    "effectiveValue": {
+                      "numberValue": 308000000000
+                    }
+                  }
+                ]
+              },
+              {
+                "values": [
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Compute: Global H100e available"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Compute: Global H100e available"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Early 2026"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Early 2026"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "formulaValue": "=ROUND((F11-2025.25)/(G11-2025.25), 2)"
+                    },
+                    "effectiveValue": {
+                      "numberValue": 1.14
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "https://epoch.ai/data/ai-chip-sales?view=graph&tab=h100_equivalents"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "https://epoch.ai/data/ai-chip-sales?view=graph&tab=h100_equivalents"
+                    },
+                    "hyperlink": "https://epoch.ai/data/ai-chip-sales?view=graph&tab=h100_equivalents"
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Compute forecast, first table"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Compute forecast, first table"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "formulaValue": "=ROUND(2026+(log(H11/18000000)/log(40000000/18000000)), 2)"
+                    },
+                    "effectiveValue": {
+                      "numberValue": 2026.39
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "formulaValue": "=2026+3/12"
+                    },
+                    "effectiveValue": {
+                      "numberValue": 2026.25
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "formulaValue": "=24500000"
+                    },
+                    "effectiveValue": {
+                      "numberValue": 24500000
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "formulaValue": "=18000000*(40000000/18000000)^(1/4)"
+                    },
+                    "effectiveValue": {
+                      "numberValue": 21977049.00890824
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "numberValue": 9500000
+                    },
+                    "effectiveValue": {
+                      "numberValue": 9500000
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Epoch does not yet have Q2 data up"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Epoch does not yet have Q2 data up"
+                    }
+                  }
+                ]
+              },
+              {
+                "values": [
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Compute: OpenBrain compute budget"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Compute: OpenBrain compute budget"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Mid 2026"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Mid 2026"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "formulaValue": "=ROUND((F12-2025.25)/(G12-2025.25), 2)"
+                    },
+                    "effectiveValue": {
+                      "numberValue": 0.84
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "OpenAI, ~1e28 FLOP/month peak capacity, ~3e27 FLOP/month executed (Aug 2026).\n\nPrimary anchor is power: Stargate Abilene is fully operational at 1.2 GW, plus the pre-existing Azure fleet (~1.5–2 GW, implied by Epoch's ~1.7M H100-equivalent estimate for end-2025) and partial CoreWeave/Oracle ramps → ~3.5 GW operational, i.e. ~3.5M H100e at ~1 kW each all-in (https://epochai.substack.com/p/frontier-labs-dont-use-most-ai-compute; https://intuitionlabs.ai/articles/oracle-openai-300b-deal-analysis). \nIntuitionLabs\nCrypto Briefing\n\nCross-checks agree: growing Epoch's 1.7M at the ~3.3x/yr global stock growth rate (labs are share-gainers, so this is a floor) gives ~3–4M; and Citi's ~$50B/GW against OpenAI's $400B+/3yr build implies ~3–4 GW live mid-ramp. \nTokensperday + 2\n\nConversion: 3.5M H100e × 1e15 FLOP/s (FP16 dense) × 2.6e6 s ≈ 9e27 ≈ 1e28 FLOP/month peak (2e28 at FP8); ~30–35% blended utilization → ~3e27 executed."
+                    },
+                    "effectiveValue": {
+                      "stringValue": "OpenAI, ~1e28 FLOP/month peak capacity, ~3e27 FLOP/month executed (Aug 2026).\n\nPrimary anchor is power: Stargate Abilene is fully operational at 1.2 GW, plus the pre-existing Azure fleet (~1.5–2 GW, implied by Epoch's ~1.7M H100-equivalent estimate for end-2025) and partial CoreWeave/Oracle ramps → ~3.5 GW operational, i.e. ~3.5M H100e at ~1 kW each all-in (https://epochai.substack.com/p/frontier-labs-dont-use-most-ai-compute; https://intuitionlabs.ai/articles/oracle-openai-300b-deal-analysis). \nIntuitionLabs\nCrypto Briefing\n\nCross-checks agree: growing Epoch's 1.7M at the ~3.3x/yr global stock growth rate (labs are share-gainers, so this is a floor) gives ~3–4M; and Citi's ~$50B/GW against OpenAI's $400B+/3yr build implies ~3–4 GW live mid-ramp. \nTokensperday + 2\n\nConversion: 3.5M H100e × 1e15 FLOP/s (FP16 dense) × 2.6e6 s ≈ 9e27 ≈ 1e28 FLOP/month peak (2e28 at FP8); ~30–35% blended utilization → ~3e27 executed."
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Side panel: compute"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Side panel: compute"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "formulaValue": "=ROUND(2026.33+ROUND(4*(log(H12/2.2E+27)/log(3.2E+28/2.2E+27)), 2)/12, 2)"
+                    },
+                    "effectiveValue": {
+                      "numberValue": 2026.37
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "formulaValue": "=2026+7/12"
+                    },
+                    "effectiveValue": {
+                      "numberValue": 2026.5833333333333
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "numberValue": 3e+27
+                    },
+                    "effectiveValue": {
+                      "numberValue": 3e+27
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "formulaValue": "=2.2E+27*(3.2E+27/2.2E+27)^(3/4+0.25*(6/30))"
+                    },
+                    "effectiveValue": {
+                      "numberValue": 2.9689611780129355e+27
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "numberValue": 6.4e+26
+                    },
+                    "effectiveValue": {
+                      "numberValue": 6.4e+26
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Interpolation by claude based on extremely limited data"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Interpolation by claude based on extremely limited data"
+                    }
+                  }
+                ]
+              },
+              {
+                "values": [
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Public salience: % of Americans saying that AI is the most important problem"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Public salience: % of Americans saying that AI is the most important problem"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Mid 2026"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Mid 2026"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "formulaValue": "=ROUND((F13-2025.25)/(G13-2025.25), 2)"
+                    },
+                    "effectiveValue": {
+                      "numberValue": 0.1
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Average of last 4 months as of Jul 2026 is 0.625% (source). We had a baseline value of 0.6% for EOApr 2025 which I'll assume was the actual value at that point, I can't find the data. We predicted 0.8% for EOAug 2025, 1.7% for EOApr 2026, and 2.3% EOAug 2026.\n\n We treat * as 0.5% even though it's actually <0.5%, because that's what we assumed when we made our original prediction."
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Average of last 4 months as of Jul 2026 is 0.625% (source). We had a baseline value of 0.6% for EOApr 2025 which I'll assume was the actual value at that point, I can't find the data. We predicted 0.8% for EOAug 2025, 1.7% for EOApr 2026, and 2.3% EOAug 2026.\n\n We treat * as 0.5% even though it's actually <0.5%, because that's what we assumed when we made our original prediction."
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Side panel: importance"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Side panel: importance"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "formulaValue": "=ROUND(2025.25+(1+4*(LN((0.00625/(1-0.00625))/(0.006/(1-0.006)))/LN((0.008/(1-0.008))/(0.006/(1-0.006)))))/12, 2)"
+                    },
+                    "effectiveValue": {
+                      "numberValue": 2025.38
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "formulaValue": "=2026+7/12"
+                    },
+                    "effectiveValue": {
+                      "numberValue": 2026.5833333333333
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "numberValue": 0.00625
+                    },
+                    "effectiveValue": {
+                      "numberValue": 0.00625
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "formulaValue": "=1/(1+((1-0.017)/0.017)^(1-(3/4+0.25*(6/30)))*((1-0.023)/0.023)^(3/4+0.25*(6/30)))"
+                    },
+                    "effectiveValue": {
+                      "numberValue": 0.021654001942707345
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "numberValue": 0.006
+                    },
+                    "effectiveValue": {
+                      "numberValue": 0.006
+                    }
+                  }
+                ]
+              },
+              {},
+              {
+                "values": [
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Aggregations"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Aggregations"
+                    }
+                  }
+                ]
+              },
+              {},
+              {
+                "values": [
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Category"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Category"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Mean"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Mean"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Sample size"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Sample size"
+                    }
+                  }
+                ]
+              },
+              {
+                "values": [
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Coding time horizon"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Coding time horizon"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "formulaValue": "=AVERAGE($C$3:$C$4)"
+                    },
+                    "effectiveValue": {
+                      "numberValue": 0.885
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "formulaValue": "=COUNT($C$3:$C$4)"
+                    },
+                    "effectiveValue": {
+                      "numberValue": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "values": [
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "AI software R&D uplift"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "AI software R&D uplift"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "formulaValue": "=AVERAGE($C5:$C6)"
+                    },
+                    "effectiveValue": {
+                      "numberValue": 0.33499999999999996
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "formulaValue": "=COUNT($C5:$C6)"
+                    },
+                    "effectiveValue": {
+                      "numberValue": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "values": [
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Economic value"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Economic value"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "formulaValue": "=AVERAGE($C7:$C8)"
+                    },
+                    "effectiveValue": {
+                      "numberValue": 1.065
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "formulaValue": "=COUNT($C7:$C8)"
+                    },
+                    "effectiveValue": {
+                      "numberValue": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "values": [
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Capabilities indicators only\n(mean)"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Capabilities indicators only\n(mean)"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "formulaValue": "=ROUND(AVERAGE(B18:B20), 2)"
+                    },
+                    "effectiveValue": {
+                      "numberValue": 0.76
+                    }
+                  }
+                ]
+              },
+              {
+                "values": [
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Capabilities indicators only (median)"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Capabilities indicators only (median)"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "formulaValue": "=ROUND(MEDIAN(B18:B20), 2)"
+                    },
+                    "effectiveValue": {
+                      "numberValue": 0.89
+                    }
+                  }
+                ]
+              },
+              {},
+              {
+                "values": [
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Compute"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Compute"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "formulaValue": "=AVERAGE(C9:C12)"
+                    },
+                    "effectiveValue": {
+                      "numberValue": 1.0808283849465583
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "numberValue": 4
+                    },
+                    "effectiveValue": {
+                      "numberValue": 4
+                    }
+                  }
+                ]
+              },
+              {
+                "values": [
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "Public salience"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Public salience"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "formulaValue": "=$C13"
+                    },
+                    "effectiveValue": {
+                      "numberValue": 0.1
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "numberValue": 1
+                    },
+                    "effectiveValue": {
+                      "numberValue": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "values": [
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "All\n(mean)"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "All\n(mean)"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "formulaValue": "=ROUND(AVERAGE(B18:B20, B24:B25), 2)"
+                    },
+                    "effectiveValue": {
+                      "numberValue": 0.69
+                    }
+                  }
+                ]
+              },
+              {
+                "values": [
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "All\n(median)"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "All\n(median)"
+                    }
+                  },
+                  {
+                    "userEnteredValue": {
+                      "formulaValue": "=ROUND(MEDIAN(B18:B20, B24:B25), 2)"
+                    },
+                    "effectiveValue": {
+                      "numberValue": 0.89
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "isError": false
+}

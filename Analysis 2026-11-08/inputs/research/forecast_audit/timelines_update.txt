@@ -1,0 +1,71 @@
+Q1 2026 Timelines Update
+We told you we'd be updating in both directions!
+Daniel Kokotajlo
+,
+Eli Lifland
+,
+and
+Brendan Halstead
+Apr 02, 2026
+165
+37
+15
+Share
+We’re mostly focused on research and writing for our next big scenario, but we’re also continuing to think about AI timelines and takeoff speeds, monitoring the evidence as it comes in, and adjusting our expectations accordingly. We’re tentatively planning on making quarterly updates to our timelines and takeoff forecasts. Since we published the AI Futures Model 3 months ago, we’ve updated towards shorter timelines.
+Daniel’s Automated Coder (AC) median has moved from late 2029 to mid 2028, and Eli’s forecast has moved a similar amount. The AC milestone is the point at which an AGI company would rather lay off
+all of their human software engineers than stop using AIs for software engineering.
+The reasons behind this change include:
+1
+We switched to
+METR Time Horizon version 1.1
+.
+We included data from newly evaluated models (Gemini 3, GPT-5.2, and Claude Opus 4.6).
+Daniel and Eli revised their estimates for the present doubling time of the METR time horizon to be faster, from a 5.5 month median previously to 4 months for Daniel and 4.5 months for Eli. We revised it due to: (a) METR’s new v1.1 trend being faster than their previous v1.0, (b) new models’ time horizons continuing the 2024-onward fast trend, and (c) our further analysis of the doubling time implied by existing data points.
+Daniel revised his median estimate for the 80% time horizon requirement for AC down from 3 years to 1 year due to the impressiveness of Opus 4.6.
+In short, progress in agentic coding has been faster than we expected over the last 3-5 months. The
+METR coding time horizon trend
+has its flaws, but we still consider it the best individual piece of evidence for forecasting coding automation. On that metric, growth has continued at a rapid pace.
+Meanwhile, in the real world, there may have been an even bigger shift; coding agents have exploded in usefulness and popularity.
+Claude Code reached an annualized revenue of over $2.5 billion in early February
+, just 9 months after its release. Anthropic’s trend of 10xing annualized revenue each year
+has continued into the $10B range
+.
+Annualized revenue of AGI companies over time. Annualized revenue is revenue over the last month times 12. (
+source
+)
+Additionally, according to
+our analysis of AI 2027’s predictions
+, things seem close to being on track; if events in reality continue to go roughly 65% as fast as they go in AI 2027, then AC will be achieved in 2028.
+Finally, some AI company researchers that we respect continue to say that automated AI R&D is coming soon; sooner, in fact, than we ourselves think. Rather than walking back their predictions, they are doubling down, both in public and in private discussions. While we don’t put too much weight on such claims, noting that many other researchers have longer timelines, it does count for something.
+2
+The bottom line result of our updates is to shift Daniel’s
+Automated Coder (AC)
+median from late 2029 to mid 2028, and to shift Eli’s from early 2032 to mid 2030.
+Our medians for
+Top-Expert-Dominating AI (TED-AI)
+similarly shifted about 1.5 years sooner. A TED-AI is an AI that is at least as good as top human experts at virtually all cognitive tasks.
+Daniel’s latest forecasts compared to his previous ones. View these forecasts
+here
+.
+Eli’s latest forecasts compared to his previous ones. View these forecasts
+here
+.
+Below, we include a plot and table that extend our analysis of
+how our views have changed since publishing AI 2027
+. When we refer to AGI in the below plot and table, we mean to use the TED-AI definition above, i.e. an AI that is at least as good as top human experts at virtually all cognitive tasks.
+Underlying data
+here
+.
+As always, on the
+AI Futures Model landing page
+, you can input your preferred parameter values to explore different possible futures.
+1
+Additional more minor changes include: updating our estimate of current parallel coding uplift due to passage of time, and minor changes to Daniel’s takeoff parameters which make his predictions slightly faster.
+2
+Imagine if, by contrast, no one at the AI companies thought they could get to AC by 2029. That would be a pretty good reason to think that AC won’t happen by 2029. So, the existence of some researchers who expect AC by then is some evidence (though far from conclusive) that it will.
+165
+37
+15
+Share
+Previous
+Next

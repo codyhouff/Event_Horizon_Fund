@@ -1,0 +1,1054 @@
+[
+  {
+    "text": "",
+    "url": "/"
+  },
+  {
+    "text": "Research",
+    "url": "/research"
+  },
+  {
+    "text": "Open Projects",
+    "url": "/projects"
+  },
+  {
+    "text": "About",
+    "url": "/about"
+  },
+  {
+    "text": "Careers",
+    "url": "/careers"
+  },
+  {
+    "text": "Contact",
+    "url": "/contact"
+  },
+  {
+    "text": "Podcast",
+    "url": "/subscribe#podcast"
+  },
+  {
+    "text": "Newsletter",
+    "url": "/subscribe#newsletter"
+  },
+  {
+    "text": "Daniel Eth",
+    "url": "/people/daniel-eth"
+  },
+  {
+    "text": "Tom Davidson",
+    "url": "/people/tom-davidson"
+  },
+  {
+    "text": "Summary",
+    "url": "#summary"
+  },
+  {
+    "text": "Key Points",
+    "url": "#key-points"
+  },
+  {
+    "text": "Introduction",
+    "url": "#introduction"
+  },
+  {
+    "text": "Where AI progress comes from",
+    "url": "#where-ai-progress-comes-from"
+  },
+  {
+    "text": "Improvements in AI software are already driving fast AI progress",
+    "url": "#improvements-in-ai-software-are-already-driving-fast-ai-progress"
+  },
+  {
+    "text": "AI progress will likely speed up as we approach ASARA",
+    "url": "#ai-progress-will-likely-speed-up-as-we-approach-asara"
+  },
+  {
+    "text": "What happens when we reach ASARA?",
+    "url": "#what-happens-when-we-reach-asara"
+  },
+  {
+    "text": "A toy model to demonstrate the dynamics of a software intelligence explosion",
+    "url": "#a-toy-model-to-demonstrate-the-dynamics-of-a-software-intelligence-explosion"
+  },
+  {
+    "text": "Being more mathematically concrete: returns to software R&D",
+    "url": "#being-more-mathematically-concrete-returns-to-software-rd"
+  },
+  {
+    "text": "In the real world, are returns to software R&D greater or less than one?",
+    "url": "#in-the-real-world-are-returns-to-software-rd-greater-or-less-than-one"
+  },
+  {
+    "text": "You might need fast growing computing power to discover better algorithms",
+    "url": "#you-might-need-fast-growing-computing-power-to-discover-better-algorithms"
+  },
+  {
+    "text": "Progress might become bottlenecked by the time required to train new AI systems",
+    "url": "#progress-might-become-bottlenecked-by-the-time-required-to-train-new-ai-systems"
+  },
+  {
+    "text": "Bringing it all together",
+    "url": "#bringing-it-all-together"
+  },
+  {
+    "text": "What can we do if an SIE is possible?",
+    "url": "#what-can-we-do-if-an-sie-is-possible"
+  },
+  {
+    "text": "References",
+    "url": "#references"
+  },
+  {
+    "text": "Appendix: Justification for our formulation of r",
+    "url": "#appendix-justification-for-our-formulation-of-r"
+  },
+  {
+    "text": "",
+    "url": "https://pinecast.com/listen/940a8d43-9321-4d86-9dbd-1a19b06b24c0"
+  },
+  {
+    "text": "",
+    "url": "https://pnc.st/s/forecast/listen_in/SPOTIFY"
+  },
+  {
+    "text": "",
+    "url": "https://pnc.st/s/forecast/listen_in/APPLE"
+  },
+  {
+    "text": "",
+    "url": "https://www.youtube.com/@forethought_org"
+  },
+  {
+    "text": "",
+    "url": "https://podcastaddict.com/podcast/forecast/5745915"
+  },
+  {
+    "text": "",
+    "url": "https://pnc.st/s/forecast/listen_in/POCKETCASTS"
+  },
+  {
+    "text": "",
+    "url": "https://pnc.st/s/forecast/listen_in/OVERCAST"
+  },
+  {
+    "text": "",
+    "url": "https://pinecast.com/feed/forecast"
+  },
+  {
+    "text": "",
+    "url": "/research/will-ai-r-and-d-automation-cause-a-software-intelligence-explosion#summary"
+  },
+  {
+    "text": "",
+    "url": "/research/will-ai-r-and-d-automation-cause-a-software-intelligence-explosion#key-points"
+  },
+  {
+    "text": "",
+    "url": "/research/will-ai-r-and-d-automation-cause-a-software-intelligence-explosion#introduction"
+  },
+  {
+    "text": "suggests",
+    "url": "https://metr.org/AI_R_D_Evaluation_Report.pdf"
+  },
+  {
+    "text": "1",
+    "url": "#user-content-fn-1"
+  },
+  {
+    "text": "skeptical",
+    "url": "https://www.youtube.com/watch?v=T5cPoNwO7II&t=1236s"
+  },
+  {
+    "text": "2",
+    "url": "#user-content-fn-2"
+  },
+  {
+    "text": "tremendous",
+    "url": "https://darioamodei.com/machines-of-loving-grace"
+  },
+  {
+    "text": "benefits",
+    "url": "https://ia.samaltman.com"
+  },
+  {
+    "text": "3",
+    "url": "#user-content-fn-3"
+  },
+  {
+    "text": "",
+    "url": "/research/will-ai-r-and-d-automation-cause-a-software-intelligence-explosion#where-ai-progress-comes-from"
+  },
+  {
+    "text": "4",
+    "url": "#user-content-fn-4"
+  },
+  {
+    "text": "5",
+    "url": "#user-content-fn-5"
+  },
+  {
+    "text": "write functional computer code, translate between languages, and create poetry",
+    "url": "https://www.nytimes.com/2020/11/24/science/artificial-intelligence-ai-gpt3.html"
+  },
+  {
+    "text": "babbles as if discombobulated",
+    "url": "https://slatestarcodex.com/2019/02/18/do-neural-nets-dream-of-electric-hobbits/"
+  },
+  {
+    "text": "6",
+    "url": "#user-content-fn-6"
+  },
+  {
+    "text": "emergence",
+    "url": "https://arxiv.org/pdf/2206.07682.pdf"
+  },
+  {
+    "text": "7",
+    "url": "#user-content-fn-7"
+  },
+  {
+    "text": "prompting",
+    "url": "https://en.wikipedia.org/wiki/Prompt_engineering"
+  },
+  {
+    "text": "fine-tuning",
+    "url": "https://medium.com/@prabhuss73/fine-tuning-ai-models-a-guide-c515bcd4b580"
+  },
+  {
+    "text": "AI agent",
+    "url": "https://arxiv.org/abs/2310.04406v1"
+  },
+  {
+    "text": "",
+    "url": "/research/will-ai-r-and-d-automation-cause-a-software-intelligence-explosion#improvements-in-ai-software-are-already-driving-fast-ai-progress"
+  },
+  {
+    "text": "bigger",
+    "url": "https://ourworldindata.org/grapher/artificial-intelligence-parameter-count"
+  },
+  {
+    "text": "more computing power",
+    "url": "https://epochai.org/blog/training-compute-of-frontier-ai-models-grows-by-4-5x-per-year"
+  },
+  {
+    "text": "modifying",
+    "url": "https://openai.com/blog/chatgpt"
+  },
+  {
+    "text": "found",
+    "url": "https://openai.com/research/ai-and-efficiency"
+  },
+  {
+    "text": "found",
+    "url": "https://openai.com/research/ai-and-efficiency"
+  },
+  {
+    "text": "Epoch",
+    "url": "https://epochai.org"
+  },
+  {
+    "text": "estimated",
+    "url": "https://arxiv.org/pdf/2212.05153.pdf"
+  },
+  {
+    "text": "found",
+    "url": "https://arxiv.org/ftp/arxiv/papers/2005/2005.04305.pdf#page=10"
+  },
+  {
+    "text": "analysis",
+    "url": "https://arxiv.org/pdf/2102.04881"
+  },
+  {
+    "text": "8",
+    "url": "#user-content-fn-8"
+  },
+  {
+    "text": "estimates",
+    "url": "https://arxiv.org/pdf/2403.05812"
+  },
+  {
+    "text": "9",
+    "url": "#user-content-fn-9"
+  },
+  {
+    "text": "analysis",
+    "url": "https://arxiv.org/abs/2312.07413"
+  },
+  {
+    "text": "analysis",
+    "url": "https://a16z.com/llmflation-llm-inference-cost/"
+  },
+  {
+    "text": "analysis",
+    "url": "https://ide.mit.edu/wp-content/uploads/2021/09/How_Fast_Do_Algorithms_Improve.pdf"
+  },
+  {
+    "text": "10",
+    "url": "#user-content-fn-10"
+  },
+  {
+    "text": "11",
+    "url": "#user-content-fn-11"
+  },
+  {
+    "text": "12",
+    "url": "#user-content-fn-12"
+  },
+  {
+    "text": "Reinforcement Learning from Human Feedback (RLHF)",
+    "url": "https://openai.com/blog/chatgpt#Methods"
+  },
+  {
+    "text": "\u201cthink step by step\u201d",
+    "url": "https://arxiv.org/pdf/2205.11916.pdf"
+  },
+  {
+    "text": "13",
+    "url": "#user-content-fn-13"
+  },
+  {
+    "text": "14",
+    "url": "#user-content-fn-14"
+  },
+  {
+    "text": "",
+    "url": "/research/will-ai-r-and-d-automation-cause-a-software-intelligence-explosion#ai-progress-will-likely-speed-up-as-we-approach-asara"
+  },
+  {
+    "text": "15",
+    "url": "#user-content-fn-15"
+  },
+  {
+    "text": "can help researchers design",
+    "url": "https://arxiv.org/pdf/2304.10970.pdf"
+  },
+  {
+    "text": "GitHub Copilot",
+    "url": "https://github.com/features/copilot"
+  },
+  {
+    "text": "can be used to",
+    "url": "https://arxiv.org/pdf/2210.11610.pdf"
+  },
+  {
+    "text": "can additionally engage in",
+    "url": "https://arxiv.org/pdf/2309.03409"
+  },
+  {
+    "text": "METR",
+    "url": "https://metr.org"
+  },
+  {
+    "text": "is able to",
+    "url": "https://metr.github.io/autonomy-evals-guide/openai-o1-preview-report/"
+  },
+  {
+    "text": "Etcetera",
+    "url": "https://ai-improving-ai.safe.ai"
+  },
+  {
+    "text": "speed up",
+    "url": "https://epoch.ai/blog/interviewing-ai-researchers-on-automation-of-ai-rnd"
+  },
+  {
+    "text": "",
+    "url": "/research/will-ai-r-and-d-automation-cause-a-software-intelligence-explosion#what-happens-when-we-reach-asara"
+  },
+  {
+    "text": "numbers on this",
+    "url": "https://www.planned-obsolescence.org/continuous-doesnt-mean-slow/"
+  },
+  {
+    "text": "16",
+    "url": "#user-content-fn-16"
+  },
+  {
+    "text": "17",
+    "url": "#user-content-fn-17"
+  },
+  {
+    "text": "18",
+    "url": "#user-content-fn-18"
+  },
+  {
+    "text": "19",
+    "url": "#user-content-fn-19"
+  },
+  {
+    "text": "",
+    "url": "/research/will-ai-r-and-d-automation-cause-a-software-intelligence-explosion#a-toy-model-to-demonstrate-the-dynamics-of-a-software-intelligence-explosion"
+  },
+  {
+    "text": "artificial general intelligences",
+    "url": "https://en.wikipedia.org/wiki/Artificial_general_intelligence"
+  },
+  {
+    "text": "",
+    "url": "/research/will-ai-r-and-d-automation-cause-a-software-intelligence-explosion#being-more-mathematically-concrete-returns-to-software-rd"
+  },
+  {
+    "text": "20",
+    "url": "#user-content-fn-20"
+  },
+  {
+    "text": "21",
+    "url": "#user-content-fn-21"
+  },
+  {
+    "text": "22",
+    "url": "#user-content-fn-22"
+  },
+  {
+    "text": "23",
+    "url": "#user-content-fn-23"
+  },
+  {
+    "text": "24",
+    "url": "#user-content-fn-24"
+  },
+  {
+    "text": "25",
+    "url": "#user-content-fn-25"
+  },
+  {
+    "text": "26",
+    "url": "#user-content-fn-26"
+  },
+  {
+    "text": "27",
+    "url": "#user-content-fn-27"
+  },
+  {
+    "text": "28",
+    "url": "#user-content-fn-28"
+  },
+  {
+    "text": "29",
+    "url": "#user-content-fn-29"
+  },
+  {
+    "text": "",
+    "url": "/research/will-ai-r-and-d-automation-cause-a-software-intelligence-explosion#in-the-real-world-are-returns-to-software-rd-greater-or-less-than-one"
+  },
+  {
+    "text": "30",
+    "url": "#user-content-fn-30"
+  },
+  {
+    "text": "performed",
+    "url": "https://arxiv.org/abs/2405.10494"
+  },
+  {
+    "text": "31",
+    "url": "#user-content-fn-31"
+  },
+  {
+    "text": "32",
+    "url": "#user-content-fn-32"
+  },
+  {
+    "text": "performed",
+    "url": "https://arxiv.org/abs/2405.10494"
+  },
+  {
+    "text": "33",
+    "url": "#user-content-fn-33"
+  },
+  {
+    "text": "analysis",
+    "url": "https://ide.mit.edu/wp-content/uploads/2021/09/How_Fast_Do_Algorithms_Improve.pdf"
+  },
+  {
+    "text": "34",
+    "url": "#user-content-fn-34"
+  },
+  {
+    "text": "note",
+    "url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8509563"
+  },
+  {
+    "text": "35",
+    "url": "#user-content-fn-35"
+  },
+  {
+    "text": "36",
+    "url": "#user-content-fn-36"
+  },
+  {
+    "text": "estimated",
+    "url": "https://www.openphilanthropy.org/research/what-a-compute-centric-framework-says-about-takeoff-speeds/"
+  },
+  {
+    "text": "37",
+    "url": "#user-content-fn-37"
+  },
+  {
+    "text": "may have",
+    "url": "https://intelligence.org/files/AlgorithmicProgress.pdf"
+  },
+  {
+    "text": "cultural developments",
+    "url": "https://press.princeton.edu/books/ebook/9781400873296/the-secret-of-our-success-pdf"
+  },
+  {
+    "text": "38",
+    "url": "#user-content-fn-38"
+  },
+  {
+    "text": "",
+    "url": "/research/will-ai-r-and-d-automation-cause-a-software-intelligence-explosion#you-might-need-fast-growing-computing-power-to-discover-better-algorithms"
+  },
+  {
+    "text": "Perhaps",
+    "url": "https://www.overcomingbias.com/p/why-does-hardware-grow-like-algorithmshtml"
+  },
+  {
+    "text": "source",
+    "url": "https://ourworldindata.org/grapher/supercomputer-power-flops?time=2010..latest"
+  },
+  {
+    "text": "39",
+    "url": "#user-content-fn-39"
+  },
+  {
+    "text": "often",
+    "url": "https://arxiv.org/abs/1712.00409"
+  },
+  {
+    "text": "involve",
+    "url": "https://arxiv.org/abs/2001.08361"
+  },
+  {
+    "text": "very",
+    "url": "https://arxiv.org/abs/2010.14701"
+  },
+  {
+    "text": "clear",
+    "url": "https://arxiv.org/abs/2203.15556"
+  },
+  {
+    "text": "relationships",
+    "url": "https://arxiv.org/abs/2106.09488"
+  },
+  {
+    "text": "between",
+    "url": "https://arxiv.org/abs/2210.00849"
+  },
+  {
+    "text": "found",
+    "url": "https://cdn.openai.com/papers/gpt-4.pdf"
+  },
+  {
+    "text": "do not generally",
+    "url": "https://arxiv.org/abs/2312.07413"
+  },
+  {
+    "text": "GOFAI",
+    "url": "https://en.wikipedia.org/wiki/GOFAI"
+  },
+  {
+    "text": "40",
+    "url": "#user-content-fn-40"
+  },
+  {
+    "text": "41",
+    "url": "#user-content-fn-41"
+  },
+  {
+    "text": "",
+    "url": "/research/will-ai-r-and-d-automation-cause-a-software-intelligence-explosion#progress-might-become-bottlenecked-by-the-time-required-to-train-new-ai-systems"
+  },
+  {
+    "text": "advancements",
+    "url": "https://openai.com/index/learning-to-reason-with-llms/"
+  },
+  {
+    "text": "42",
+    "url": "#user-content-fn-42"
+  },
+  {
+    "text": "43",
+    "url": "#user-content-fn-43"
+  },
+  {
+    "text": "",
+    "url": "/research/will-ai-r-and-d-automation-cause-a-software-intelligence-explosion#bringing-it-all-together"
+  },
+  {
+    "text": "44",
+    "url": "#user-content-fn-44"
+  },
+  {
+    "text": "",
+    "url": "/research/will-ai-r-and-d-automation-cause-a-software-intelligence-explosion#what-can-we-do-if-an-sie-is-possible"
+  },
+  {
+    "text": "45",
+    "url": "#user-content-fn-45"
+  },
+  {
+    "text": "46",
+    "url": "#user-content-fn-46"
+  },
+  {
+    "text": "47",
+    "url": "#user-content-fn-47"
+  },
+  {
+    "text": "unless",
+    "url": "https://carnegieendowment.org/research/2024/09/if-then-commitments-for-ai-risk-reduction?lang=en"
+  },
+  {
+    "text": "self-exfiltrate",
+    "url": "https://aligned.substack.com/p/self-exfiltration"
+  },
+  {
+    "text": "here",
+    "url": "/research/how-can-ai-labs-incorporate-risks-from-ai-accelerating-ai-progress-into"
+  },
+  {
+    "text": "48",
+    "url": "#user-content-fn-48"
+  },
+  {
+    "text": "",
+    "url": "/research/will-ai-r-and-d-automation-cause-a-software-intelligence-explosion#references"
+  },
+  {
+    "text": "https://aiimpacts.org/trends-in-the-cost-of-computing/",
+    "url": "https://aiimpacts.org/trends-in-the-cost-of-computing/"
+  },
+  {
+    "text": "https://ourworldindata.org/grapher/attendance-major-artificial-intelligence-conferences",
+    "url": "https://ourworldindata.org/grapher/attendance-major-artificial-intelligence-conferences"
+  },
+  {
+    "text": "https://slatestarcodex.com/2019/02/18/do-neural-nets-dream-of-electric-hobbits/",
+    "url": "https://slatestarcodex.com/2019/02/18/do-neural-nets-dream-of-electric-hobbits/"
+  },
+  {
+    "text": "https://www.youtube.com/watch?v=T5cPoNwO7II",
+    "url": "https://www.youtube.com/watch?v=T5cPoNwO7II"
+  },
+  {
+    "text": "https://ia.samaltman.com/",
+    "url": "https://ia.samaltman.com/"
+  },
+  {
+    "text": "https://darioamodei.com/machines-of-loving-grace",
+    "url": "https://darioamodei.com/machines-of-loving-grace"
+  },
+  {
+    "text": "https://www.anthropic.com/news/announcing-our-updated-responsible-scaling-policy",
+    "url": "https://www.anthropic.com/news/announcing-our-updated-responsible-scaling-policy"
+  },
+  {
+    "text": "https://assets.anthropic.com/m/24a47b00f10301cd/original/Anthropic-Responsible-Scaling-Policy-2024-10-15.pdf",
+    "url": "https://assets.anthropic.com/m/24a47b00f10301cd/original/Anthropic-Responsible-Scaling-Policy-2024-10-15.pdf"
+  },
+  {
+    "text": "https://a16z.com/llmflation-llm-inference-cost/",
+    "url": "https://a16z.com/llmflation-llm-inference-cost/"
+  },
+  {
+    "text": "https://web.stanford.edu/~chadj/IdeaPF.pdf",
+    "url": "https://web.stanford.edu/~chadj/IdeaPF.pdf"
+  },
+  {
+    "text": "https://www.openphilanthropy.org/research/how-much-computational-power-does-it-take-to-match-the-human-brain/",
+    "url": "https://www.openphilanthropy.org/research/how-much-computational-power-does-it-take-to-match-the-human-brain/"
+  },
+  {
+    "text": "https://ieeexplore.ieee.org/document/6186749",
+    "url": "https://ieeexplore.ieee.org/document/6186749"
+  },
+  {
+    "text": "https://epoch.ai/blog/how-much-does-it-cost-to-train-frontier-ai-models",
+    "url": "https://epoch.ai/blog/how-much-does-it-cost-to-train-frontier-ai-models"
+  },
+  {
+    "text": "https://www.fhi.ox.ac.uk/theory-of-log-returns/",
+    "url": "https://www.fhi.ox.ac.uk/theory-of-log-returns/"
+  },
+  {
+    "text": "https://www.planned-obsolescence.org/continuous-doesnt-mean-slow/",
+    "url": "https://www.planned-obsolescence.org/continuous-doesnt-mean-slow/"
+  },
+  {
+    "text": "https://www.openphilanthropy.org/research/what-a-compute-centric-framework-says-about-takeoff-speeds/",
+    "url": "https://www.openphilanthropy.org/research/what-a-compute-centric-framework-says-about-takeoff-speeds/"
+  },
+  {
+    "text": "https://www.forethought.org/research/how-can-ai-labs-incorporate-risks-from-ai-accelerating-ai-progress-into",
+    "url": "/research/how-can-ai-labs-incorporate-risks-from-ai-accelerating-ai-progress-into"
+  },
+  {
+    "text": "https://www.forethought.org/research/will-the-need-to-retrain-ai-models",
+    "url": "/research/will-the-need-to-retrain-ai-models"
+  },
+  {
+    "text": "https://arxiv.org/abs/2312.07413",
+    "url": "https://arxiv.org/abs/2312.07413"
+  },
+  {
+    "text": "https://ntrs.nasa.gov/api/citations/19760006882/downloads/19760006882.pdf",
+    "url": "https://ntrs.nasa.gov/api/citations/19760006882/downloads/19760006882.pdf"
+  },
+  {
+    "text": "https://ourworldindata.org/grapher/supercomputer-power-flops?time=2010..latest",
+    "url": "https://ourworldindata.org/grapher/supercomputer-power-flops?time=2010..latest"
+  },
+  {
+    "text": "https://arxiv.org/abs/2102.04881",
+    "url": "https://arxiv.org/abs/2102.04881"
+  },
+  {
+    "text": "https://deepmind.google/discover/blog/introducing-the-frontier-safety-framework/",
+    "url": "https://deepmind.google/discover/blog/introducing-the-frontier-safety-framework/"
+  },
+  {
+    "text": "https://www.isca-archive.org/interspeech_2021/droppo21_interspeech.pdf",
+    "url": "https://www.isca-archive.org/interspeech_2021/droppo21_interspeech.pdf"
+  },
+  {
+    "text": "https://ourworldindata.org/grapher/artificial-intelligence-training-computation",
+    "url": "https://ourworldindata.org/grapher/artificial-intelligence-training-computation"
+  },
+  {
+    "text": "https://ourworldindata.org/grapher/artificial-intelligence-parameter-count",
+    "url": "https://ourworldindata.org/grapher/artificial-intelligence-parameter-count"
+  },
+  {
+    "text": "https://epoch.ai/",
+    "url": "https://epoch.ai/"
+  },
+  {
+    "text": "https://arxiv.org/abs/2212.05153",
+    "url": "https://arxiv.org/abs/2212.05153"
+  },
+  {
+    "text": "https://arxiv.org/abs/2405.10494",
+    "url": "https://arxiv.org/abs/2405.10494"
+  },
+  {
+    "text": "https://github.com/features/copilot",
+    "url": "https://github.com/features/copilot"
+  },
+  {
+    "text": "https://www.stat.vt.edu/content/dam/stat_vt_edu/graphics-and-pdfs/research-papers/Technical_Reports/TechReport05-3.pdf",
+    "url": "https://www.stat.vt.edu/content/dam/stat_vt_edu/graphics-and-pdfs/research-papers/Technical_Reports/TechReport05-3.pdf"
+  },
+  {
+    "text": "https://intelligence.org/files/AlgorithmicProgress.pdf",
+    "url": "https://intelligence.org/files/AlgorithmicProgress.pdf"
+  },
+  {
+    "text": "https://www.overcomingbias.com/p/why-does-hardware-grow-like-algorithmshtml",
+    "url": "https://www.overcomingbias.com/p/why-does-hardware-grow-like-algorithmshtml"
+  },
+  {
+    "text": "https://arxiv.org/abs/2010.14701",
+    "url": "https://arxiv.org/abs/2010.14701"
+  },
+  {
+    "text": "https://press.princeton.edu/books/ebook/9781400873296/the-secret-of-our-success-pdf",
+    "url": "https://press.princeton.edu/books/ebook/9781400873296/the-secret-of-our-success-pdf"
+  },
+  {
+    "text": "https://openai.com/index/ai-and-efficiency/",
+    "url": "https://openai.com/index/ai-and-efficiency/"
+  },
+  {
+    "text": "https://arxiv.org/abs/2005.04305",
+    "url": "https://arxiv.org/abs/2005.04305"
+  },
+  {
+    "text": "https://arxiv.org/abs/1712.00409",
+    "url": "https://arxiv.org/abs/1712.00409"
+  },
+  {
+    "text": "https://epoch.ai/blog/algorithmic-progress-in-language-models",
+    "url": "https://epoch.ai/blog/algorithmic-progress-in-language-models"
+  },
+  {
+    "text": "https://arxiv.org/abs/2403.05812",
+    "url": "https://arxiv.org/abs/2403.05812"
+  },
+  {
+    "text": "https://epoch.ai/blog/trends-in-machine-learning-hardware",
+    "url": "https://epoch.ai/blog/trends-in-machine-learning-hardware"
+  },
+  {
+    "text": "https://proceedings.neurips.cc/paper_files/paper/2022/file/c1e2faff6f588870935f114ebe04a3e5-Paper-Conference.pdf",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/c1e2faff6f588870935f114ebe04a3e5-Paper-Conference.pdf"
+  },
+  {
+    "text": "https://aclanthology.org/2023.emnlp-main.67.pdf",
+    "url": "https://aclanthology.org/2023.emnlp-main.67.pdf"
+  },
+  {
+    "text": "https://ourworldindata.org/grapher/solar-pv-prices-vs-cumulative-capacity",
+    "url": "https://ourworldindata.org/grapher/solar-pv-prices-vs-cumulative-capacity"
+  },
+  {
+    "text": "https://www-leland.stanford.edu/~chadj/JonesJPE95.pdf",
+    "url": "https://www-leland.stanford.edu/~chadj/JonesJPE95.pdf"
+  },
+  {
+    "text": "https://arxiv.org/abs/2001.08361",
+    "url": "https://arxiv.org/abs/2001.08361"
+  },
+  {
+    "text": "https://carnegieendowment.org/research/2024/09/if-then-commitments-for-ai-risk-reduction",
+    "url": "https://carnegieendowment.org/research/2024/09/if-then-commitments-for-ai-risk-reduction"
+  },
+  {
+    "text": "https://arxiv.org/abs/2205.11916",
+    "url": "https://arxiv.org/abs/2205.11916"
+  },
+  {
+    "text": "https://www.singularity.com/",
+    "url": "https://www.singularity.com/"
+  },
+  {
+    "text": "https://www.nature.com/articles/nj7612-457a",
+    "url": "https://www.nature.com/articles/nj7612-457a"
+  },
+  {
+    "text": "https://aligned.substack.com/p/self-exfiltration",
+    "url": "https://aligned.substack.com/p/self-exfiltration"
+  },
+  {
+    "text": "https://metr.github.io/autonomy-evals-guide/openai-o1-preview-report/",
+    "url": "https://metr.github.io/autonomy-evals-guide/openai-o1-preview-report/"
+  },
+  {
+    "text": "https://metr.org/",
+    "url": "https://metr.org/"
+  },
+  {
+    "text": "https://www.nytimes.com/2020/11/24/science/artificial-intelligence-ai-gpt3.html",
+    "url": "https://www.nytimes.com/2020/11/24/science/artificial-intelligence-ai-gpt3.html"
+  },
+  {
+    "text": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8509563",
+    "url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8509563"
+  },
+  {
+    "text": "https://arxiv.org/abs/2210.00849",
+    "url": "https://arxiv.org/abs/2210.00849"
+  },
+  {
+    "text": "https://openai.com/index/chatgpt/",
+    "url": "https://openai.com/index/chatgpt/"
+  },
+  {
+    "text": "https://cdn.openai.com/papers/gpt-4.pdf",
+    "url": "https://cdn.openai.com/papers/gpt-4.pdf"
+  },
+  {
+    "text": "https://openai.com/index/learning-to-reason-with-llms/",
+    "url": "https://openai.com/index/learning-to-reason-with-llms/"
+  },
+  {
+    "text": "https://epoch.ai/blog/interviewing-ai-researchers-on-automation-of-ai-rnd",
+    "url": "https://epoch.ai/blog/interviewing-ai-researchers-on-automation-of-ai-rnd"
+  },
+  {
+    "text": "https://epoch.ai/blog/training-compute-of-frontier-ai-models-grows-by-4-5x-per-year",
+    "url": "https://epoch.ai/blog/training-compute-of-frontier-ai-models-grows-by-4-5x-per-year"
+  },
+  {
+    "text": "https://openai.com/index/mle-bench/",
+    "url": "https://openai.com/index/mle-bench/"
+  },
+  {
+    "text": "https://arxiv.org/abs/2410.07095",
+    "url": "https://arxiv.org/abs/2410.07095"
+  },
+  {
+    "text": "https://ide.mit.edu/wp-content/uploads/2021/09/How_Fast_Do_Algorithms_Improve.pdf",
+    "url": "https://ide.mit.edu/wp-content/uploads/2021/09/How_Fast_Do_Algorithms_Improve.pdf"
+  },
+  {
+    "text": "https://medium.com/@prabhuss73/fine-tuning-ai-models-a-guide-c515bcd4b580",
+    "url": "https://medium.com/@prabhuss73/fine-tuning-ai-models-a-guide-c515bcd4b580"
+  },
+  {
+    "text": "http://www.incompleteideas.net/IncIdeas/BitterLesson.html",
+    "url": "http://www.incompleteideas.net/IncIdeas/BitterLesson.html"
+  },
+  {
+    "text": "https://openreview.net/pdf?id=yzkSU5zdwD",
+    "url": "https://openreview.net/pdf?id=yzkSU5zdwD"
+  },
+  {
+    "text": "https://metr.org/AI_R_D_Evaluation_Report.pdf",
+    "url": "https://metr.org/AI_R_D_Evaluation_Report.pdf"
+  },
+  {
+    "text": "https://en.wikipedia.org/wiki/Artificial_general_intelligence",
+    "url": "https://en.wikipedia.org/wiki/Artificial_general_intelligence"
+  },
+  {
+    "text": "https://en.wikipedia.org/wiki/Deep_Blue_(chess_computer)",
+    "url": "https://en.wikipedia.org/wiki/Deep_Blue_(chess_computer)"
+  },
+  {
+    "text": "https://en.wikipedia.org/wiki/Deep_learning",
+    "url": "https://en.wikipedia.org/wiki/Deep_learning"
+  },
+  {
+    "text": "https://en.wikipedia.org/wiki/Elasticity_(economics)",
+    "url": "https://en.wikipedia.org/wiki/Elasticity_(economics)"
+  },
+  {
+    "text": "https://en.wikipedia.org/wiki/Experience_curve_effects",
+    "url": "https://en.wikipedia.org/wiki/Experience_curve_effects"
+  },
+  {
+    "text": "https://en.wikipedia.org/wiki/GOFAI",
+    "url": "https://en.wikipedia.org/wiki/GOFAI"
+  },
+  {
+    "text": "https://en.wikipedia.org/wiki/Moore%27s_law",
+    "url": "https://en.wikipedia.org/wiki/Moore%27s_law"
+  },
+  {
+    "text": "https://en.wikipedia.org/wiki/Prompt_engineering",
+    "url": "https://en.wikipedia.org/wiki/Prompt_engineering"
+  },
+  {
+    "text": "https://ai-improving-ai.safe.ai/",
+    "url": "https://ai-improving-ai.safe.ai/"
+  },
+  {
+    "text": "https://openreview.net/pdf?id=Bb4VGOWELI",
+    "url": "https://openreview.net/pdf?id=Bb4VGOWELI"
+  },
+  {
+    "text": "https://arxiv.org/abs/2304.10970",
+    "url": "https://arxiv.org/abs/2304.10970"
+  },
+  {
+    "text": "https://arxiv.org/abs/2310.04406v1",
+    "url": "https://arxiv.org/abs/2310.04406v1"
+  },
+  {
+    "text": "",
+    "url": "/research/will-ai-r-and-d-automation-cause-a-software-intelligence-explosion#appendix-justification-for-our-formulation-of-r"
+  },
+  {
+    "text": "further",
+    "url": "http://www.fhi.ox.ac.uk/theory-of-log-returns/"
+  },
+  {
+    "text": "experience curve effects",
+    "url": "https://en.wikipedia.org/wiki/Experience_curve_effects"
+  },
+  {
+    "text": "spanning",
+    "url": "https://ntrs.nasa.gov/api/citations/19760006882/downloads/19760006882.pdf"
+  },
+  {
+    "text": "transistors",
+    "url": "https://ieeexplore.ieee.org/document/6186749#fig3"
+  },
+  {
+    "text": "solar panels",
+    "url": "https://ourworldindata.org/grapher/solar-pv-prices-vs-cumulative-capacity"
+  },
+  {
+    "text": "number of STEM workers",
+    "url": "https://web.stanford.edu/~chadj/IdeaPF.pdf"
+  },
+  {
+    "text": "number of scientific publications",
+    "url": "https://www.nature.com/articles/nj7612-457a"
+  },
+  {
+    "text": "Per-capita GDP",
+    "url": "https://ourworldindata.org/grapher/gdp-per-capita-maddison?tab=chart&yScale=log&country=OWID_WRL~USA"
+  },
+  {
+    "text": "semi-endogenous growth model",
+    "url": "http://www-leland.stanford.edu/~chadj/JonesJPE95.pdf"
+  },
+  {
+    "text": "Are Ideas Getting Harder to Find?",
+    "url": "https://web.stanford.edu/~chadj/IdeaPF.pdf"
+  },
+  {
+    "text": "image recognition systems",
+    "url": "https://openai.com/research/ai-and-efficiency"
+  },
+  {
+    "text": "LLMs",
+    "url": "https://arxiv.org/pdf/2403.05812"
+  },
+  {
+    "text": "",
+    "url": "/research/will-ai-r-and-d-automation-cause-a-software-intelligence-explosion#footnote-label"
+  },
+  {
+    "text": "",
+    "url": "/"
+  },
+  {
+    "text": "Listen to our podcast",
+    "url": "/subscribe#podcast"
+  },
+  {
+    "text": "terms of service.",
+    "url": "https://newsletter.forethought.org/tos?utm_source=embed_publication"
+  },
+  {
+    "text": "Archives.",
+    "url": "https://newsletter.forethought.org/"
+  },
+  {
+    "text": "Research",
+    "url": "/research"
+  },
+  {
+    "text": "Open Projects",
+    "url": "/projects"
+  },
+  {
+    "text": "About",
+    "url": "/about"
+  },
+  {
+    "text": "Careers",
+    "url": "/careers"
+  },
+  {
+    "text": "Donate",
+    "url": "/donate"
+  },
+  {
+    "text": "Contact",
+    "url": "/contact"
+  },
+  {
+    "text": "Podcast",
+    "url": "/subscribe#podcast"
+  },
+  {
+    "text": "Newsletter",
+    "url": "/subscribe#newsletter"
+  },
+  {
+    "text": "16156175",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/16156175"
+  },
+  {
+    "text": "Privacy policy",
+    "url": "/privacy-policy"
+  },
+  {
+    "text": "Designed by And-Now",
+    "url": "https://and-now.co.uk/"
+  }
+]

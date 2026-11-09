@@ -1,0 +1,563 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Action completed."
+    }
+  ],
+  "structuredContent": {
+    "spreadsheetId": "1Ko-olwjDy6h8rXLZBFpP-e2GibGqRhfV28S4v8xtzrM",
+    "spreadsheetUrl": "https://docs.google.com/spreadsheets/d/1Ko-olwjDy6h8rXLZBFpP-e2GibGqRhfV28S4v8xtzrM/edit",
+    "properties": {
+      "title": "[shared 2024-10-02] AI chip compute forecast",
+      "locale": "en_US",
+      "timeZone": "America/Los_Angeles"
+    },
+    "sheets": [
+      {
+        "properties": {
+          "sheetId": 1866551567,
+          "title": "Clean version",
+          "index": 0,
+          "sheetType": "GRID",
+          "gridProperties": {
+            "rowCount": 1036,
+            "columnCount": 26,
+            "frozenRowCount": 3
+          }
+        },
+        "data": [
+          {
+            "rowData": [
+              {
+                "values": [
+                  {},
+                  {
+                    "formattedValue": "AI chip compute forecast",
+                    "userEnteredValue": {
+                      "stringValue": "AI chip compute forecast"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "AI chip compute forecast"
+                    },
+                    "userEnteredFormat": {
+                      "textFormat": {
+                        "fontFamily": "Arial, sans-serif",
+                        "fontSize": 26
+                      }
+                    }
+                  },
+                  {},
+                  {
+                    "formattedValue": "Conditioning on high demand for AI chips relative to previous year, similar to 2023 vs 2024 (this seems most strategically important to know first)",
+                    "userEnteredValue": {
+                      "stringValue": "Conditioning on high demand for AI chips relative to previous year, similar to 2023 vs 2024 (this seems most strategically important to know first)"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Conditioning on high demand for AI chips relative to previous year, similar to 2023 vs 2024 (this seems most strategically important to know first)"
+                    },
+                    "userEnteredFormat": {
+                      "textFormat": {
+                        "fontSize": 11,
+                        "bold": true,
+                        "italic": true
+                      }
+                    }
+                  },
+                  {},
+                  {},
+                  {},
+                  {},
+                  {},
+                  {
+                    "formattedValue": "Display:",
+                    "userEnteredValue": {
+                      "stringValue": "Display:"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Display:"
+                    },
+                    "userEnteredFormat": {
+                      "textFormat": {
+                        "fontSize": 11
+                      }
+                    }
+                  },
+                  {
+                    "formattedValue": "FP16",
+                    "userEnteredValue": {
+                      "stringValue": "FP16"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "FP16"
+                    },
+                    "userEnteredFormat": {
+                      "textFormat": {
+                        "fontSize": 11
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "values": [
+                  {},
+                  {
+                    "formattedValue": "- bold signifies high confidence",
+                    "userEnteredValue": {
+                      "stringValue": "- bold signifies high confidence"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "- bold signifies high confidence"
+                    },
+                    "textFormatRuns": [
+                      {},
+                      {
+                        "startIndex": 2,
+                        "format": {
+                          "bold": true
+                        }
+                      },
+                      {
+                        "startIndex": 6
+                      }
+                    ]
+                  },
+                  {
+                    "formattedValue": "Authors: Romeo Dean",
+                    "userEnteredValue": {
+                      "stringValue": "Authors: Romeo Dean"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Authors: Romeo Dean"
+                    }
+                  },
+                  {
+                    "formattedValue": "About: Backend modelling for the more up to date",
+                    "userEnteredValue": {
+                      "stringValue": "About: Backend modelling for the more up to date"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "About: Backend modelling for the more up to date"
+                    }
+                  },
+                  {},
+                  {},
+                  {
+                    "formattedValue": "[V2] Compute forecasting supplement",
+                    "userEnteredValue": {
+                      "stringValue": "[V2] Compute forecasting supplement"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "[V2] Compute forecasting supplement"
+                    }
+                  }
+                ]
+              },
+              {
+                "values": [
+                  {},
+                  {
+                    "formattedValue": "Year (End of Year)",
+                    "userEnteredValue": {
+                      "stringValue": "Year (End of Year)"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "Year (End of Year)"
+                    },
+                    "userEnteredFormat": {
+                      "textFormat": {
+                        "fontFamily": "Arial, sans-serif",
+                        "fontSize": 11
+                      }
+                    }
+                  },
+                  {
+                    "formattedValue": "2021 / subheadings",
+                    "userEnteredValue": {
+                      "stringValue": "2021 / subheadings"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "2021 / subheadings"
+                    },
+                    "userEnteredFormat": {
+                      "textFormat": {
+                        "fontFamily": "Arial, sans-serif",
+                        "fontSize": 11
+                      }
+                    }
+                  },
+                  {
+                    "formattedValue": "2022",
+                    "userEnteredValue": {
+                      "numberValue": 2022
+                    },
+                    "effectiveValue": {
+                      "numberValue": 2022
+                    },
+                    "userEnteredFormat": {
+                      "textFormat": {
+                        "fontFamily": "Arial, sans-serif",
+                        "fontSize": 11
+                      }
+                    }
+                  },
+                  {
+                    "formattedValue": "2023",
+                    "userEnteredValue": {
+                      "numberValue": 2023
+                    },
+                    "effectiveValue": {
+                      "numberValue": 2023
+                    },
+                    "userEnteredFormat": {
+                      "textFormat": {
+                        "fontFamily": "Arial, sans-serif",
+                        "fontSize": 11
+                      }
+                    }
+                  },
+                  {
+                    "formattedValue": "2024",
+                    "userEnteredValue": {
+                      "numberValue": 2024
+                    },
+                    "effectiveValue": {
+                      "numberValue": 2024
+                    },
+                    "userEnteredFormat": {
+                      "textFormat": {
+                        "fontFamily": "Arial, sans-serif",
+                        "fontSize": 11
+                      }
+                    }
+                  },
+                  {
+                    "formattedValue": "2025",
+                    "userEnteredValue": {
+                      "numberValue": 2025
+                    },
+                    "effectiveValue": {
+                      "numberValue": 2025
+                    },
+                    "userEnteredFormat": {
+                      "textFormat": {
+                        "fontFamily": "Arial, sans-serif",
+                        "fontSize": 11
+                      }
+                    }
+                  },
+                  {
+                    "formattedValue": "2026",
+                    "userEnteredValue": {
+                      "numberValue": 2026
+                    },
+                    "effectiveValue": {
+                      "numberValue": 2026
+                    },
+                    "userEnteredFormat": {
+                      "textFormat": {
+                        "fontFamily": "Arial, sans-serif",
+                        "fontSize": 11
+                      }
+                    }
+                  },
+                  {
+                    "formattedValue": "2027",
+                    "userEnteredValue": {
+                      "numberValue": 2027
+                    },
+                    "effectiveValue": {
+                      "numberValue": 2027
+                    },
+                    "userEnteredFormat": {
+                      "textFormat": {
+                        "fontFamily": "Arial, sans-serif",
+                        "fontSize": 11
+                      }
+                    }
+                  },
+                  {
+                    "formattedValue": "2028",
+                    "userEnteredValue": {
+                      "numberValue": 2028
+                    },
+                    "effectiveValue": {
+                      "numberValue": 2028
+                    },
+                    "userEnteredFormat": {
+                      "textFormat": {
+                        "fontFamily": "Arial, sans-serif",
+                        "fontSize": 11
+                      }
+                    }
+                  },
+                  {
+                    "formattedValue": "2029",
+                    "userEnteredValue": {
+                      "numberValue": 2029
+                    },
+                    "effectiveValue": {
+                      "numberValue": 2029
+                    },
+                    "userEnteredFormat": {
+                      "textFormat": {
+                        "fontFamily": "Arial, sans-serif",
+                        "fontSize": 11
+                      }
+                    }
+                  },
+                  {
+                    "formattedValue": "2030",
+                    "userEnteredValue": {
+                      "numberValue": 2030
+                    },
+                    "effectiveValue": {
+                      "numberValue": 2030
+                    },
+                    "userEnteredFormat": {
+                      "textFormat": {
+                        "fontFamily": "Arial, sans-serif",
+                        "fontSize": 11
+                      }
+                    }
+                  },
+                  {
+                    "formattedValue": "avg growth rate",
+                    "userEnteredValue": {
+                      "stringValue": "avg growth rate"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "avg growth rate"
+                    },
+                    "userEnteredFormat": {
+                      "textFormat": {
+                        "fontSize": 11
+                      }
+                    }
+                  },
+                  {
+                    "formattedValue": "SOURCE(s) / NOTES",
+                    "userEnteredValue": {
+                      "stringValue": "SOURCE(s) / NOTES"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "SOURCE(s) / NOTES"
+                    },
+                    "userEnteredFormat": {
+                      "textFormat": {
+                        "fontSize": 11
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "values": [
+                  {},
+                  {
+                    "formattedValue": "SOTA Chip (in production)",
+                    "userEnteredValue": {
+                      "stringValue": "SOTA Chip (in production)"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "SOTA Chip (in production)"
+                    },
+                    "userEnteredFormat": {
+                      "textFormat": {
+                        "fontFamily": "Arial, sans-serif",
+                        "fontSize": 11
+                      }
+                    }
+                  },
+                  {
+                    "formattedValue": "A100",
+                    "userEnteredValue": {
+                      "stringValue": "A100"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "A100"
+                    },
+                    "userEnteredFormat": {
+                      "textFormat": {
+                        "fontFamily": "Arial, sans-serif",
+                        "fontSize": 11
+                      }
+                    }
+                  },
+                  {
+                    "formattedValue": "A100",
+                    "userEnteredValue": {
+                      "stringValue": "A100"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "A100"
+                    },
+                    "userEnteredFormat": {
+                      "textFormat": {
+                        "fontFamily": "Arial, sans-serif",
+                        "fontSize": 11
+                      }
+                    }
+                  },
+                  {
+                    "formattedValue": "H100",
+                    "userEnteredValue": {
+                      "stringValue": "H100"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "H100"
+                    },
+                    "userEnteredFormat": {
+                      "textFormat": {
+                        "fontFamily": "Arial, sans-serif",
+                        "fontSize": 11
+                      }
+                    }
+                  },
+                  {
+                    "formattedValue": "H100",
+                    "userEnteredValue": {
+                      "stringValue": "H100"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "H100"
+                    },
+                    "userEnteredFormat": {
+                      "textFormat": {
+                        "fontFamily": "Arial, sans-serif",
+                        "fontSize": 11
+                      }
+                    }
+                  },
+                  {
+                    "formattedValue": "B100",
+                    "userEnteredValue": {
+                      "stringValue": "B100"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "B100"
+                    },
+                    "userEnteredFormat": {
+                      "textFormat": {
+                        "fontFamily": "Arial, sans-serif",
+                        "fontSize": 11
+                      }
+                    }
+                  },
+                  {
+                    "formattedValue": "B100",
+                    "userEnteredValue": {
+                      "stringValue": "B100"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "B100"
+                    },
+                    "userEnteredFormat": {
+                      "textFormat": {
+                        "fontFamily": "Arial, sans-serif",
+                        "fontSize": 11
+                      }
+                    }
+                  },
+                  {
+                    "formattedValue": "R100",
+                    "userEnteredValue": {
+                      "stringValue": "R100"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "R100"
+                    },
+                    "userEnteredFormat": {
+                      "textFormat": {
+                        "fontFamily": "Arial, sans-serif",
+                        "fontSize": 11
+                      }
+                    }
+                  },
+                  {
+                    "formattedValue": "R100",
+                    "userEnteredValue": {
+                      "stringValue": "R100"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "R100"
+                    },
+                    "userEnteredFormat": {
+                      "textFormat": {
+                        "fontFamily": "Arial, sans-serif",
+                        "fontSize": 11
+                      }
+                    }
+                  },
+                  {
+                    "formattedValue": "X100",
+                    "userEnteredValue": {
+                      "stringValue": "X100"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "X100"
+                    },
+                    "userEnteredFormat": {
+                      "textFormat": {
+                        "fontFamily": "Arial, sans-serif",
+                        "fontSize": 11
+                      }
+                    }
+                  },
+                  {
+                    "formattedValue": "X100",
+                    "userEnteredValue": {
+                      "stringValue": "X100"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "X100"
+                    },
+                    "userEnteredFormat": {
+                      "textFormat": {
+                        "fontFamily": "Arial, sans-serif",
+                        "fontSize": 11
+                      }
+                    }
+                  },
+                  {
+                    "formattedValue": "-",
+                    "userEnteredValue": {
+                      "stringValue": "-"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "-"
+                    },
+                    "userEnteredFormat": {
+                      "textFormat": {
+                        "fontSize": 11
+                      }
+                    }
+                  },
+                  {
+                    "formattedValue": "https://www.nvidia.com/en-us/data-center/gb200-nvl72/",
+                    "userEnteredValue": {
+                      "stringValue": "https://www.nvidia.com/en-us/data-center/gb200-nvl72/"
+                    },
+                    "effectiveValue": {
+                      "stringValue": "https://www.nvidia.com/en-us/data-center/gb200-nvl72/"
+                    },
+                    "userEnteredFormat": {
+                      "textFormat": {
+                        "link": {
+                          "uri": "https://www.nvidia.com/en-us/data-center/gb200-nvl72/"
+                        }
+                      }
+                    },
+                    "hyperlink": "https://www.nvidia.com/en-us/data-center/gb200-nvl72/"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "isError": false
+}

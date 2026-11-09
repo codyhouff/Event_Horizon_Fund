@@ -1,0 +1,214 @@
+[
+  {
+    "text": "AI 2027",
+    "url": "/"
+  },
+  {
+    "text": "English EN",
+    "url": "/"
+  },
+  {
+    "text": "Espa\u00f1ol ES",
+    "url": "/es"
+  },
+  {
+    "text": "Fran\u00e7ais FR",
+    "url": "/fr"
+  },
+  {
+    "text": "Italiano IT",
+    "url": "/it"
+  },
+  {
+    "text": "\u65e5\u672c\u8a9e JA",
+    "url": "/ja"
+  },
+  {
+    "text": "AI 2040",
+    "url": "https://ai-2040.com"
+  },
+  {
+    "text": "Supplements",
+    "url": "/research"
+  },
+  {
+    "text": "Summary",
+    "url": "/summary"
+  },
+  {
+    "text": "Compute Forecast",
+    "url": "/research/compute-forecast"
+  },
+  {
+    "text": "Timelines Forecast",
+    "url": "/research/timelines-forecast"
+  },
+  {
+    "text": "Takeoff Forecast",
+    "url": "/research/takeoff-forecast"
+  },
+  {
+    "text": "AI Goals Forecast",
+    "url": "/research/ai-goals-forecast"
+  },
+  {
+    "text": "Security Forecast",
+    "url": "/research/security-forecast"
+  },
+  {
+    "text": "About",
+    "url": "/about"
+  },
+  {
+    "text": "RAND\u2019s definition",
+    "url": "#RAND-s-security-levels"
+  },
+  {
+    "text": "model weights",
+    "url": "#model-weights-exfiltration"
+  },
+  {
+    "text": "algorithmic secrets",
+    "url": "#algorithmic-secrets"
+  },
+  {
+    "text": "Section 1",
+    "url": "#section-1-security-levels"
+  },
+  {
+    "text": "Section 2",
+    "url": "#section-2-cyberwarfare-and-sabotage"
+  },
+  {
+    "text": "Section 3",
+    "url": "#section-3-loss-of-control-subversion-and-self-exfiltration"
+  },
+  {
+    "text": "Section 1. Security Levels",
+    "url": "#section-1-security-levels"
+  },
+  {
+    "text": "RAND\u2019s definition",
+    "url": "https://www.rand.org/pubs/research_reports/RRA2849-1.html#citation"
+  },
+  {
+    "text": "Weights Security Levels",
+    "url": "#model-weights-exfiltration"
+  },
+  {
+    "text": "Algorithmic Secrets Security",
+    "url": "#algorithmic-secrets"
+  },
+  {
+    "text": "Section 2. Cyberwarfare and sabotage",
+    "url": "#section-2-cyberwarfare-and-sabotage"
+  },
+  {
+    "text": "Cybench",
+    "url": "https://cybench.github.io/"
+  },
+  {
+    "text": "Cybench",
+    "url": "https://cybench.github.io/"
+  },
+  {
+    "text": "Section 3. Loss of control: Subversion and self-exfiltration",
+    "url": "#section-3-loss-of-control-subversion-and-self-exfiltration"
+  },
+  {
+    "text": "RAND\u2019s definition",
+    "url": "https://www.rand.org/pubs/research_reports/RRA2849-1.html#citation"
+  },
+  {
+    "text": "historical trends",
+    "url": "https://epoch.ai/blog/training-compute-of-frontier-ai-models-grows-by-4-5x-per-year"
+  },
+  {
+    "text": "Cybench",
+    "url": "https://cybench.github.io/"
+  },
+  {
+    "text": "benchmarks have been found to often follow logistic curves",
+    "url": "https://www.alignmentforum.org/posts/75o8oja43LXGAqbAR/palm-2-and-gpt-4-in-extrapolating-gpt-n-performance"
+  },
+  {
+    "text": "goals or drives that diverge from what their programmers intended",
+    "url": "https://ai-2027.com/supplements/ai-goals-forecast"
+  },
+  {
+    "text": "AI catastrophes and rogue deployments",
+    "url": "https://www.alignmentforum.org/posts/ceBpLHJDdCt3xfEok/ai-catastrophes-and-rogue-deployments"
+  },
+  {
+    "text": "getting root access to its datacenter",
+    "url": "https://www.alignmentforum.org/posts/BAzCGCys4BkzGDCWR/the-prototypical-catastrophic-ai-action-is-getting-root"
+  },
+  {
+    "text": "AI R&D progress multiplier",
+    "url": "https://ai-2027.com/supplements/takeoff-forecast#ai-randd-progress-multiplier-definition"
+  },
+  {
+    "text": "AI R&D progress multiplier",
+    "url": "https://ai-2027.com/supplements/takeoff-forecast#ai-randd-progress-multiplier-definition"
+  },
+  {
+    "text": "https://www.rand.org/pubs/research_reports/RRA2849-1.html",
+    "url": "https://www.rand.org/pubs/research_reports/RRA2849-1.html"
+  },
+  {
+    "text": "",
+    "url": "https://ai-futures.org/"
+  },
+  {
+    "text": "AI Futures Project",
+    "url": "https://ai-futures.org/"
+  },
+  {
+    "text": "Design by Lightcone Infrastructure",
+    "url": "https://lightconeinfrastructure.com"
+  },
+  {
+    "text": "",
+    "url": "https://lightconeinfrastructure.com"
+  },
+  {
+    "text": "Home",
+    "url": "/"
+  },
+  {
+    "text": "About",
+    "url": "/about"
+  },
+  {
+    "text": "Summary",
+    "url": "/summary"
+  },
+  {
+    "text": "Compute Forecast",
+    "url": "/research/compute-forecast"
+  },
+  {
+    "text": "Timelines Forecast",
+    "url": "/research/timelines-forecast"
+  },
+  {
+    "text": "Takeoff Forecast",
+    "url": "/research/takeoff-forecast"
+  },
+  {
+    "text": "AI\u00a0Goals Forecast",
+    "url": "/research/ai-goals-forecast"
+  },
+  {
+    "text": "Security Forecast",
+    "url": "/research/security-forecast"
+  },
+  {
+    "text": "Design by Lightcone Infrastructure",
+    "url": "https://lightconeinfrastructure.com"
+  },
+  {
+    "text": "",
+    "url": "https://lightconeinfrastructure.com"
+  }
+]

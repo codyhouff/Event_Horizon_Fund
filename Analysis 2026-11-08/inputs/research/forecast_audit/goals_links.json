@@ -1,0 +1,310 @@
+[
+  {
+    "text": "AI 2027",
+    "url": "/"
+  },
+  {
+    "text": "English EN",
+    "url": "/"
+  },
+  {
+    "text": "Espa\u00f1ol ES",
+    "url": "/es"
+  },
+  {
+    "text": "Fran\u00e7ais FR",
+    "url": "/fr"
+  },
+  {
+    "text": "Italiano IT",
+    "url": "/it"
+  },
+  {
+    "text": "\u65e5\u672c\u8a9e JA",
+    "url": "/ja"
+  },
+  {
+    "text": "AI 2040",
+    "url": "https://ai-2040.com"
+  },
+  {
+    "text": "Supplements",
+    "url": "/research"
+  },
+  {
+    "text": "Summary",
+    "url": "/summary"
+  },
+  {
+    "text": "Compute Forecast",
+    "url": "/research/compute-forecast"
+  },
+  {
+    "text": "Timelines Forecast",
+    "url": "/research/timelines-forecast"
+  },
+  {
+    "text": "Takeoff Forecast",
+    "url": "/research/takeoff-forecast"
+  },
+  {
+    "text": "AI Goals Forecast",
+    "url": "/research/ai-goals-forecast"
+  },
+  {
+    "text": "Security Forecast",
+    "url": "/research/security-forecast"
+  },
+  {
+    "text": "About",
+    "url": "/about"
+  },
+  {
+    "text": "appendices",
+    "url": "#appendix-a-three-important-conceptsdistinctions"
+  },
+  {
+    "text": "Agent-3 training architecture and capabilities",
+    "url": "#summary-of-agent-3-training-architecture-and-capabilities"
+  },
+  {
+    "text": "Written goal specification",
+    "url": "#hypothesis-1-written-goal-specifications"
+  },
+  {
+    "text": "model spec",
+    "url": "https://openai.com/index/introducing-the-model-spec/"
+  },
+  {
+    "text": "system prompt",
+    "url": "https://docs.anthropic.com/en/release-notes/system-prompts#nov-22nd-2024"
+  },
+  {
+    "text": "Developer-intended goals",
+    "url": "#hypothesis-2-developer-intended-goals"
+  },
+  {
+    "text": "Unintended version of written goals and/or human intentions",
+    "url": "#hypothesis-3-unintended-version-of-written-goals-and-or-human-intentions"
+  },
+  {
+    "text": "Reward/reinforcement",
+    "url": "#hypothesis-4-reward-reinforcement"
+  },
+  {
+    "text": "Proxies and/or instrumentally convergent goals",
+    "url": "#hypothesis-5-proxies-and-or-instrumentally-convergent-goals"
+  },
+  {
+    "text": "instrumentally convergent goal",
+    "url": "https://www.lesswrong.com/tag/instrumental-convergence"
+  },
+  {
+    "text": "Other goals",
+    "url": "#hypothesis-6-other-goals"
+  },
+  {
+    "text": "Written goal specification",
+    "url": "#hypothesis-1-written-goal-specifications"
+  },
+  {
+    "text": "Developer-intended goals",
+    "url": "#hypothesis-2-developer-intended-goals"
+  },
+  {
+    "text": "Unintended version of written goals and/or human intentions",
+    "url": "#hypothesis-3-unintended-version-of-written-goals-and-or-human-intentions"
+  },
+  {
+    "text": "Reward/reinforcement",
+    "url": "#hypothesis-4-reward-reinforcement"
+  },
+  {
+    "text": "Proxies and/or instrumentally convergent goals",
+    "url": "#hypothesis-5-proxies-and-or-instrumentally-convergent-goals"
+  },
+  {
+    "text": "Other goals",
+    "url": "#hypothesis-6-other-goals"
+  },
+  {
+    "text": "the table at the end",
+    "url": "#rough-guesses-about-the-plausibility-of-these-goals"
+  },
+  {
+    "text": "training game report.",
+    "url": "https://www.planned-obsolescence.org/july-2022-training-game-report/"
+  },
+  {
+    "text": "Cotra\u2019s report",
+    "url": "https://www.lesswrong.com/posts/pRkFkzwKZ2zfa3R6H/without-specific-countermeasures-the-easiest-path-to#A_possible_architecture_for_Alex"
+  },
+  {
+    "text": "situationally aware / self-aware.",
+    "url": "https://theaidigest.org/self-awareness"
+  },
+  {
+    "text": "model spec",
+    "url": "https://openai.com/index/introducing-the-model-spec/"
+  },
+  {
+    "text": "system prompt",
+    "url": "https://docs.anthropic.com/en/release-notes/system-prompts#nov-22nd-2024"
+  },
+  {
+    "text": "Hypothesis 3",
+    "url": "#hypothesis-3-unintended-version-of-written-goals-and-or-human-intentions"
+  },
+  {
+    "text": "Hypothesis 4: Reward/Reinforcement",
+    "url": "#hypothesis-4-reward-reinforcement"
+  },
+  {
+    "text": "Hypothesis 2: Developer-intended goals",
+    "url": "#hypothesis-2-developer-intended-goals"
+  },
+  {
+    "text": "OpenAI spec",
+    "url": "https://openai.com/index/introducing-the-model-spec/"
+  },
+  {
+    "text": "deliberative alignment",
+    "url": "https://openai.com/index/deliberative-alignment/"
+  },
+  {
+    "text": "constitutional AI",
+    "url": "https://arxiv.org/pdf/2212.08073"
+  },
+  {
+    "text": "section on the analogy to humans and to human institutions",
+    "url": "#appendix-b-analogies-to-other-powerful-general-agents"
+  },
+  {
+    "text": "Alignment faking in large language models",
+    "url": "https://www.anthropic.com/research/alignment-faking"
+  },
+  {
+    "text": "Reward is not the optimization target",
+    "url": "https://www.alignmentforum.org/posts/pdaGN6pQyQarFHXF4/reward-is-not-the-optimization-target"
+  },
+  {
+    "text": "Gwern for a contrary perspective",
+    "url": "https://www.lesswrong.com/posts/GDnRrSTvFkcpShm78/when-is-reward-ever-the-optimization-target?commentId=PwR3nzN99zkJv7Gj9"
+  },
+  {
+    "text": "this other comment by Paul Christiano",
+    "url": "https://www.alignmentforum.org/posts/FuGfR3jL3sw6r8kB4/richard-ngo-s-shortform?commentId=iBvvxwynfAqL9yZcr"
+  },
+  {
+    "text": "interesting experiment by Anthropic",
+    "url": "https://www.lesswrong.com/out?url=https%3A%2F%2Falignment.anthropic.com%2F2025%2Freward-hacking-ooc%2F"
+  },
+  {
+    "text": "instrumentally convergent goal",
+    "url": "https://www.lesswrong.com/tag/instrumental-convergence"
+  },
+  {
+    "text": "this experiment",
+    "url": "https://arxiv.org/abs/2310.08043"
+  },
+  {
+    "text": "this section on the analogy",
+    "url": "#appendix-b-analogies-to-other-powerful-general-agents"
+  },
+  {
+    "text": "Training on Documents about Reward Hacking Induces Reward Hacking",
+    "url": "https://alignment.anthropic.com/2025/reward-hacking-ooc/"
+  },
+  {
+    "text": "Appendix A",
+    "url": "#appendix-a-three-important-conceptsdistinctions"
+  },
+  {
+    "text": "the expected utility maximization (EU-max) model.",
+    "url": "https://en.wikipedia.org/wiki/Expected_utility_hypothesis"
+  },
+  {
+    "text": "identity circuitry",
+    "url": "#appendix-d-concrete-end-to-end-story-of-how-cognition-might-develop-in-a-rl-on-llms-agi"
+  },
+  {
+    "text": "situationally aware / self-aware",
+    "url": "https://theaidigest.org/self-awareness"
+  },
+  {
+    "text": "play the training game",
+    "url": "https://www.planned-obsolescence.org/july-2022-training-game-report/"
+  },
+  {
+    "text": "Appendix A",
+    "url": "#appendix-a-three-important-conceptsdistinctions"
+  },
+  {
+    "text": "B",
+    "url": "#appendix-b-analogies-to-other-powerful-general-agents"
+  },
+  {
+    "text": "this paper by Anthropic.",
+    "url": "https://arxiv.org/pdf/2310.13798"
+  },
+  {
+    "text": "here",
+    "url": "https://www.lesswrong.com/posts/pz7Mxyr7Ac43tWMaC/against-evolution-as-an-analogy-for-how-humans-will-create"
+  },
+  {
+    "text": "",
+    "url": "https://ai-futures.org/"
+  },
+  {
+    "text": "AI Futures Project",
+    "url": "https://ai-futures.org/"
+  },
+  {
+    "text": "Design by Lightcone Infrastructure",
+    "url": "https://lightconeinfrastructure.com"
+  },
+  {
+    "text": "",
+    "url": "https://lightconeinfrastructure.com"
+  },
+  {
+    "text": "Home",
+    "url": "/"
+  },
+  {
+    "text": "About",
+    "url": "/about"
+  },
+  {
+    "text": "Summary",
+    "url": "/summary"
+  },
+  {
+    "text": "Compute Forecast",
+    "url": "/research/compute-forecast"
+  },
+  {
+    "text": "Timelines Forecast",
+    "url": "/research/timelines-forecast"
+  },
+  {
+    "text": "Takeoff Forecast",
+    "url": "/research/takeoff-forecast"
+  },
+  {
+    "text": "AI\u00a0Goals Forecast",
+    "url": "/research/ai-goals-forecast"
+  },
+  {
+    "text": "Security Forecast",
+    "url": "/research/security-forecast"
+  },
+  {
+    "text": "Design by Lightcone Infrastructure",
+    "url": "https://lightconeinfrastructure.com"
+  },
+  {
+    "text": "",
+    "url": "https://lightconeinfrastructure.com"
+  }
+]

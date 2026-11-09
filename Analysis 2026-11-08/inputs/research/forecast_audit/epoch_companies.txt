@@ -1,0 +1,213 @@
+Updated
+Nov. 6, 2026
+AI companies
+Our database of AI company data, with data on revenue, funding, staff, and compute for many of the key players in frontier AI.
+Download this data
+Revenue
+Funding rounds
+Staff
+Usage
+Compute spend
+Graph
+Table
+Settings
+Show revenue as
+Annualized
+Annualized
+Yearly
+Approximate quarterly
+Annualized
+Yearly
+Approximate quarterly
+Show scale as
+Linear
+Logarithmic
+Show total
+Plot regressions
+Show regressions as
+Nx/year
+OOMs/year
+Doubling time
+Confidence interval width
+%
+Project regression
+Apply
+More about this dataset
+Documentation
+Downloads
+Citations
+FAQ
+Documentation
+This dataset tracks key economic data on foundation model companies that are near the frontier of AI, including revenue, funding, staff counts, compute spending, and usage. This data was primarily sourced from company disclosures, statements from company executives, and media reports.
+Read the complete documentation
+Downloads
+AI companies: All datasets
+ZIP
+,
+Updated Nov. 6, 2026
+AI companies
+CSV
+,
+Updated Nov. 6, 2026
+AI companies: Compute spend
+CSV
+,
+Updated Nov. 6, 2026
+AI companies: Funding rounds
+CSV
+,
+Updated Nov. 6, 2026
+AI companies: Staff reports
+CSV
+,
+Updated Nov. 6, 2026
+AI companies: Revenue reports
+CSV
+,
+Updated Nov. 6, 2026
+AI companies: Usage reports
+CSV
+,
+Updated Nov. 6, 2026
+Citations
+Epoch AI’s data is free to use, distribute, and reproduce provided the source and authors are credited under the
+Creative Commons Attribution license
+.
+Citation
+Josh You, John Croxton, Venkat Somala, Yafah Edelman, 'Data on AI companies'. Published online at epoch.ai. Retrieved from 'https://epoch.ai/data/ai-companies' [online resource]. Accessed 9 Nov 2026.
+BibTeX Citation
+@misc{EpochAICompanies2025,
+title = {{Data on AI companies}},
+author = {{Josh You} and {John Croxton} and {Venkat Somala} and {Yafah Edelman}},
+year = {2026},
+month = {11},
+url = {https://epoch.ai/data/ai-companies},
+note = {Accessed: 9 Nov 2026}
+}
+Python Import
+import pandas as pd
+# All tables are also bundled at https://epoch.ai/data/ai_companies.zip
+ai_companies_url = 'https://epoch.ai/data/ai_companies.csv'
+ai_companies_df = pd.read_csv(ai_companies_url)
+compute_spend_url = 'https://epoch.ai/data/ai_companies_compute_spend.csv'
+compute_spend_df = pd.read_csv(compute_spend_url)
+funding_rounds_url = 'https://epoch.ai/data/ai_companies_funding_rounds.csv'
+funding_rounds_df = pd.read_csv(funding_rounds_url)
+staff_reports_url = 'https://epoch.ai/data/ai_companies_staff_reports.csv'
+staff_reports_df = pd.read_csv(staff_reports_url)
+revenue_reports_url = 'https://epoch.ai/data/ai_companies_revenue_reports.csv'
+revenue_reports_df = pd.read_csv(revenue_reports_url)
+usage_reports_url = 'https://epoch.ai/data/ai_companies_usage_reports.csv'
+usage_reports_df = pd.read_csv(usage_reports_url)
+Frequently asked questions
+How did you choose which companies to collect data on?
+We focused on
+foundation model developers
+, or AI companies for whom training and developing their own models is a core part of their business.
+There are currently no formal criteria for selection: we prioritized companies if their models are near the frontier in general-purpose AI capabilities, or if they are among the most commercially significant AI companies.
+Some companies that are of high interest (e.g. Alibaba) have not been covered yet due to limited data availability.
+Where does this data come from, and how credible is it?
+In this database, we collect data from direct statements from AI companies and their executives and staff, as well as information reported in established media outlets (generally from insider sources or documents provided to journalists). We rely on public reports rather than proprietary databases, since our goal is to provide a free resource with transparent sourcing.
+We rate data points as “Confident” or “Likely” based on the source (we consider official company announcements to be more credible) and the specificity of the report.
+Individual data points should not be considered completely reliable. Companies sometimes make false claims, despite legal
+incentives
+against doing so, though journalism provides an imperfect check against this. And there may be differences in accounting practices or other ambiguities between companies.
+What is annualized revenue?
+Annualized revenue describes a company’s revenue rate, extrapolated over one year.
+Some reports about AI company revenue describe
+annualized revenue
+, which is a company’s recent revenue (e.g. in the last month) extrapolated over one year. Other reports cite annual
+recurring
+revenue, which is based on revenue sources that are recurring or stable, excluding one-off revenue sources. These metrics are likely similar for most AI companies, but there may be some discrepancies.
+Additionally, some of our annualized revenue data is calculated by extrapolating quarterly revenue over one year. We do not do this for reports of full-year revenue.
+So far, we have prioritized collecting revenue data from “pure-play” AI companies such as OpenAI and Anthropic.
+How are monetary amounts measured?
+We report monetary figures in US dollars. If a monetary amount was originally based in another currency, we convert to USD using prevailing exchange rates on the relevant date.
+We do not adjust for inflation in this database, since referencing nominal values over time is typical practice for financial data.
+What funding rounds are included?
+We include primary funding rounds where the company directly raises funds by selling equity (shares of stock) to investors, as well as major secondary rounds where existing shareholders (e.g. employees) sell their shares. In secondary rounds, the company itself does not receive any new funding; we only record secondary sales that are significant enough to be reported in the media. We also record debt funding.
+Our funding rounds visualization only includes closed (finalized) rounds, though we sometimes track rounds under discussion in the table view. Funding rounds are sometimes widely reported on or discussed in advance of closing.
+We focus on funding data from “pure-play” AI companies such as OpenAI and Anthropic.
+What is post-money valuation?
+“
+Post-money valuation
+” is the value of a company including the value of the new capital raised. If a company raises $1 billion at a post-money valuation of $10 billion, the value of the company before the new funds is implicitly valued at around $9 billion, and a secondary share sale at the same time may have led to a valuation around $9 billion. We focus on valuation data from “pure-play” AI companies such as OpenAI and Anthropic.
+How are staff counted?
+We look for reports of full-time, permanent staff members, as opposed to e.g. part-time data contractors, though this data is not necessarily measured consistently.
+Some AI companies like Google have many non-AI lines of business. In our visualization, we report staff counts in their main AI division (e.g. Google DeepMind staff after Google
+merged
+DeepMind and Google Brain) if there is a division that largely captures their AI efforts. This is not an exact like-for-like comparison with “pure-play” AI companies like OpenAI, since many OpenAI employees are in support roles whose counterparts at Google may not be counted as AI staff. On the flip side, the “AI” division of a company might not include all employees who work on AI research or AI products.
+In addition, different companies can make different choices about what projects to outsource or keep in-house, so this is not an exact measurement of how much labor each company is procuring.
+See our Records documentation for more detail.
+How are active users counted?
+Weekly
+active users
+is the number of distinct users who use a company’s products in a given week, monthly active users is how many use a company’s products in a given month, and so on.
+User counts for a given company can vary by product. In the main visualization, we highlight weekly or monthly active users for companies’ flagship products, e.g. general-purpose chatbots for language model companies, rather than more narrow products like AI Overviews in Google search.
+What is compute spending?
+Our compute spending data records foundation AI companies’
+ongoing, annual
+compute expenses, as opposed to compute-related capital expenses (e.g. the upfront cost of building an AI data center).
+Many foundation model companies primarily rely on renting compute from cloud companies, rather than building their own data centers. So far, this data generally comes from reported figures of cloud compute spending, which can be used as a proxy metric for the amount of compute (in
+AI chip-hours
+) these companies are procuring. In principle, this could also include the annual depreciation and operating costs for companies that own their own data centers.
+How is the data licensed?
+Epoch AI’s data is free to use, distribute, and reproduce provided the source and authors are credited under the Creative Commons Attribution license. Complete citations can be found here.
+How can I access this data?
+Download the data in CSV format.
+Explore the data
+using our interactive tools.
+View the data directly in a
+table format
+.
+Who can I contact with questions or comments about the data?
+Feedback and questions can be directed to the data group at
+data@epoch.ai
+.
+Related work
+See all our publications
+Compute trends across three eras of machine learning
+How much does it cost to train frontier AI models?
+Trends in AI supercomputers
+Investigating the trajectory of AI for the benefit of society
+Get the latest from Epoch AI in your inbox
+Subscribe
+Our work
+Latest
+Trends in AI
+Publications
+Data Insights
+Newsletter: Gradient Updates
+Podcast
+Data on AI
+Models
+AI data centers
+Hardware
+Companies
+Chip sales
+Polling
+Benchmarking
+Capabilities & benchmarking
+FrontierMath
+Company
+About
+Team
+Consultations
+Transparency
+Donate
+Careers
+© 2026 Epoch AI
+Privacy policy
+Cookie policy
+Designed by And—Now
+Feedback
+Feedback
+Have a question? Noticed something wrong? Let us know.
+Message
+If you would like a reply, please include your name and email address.
+Name
+Email address
+Cancel
+Submit
+AI companies
+Our database of AI company data, with data on revenue, funding, staff, and compute for many of the key players in frontier AI.
