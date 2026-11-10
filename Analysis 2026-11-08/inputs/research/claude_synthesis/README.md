@@ -21,6 +21,7 @@ All prices are the **Nov 9, 2026 close**. The terminal date is **Dec 31, 2030** 
 | `step3_tables.py` | Writes `tables/ranked.md`, `detail.md`, `portfolios.md` and `sensitivity.md` |
 | `extra_tables.py` | Writes `tables/reconciliation.md`, `pool.md`, `disputes.md` and `trades.md`, plus `data/drift_nov9.json`. It also prints the tranche cash path and the buy-price limits |
 | `tables/` | The generated tables pasted into the reports |
+| `step4_model.py`, `data/step4_snap.json`, `data/step4_out.json` | Step 4 (Claude Optimization Pass): values ~20 out-of-pool candidates and the re-underwritten AVGO on the same A1 rules, then tests swap variants. Run: `python -I step4_model.py data/step3_out.json data/step4_snap.json data/step4_out.json` |
 | `step2/` | Step 2 critique model (`step2_model.py`), the Nov 9 fundamentals (`fund_step2.json`) and its output (`step2_out.json`) |
 
 The Codex deep-dive ledger the model reads is `../codex_initial_deep_dive/valuation_outputs.json` (sibling folder). Codex's own Step 2 model is in `../codex_cross_critique/`.

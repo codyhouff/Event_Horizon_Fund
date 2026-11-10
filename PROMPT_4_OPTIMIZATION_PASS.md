@@ -6,7 +6,7 @@ Step 4 of 5 in the analysis flow (see `README.md` → Analysis Flow):
 2. `PROMPT_2_CROSS_CRITIQUE.md`: each model critiques the other's picks head-to-head
 3. `PROMPT_3_SYNTHESIS.md`: one model ranks every candidate from both models and writes the final analysis
 4. **`PROMPT_4_OPTIMIZATION_PASS.md`** ← this file: run by **both** models, independently
-5. `PROMPT_5_FINAL_ASSEMBLY.md`: the synthesis model merges both optimization passes into one decision sheet, then applies the owner's decisions to the final
+5. `PROMPT_5_FINAL_ASSEMBLY.md`: the synthesis model merges both optimization passes, decides every open item on the evidence, and produces the adopted final
 
 ---
 
@@ -107,8 +107,10 @@ Then write §1–§4.
 
 ## After This Step
 
-Step 5 (`PROMPT_5_FINAL_ASSEMBLY.md`):
+Step 5 (`PROMPT_5_FINAL_ASSEMBLY.md`) is run by the synthesis model in one pass:
 
-1. The synthesis model merges both models' Owner Decision Sheets and the Step 3 escalations into one sheet.
-2. The owner accepts or rejects each item.
-3. The synthesis model applies the accepted changes to the final analysis and Deployment Strategy, regenerates the PDFs, marks the version as adopted, updates `README.md`, and commits.
+1. Merge both models' Owner Decision Sheets and the Step 3 open calls.
+2. Decide every item on the evidence, using the same model and decision rules.
+3. Apply the decisions to the final analysis and Deployment Strategy, regenerate the PDFs, mark the version adopted, and update `README.md`.
+
+Write your Owner Decision Sheet so the synthesis model can decide each item from it. Give the case for and against, your recommendation, and the effect on the portfolio for each item.

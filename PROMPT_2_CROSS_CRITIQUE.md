@@ -6,7 +6,7 @@ Step 2 of 5 in the analysis flow (see `README.md` → Analysis Flow):
 2. **`PROMPT_2_CROSS_CRITIQUE.md`** ← this file: run by **both** models in parallel; each critiques the *other's* deep dive
 3. `PROMPT_3_SYNTHESIS.md`: one model ranks every candidate from both models and writes the final analysis
 4. `PROMPT_4_OPTIMIZATION_PASS.md`: both models, independently, look for better stocks and weights
-5. `PROMPT_5_FINAL_ASSEMBLY.md`: the synthesis model merges both optimization passes into one decision sheet, then applies the owner's decisions to the final
+5. `PROMPT_5_FINAL_ASSEMBLY.md`: the synthesis model merges both optimization passes, decides every open item on the evidence, and produces the adopted final
 
 ---
 

@@ -6,7 +6,7 @@ Step 3 of 5 in the analysis flow (see `README.md` → Analysis Flow):
 2. `PROMPT_2_CROSS_CRITIQUE.md`: each model critiques the other's picks head-to-head
 3. **`PROMPT_3_SYNTHESIS.md`** ← this file: run by **one** model (alternate each cycle; see the README's synthesis log)
 4. `PROMPT_4_OPTIMIZATION_PASS.md`: both models, independently, look for better stocks and weights
-5. `PROMPT_5_FINAL_ASSEMBLY.md`: the synthesis model merges both optimization passes into one decision sheet, then applies the owner's decisions to the final
+5. `PROMPT_5_FINAL_ASSEMBLY.md`: the synthesis model merges both optimization passes, decides every open item on the evidence, and produces the adopted final
 
 ---
 
@@ -86,8 +86,8 @@ Show the portfolio's Expected CAGR, AI-2027 Scenario CAGR, 100GW 2030 Scenario C
 
 ### A6. Escalated Items and Self-Sided Audit
 
-- **Escalate to owner** (max 5): calls that depend on owner preferences (risk tolerance, concentration appetite, ethics) or that are still genuine ties.
-  `ID | Question for owner | Option A (best case) | Option B (best case) | Provisional call in the final | Weight at stake`
+- **Open judgment calls** (max 5): calls that depend on risk appetite, concentration, mandate scope or ethics, or that are still genuine ties. Make a provisional call in the final; Step 5 decides each one on the evidence.
+  `ID | Question | Option A (best case) | Option B (best case) | Provisional call in the final | Weight at stake`
 - **Self-sided audit:** count the disputed inputs and weight calls that went to Claude's original view, to Codex's original view, and to neither. For each one decided in favor of your own model, state the deciding evidence.
 
 ## Phase B: Final Analysis and Deployment Strategy
@@ -101,14 +101,14 @@ If any of these files already exist (for example, from an earlier single-model r
 
 Additional requirements for the final analysis:
 
-- **Version label:** propose the next version number (for example, `V10.0`). Mark the analysis as a **proposal pending the Step 4 optimization passes and the Step 5 owner decisions**, not an adopted allocation.
+- **Version label:** propose the next version number (for example, `V10.0`). Mark the analysis as a **proposal pending the Step 4 optimization passes and Step 5 final assembly**, not an adopted allocation.
 - **Model Reconciliation section** (after the Executive Verdict):
   - `Ticker | Rank | Baseline % | Claude blind % | Codex blind % | Claude post-critique % | Codex post-critique % | Final %`. This table is the record next cycle uses to grade each model separately.
   - The A5 portfolio comparison: Expected CAGR, both named-scenario CAGRs, and bust case for each portfolio.
   - The main disputed inputs and escalated items.
 - The final is a **standalone report**: complete on its own, not a diff of the inputs. It must meet the full depth standard of `PROMPT_1_DEEP_DIVE.md`, including all 15 targeted questions, three architectures, sleeve alternatives, and valuation tables with both named-scenario CAGRs for every holding.
 - Cite sources and dates. When a conclusion comes from one model's input, verify it; don't cite "the Codex report" or "the Claude report" as evidence.
-- Do **not** update `README.md`'s active allocation. That happens after Step 4 and the owner's decisions.
+- Do **not** update `README.md`'s active allocation. That happens in Step 5.
 
 ## Final Verification
 
