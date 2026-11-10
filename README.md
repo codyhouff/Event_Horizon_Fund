@@ -58,7 +58,7 @@ On the synthesis model at Nov 9, 2026 prices: Expected CAGR 15.4% to 2030 (AI-20
 
 ## Analysis Flow
 
-Each cycle runs two models (Claude Code and Codex) through five prompts. Every prompt has the same goal: **pick the stocks and weights with the highest expected return at current prices, with an AI-2027-like path as the most likely scenario.** Every stock reports three returns:
+Each cycle runs two models (Claude Code and Codex) through five prompts, plus an optional sixth review step. Every prompt has the same goal: **pick the stocks and weights with the highest expected return at current prices, with an AI-2027-like path as the most likely scenario.** Every stock reports three returns:
 
 - **Expected CAGR**: probability-weighted, the primary ranking metric;
 - **AI-2027 Scenario CAGR**;
@@ -73,6 +73,7 @@ Each step looks for better stocks in a different place, so the steps work like a
 | 3. Synthesis | Value every candidate from both models on one valuation model, rank them, and build the portfolio from the ranking | Everything both models found, combined |
 | 4. Optimization pass | Each model independently: top 20 alternatives (at least 10 that neither model considered), the weakest holdings, and better weights | Outside what both models found |
 | 5. Final assembly | Merge both optimization passes and the open Step 3 calls; decide each item on the evidence (an accepted change must beat noise on the same model); apply the decisions with minimal edits and adopt | Nowhere new: chooses among the proposals |
+| 6. Final review (optional) | The other model audits the adopted final: reproduces the tables, checks each Step 5 decision and the document's consistency, and fixes errors in place. A weight change must pass the same Step 5 bar | Nowhere new: checks what was decided |
 
 ```text
 1. Deep dive      Claude Deep Dive              Codex Deep Dive            (blind, parallel)
@@ -84,6 +85,8 @@ Each step looks for better stocks in a different place, so the steps work like a
 4. Optimization   Claude Optimization Pass       Codex Optimization Pass    (independent, parallel)
                          └───────────┬──────────────┘
 5. Final assembly  synthesis model: merge items → decide on evidence → apply + adopt + update README
+                                     │
+6. Final review    other model: reproduce → audit decisions + document → fix in place (optional)
 ```
 
 | Step | Prompt | Who runs it | Output (in `Analysis YYYY-MM-DD/`) |
@@ -94,6 +97,7 @@ Each step looks for better stocks in a different place, so the steps work like a
 | 3 | `PROMPT_3_SYNTHESIS.md` | **One** model, alternating each cycle (see log below) | `inputs/Candidate Ranking YYYY-MM-DD.md`, `Event Horizon Fund Analysis YYYY-MM-DD.md/.pdf`, `Deployment Strategy/Deployment Strategy YYYY-MM-DD.md/.pdf` |
 | 4 | `PROMPT_4_OPTIMIZATION_PASS.md` | Claude **and** Codex, independently. Neither reads the other's pass. Each looks for better stocks (top 20 alternatives), the weakest holdings, and better weights, and proposes up to 8 changes. | `inputs/Claude Optimization Pass YYYY-MM-DD.md`, `inputs/Codex Optimization Pass YYYY-MM-DD.md`, each starting with an Owner Decision Sheet |
 | 5 | `PROMPT_5_FINAL_ASSEMBLY.md` | The **synthesis model**, in one pass. It merges both decision sheets and the Step 3 open calls, decides every item on the evidence, applies the decisions with minimal edits (adding a "Selection Rationale: Chosen vs Considered" section), regenerates the PDFs, marks the version adopted, and updates this README. | `inputs/Step 5 Decision Log YYYY-MM-DD.md`; the adopted final analysis and Deployment Strategy; the Step 3 proposal kept in `inputs/superseded/` |
+| 6 | `PROMPT_6_FINAL_REVIEW.md` (optional) | The **other model** (not the synthesis model), in one pass. It reproduces the Step 5 tables, audits every Step 5 decision and the final's numbers and consistency, fixes errors in place, and changes weights only if a change passes the Step 5 bar. | `inputs/Step 6 Review Log YYYY-MM-DD.md`; the reviewed final (and Deployment Strategy if changed); the pre-review copy kept in `inputs/superseded/` |
 
 **How to run a step:** open the repo in Claude Code or Codex and say: `Read and execute PROMPT_N_....md. You are <Claude/Codex>.`
 
@@ -106,18 +110,18 @@ Each step looks for better stocks in a different place, so the steps work like a
 
 ### Synthesis Log (alternate the Step 3 model each cycle)
 
-| Cycle | Step 3 + Step 5 (synthesis model) | Step 4 optimization (both models) | Adopted version |
-| ----- | ---------------- | --------------- | --------------- |
-| 2026-11-08 | Claude (V10.0 proposed Nov 9–10; Step 5 Nov 10) | Codex (done); Claude (done, Nov 10) | **V10.1** (adopted Nov 10, 2026) |
+| Cycle | Step 3 + Step 5 (synthesis model) | Step 4 optimization (both models) | Step 6 review (other model) | Adopted version |
+| ----- | ---------------- | --------------- | --------------- | --------------- |
+| 2026-11-08 | Claude (V10.0 proposed Nov 9–10; Step 5 Nov 10) | Codex (done); Claude (done, Nov 10) | Codex (pending) | **V10.1** (adopted Nov 10, 2026) |
 
 ## Repository Layout
 
 
 | Path                                                                                           | Purpose                                                                                                                      |
 | ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| `PROMPT_1_DEEP_DIVE.md` … `PROMPT_5_FINAL_ASSEMBLY.md`                                          | The five prompts of the analysis flow, in order (see Analysis Flow above).                                                   |
+| `PROMPT_1_DEEP_DIVE.md` … `PROMPT_6_FINAL_REVIEW.md`                                            | The prompts of the analysis flow, in order; Step 6 is optional (see Analysis Flow above).                                    |
 | `Analysis YYYY-MM-DD/`                                                                         | Repeatable cycle folder. Each cycle contains the dated thesis, allocation updates, and execution materials for that refresh. |
-| `Analysis YYYY-MM-DD/inputs/`                                                                  | Steps 1–5 working files: both deep dives, both critiques, the candidate ranking, both optimization passes, the Step 5 decision log, superseded drafts, and research data. |
+| `Analysis YYYY-MM-DD/inputs/`                                                                  | Steps 1–6 working files: both deep dives, both critiques, the candidate ranking, both optimization passes, the Step 5 decision log, the Step 6 review log, superseded drafts, and research data. |
 | `Analysis YYYY-MM-DD/Deployment Strategy/`                                                     | Cycle-specific deployment planning (tranches, timing windows, trigger rules, and position tracking artifacts).               |
 | `Followup Gemini & GPT Prompt.md` and `Cursor Followup Prompt.md`                              | Legacy follow-up prompts from the 2026-05-10 cycle and earlier, replaced by Steps 2–4. Kept for reference.                  |
 | `Analysis 2025-09-14/`, `Analysis 2026-01-20/`, `Analysis 2026-03-31/`, `Analysis 2026-05-10/` | Historical cycle snapshots so thesis and allocation changes remain auditable over time.                                      |
@@ -137,6 +141,7 @@ Event_Horizon_Fund/
 ├── PROMPT_3_SYNTHESIS.md
 ├── PROMPT_4_OPTIMIZATION_PASS.md
 ├── PROMPT_5_FINAL_ASSEMBLY.md
+├── PROMPT_6_FINAL_REVIEW.md          (optional)
 ├── Followup Gemini & GPT Prompt.md   (legacy)
 ├── Cursor Followup Prompt.md         (legacy)
 ├── md_to_pdf.py
