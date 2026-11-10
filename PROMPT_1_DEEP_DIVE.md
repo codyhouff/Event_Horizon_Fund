@@ -1,11 +1,12 @@
 # Event Horizon Fund — Step 1: Independent Deep Dive
 
-Step 1 of 4 in the analysis flow (see `README.md` → Analysis Flow):
+Step 1 of 5 in the analysis flow (see `README.md` → Analysis Flow):
 
 1. **`PROMPT_1_DEEP_DIVE.md`** ← this file: Claude and Codex each run it separately, without seeing each other's work
 2. `PROMPT_2_CROSS_CRITIQUE.md`: each model critiques the other's picks head-to-head
 3. `PROMPT_3_SYNTHESIS.md`: one model ranks every candidate from both models and writes the final analysis
-4. `PROMPT_4_OPTIMIZATION_PASS.md`: the other model looks for better stocks and weights
+4. `PROMPT_4_OPTIMIZATION_PASS.md`: both models, independently, look for better stocks and weights
+5. `PROMPT_5_FINAL_ASSEMBLY.md`: the synthesis model merges both optimization passes into one decision sheet, then applies the owner's decisions to the final
 
 ---
 
@@ -31,7 +32,7 @@ Expected return is the primary objective. Diversification and risk controls are 
 
 Produce one decisive recommended allocation and clearly identify the additional risks accepted in pursuing maximum expected return. Do not imply that any forecast or portfolio is guaranteed to achieve the highest realized return.
 
-## Goal (shared by all four prompts)
+## Goal (shared by all five prompts)
 
 Pick the stocks and weights with the **highest expected return at current prices** over 2027–2030. Treat an AI-2027-like path as the most likely scenario: give it an explicit probability rather than assuming it is certain. For every fully underwritten stock, and for the portfolio as a whole, report three returns:
 

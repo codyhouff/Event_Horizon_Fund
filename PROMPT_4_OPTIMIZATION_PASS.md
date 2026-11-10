@@ -1,11 +1,12 @@
 # Event Horizon Fund — Step 4: Optimization Pass
 
-Step 4 of 4 in the analysis flow (see `README.md` → Analysis Flow):
+Step 4 of 5 in the analysis flow (see `README.md` → Analysis Flow):
 
 1. `PROMPT_1_DEEP_DIVE.md`: Claude and Codex each produce an independent deep dive
 2. `PROMPT_2_CROSS_CRITIQUE.md`: each model critiques the other's picks head-to-head
 3. `PROMPT_3_SYNTHESIS.md`: one model ranks every candidate from both models and writes the final analysis
-4. **`PROMPT_4_OPTIMIZATION_PASS.md`** ← this file: run by the model that did **not** write Step 3
+4. **`PROMPT_4_OPTIMIZATION_PASS.md`** ← this file: run by **both** models, independently
+5. `PROMPT_5_FINAL_ASSEMBLY.md`: the synthesis model merges both optimization passes into one decision sheet, then applies the owner's decisions to the final
 
 ---
 
@@ -13,9 +14,10 @@ Step 4 of 4 in the analysis flow (see `README.md` → Analysis Flow):
 
 - Cycle date: `2026-11-08`
 - Cycle folder: `Analysis 2026-11-08/`
-- You are: **`Codex`** (the model that did not write the Step 3 final; 2026-11-08 cycle)
+- You are: **`<Claude or Codex>`**. Both models run this step separately.
+- Step 3 synthesis model: **`Claude`** (2026-11-08 cycle)
 
-## Goal (shared by all four prompts)
+## Goal (shared by all five prompts)
 
 Pick the stocks and weights with the **highest expected return at current prices** over 2027–2030, with an AI-2027-like path as the most likely scenario. For every stock, compare **Expected CAGR** (probability-weighted, the primary metric), **AI-2027 Scenario CAGR**, and **100GW 2030 Scenario CAGR**, as defined in `PROMPT_1_DEEP_DIVE.md` → Named Scenario Returns. Losses in the delay and bust scenarios are a constraint, not the objective.
 
@@ -24,6 +26,14 @@ Pick the stocks and weights with the **highest expected return at current prices
 Take a fresh pass at the final allocation and answer one question: **is there a better portfolio?** That means better stocks and better weights. Steps 1–3 already compared everything both models found. Your edge is to look **outside that pool** and to challenge the weights.
 
 Don't rewrite the final analysis. Propose specific, justified changes, or show why none are warranted.
+
+**Independence:** both models run this step in parallel. Don't open or use the other model's Optimization Pass (`inputs/<Other Model> Optimization Pass <date>.md`) if it already exists.
+
+**If you are the Step 3 synthesis model, you are reviewing your own work.**
+
+- Put most of the effort into §1's search outside the pool, where you have no prior stake.
+- In §2–§3, flag every place you keep one of your own Step 3 calls, and give the evidence for it.
+- End the file with a short self-review disclosure: what you changed in your own Step 3 work, and what you defended.
 
 **Don't modify the final analysis, the Deployment Strategy, or the Candidate Ranking.** Your only output is the Optimization Pass file below. Accepted changes are applied in Step 5.
 
@@ -85,17 +95,20 @@ Only flag problems. Don't write up a full audit:
 
 ## Output
 
-Save to `Analysis 2026-11-08/inputs/Optimization Pass 2026-11-08.md`. A PDF is optional.
+Save to `Analysis 2026-11-08/inputs/<Your Model> Optimization Pass 2026-11-08.md`. A PDF is optional.
 
 Start the file with an **Owner Decision Sheet**, one page:
 
-- each proposed change from §3, and each escalated item from the candidate ranking;
+- each proposed change from §3 (and each §1 Add or Replace), and each escalated item from the candidate ranking;
+- give every item an ID (for example `C1`, `C2` for Claude; `X1`, `X2` for Codex) so Step 5 can merge both sheets;
 - for each one: the question, the case for and against in 1–2 sentences, your recommendation, and the weight at stake.
 
 Then write §1–§4.
 
-## After This Step (Step 5: Owner Decision, no prompt file)
+## After This Step
 
-1. The owner accepts or rejects each item on the Owner Decision Sheet.
-2. The **synthesis model** applies the accepted changes and any sanity-check fixes to the final analysis and Deployment Strategy, regenerates the PDFs, and marks the version as adopted.
-3. Update `README.md`: active allocation version, snapshot, sleeve rollup, and synthesis log. Then commit.
+Step 5 (`PROMPT_5_FINAL_ASSEMBLY.md`):
+
+1. The synthesis model merges both models' Owner Decision Sheets and the Step 3 escalations into one sheet.
+2. The owner accepts or rejects each item.
+3. The synthesis model applies the accepted changes to the final analysis and Deployment Strategy, regenerates the PDFs, marks the version as adopted, updates `README.md`, and commits.

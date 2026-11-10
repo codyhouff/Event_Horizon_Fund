@@ -1,11 +1,12 @@
 # Event Horizon Fund — Step 2: Cross-Critique (Head-to-Head Stock Picks)
 
-Step 2 of 4 in the analysis flow (see `README.md` → Analysis Flow):
+Step 2 of 5 in the analysis flow (see `README.md` → Analysis Flow):
 
 1. `PROMPT_1_DEEP_DIVE.md`: Claude and Codex each produce an independent deep dive
 2. **`PROMPT_2_CROSS_CRITIQUE.md`** ← this file: run by **both** models in parallel; each critiques the *other's* deep dive
 3. `PROMPT_3_SYNTHESIS.md`: one model ranks every candidate from both models and writes the final analysis
-4. `PROMPT_4_OPTIMIZATION_PASS.md`: the other model looks for better stocks and weights
+4. `PROMPT_4_OPTIMIZATION_PASS.md`: both models, independently, look for better stocks and weights
+5. `PROMPT_5_FINAL_ASSEMBLY.md`: the synthesis model merges both optimization passes into one decision sheet, then applies the owner's decisions to the final
 
 ---
 
@@ -15,7 +16,7 @@ Step 2 of 4 in the analysis flow (see `README.md` → Analysis Flow):
 - Cycle folder: `Analysis 2026-11-08/`
 - You are: **`<Claude or Codex>`**. The other model is the remaining one.
 
-## Goal (shared by all four prompts)
+## Goal (shared by all five prompts)
 
 Pick the stocks and weights with the **highest expected return at current prices** over 2027–2030, with an AI-2027-like path as the most likely scenario. For every stock, compare **Expected CAGR** (probability-weighted, the primary metric), **AI-2027 Scenario CAGR**, and **100GW 2030 Scenario CAGR**, as defined in `PROMPT_1_DEEP_DIVE.md` → Named Scenario Returns. Losses in the delay and bust scenarios are a constraint, not the objective.
 

@@ -1,11 +1,12 @@
 # Event Horizon Fund — Step 3: Candidate Ranking and Final Synthesis
 
-Step 3 of 4 in the analysis flow (see `README.md` → Analysis Flow):
+Step 3 of 5 in the analysis flow (see `README.md` → Analysis Flow):
 
 1. `PROMPT_1_DEEP_DIVE.md`: Claude and Codex each produce an independent deep dive
 2. `PROMPT_2_CROSS_CRITIQUE.md`: each model critiques the other's picks head-to-head
 3. **`PROMPT_3_SYNTHESIS.md`** ← this file: run by **one** model (alternate each cycle; see the README's synthesis log)
-4. `PROMPT_4_OPTIMIZATION_PASS.md`: the other model looks for better stocks and weights
+4. `PROMPT_4_OPTIMIZATION_PASS.md`: both models, independently, look for better stocks and weights
+5. `PROMPT_5_FINAL_ASSEMBLY.md`: the synthesis model merges both optimization passes into one decision sheet, then applies the owner's decisions to the final
 
 ---
 
@@ -19,7 +20,7 @@ Step 3 of 4 in the analysis flow (see `README.md` → Analysis Flow):
 
 This prompt runs as a full deep dive. It may take a while; prioritize completeness and quality over speed.
 
-## Goal (shared by all four prompts)
+## Goal (shared by all five prompts)
 
 Pick the stocks and weights with the **highest expected return at current prices** over 2027–2030, with an AI-2027-like path as the most likely scenario. For every stock, compare **Expected CAGR** (probability-weighted, the primary metric), **AI-2027 Scenario CAGR**, and **100GW 2030 Scenario CAGR**, as defined in `PROMPT_1_DEEP_DIVE.md` → Named Scenario Returns. Losses in the delay and bust scenarios are a constraint, not the objective.
 
@@ -100,7 +101,7 @@ If any of these files already exist (for example, from an earlier single-model r
 
 Additional requirements for the final analysis:
 
-- **Version label:** propose the next version number (for example, `V10.0`). Mark the analysis as a **proposal pending the Step 4 optimization pass and owner decisions**, not an adopted allocation.
+- **Version label:** propose the next version number (for example, `V10.0`). Mark the analysis as a **proposal pending the Step 4 optimization passes and the Step 5 owner decisions**, not an adopted allocation.
 - **Model Reconciliation section** (after the Executive Verdict):
   - `Ticker | Rank | Baseline % | Claude blind % | Codex blind % | Claude post-critique % | Codex post-critique % | Final %`. This table is the record next cycle uses to grade each model separately.
   - The A5 portfolio comparison: Expected CAGR, both named-scenario CAGRs, and bust case for each portfolio.
