@@ -1,11 +1,11 @@
-# Event Horizon Fund — Step 2: Cross-Critique
+# Event Horizon Fund — Step 2: Cross-Critique (Head-to-Head Stock Picks)
 
 Step 2 of 4 in the analysis flow (see `README.md` → Analysis Flow):
 
 1. `PROMPT_1_DEEP_DIVE.md`: Claude and Codex each produce an independent deep dive
 2. **`PROMPT_2_CROSS_CRITIQUE.md`** ← this file: run by **both** models in parallel; each critiques the *other's* deep dive
-3. `PROMPT_3_SYNTHESIS.md`: one model builds the disagreement ledger and writes the final analysis
-4. `PROMPT_4_RED_TEAM.md`: the other model audits the final
+3. `PROMPT_3_SYNTHESIS.md`: one model ranks every candidate from both models and writes the final analysis
+4. `PROMPT_4_OPTIMIZATION_PASS.md`: the other model looks for better stocks and weights
 
 ---
 
@@ -13,102 +13,87 @@ Step 2 of 4 in the analysis flow (see `README.md` → Analysis Flow):
 
 - Cycle date: `2026-11-08`
 - Cycle folder: `Analysis 2026-11-08/`
-- Baseline allocation: `V9.1` (from `Analysis 2026-05-10/Event Horizon Fund Analysis 2026-05-10.md`)
 - You are: **`<Claude or Codex>`**. The other model is the remaining one.
 
-## Your Role
+## Goal (shared by all four prompts)
 
-You wrote one of the two independent deep dives. Now read the other model's deep dive closely and critique it, and re-examine your own work against it.
+Pick the stocks and weights with the **highest expected return at current prices** over 2027–2030, with an AI-2027-like path as the most likely scenario. For every stock, compare **Expected CAGR** (probability-weighted, the primary metric), **AI-2027 Scenario CAGR**, and **100GW 2030 Scenario CAGR**, as defined in `PROMPT_1_DEEP_DIVE.md` → Named Scenario Returns. Losses in the delay and bust scenarios are a constraint, not the objective.
 
-This is **not** a merge. Do not write a combined report or a blended allocation. The goal is to surface every material disagreement, settle the factual ones, and argue the judgment calls with evidence so Step 3 can resolve them.
+## Your Job in This Step
+
+Compare your portfolio with the other model's, **stock by stock**. Wherever the two differ, decide which pick is better priced and has the higher expected return, and find what the other model got right that beats your picks.
+
+This is not a merge. Don't write a combined report or a blended allocation.
 
 ## Files to Read
 
 1. Your own deep dive: `Analysis 2026-11-08/inputs/<Your Model> Deep Dive 2026-11-08.md`
 2. The other model's deep dive: `Analysis 2026-11-08/inputs/<Other Model> Deep Dive 2026-11-08.md`
-3. `PROMPT_1_DEEP_DIVE.md`, for the rules both deep dives had to follow (constraints, valuation framework, required outputs)
+3. `PROMPT_1_DEEP_DIVE.md`: valuation framework and the named-scenario definitions
 
-Do not read the other model's Step 2 critique if it already exists. Both critiques must be written independently.
+Don't read the other model's Step 2 critique if it already exists.
 
 ## Rules
 
-- **Evidence beats confidence.** Change your view only for specific evidence, data, or a better argument, never because the other model stated a different number or sounded certain.
-- **No diplomatic concessions.** Don't concede points to look balanced, and don't defend a position just because it's yours. When the other model is right, say so plainly.
-- **Settle facts, don't argue them.** When the two reports state different facts (prices, guidance, capex figures, dates, events, framework numbers), check the primary source and record the result with source and date. If it can't be verified, say so.
-- **Same-date comparisons.** If the two reports used different market-data dates, note the gap. Don't count price moves between those dates as analytical disagreements.
-- **Compare underwriting on equal terms.** For every name both reports underwrote, compare the inputs (2030 metric, exit multiple, scenario probabilities, dividends), not just the resulting CAGR. Identify the specific assumption that drives each gap.
-- **No averaging.** Any change to your allocation must come from a specific concession in this critique. Splitting the difference is not a reason.
-- Fresh web research is allowed, but only to settle conflicts or check claims. This is not a new deep dive.
-- Prefer tables to prose. Target length: roughly 300–700 lines.
+- **Evidence beats confidence.** Change a pick or weight only for specific evidence or a better-supported valuation input, never because the other model stated a different number.
+- **No diplomatic concessions, no defending turf.** When their pick is better, say so plainly.
+- **Same prices.** Re-price every contested stock to one current date, so price moves between the two reports' data dates don't look like analytical disagreements.
+- **Missing named-scenario returns.** If either deep dive doesn't report AI-2027 Scenario or 100GW 2030 Scenario CAGRs (true of the 2026-11-08 deep dives, which predate these scenarios), calculate them yourself for every stock in §2–§4, using the definitions in `PROMPT_1_DEEP_DIVE.md`.
+- **Compare inputs, not just outputs.** When CAGRs differ, find the specific input driving the gap (2030 metric, exit multiple, probabilities, scenario path) and decide which is better supported.
+- **Check facts only where they change a pick.** If the two reports disagree on a fact that drives a weight or an in/out decision, verify it at the primary source.
+- **No averaging.** Every change to your allocation must come from a specific head-to-head win in §2 or §3.
+- Use fresh research only to settle contested picks. This is not a new deep dive. Prefer tables to prose.
 
 ## Required Output
 
-Save to `Analysis 2026-11-08/inputs/<Your Model> Critique of <Other Model> 2026-11-08.md`. A PDF is optional (`python md_to_pdf.py "<path>"`).
+Save to `Analysis 2026-11-08/inputs/<Your Model> Critique of <Other Model> 2026-11-08.md`. A PDF is optional.
 
 ### 1. Verdict (max 10 bullets)
 
-- The most important thing the other model got right that you missed or got wrong.
-- The most important thing the other model got wrong.
-- Net: how much your allocation changes after this critique, and in which direction.
+- The other model's best pick that you missed or underweighted, and why it's better.
+- The other model's weakest pick, and why.
+- How your allocation changes after this critique.
 
-### 2. Allocation Diff
+### 2. Head-to-Head: Every Stock Where the Portfolios Differ
 
-Cover every ticker held by either report, plus any name either one fully underwrote but excluded:
+Cover every ticker that is held by only one model, or held by both with weights at least 1pp apart:
 
-`Ticker | Mine % | Other % | Delta (pp) | Driver of the gap (assumption / fact / thesis) | Better call | Why (evidence)`
+`Ticker | Mine % | Other % | Price + date | Expected CAGR (mine / theirs / re-underwritten) | AI-2027 Scenario CAGR (mine / theirs) | 100GW 2030 Scenario CAGR (mine / theirs) | Input driving the gap | Better call | Why`
 
-Then add the same comparison at the sleeve and shared-driver cluster level: AI silicon and interconnect, fab tools and design, data-center physical and electrical, power generation, software, and AI-independent hedges.
+Where the two estimates differ by more than 3pp, **re-underwrite the stock yourself** on current prices, with each disputed input set to the better-supported value.
 
-### 3. Factual Conflicts
+### 3. Their Picks vs Mine (Same Bottleneck)
 
-`# | Claim | Mine says | Other says | Primary-source check (source + date) | Resolved value | Who was right`
+Where the two models chose different stocks for the same bottleneck or sleeve (for example, different memory, optical, power, or tool names), compare them directly:
 
-Include framework numbers from AI-2027, AI-2040, and Situational Awareness when the two reports cite them differently.
+`Bottleneck | My pick | Their pick | Expected CAGR each | AI-2027 Scenario CAGR each | 100GW 2030 Scenario CAGR each | Valuation status each | Better stock | Why`
 
-### 4. Valuation Assumption Comparison
+### 4. Candidates Only One of Us Found
 
-For every name both reports underwrote:
+- Names the other model underwrote or held that you never considered: your verdict on each (Add / Replace X / Reject), with the reason.
+- Names you underwrote that the other model never considered, and why they matter.
 
-`Ticker | Price/date (mine vs other) | Bear/Base/Bull TV (mine vs other) | Probabilities (mine vs other) | E[CAGR] (mine vs other) | Key input driving the gap | Which input is better supported`
+### 5. Facts That Change a Pick
 
-Also check the other report's math: whether E[TV] was computed before the CAGR, whether scenario CAGRs were averaged, whether probabilities sum to 100%, and whether CAGR exponents are consistent with the horizon.
+`# | Claim | Mine | Theirs | Primary-source check (source + date) | Resolved | Pick affected`
 
-### 5. Concessions: Where the Other Model Is Right
+Include framework numbers from AI-2027, AI-2040, and Situational Awareness if the two reports read them differently and it changes a scenario CAGR.
 
-`# | Topic | My original view | Their view | Evidence that convinced me | Change to my allocation or analysis`
+### 6. Revised Allocation (Yours, After Critique)
 
-### 6. Rebuttals: Where the Other Model Is Wrong
-
-`# | Topic | Their view | Why it's wrong (evidence + source/date) | Severity (High/Med/Low) | Weight at stake (pp)`
-
-### 7. Coverage Gaps
-
-- Evidence, risks, candidates, or bottlenecks the other report found that yours missed. State whether each matters.
-- Evidence, risks, candidates, or bottlenecks yours found that the other missed.
-- Differences in how the AI-2027 / AI-2040 / Situational Awareness framework material was read and applied: scorecard grades, timelines, forward paths.
-
-### 8. Rule-Compliance Check of the Other Report
-
-Check against `PROMPT_1_DEEP_DIVE.md`: 100.0% checksum; 15% single-name cap; long-only universe; funding sources for every change; at least 2 alternatives per sleeve; full underwriting of the top 10 challengers; three architectures; all 15 targeted questions; stale-data flags; a deployment plan with triggers, no-trade conditions, and reserve rules.
-
-`Requirement | Met? | Note`
-
-### 9. Revised Allocation (Yours, After Critique)
-
-`Ticker | Original % | Revised % | Delta | Concession # that justifies it`
+`Ticker | Original % | Revised % | Delta | Head-to-head row that justifies it`
 
 - Must sum to exactly 100.0%, with a checksum line.
-- Every change must cite a concession from §5. If nothing changes, say so and explain why.
+- Show portfolio Expected CAGR, AI-2027 Scenario CAGR, 100GW 2030 Scenario CAGR, and bust-case return, before and after.
 
-### 10. Expected Open Disagreements for Step 3
+### 7. Picks Still Contested
 
-Rank the disagreements still standing after this critique by portfolio impact (weight at stake × gap in expected CAGR, or a holding-in/out decision):
+Rank by portfolio impact:
 
-`Rank | Issue | My position | Their position | Weight at stake | What evidence would settle it`
+`Rank | Ticker or bottleneck | My position | Their position | Weight at stake | What evidence would settle it`
 
 ## Final Verification
 
-- The critique file exists at the required path.
-- §2 covers every ticker in both reports.
-- §9 sums to 100.0%, and every change cites a concession.
-- Every factual conflict in §3 has a primary-source check or is marked unverified.
+- The critique exists at the required path.
+- §2 covers every ticker where the portfolios differ.
+- §6 sums to 100.0%, and every change cites a head-to-head row.

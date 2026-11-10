@@ -1,11 +1,11 @@
-# Event Horizon Fund — Step 3: Disagreement Ledger and Final Synthesis
+# Event Horizon Fund — Step 3: Candidate Ranking and Final Synthesis
 
 Step 3 of 4 in the analysis flow (see `README.md` → Analysis Flow):
 
 1. `PROMPT_1_DEEP_DIVE.md`: Claude and Codex each produce an independent deep dive
-2. `PROMPT_2_CROSS_CRITIQUE.md`: each model critiques the other's deep dive
+2. `PROMPT_2_CROSS_CRITIQUE.md`: each model critiques the other's picks head-to-head
 3. **`PROMPT_3_SYNTHESIS.md`** ← this file: run by **one** model (alternate each cycle; see the README's synthesis log)
-4. `PROMPT_4_RED_TEAM.md`: the other model audits the final
+4. `PROMPT_4_OPTIMIZATION_PASS.md`: the other model looks for better stocks and weights
 
 ---
 
@@ -19,11 +19,15 @@ Step 3 of 4 in the analysis flow (see `README.md` → Analysis Flow):
 
 This prompt runs as a full deep dive. It may take a while; prioritize completeness and quality over speed.
 
-## Your Role
+## Goal (shared by all four prompts)
 
-Turn two independent deep dives and two cross-critiques into one final, decisive analysis. Do it by resolving each disagreement on its merits, not by blending the two portfolios.
+Pick the stocks and weights with the **highest expected return at current prices** over 2027–2030, with an AI-2027-like path as the most likely scenario. For every stock, compare **Expected CAGR** (probability-weighted, the primary metric), **AI-2027 Scenario CAGR**, and **100GW 2030 Scenario CAGR**, as defined in `PROMPT_1_DEEP_DIVE.md` → Named Scenario Returns. Losses in the delay and bust scenarios are a constraint, not the objective.
 
-You wrote one of the deep dives, so you start out biased toward it. The Step 4 red team will count how often you sided with your own original position and check the evidence for each of those calls.
+## Your Job in This Step
+
+Combine every candidate either model found into one pool and value them all on **one consistent model** at current prices. Rank the pool, then build the best portfolio from that ranking. Don't blend the two portfolios or split differences between them.
+
+You wrote one of the deep dives, so you start out biased toward it. The self-sided audit (A6) makes that bias visible to the owner.
 
 ## Files to Read (all)
 
@@ -31,53 +35,61 @@ You wrote one of the deep dives, so you start out biased toward it. The Step 4 r
 2. `Analysis 2026-11-08/inputs/Codex Deep Dive 2026-11-08.md`
 3. `Analysis 2026-11-08/inputs/Claude Critique of Codex 2026-11-08.md`
 4. `Analysis 2026-11-08/inputs/Codex Critique of Claude 2026-11-08.md`
-5. `PROMPT_1_DEEP_DIVE.md`: all of its constraints, valuation framework, required deliverables, locked output structure, and deployment rules apply to the final analysis
+5. `PROMPT_1_DEEP_DIVE.md`: its constraints, valuation framework, named scenarios, required deliverables, locked output structure, and deployment rules all apply to the final analysis
 6. The prior analysis (Cycle Settings) and `Original Large Thesis Writeup 2025-09-10/Event Horizon Fund Draft V7.3 2025-09-10.md`, for continuity
 
-## Phase A: Disagreement Ledger
+## Phase A: Candidate Ranking
 
-Save to `Analysis 2026-11-08/inputs/Disagreement Ledger 2026-11-08.md`.
+Save to `Analysis 2026-11-08/inputs/Candidate Ranking 2026-11-08.md`.
 
-### A1. Agreement Map
+### A1. One Set of Scenario Assumptions
 
-List what both deep dives agree on: holdings both keep, both remove, and both add, plus shared thesis calls. Agreement means higher confidence, but it isn't proof. Flag any agreement that rests on the same weak source or assumption.
+Before valuing anything, reconcile how the two models defined the scenarios. Set one yearly path for each of the following, checked against the primary sources:
 
-### A2. Ledger
+- the bear, base, and bull cases;
+- the AI-2027 Scenario;
+- the 100GW 2030 Scenario.
 
-Include every **material** disagreement, meaning any of the following:
+For each path, give compute, AI capex, chip/HBM/EUV volumes, power, and financing, plus the probability of each scenario. Where the two models' assumptions differed, state which one you adopted and why.
 
-- a weight difference of at least 1.0pp;
-- a holding that is in one portfolio and out of the other;
-- a scenario-probability difference of at least 5pp on any holding;
-- a different factual claim that affects a decision;
-- a different cluster or sleeve cap.
+### A2. Candidate Pool
 
-Build the list directly from the two deep dives. Use the critiques' §10 lists as a cross-check, not as the source.
+The pool includes every stock that was:
 
-`ID | Type (Fact / Valuation input / Thesis judgment / Sizing / Process) | Claude position | Codex position | Critique outcome (who conceded what) | Resolution | Basis (rule # below + evidence/source/date) | Final weight impact | Status (Resolved / Escalated)`
+- held by either model, before or after its critique;
+- fully underwritten by either model;
+- raised in either critique as a better alternative.
 
-### A3. Resolution Rules (apply in order)
+### A3. Ranked Table
 
-1. **Facts:** verify at the primary source as of the synthesis date. The verified value wins. If it can't be verified, use the more conservative value and mark it unverified.
-2. **Conceded in critique:** if one side conceded in Step 2, adopt the conceded-to position unless newer evidence contradicts it.
-3. **Both revised to the same answer:** adopt it, after a sanity check. Convergence alone doesn't prove it's right.
-4. **Judgment and valuation:** re-underwrite the contested name yourself on **one consistent framework**: TV = 2030 metric × exit multiple + cumulative dividends; E[TV] = Σ p·TV; CAGR = (E[TV]/P)^(1/years) − 1. Use current prices. Side with the position that has the stronger evidence and the better valuation-adjusted expected return.
-5. **Genuine tie:** take the risk-control default: smaller position, lower shared-driver concentration, or closer to baseline for marginal names. **Never average the two positions to split the difference.**
-6. **Escalate to owner:** a material item that is still a genuine tie after rules 1–5, or one that depends on the owner's preferences (risk tolerance, ethics, concentration appetite). Escalate at most 5 items. For each one, still make a provisional call so the final allocation is complete.
+Re-underwrite every stock in the pool at current prices, using the A1 assumptions. If the deep dives or critiques don't report AI-2027 Scenario or 100GW 2030 Scenario CAGRs (true of the 2026-11-08 deep dives, which predate these scenarios), calculate them yourself for every stock in the pool. Then rank by Expected CAGR:
 
-### A4. Escalated Items
+`Rank | Ticker | Bottleneck | Price + date | Valuation status | Expected CAGR | AI-2027 Scenario CAGR | 100GW 2030 Scenario CAGR | Bust-case return | Claude % (blind / post-critique) | Codex % (blind / post-critique) | Disputed inputs and how they were resolved`
 
-`ID | Question for owner | Option A (best one-paragraph case) | Option B (best one-paragraph case) | Provisional call in the final | Weight at stake`
+Before writing the final, refresh prices to the synthesis date. Re-check any stock that moved more than 10% since the deep dives' data date.
 
-### A5. Self-Sided Audit
+### A4. Resolving Disputed Inputs (apply in order)
 
-`Resolutions siding with Claude's original: N | with Codex's original: N | new position (neither): N`
+1. **Facts:** verify at the primary source. The verified value wins. If it can't be verified, use the more conservative value and mark it unverified.
+2. **Conceded in critique:** if one model conceded an input in Step 2, adopt the conceded-to value unless newer evidence contradicts it.
+3. **Judgment inputs** (2030 metric, exit multiple, probabilities): use the better-supported value. On a genuine tie, use the more conservative value. **Never average the two models' inputs.**
 
-List every resolution that sided with your own model's original position and give the deciding evidence for each.
+### A5. From Ranking to Portfolio
+
+Build the final weights from the ranking under the constraints in `PROMPT_1_DEEP_DIVE.md`: the 15% single-name cap, shared-driver cluster limits, and an acceptable bust-case loss. Then explain the exceptions:
+
+- each top-ranked stock that was **left out** or capped: why, for example concentration, an overlapping driver, or the bust case;
+- each lower-ranked stock that was **included**: what it does for the portfolio that a higher-ranked stock can't, for example a hedge or a different bottleneck.
+
+Show the portfolio's Expected CAGR, AI-2027 Scenario CAGR, 100GW 2030 Scenario CAGR, and bust-case return. Also show these four numbers for the Claude blind, Codex blind, and both post-critique portfolios, all on the same A1 assumptions.
+
+### A6. Escalated Items and Self-Sided Audit
+
+- **Escalate to owner** (max 5): calls that depend on owner preferences (risk tolerance, concentration appetite, ethics) or that are still genuine ties.
+  `ID | Question for owner | Option A (best case) | Option B (best case) | Provisional call in the final | Weight at stake`
+- **Self-sided audit:** count the disputed inputs and weight calls that went to Claude's original view, to Codex's original view, and to neither. For each one decided in favor of your own model, state the deciding evidence.
 
 ## Phase B: Final Analysis and Deployment Strategy
-
-Before writing, refresh market data (prices, and consensus estimates where they're used) to the synthesis date. If any holding moved more than 10% since the deep dives' data date, re-check its valuation status.
 
 Produce the final deliverables exactly as defined in `PROMPT_1_DEEP_DIVE.md` → Required Deliverables (Step 3 final), Locked Output Structure, and Deployment Execution Rules:
 
@@ -88,19 +100,20 @@ If any of these files already exist (for example, from an earlier single-model r
 
 Additional requirements for the final analysis:
 
-- **Version label:** propose the next version number (for example, `V10.0`). Mark the analysis as a **proposal pending owner decisions and red-team review**, not an adopted allocation.
+- **Version label:** propose the next version number (for example, `V10.0`). Mark the analysis as a **proposal pending the Step 4 optimization pass and owner decisions**, not an adopted allocation.
 - **Model Reconciliation section** (after the Executive Verdict):
-  - Allocation comparison: `Ticker | Baseline % | Claude blind % | Codex blind % | Claude post-critique % | Codex post-critique % | Final % | Ledger ID(s)`. This table is the record next cycle uses to grade each model separately.
-  - Summary of the agreement map, the main resolved disagreements, and the escalated items, with links to ledger IDs.
-- The final is a **standalone report**: complete on its own, not a diff of the inputs. Where the inputs already contain good analysis, use it, but the final must meet the full depth standard of `PROMPT_1_DEEP_DIVE.md`. That includes all 15 targeted questions, three architectures, sleeve alternatives, and valuation tables for every holding.
-- Cite sources and dates as usual. When a conclusion comes from one model's input, verify it; don't cite "the Codex report" or "the Claude report" as evidence.
+  - `Ticker | Rank | Baseline % | Claude blind % | Codex blind % | Claude post-critique % | Codex post-critique % | Final %`. This table is the record next cycle uses to grade each model separately.
+  - The A5 portfolio comparison: Expected CAGR, both named-scenario CAGRs, and bust case for each portfolio.
+  - The main disputed inputs and escalated items.
+- The final is a **standalone report**: complete on its own, not a diff of the inputs. It must meet the full depth standard of `PROMPT_1_DEEP_DIVE.md`, including all 15 targeted questions, three architectures, sleeve alternatives, and valuation tables with both named-scenario CAGRs for every holding.
+- Cite sources and dates. When a conclusion comes from one model's input, verify it; don't cite "the Codex report" or "the Claude report" as evidence.
 - Do **not** update `README.md`'s active allocation. That happens after Step 4 and the owner's decisions.
 
 ## Final Verification
 
-- The ledger, final analysis, and Deployment Strategy (`.md` and `.pdf`) all exist at the required paths.
+- The candidate ranking, final analysis, and Deployment Strategy (`.md` and `.pdf`) all exist at the required paths.
+- Every stock either model held or fully underwrote appears in the ranked table.
 - Final allocation checksum = 100.0%. Every change from baseline has a funding source.
-- Every material disagreement between the two deep dives appears in the ledger, and every ledger resolution matches the final allocation.
-- No final weight is the average of the two blind or post-critique weights unless the ledger gives independent evidence for that exact number.
-- The Model Reconciliation table is present and complete.
-- The self-sided audit (A5) is filled in.
+- Every exception between rank and weight is explained in A5.
+- No final weight or input is the average of the two models' values without its own justification.
+- The Model Reconciliation table and the self-sided audit are complete.

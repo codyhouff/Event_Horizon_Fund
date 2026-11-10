@@ -3,9 +3,9 @@
 Step 1 of 4 in the analysis flow (see `README.md` → Analysis Flow):
 
 1. **`PROMPT_1_DEEP_DIVE.md`** ← this file: Claude and Codex each run it separately, without seeing each other's work
-2. `PROMPT_2_CROSS_CRITIQUE.md`: each model critiques the other's deep dive
-3. `PROMPT_3_SYNTHESIS.md`: one model builds the disagreement ledger and writes the final analysis
-4. `PROMPT_4_RED_TEAM.md`: the other model audits the final
+2. `PROMPT_2_CROSS_CRITIQUE.md`: each model critiques the other's picks head-to-head
+3. `PROMPT_3_SYNTHESIS.md`: one model ranks every candidate from both models and writes the final analysis
+4. `PROMPT_4_OPTIMIZATION_PASS.md`: the other model looks for better stocks and weights
 
 ---
 
@@ -30,6 +30,16 @@ Construct the Event Horizon Fund portfolio with the highest credible expected to
 Expected return is the primary objective. Diversification and risk controls are constraints intended to reduce permanent capital loss, not objectives by themselves. Optimize for forward returns from current prices and valuations, not company quality, thematic importance, or past performance alone.
 
 Produce one decisive recommended allocation and clearly identify the additional risks accepted in pursuing maximum expected return. Do not imply that any forecast or portfolio is guaranteed to achieve the highest realized return.
+
+## Goal (shared by all four prompts)
+
+Pick the stocks and weights with the **highest expected return at current prices** over 2027–2030. Treat an AI-2027-like path as the most likely scenario: give it an explicit probability rather than assuming it is certain. For every fully underwritten stock, and for the portfolio as a whole, report three returns:
+
+- **Expected CAGR**: probability-weighted across bear, base, and bull. This is the primary ranking metric.
+- **AI-2027 Scenario CAGR**: the return if the AI-2027 path plays out.
+- **100GW 2030 Scenario CAGR**: the return if Situational Awareness's path to a 100 GW training cluster by 2030 plays out.
+
+When two candidates' Expected CAGRs are within about 2pp, prefer the one with the higher AI-2027 Scenario CAGR. Losses in the delay and bust scenarios are a constraint: keep them acceptable, but don't give up expected return for diversification that doesn't actually reduce them. Both named scenarios are defined under Forward Return and Valuation Framework.
 
 ## Required Inputs (read all)
 
@@ -174,11 +184,32 @@ Assess each fully underwritten candidate using:
 
 Include this table for every recommended holding:
 
-- `Ticker | Current Price + Date | Valuation Status | Bear/Base/Bull Terminal Value | Scenario Probabilities | Expected Terminal Value | Implied Expected CAGR | Confidence | Key Assumptions`
+- `Ticker | Current Price + Date | Valuation Status | Bear/Base/Bull Terminal Value | Scenario Probabilities | Expected Terminal Value | Implied Expected CAGR | AI-2027 Scenario CAGR | 100GW 2030 Scenario CAGR | Confidence | Key Assumptions`
 
 Classify `Valuation Status` as `Deep Discount / Attractive / Fair / Expensive / Speculative`, supported by evidence rather than price performance alone.
 
 Use ranges and disclose assumptions rather than presenting false precision. If reliable data is unavailable, label the estimate unavailable instead of inventing it. Do not average scenario CAGRs directly; calculate expected terminal value first and derive the implied CAGR from that value.
+
+### Named Scenario Returns
+
+Model two named scenarios for every fully underwritten stock. Each is a single conditional path: estimate the stock's 2030 metric and exit multiple as if that path happens, then compute `CAGR = (TV_scenario / current price)^(1/years) − 1`. Report both alongside the Expected CAGR, but don't fold them into the bear/base/bull expected value. Give each named scenario a probability and say which of bear, base, or bull it most resembles.
+
+**AI-2027 Scenario:** the path in AI-2027's main scenario and compute forecast, read at the source (see Required Inputs §3). Use its compute, capex, lab revenue, chip and HBM volumes, and capability milestones through 2027, adjusted for the authors' latest timeline updates. Extend to 2030 with the compute supplement and AI-2040. State the yearly assumptions used. Note where a stock fares very differently between the race and slowdown endings, for example through nationalization, export controls, or a forced pause.
+
+**100GW 2030 Scenario:** the path in Situational Awareness, "Racing to the Trillion-Dollar Cluster" (<https://situational-awareness.ai/racing-to-the-trillion-dollar-cluster/>). Its milestones (verified against the June 2024 PDF; Table 4 covers the largest training cluster, Table 5 total world AI investment):
+
+| Year | Largest training cluster (H100-equiv / power / cost) | Total AI investment / yr | AI accelerator shipments (H100-equiv) | Total AI power as % of US electricity | AI chips as % of current leading-edge TSMC wafers |
+| ---- | --------------------------------------------------- | ------------------------ | ------------------------------------- | ------------------------------------- | ------------------------------------------------- |
+| 2024 | ~100k / ~100 MW / $billions | ~$150B | ~5–10M | 1–2% | 5–10% |
+| 2026 | ~1M / ~1 GW / $10s of billions | ~$500B | ~10s of millions | 5% | ~25% |
+| 2028 | ~10M / ~10 GW / $100s of billions | ~$2T | ~100M | 20% | ~100% |
+| 2030 | ~100M / ~100 GW / $1T+ | ~$8T | ~100s of millions | 100% (the 100 GW cluster alone is >20%) | 4x current capacity |
+
+The chapter also says that about $1T a year of total AI investment by 2027 is plausible. Source: <https://situational-awareness.ai/wp-content/uploads/2024/06/situationalawareness.pdf>, pp. ~75–90.
+
+State how far actual progress is from this path as of the cycle date. Identify which bottlenecks (power, chips, memory, EUV, financing, permitting) would bind first if the path were pursued, and who captures the value there.
+
+**Use both scenarios to find the best-priced stocks.** If a stock's named-scenario CAGR is modest even on the strong path, the scenario is likely already priced in, or the company can't capture the upside because of capacity limits, weak pricing power, or substitution. Flag these. Also flag stocks whose named-scenario CAGR is much higher than their Expected CAGR: these are the purest bets on the thesis.
 
 ## Portfolio Architecture Challenge
 
@@ -191,6 +222,7 @@ Compare at least three portfolio constructions:
 For each architecture, assess:
 
 - expected total return and expected CAGR;
+- AI-2027 Scenario CAGR and 100GW 2030 Scenario CAGR;
 - downside and permanent-capital-loss risk;
 - concentration by company, sleeve, and shared economic driver;
 - sensitivity to faster AI acceleration, a 2-3 year AI delay, and an AI-capex slowdown;

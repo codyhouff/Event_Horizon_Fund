@@ -75,16 +75,29 @@ Total: 100%
 
 ## Analysis Flow
 
-Each cycle runs two models (Claude Code and Codex) through four prompts. Both models research blind first, then critique each other. One model writes the final and the other audits it, so the final comes from resolving disagreements one by one rather than from averaging two portfolios.
+Each cycle runs two models (Claude Code and Codex) through four prompts. Every prompt has the same goal: **pick the stocks and weights with the highest expected return at current prices, with an AI-2027-like path as the most likely scenario.** Every stock reports three returns:
+
+- **Expected CAGR**: probability-weighted, the primary ranking metric;
+- **AI-2027 Scenario CAGR**;
+- **100GW 2030 Scenario CAGR**, from Situational Awareness's path to a trillion-dollar cluster.
+
+Each step looks for better stocks in a different place, so the steps work like a funnel rather than repeating each other:
+
+| Step | Main purpose | Where it looks for better stocks |
+| ---- | ------------ | -------------------------------- |
+| 1. Deep dive | Build the best portfolio independently | The whole universe, from scratch |
+| 2. Cross-critique | Head-to-head: for every stock where the two portfolios differ, which pick is better priced with the higher expected return? | The other model's picks versus mine |
+| 3. Synthesis | Value every candidate from both models on one valuation model, rank them, and build the portfolio from the ranking | Everything both models found, combined |
+| 4. Optimization pass | Top 20 alternatives (at least 10 that neither model considered), the weakest holdings, and better weights | Outside what both models found |
 
 ```text
 1. Deep dive      Claude Deep Dive              Codex Deep Dive            (blind, parallel)
                          │      ╲            ╱      │
 2. Cross-critique  Claude Critique of Codex    Codex Critique of Claude   (parallel)
                          └───────────┬──────────────┘
-3. Synthesis       one model:  Disagreement Ledger → Final Analysis + Deployment Strategy
+3. Synthesis       one model:  Candidate Ranking → Final Analysis + Deployment Strategy
                                      │
-4. Red team        other model:  Red Team Review + Owner Decision Sheet
+4. Optimization    other model:  top 20 alternatives + better weights + Owner Decision Sheet
                                      │
 5. Owner           decide escalations → synthesis model applies fixes → adopt + update README
 ```
@@ -93,23 +106,23 @@ Each cycle runs two models (Claude Code and Codex) through four prompts. Both mo
 | ---- | ------ | ----------- | ---------------------------------- |
 | 0 | — | Owner | Update the cycle settings in all four prompts: cycle date, prior analysis, baseline version and allocation. Create `Analysis YYYY-MM-DD/inputs/`. |
 | 1 | `PROMPT_1_DEEP_DIVE.md` | Claude **and** Codex, separately. Neither may open the other's files. | `inputs/Claude Deep Dive YYYY-MM-DD.md/.pdf`, `inputs/Codex Deep Dive YYYY-MM-DD.md/.pdf` |
-| 2 | `PROMPT_2_CROSS_CRITIQUE.md` | Claude **and** Codex, in parallel. Each critiques the *other's* deep dive. | `inputs/Claude Critique of Codex YYYY-MM-DD.md`, `inputs/Codex Critique of Claude YYYY-MM-DD.md` |
-| 3 | `PROMPT_3_SYNTHESIS.md` | **One** model, alternating each cycle (see log below) | `inputs/Disagreement Ledger YYYY-MM-DD.md`, `Event Horizon Fund Analysis YYYY-MM-DD.md/.pdf`, `Deployment Strategy/Deployment Strategy YYYY-MM-DD.md/.pdf` |
-| 4 | `PROMPT_4_RED_TEAM.md` | The **other** model (audit only, no rewrite) | `inputs/Red Team Review YYYY-MM-DD.md`, which includes the Owner Decision Sheet |
-| 5 | — | Owner, then the synthesis model | Answer the Owner Decision Sheet. The synthesis model applies Blocker/Major fixes and the owner's decisions, regenerates the PDFs, and marks the version adopted. Then update this README and commit. |
+| 2 | `PROMPT_2_CROSS_CRITIQUE.md` | Claude **and** Codex, in parallel. Each compares the *other's* picks with its own, head-to-head. | `inputs/Claude Critique of Codex YYYY-MM-DD.md`, `inputs/Codex Critique of Claude YYYY-MM-DD.md` |
+| 3 | `PROMPT_3_SYNTHESIS.md` | **One** model, alternating each cycle (see log below) | `inputs/Candidate Ranking YYYY-MM-DD.md`, `Event Horizon Fund Analysis YYYY-MM-DD.md/.pdf`, `Deployment Strategy/Deployment Strategy YYYY-MM-DD.md/.pdf` |
+| 4 | `PROMPT_4_OPTIMIZATION_PASS.md` | The **other** model: looks for better stocks (top 20 alternatives), the weakest holdings, and better weights. Proposes up to 8 changes. | `inputs/Optimization Pass YYYY-MM-DD.md`, which starts with the Owner Decision Sheet |
+| 5 | — | Owner, then the synthesis model | Answer the Owner Decision Sheet. The synthesis model applies the accepted changes and any sanity-check fixes, regenerates the PDFs, and marks the version adopted. Then update this README and commit. |
 
 **How to run a step:** open the repo in Claude Code or Codex and say: `Read and execute PROMPT_N_....md. You are <Claude/Codex>.`
 
 **Rules that make the flow work:**
 
 - Step 1 must stay blind. Don't give either model the other's deep dive until Step 2.
-- Never average the two portfolios. Facts are settled at the primary source. Judgment calls go to the stronger evidence. A true tie takes the risk-control default or goes to the owner.
+- Never average the two portfolios or their inputs. Facts are settled at the primary source, and disputed inputs go to the better-supported value. A genuine tie takes the more conservative value or goes to the owner.
 - Keep every intermediate file. Next cycle's accountability section grades the Claude blind, Codex blind, and final allocations separately (the Model Reconciliation table in the final analysis). Over a few cycles this shows which model to trust on which kinds of calls.
 - PDFs: `python md_to_pdf.py "<path to .md>"`. On Windows this needs `$env:WEASYPRINT_DLL_DIRECTORIES = 'C:\msys64\mingw64\bin'` first. Python-Markdown needs a blank line before every list.
 
 ### Synthesis Log (alternate the Step 3 model each cycle)
 
-| Cycle | Step 3 synthesis | Step 4 red team | Adopted version |
+| Cycle | Step 3 synthesis | Step 4 optimization | Adopted version |
 | ----- | ---------------- | --------------- | --------------- |
 | 2026-11-08 | TBD | TBD | pending |
 
@@ -118,9 +131,9 @@ Each cycle runs two models (Claude Code and Codex) through four prompts. Both mo
 
 | Path                                                                                           | Purpose                                                                                                                      |
 | ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| `PROMPT_1_DEEP_DIVE.md` … `PROMPT_4_RED_TEAM.md`                                               | The four prompts of the analysis flow, in order (see Analysis Flow above).                                                   |
+| `PROMPT_1_DEEP_DIVE.md` … `PROMPT_4_OPTIMIZATION_PASS.md`                                       | The four prompts of the analysis flow, in order (see Analysis Flow above).                                                   |
 | `Analysis YYYY-MM-DD/`                                                                         | Repeatable cycle folder. Each cycle contains the dated thesis, allocation updates, and execution materials for that refresh. |
-| `Analysis YYYY-MM-DD/inputs/`                                                                  | Steps 1–4 working files: both deep dives, both critiques, the disagreement ledger, the red team review, and research data.  |
+| `Analysis YYYY-MM-DD/inputs/`                                                                  | Steps 1–4 working files: both deep dives, both critiques, the candidate ranking, the optimization pass, and research data.  |
 | `Analysis YYYY-MM-DD/Deployment Strategy/`                                                     | Cycle-specific deployment planning (tranches, timing windows, trigger rules, and position tracking artifacts).               |
 | `Followup Gemini & GPT Prompt.md` and `Cursor Followup Prompt.md`                              | Legacy follow-up prompts from the 2026-05-10 cycle and earlier, replaced by Steps 2–4. Kept for reference.                  |
 | `Analysis 2025-09-14/`, `Analysis 2026-01-20/`, `Analysis 2026-03-31/`, `Analysis 2026-05-10/` | Historical cycle snapshots so thesis and allocation changes remain auditable over time.                                      |
@@ -138,7 +151,7 @@ Event_Horizon_Fund/
 ├── PROMPT_1_DEEP_DIVE.md
 ├── PROMPT_2_CROSS_CRITIQUE.md
 ├── PROMPT_3_SYNTHESIS.md
-├── PROMPT_4_RED_TEAM.md
+├── PROMPT_4_OPTIMIZATION_PASS.md
 ├── Followup Gemini & GPT Prompt.md   (legacy)
 ├── Cursor Followup Prompt.md         (legacy)
 ├── md_to_pdf.py
