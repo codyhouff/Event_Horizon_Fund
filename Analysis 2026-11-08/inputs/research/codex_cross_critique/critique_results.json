@@ -1,0 +1,2632 @@
+{
+  "cutoff": "2026-11-09",
+  "terminal": "2030-12-31",
+  "years": 4.142368240930869,
+  "contested": [
+    "NVDA",
+    "AVGO",
+    "VRT",
+    "CLS",
+    "NVT",
+    "NRG",
+    "VST",
+    "COHR",
+    "TSM",
+    "MU",
+    "ASML",
+    "SNPS",
+    "CEG",
+    "ETN",
+    "CRDO",
+    "PWR",
+    "KTOS",
+    "MP",
+    "BNTX"
+  ],
+  "stocks": {
+    "NVDA": {
+      "price": 178.6699981689453,
+      "mine_expected": 463.2395929694727,
+      "theirs_expected": 354.0,
+      "new_expected": 405.5140302189331,
+      "mine_cagr": 0.25858760909551726,
+      "theirs_cagr": 0.17946875123477346,
+      "new_cagr": 0.21879350871157888,
+      "new_values": [
+        78.66666666666667,
+        372.0425531914894,
+        799.304347826087
+      ],
+      "new_named": [
+        436.6382978723404,
+        998.0
+      ],
+      "new_named_cagr": [
+        0.24074682069589715,
+        0.5147838806603449
+      ],
+      "reconstructions": {
+        "mine": [
+          [
+            495.36170212765956,
+            "operating reconstruction"
+          ],
+          [
+            1131.0,
+            "operating reconstruction"
+          ]
+        ],
+        "theirs": [
+          [
+            403.3529411764705,
+            "operating reconstruction"
+          ],
+          [
+            925.9744245524295,
+            "operating reconstruction"
+          ]
+        ]
+      },
+      "inputs": {
+        "method": "earnings",
+        "revenue": [
+          350,
+          850,
+          1400
+        ],
+        "margin": [
+          0.32,
+          0.46,
+          0.5
+        ],
+        "shares": [
+          24,
+          23.5,
+          23
+        ],
+        "multiple": [
+          16,
+          22,
+          26
+        ],
+        "dividends": [
+          4,
+          6,
+          8
+        ],
+        "cash": [
+          0,
+          0,
+          0
+        ],
+        "probabilities": [
+          0.25,
+          0.5,
+          0.25
+        ]
+      },
+      "named_inputs": [
+        [
+          1000,
+          0.46,
+          23.5,
+          22,
+          6,
+          0
+        ],
+        [
+          2200,
+          0.45,
+          24,
+          24,
+          8,
+          0
+        ]
+      ],
+      "delay": 148.69109243697483
+    },
+    "AVGO": {
+      "price": 319.4800109863281,
+      "mine_expected": 656.6557823129252,
+      "theirs_expected": 514.5,
+      "new_expected": 513.1595365418895,
+      "mine_cagr": 0.1899674218485643,
+      "theirs_cagr": 0.12190823940219087,
+      "new_cagr": 0.12120190907875683,
+      "new_values": [
+        104.94117647058825,
+        481.0,
+        985.6969696969696
+      ],
+      "new_named": [
+        612.5999999999999,
+        1249.5
+      ],
+      "new_named_cagr": [
+        0.17018364548458176,
+        0.38990157058874364
+      ],
+      "reconstructions": {
+        "mine": [
+          [
+            796.673469387755,
+            "operating reconstruction"
+          ],
+          [
+            1625.0277898393401,
+            "operating reconstruction"
+          ]
+        ],
+        "theirs": [
+          [
+            626.3999999999999,
+            "operating reconstruction"
+          ],
+          [
+            1275.829787234043,
+            "operating reconstruction"
+          ]
+        ]
+      },
+      "inputs": {
+        "method": "earnings",
+        "revenue": [
+          100,
+          250,
+          400
+        ],
+        "margin": [
+          0.35,
+          0.47,
+          0.5
+        ],
+        "shares": [
+          5.1,
+          5.0,
+          4.95
+        ],
+        "multiple": [
+          15,
+          20,
+          24
+        ],
+        "dividends": [
+          10,
+          13,
+          16
+        ],
+        "cash": [
+          -8,
+          -2,
+          0
+        ],
+        "probabilities": [
+          0.25,
+          0.5,
+          0.25
+        ]
+      },
+      "named_inputs": [
+        [
+          320,
+          0.47,
+          5,
+          20,
+          13,
+          -2
+        ],
+        [
+          650,
+          0.45,
+          5.2,
+          22,
+          16,
+          -4
+        ]
+      ],
+      "delay": 198.15019762845853
+    },
+    "VRT": {
+      "price": 200.47000122070312,
+      "mine_expected": 441.9093117408907,
+      "theirs_expected": 358.25,
+      "new_expected": 370.16295546558706,
+      "mine_cagr": 0.21023964919027627,
+      "theirs_cagr": 0.1504501138597618,
+      "new_cagr": 0.15957118000340786,
+      "new_values": [
+        50.23076923076923,
+        362.0,
+        706.421052631579
+      ],
+      "new_named": [
+        456.7368421052631,
+        1095.0
+      ],
+      "new_named_cagr": [
+        0.2199202736327701,
+        0.5066264781531677
+      ],
+      "reconstructions": {
+        "mine": [
+          [
+            520.5595567867035,
+            "operating reconstruction"
+          ],
+          [
+            1247.2631578947367,
+            "operating reconstruction"
+          ]
+        ],
+        "theirs": [
+          [
+            451.81578947368416,
+            "operating reconstruction"
+          ],
+          [
+            1082.8833333333332,
+            "operating reconstruction"
+          ]
+        ]
+      },
+      "inputs": {
+        "method": "earnings",
+        "revenue": [
+          12,
+          30,
+          45
+        ],
+        "margin": [
+          0.1,
+          0.19,
+          0.22
+        ],
+        "shares": [
+          0.39,
+          0.38,
+          0.38
+        ],
+        "multiple": [
+          16,
+          24,
+          27
+        ],
+        "dividends": [
+          1,
+          2,
+          3
+        ],
+        "cash": [
+          0,
+          0,
+          0
+        ],
+        "probabilities": [
+          0.25,
+          0.5,
+          0.25
+        ]
+      },
+      "named_inputs": [
+        [
+          36,
+          0.2,
+          0.38,
+          24,
+          2,
+          0
+        ],
+        [
+          80,
+          0.21,
+          0.4,
+          26,
+          3,
+          0
+        ]
+      ],
+      "delay": 118.29517098445599
+    },
+    "CLS": {
+      "price": 222.9199981689453,
+      "mine_expected": 495.957512315271,
+      "theirs_expected": 354.85,
+      "new_expected": 461.93965517241384,
+      "mine_cagr": 0.21294142432402596,
+      "theirs_cagr": 0.11876588709546754,
+      "new_cagr": 0.19231270086581165,
+      "new_values": [
+        60.34482758620691,
+        466.20689655172424,
+        855.0
+      ],
+      "new_named": [
+        573.7931034482759,
+        1174.0625
+      ],
+      "new_named_cagr": [
+        0.256387368817498,
+        0.4934335758328554
+      ],
+      "reconstructions": {
+        "mine": [
+          [
+            631.4285714285713,
+            "operating reconstruction"
+          ],
+          [
+            1291.9928850446427,
+            "operating reconstruction"
+          ]
+        ],
+        "theirs": [
+          [
+            465.23076923076917,
+            "terminal-wealth proxy; original bridge absent"
+          ],
+          [
+            951.9284855769229,
+            "terminal-wealth proxy; original bridge absent"
+          ]
+        ]
+      },
+      "inputs": {
+        "method": "earnings",
+        "revenue": [
+          25,
+          65,
+          95
+        ],
+        "margin": [
+          0.035,
+          0.065,
+          0.075
+        ],
+        "shares": [
+          0.145,
+          0.145,
+          0.15
+        ],
+        "multiple": [
+          10,
+          16,
+          18
+        ],
+        "dividends": [
+          0,
+          0,
+          0
+        ],
+        "cash": [
+          0,
+          0,
+          0
+        ],
+        "probabilities": [
+          0.25,
+          0.5,
+          0.25
+        ]
+      },
+      "named_inputs": [
+        [
+          80,
+          0.065,
+          0.145,
+          16,
+          0,
+          0
+        ],
+        [
+          170,
+          0.065,
+          0.16,
+          17,
+          0,
+          0
+        ]
+      ],
+      "delay": 148.31255172413796
+    },
+    "NVT": {
+      "price": 114.44000244140625,
+      "mine_expected": 256.5,
+      "theirs_expected": null,
+      "new_expected": 238.27818251533745,
+      "mine_cagr": 0.21511037665444355,
+      "theirs_cagr": null,
+      "new_cagr": 0.1936855426948212,
+      "new_values": [
+        56.987730061349694,
+        237.75000000000003,
+        420.625
+      ],
+      "new_named": [
+        301.0,
+        622.1428571428571
+      ],
+      "new_named_cagr": [
+        0.2629569075071445,
+        0.5049085671103852
+      ],
+      "reconstructions": {
+        "mine": [
+          [
+            301.0,
+            "operating reconstruction"
+          ],
+          [
+            621.1428571428572,
+            "operating reconstruction"
+          ]
+        ],
+        "theirs": [
+          [
+            301.0,
+            "new proxy; original not modeled"
+          ],
+          [
+            622.1428571428571,
+            "new proxy; original not modeled"
+          ]
+        ]
+      },
+      "inputs": {
+        "method": "earnings",
+        "revenue": [
+          5.5,
+          10,
+          14
+        ],
+        "margin": [
+          0.1,
+          0.17,
+          0.19
+        ],
+        "shares": [
+          0.163,
+          0.16,
+          0.16
+        ],
+        "multiple": [
+          16,
+          22,
+          25
+        ],
+        "dividends": [
+          3,
+          4,
+          5
+        ],
+        "cash": [
+          0,
+          0,
+          0
+        ],
+        "probabilities": [
+          0.25,
+          0.5,
+          0.25
+        ]
+      },
+      "named_inputs": [
+        [
+          12,
+          0.18,
+          0.16,
+          22,
+          4,
+          0
+        ],
+        [
+          25,
+          0.18,
+          0.175,
+          24,
+          5,
+          0
+        ]
+      ],
+      "delay": 99.03451174289245
+    },
+    "NRG": {
+      "price": 97.4000015258789,
+      "mine_expected": 219.20514354066987,
+      "theirs_expected": null,
+      "new_expected": 208.30555555555557,
+      "mine_cagr": 0.21631477544200184,
+      "theirs_cagr": null,
+      "new_cagr": 0.20143098111986224,
+      "new_values": [
+        41.333333333333336,
+        209.0,
+        373.8888888888889
+      ],
+      "new_named": [
+        238.47368421052633,
+        337.27272727272725
+      ],
+      "new_named_cagr": [
+        0.24130649108073765,
+        0.34964870010083016
+      ],
+      "reconstructions": {
+        "mine": [
+          [
+            248.15384615384613,
+            "EV reconstruction"
+          ],
+          [
+            348.8041958041958,
+            "EV reconstruction"
+          ]
+        ],
+        "theirs": [
+          [
+            238.47368421052633,
+            "new proxy; original not modeled"
+          ],
+          [
+            337.27272727272725,
+            "new proxy; original not modeled"
+          ]
+        ]
+      },
+      "inputs": {
+        "method": "ev",
+        "ebitda": [
+          4.0,
+          6.5,
+          8.5
+        ],
+        "multiple": [
+          6.5,
+          8,
+          9
+        ],
+        "debt": [
+          19,
+          14,
+          11
+        ],
+        "shares": [
+          0.21,
+          0.19,
+          0.18
+        ],
+        "dividends": [
+          8,
+          9,
+          10
+        ],
+        "cash": [
+          0,
+          0,
+          0
+        ],
+        "owner_fcf": [
+          1.8,
+          3.5,
+          4.7
+        ],
+        "probabilities": [
+          0.25,
+          0.5,
+          0.25
+        ]
+      },
+      "named_inputs": [
+        [
+          7.2,
+          8,
+          14,
+          0.19,
+          9,
+          3.9
+        ],
+        [
+          10,
+          9,
+          18,
+          0.22,
+          10,
+          5.2
+        ]
+      ],
+      "delay": 82.409900990099
+    },
+    "VST": {
+      "price": 133.9199981689453,
+      "mine_expected": 268.9670868347339,
+      "theirs_expected": 223.5,
+      "new_expected": 255.32792427315755,
+      "mine_cagr": 0.1833446352840158,
+      "theirs_cagr": 0.13161017016880328,
+      "new_cagr": 0.16857134047169553,
+      "new_values": [
+        51.05882352941176,
+        268.33333333333337,
+        433.58620689655174
+      ],
+      "new_named": [
+        298.33333333333337,
+        490.375
+      ],
+      "new_named_cagr": [
+        0.21331966032742433,
+        0.36797274577485073
+      ],
+      "reconstructions": {
+        "mine": [
+          [
+            298.33333333333337,
+            "EV reconstruction"
+          ],
+          [
+            489.375,
+            "EV reconstruction"
+          ]
+        ],
+        "theirs": [
+          [
+            265.8181818181818,
+            "FCF/share reconstruction"
+          ],
+          [
+            390.36363636363643,
+            "FCF/share reconstruction"
+          ]
+        ]
+      },
+      "inputs": {
+        "method": "ev",
+        "ebitda": [
+          6,
+          11,
+          14
+        ],
+        "multiple": [
+          7,
+          9,
+          10
+        ],
+        "debt": [
+          26,
+          20,
+          16
+        ],
+        "shares": [
+          0.34,
+          0.3,
+          0.29
+        ],
+        "dividends": [
+          4,
+          5,
+          6
+        ],
+        "cash": [
+          0,
+          0,
+          0
+        ],
+        "owner_fcf": [
+          2.2,
+          5.5,
+          7.5
+        ],
+        "probabilities": [
+          0.25,
+          0.5,
+          0.25
+        ]
+      },
+      "named_inputs": [
+        [
+          12,
+          9,
+          20,
+          0.3,
+          5,
+          6.0
+        ],
+        [
+          18,
+          10,
+          25,
+          0.32,
+          6,
+          8.5
+        ]
+      ],
+      "delay": 104.89382716049384
+    },
+    "COHR": {
+      "price": 225.19000244140625,
+      "mine_expected": 397.6363636363636,
+      "theirs_expected": 331.2,
+      "new_expected": 319.04347826086956,
+      "mine_cagr": 0.14712967533943977,
+      "theirs_cagr": 0.09760419387004604,
+      "new_cagr": 0.0877402141769299,
+      "new_values": [
+        34.08695652173913,
+        313.0434782608695,
+        616.0
+      ],
+      "new_named": [
+        396.52173913043487,
+        846.1538461538461
+      ],
+      "new_named_cagr": [
+        0.14635259026549452,
+        0.3765291053104487
+      ],
+      "reconstructions": {
+        "mine": [
+          [
+            552.727272727273,
+            "operating reconstruction"
+          ],
+          [
+            1179.4871794871797,
+            "operating reconstruction"
+          ]
+        ],
+        "theirs": [
+          [
+            433.2000000000001,
+            "operating reconstruction"
+          ],
+          [
+            924.4230769230771,
+            "operating reconstruction"
+          ]
+        ]
+      },
+      "inputs": {
+        "method": "earnings",
+        "revenue": [
+          7,
+          20,
+          28
+        ],
+        "margin": [
+          0.08,
+          0.18,
+          0.22
+        ],
+        "shares": [
+          0.23,
+          0.23,
+          0.24
+        ],
+        "multiple": [
+          14,
+          20,
+          24
+        ],
+        "dividends": [
+          0,
+          0,
+          0
+        ],
+        "cash": [
+          0,
+          0,
+          0
+        ],
+        "probabilities": [
+          0.25,
+          0.5,
+          0.25
+        ]
+      },
+      "named_inputs": [
+        [
+          24,
+          0.19,
+          0.23,
+          20,
+          0,
+          0
+        ],
+        [
+          50,
+          0.2,
+          0.26,
+          22,
+          0,
+          0
+        ]
+      ],
+      "delay": 93.95060869565215
+    },
+    "TSM": {
+      "price": 388.6199951171875,
+      "mine_expected": 634.9067577183762,
+      "theirs_expected": 671.9,
+      "new_expected": 624.1805627967929,
+      "mine_cagr": 0.1258083752619208,
+      "theirs_cagr": 0.14130527764937928,
+      "new_cagr": 0.12118719147724,
+      "new_values": [
+        141.79245283018872,
+        651.6153846153846,
+        1051.6990291262136
+      ],
+      "new_named": [
+        744.5,
+        1425.0
+      ],
+      "new_named_cagr": [
+        0.16992756005982557,
+        0.36843426412339353
+      ],
+      "reconstructions": {
+        "mine": [
+          [
+            727.7573529411765,
+            "operating reconstruction"
+          ],
+          [
+            1387.647058823529,
+            "operating reconstruction"
+          ]
+        ],
+        "theirs": [
+          [
+            733.2058823529411,
+            "operating reconstruction"
+          ],
+          [
+            1403.7698209718667,
+            "operating reconstruction"
+          ]
+        ]
+      },
+      "inputs": {
+        "method": "earnings",
+        "revenue": [
+          140,
+          340,
+          450
+        ],
+        "margin": [
+          0.32,
+          0.46,
+          0.47
+        ],
+        "shares": [
+          5.3,
+          5.2,
+          5.15
+        ],
+        "multiple": [
+          15,
+          21,
+          25
+        ],
+        "dividends": [
+          15,
+          20,
+          25
+        ],
+        "cash": [
+          0,
+          0,
+          0
+        ],
+        "probabilities": [
+          0.25,
+          0.5,
+          0.25
+        ]
+      },
+      "named_inputs": [
+        [
+          390,
+          0.46,
+          5.2,
+          21,
+          20,
+          0
+        ],
+        [
+          700,
+          0.45,
+          5.4,
+          24,
+          25,
+          0
+        ]
+      ],
+      "delay": 263.2728517110266
+    },
+    "MU": {
+      "price": 733.1500244140625,
+      "mine_expected": 1146.6000000000001,
+      "theirs_expected": 1261.25,
+      "new_expected": 1182.375,
+      "mine_cagr": 0.11400207973158638,
+      "theirs_cagr": 0.13992869831805121,
+      "new_cagr": 0.12229538888487657,
+      "new_values": [
+        264.0,
+        1258.0,
+        1949.5
+      ],
+      "new_named": [
+        1568.0,
+        2394.3076923076924
+      ],
+      "new_named_cagr": [
+        0.2014385381909407,
+        0.3307010401838071
+      ],
+      "reconstructions": {
+        "mine": [
+          [
+            1392.3636363636365,
+            "operating reconstruction"
+          ],
+          [
+            2118.923076923077,
+            "operating reconstruction"
+          ]
+        ],
+        "theirs": [
+          [
+            1469.8181818181818,
+            "operating reconstruction"
+          ],
+          [
+            2270.0,
+            "operating reconstruction"
+          ]
+        ]
+      },
+      "inputs": {
+        "method": "earnings",
+        "revenue": [
+          120,
+          300,
+          450
+        ],
+        "margin": [
+          0.2,
+          0.44,
+          0.5
+        ],
+        "shares": [
+          1.2,
+          1.2,
+          1.2
+        ],
+        "multiple": [
+          11,
+          10,
+          9
+        ],
+        "dividends": [
+          4,
+          8,
+          12
+        ],
+        "cash": [
+          40,
+          150,
+          250
+        ],
+        "probabilities": [
+          0.25,
+          0.5,
+          0.25
+        ]
+      },
+      "named_inputs": [
+        [
+          360,
+          0.46,
+          1.2,
+          10,
+          8,
+          180
+        ],
+        [
+          700,
+          0.44,
+          1.3,
+          9,
+          12,
+          250
+        ]
+      ],
+      "delay": 541.4144000000001
+    },
+    "ASML": {
+      "price": 1513.25,
+      "mine_expected": 2003.6616260451879,
+      "theirs_expected": 2508.8,
+      "new_expected": 2447.1553246753247,
+      "mine_cagr": 0.07011614787118448,
+      "theirs_cagr": 0.12980209535064713,
+      "new_cagr": 0.12303704924751813,
+      "new_values": [
+        528.7012987012986,
+        2438.293333333333,
+        4383.333333333334
+      ],
+      "new_named": [
+        3059.4594594594596,
+        5450.0
+      ],
+      "new_named_cagr": [
+        0.18524075624555758,
+        0.3625109993189708
+      ],
+      "reconstructions": {
+        "mine": [
+          [
+            2437.1424724849385,
+            "operating reconstruction"
+          ],
+          [
+            4327.048567870485,
+            "operating reconstruction"
+          ]
+        ],
+        "theirs": [
+          [
+            3142.1843761569794,
+            "operating reconstruction"
+          ],
+          [
+            5587.945205479453,
+            "operating reconstruction"
+          ]
+        ]
+      },
+      "inputs": {
+        "method": "earnings",
+        "revenue": [
+          40,
+          88,
+          130
+        ],
+        "margin": [
+          0.24,
+          0.365,
+          0.4
+        ],
+        "shares": [
+          0.385,
+          0.375,
+          0.36
+        ],
+        "multiple": [
+          20,
+          28,
+          30
+        ],
+        "dividends": [
+          30,
+          40,
+          50
+        ],
+        "cash": [
+          0,
+          0,
+          0
+        ],
+        "probabilities": [
+          0.25,
+          0.5,
+          0.25
+        ]
+      },
+      "named_inputs": [
+        [
+          105,
+          0.38,
+          0.37,
+          28,
+          40,
+          0
+        ],
+        [
+          180,
+          0.39,
+          0.39,
+          30,
+          50,
+          0
+        ]
+      ],
+      "delay": 974.860472440945
+    },
+    "SNPS": {
+      "price": 466.9700012207031,
+      "mine_expected": 744.2682926829268,
+      "theirs_expected": 740.5,
+      "new_expected": 744.2682926829268,
+      "mine_cagr": 0.11910471158639568,
+      "theirs_cagr": 0.11773423117562509,
+      "new_cagr": 0.11910471158639568,
+      "new_values": [
+        201.9512195121951,
+        719.9999999999999,
+        1335.1219512195123
+      ],
+      "new_named": [
+        837.0,
+        1303.2727272727275
+      ],
+      "new_named_cagr": [
+        0.15128154216069745,
+        0.28116964222594065
+      ],
+      "reconstructions": {
+        "mine": [
+          [
+            837.0,
+            "operating reconstruction"
+          ],
+          [
+            1303.2727272727275,
+            "operating reconstruction"
+          ]
+        ],
+        "theirs": [
+          [
+            878.8500000000001,
+            "operating reconstruction"
+          ],
+          [
+            1368.4363636363641,
+            "operating reconstruction"
+          ]
+        ]
+      },
+      "inputs": {
+        "method": "earnings",
+        "revenue": [
+          10,
+          16,
+          23
+        ],
+        "margin": [
+          0.18,
+          0.3,
+          0.34
+        ],
+        "shares": [
+          0.205,
+          0.2,
+          0.205
+        ],
+        "multiple": [
+          23,
+          30,
+          35
+        ],
+        "dividends": [
+          0,
+          0,
+          0
+        ],
+        "cash": [
+          0,
+          0,
+          0
+        ],
+        "probabilities": [
+          0.25,
+          0.5,
+          0.25
+        ]
+      },
+      "named_inputs": [
+        [
+          18,
+          0.31,
+          0.2,
+          30,
+          0,
+          0
+        ],
+        [
+          28,
+          0.32,
+          0.22,
+          32,
+          0,
+          0
+        ]
+      ],
+      "delay": 323.38711330049256
+    },
+    "CEG": {
+      "price": 276.0899963378906,
+      "mine_expected": 410.7879318394024,
+      "theirs_expected": 391.5,
+      "new_expected": 416.07936507936506,
+      "mine_cagr": 0.10067479383261513,
+      "theirs_cagr": 0.08797019850349419,
+      "new_cagr": 0.10408087390006004,
+      "new_values": [
+        117.8888888888889,
+        405.7142857142857,
+        734.9999999999999
+      ],
+      "new_named": [
+        476.00000000000006,
+        832.1052631578948
+      ],
+      "new_named_cagr": [
+        0.14052952223920845,
+        0.3051641582522835
+      ],
+      "reconstructions": {
+        "mine": [
+          [
+            456.4702467343977,
+            "operating reconstruction"
+          ],
+          [
+            794.7133144908714,
+            "operating reconstruction"
+          ]
+        ],
+        "theirs": [
+          [
+            466.62264150943395,
+            "operating reconstruction"
+          ],
+          [
+            816.396722939424,
+            "operating reconstruction"
+          ]
+        ]
+      },
+      "inputs": {
+        "method": "earnings",
+        "revenue": [
+          35,
+          53,
+          68
+        ],
+        "margin": [
+          0.08,
+          0.13,
+          0.15
+        ],
+        "shares": [
+          0.36,
+          0.35,
+          0.34
+        ],
+        "multiple": [
+          14,
+          20,
+          24
+        ],
+        "dividends": [
+          9,
+          12,
+          15
+        ],
+        "cash": [
+          0,
+          0,
+          0
+        ],
+        "probabilities": [
+          0.25,
+          0.5,
+          0.25
+        ]
+      },
+      "named_inputs": [
+        [
+          58,
+          0.14,
+          0.35,
+          20,
+          12,
+          0
+        ],
+        [
+          90,
+          0.15,
+          0.38,
+          23,
+          15,
+          0
+        ]
+      ],
+      "delay": 185.16404494382024
+    },
+    "ETN": {
+      "price": 359.29998779296875,
+      "mine_expected": 606.792004048583,
+      "theirs_expected": 545.75,
+      "new_expected": 586.4433198380567,
+      "mine_cagr": 0.13485460920390113,
+      "theirs_cagr": 0.10617626850193784,
+      "new_cagr": 0.12554809601808414,
+      "new_values": [
+        178.6153846153846,
+        567.6842105263158,
+        1031.7894736842104
+      ],
+      "new_named": [
+        681.9999999999999,
+        1241.0
+      ],
+      "new_named_cagr": [
+        0.16732113856621011,
+        0.34881795264069315
+      ],
+      "reconstructions": {
+        "mine": [
+          [
+            709.5,
+            "operating reconstruction"
+          ],
+          [
+            1287.625,
+            "operating reconstruction"
+          ]
+        ],
+        "theirs": [
+          [
+            684.6388888888888,
+            "operating reconstruction"
+          ],
+          [
+            1246.0625,
+            "operating reconstruction"
+          ]
+        ]
+      },
+      "inputs": {
+        "method": "earnings",
+        "revenue": [
+          29,
+          48,
+          65
+        ],
+        "margin": [
+          0.12,
+          0.18,
+          0.21
+        ],
+        "shares": [
+          0.39,
+          0.38,
+          0.38
+        ],
+        "multiple": [
+          18,
+          24,
+          28
+        ],
+        "dividends": [
+          18,
+          22,
+          26
+        ],
+        "cash": [
+          0,
+          0,
+          0
+        ],
+        "probabilities": [
+          0.25,
+          0.5,
+          0.25
+        ]
+      },
+      "named_inputs": [
+        [
+          55,
+          0.19,
+          0.38,
+          24,
+          22,
+          0
+        ],
+        [
+          90,
+          0.2,
+          0.4,
+          27,
+          26,
+          0
+        ]
+      ],
+      "delay": 270.28534715025904
+    },
+    "CRDO": {
+      "price": 132.88999938964844,
+      "mine_expected": 184.45736871823829,
+      "theirs_expected": 239.75,
+      "new_expected": 214.29287730902638,
+      "mine_cagr": 0.08237403671812049,
+      "theirs_cagr": 0.15309393384191372,
+      "new_cagr": 0.12226610092527501,
+      "new_values": [
+        31.418181818181818,
+        183.65217391304347,
+        458.4489795918368
+      ],
+      "new_named": [
+        267.8260869565217,
+        575.9999999999999
+      ],
+      "new_named_cagr": [
+        0.18433623538893884,
+        0.4248197088427934
+      ],
+      "reconstructions": {
+        "mine": [
+          [
+            259.8484848484849,
+            "operating reconstruction"
+          ],
+          [
+            558.8429752066115,
+            "operating reconstruction"
+          ]
+        ],
+        "theirs": [
+          [
+            336.875,
+            "operating reconstruction"
+          ],
+          [
+            724.4999999999998,
+            "operating reconstruction"
+          ]
+        ]
+      },
+      "inputs": {
+        "method": "earnings",
+        "revenue": [
+          2.4,
+          6,
+          12
+        ],
+        "margin": [
+          0.18,
+          0.32,
+          0.36
+        ],
+        "shares": [
+          0.22,
+          0.23,
+          0.245
+        ],
+        "multiple": [
+          16,
+          22,
+          26
+        ],
+        "dividends": [
+          0,
+          0,
+          0
+        ],
+        "cash": [
+          0,
+          0,
+          0
+        ],
+        "probabilities": [
+          0.25,
+          0.5,
+          0.25
+        ]
+      },
+      "named_inputs": [
+        [
+          8,
+          0.35,
+          0.23,
+          22,
+          0,
+          0
+        ],
+        [
+          18,
+          0.36,
+          0.27,
+          24,
+          0,
+          0
+        ]
+      ],
+      "delay": 66.99702857142856
+    },
+    "PWR": {
+      "price": 591.47998046875,
+      "mine_expected": 831.0,
+      "theirs_expected": 752.25,
+      "new_expected": 818.3333333333334,
+      "mine_cagr": 0.0855416990609632,
+      "theirs_cagr": 0.059761945485811596,
+      "new_cagr": 0.08152392688784138,
+      "new_values": [
+        194.00000000000003,
+        803.0,
+        1473.3333333333333
+      ],
+      "new_named": [
+        1023.0000000000001,
+        1759.0
+      ],
+      "new_named_cagr": [
+        0.1414043033904484,
+        0.3009617775467659
+      ],
+      "reconstructions": {
+        "mine": [
+          [
+            1023.0000000000001,
+            "operating reconstruction"
+          ],
+          [
+            1758.0000000000002,
+            "operating reconstruction"
+          ]
+        ],
+        "theirs": [
+          [
+            990.1250000000001,
+            "operating reconstruction"
+          ],
+          [
+            1702.15625,
+            "operating reconstruction"
+          ]
+        ]
+      },
+      "inputs": {
+        "method": "earnings",
+        "revenue": [
+          32,
+          60,
+          80
+        ],
+        "margin": [
+          0.05,
+          0.08,
+          0.095
+        ],
+        "shares": [
+          0.15,
+          0.15,
+          0.15
+        ],
+        "multiple": [
+          18,
+          25,
+          29
+        ],
+        "dividends": [
+          2,
+          3,
+          4
+        ],
+        "cash": [
+          0,
+          0,
+          0
+        ],
+        "probabilities": [
+          0.25,
+          0.5,
+          0.25
+        ]
+      },
+      "named_inputs": [
+        [
+          72,
+          0.085,
+          0.15,
+          25,
+          3,
+          0
+        ],
+        [
+          130,
+          0.085,
+          0.17,
+          27,
+          4,
+          0
+        ]
+      ],
+      "delay": 336.66432
+    },
+    "KTOS": {
+      "price": 37.689998626708984,
+      "mine_expected": 34.72221343873518,
+      "theirs_expected": 55.75,
+      "new_expected": 35.72594202898551,
+      "mine_cagr": -0.01960437764362144,
+      "theirs_cagr": 0.09911681557207608,
+      "new_cagr": -0.012836485389585706,
+      "new_values": [
+        4.108695652173913,
+        38.26666666666666,
+        76.80000000000001
+      ],
+      "new_named": [
+        45.616666666666674,
+        72.22222222222223
+      ],
+      "new_named_cagr": [
+        0.04715768666727782,
+        0.1699959530861379
+      ],
+      "reconstructions": {
+        "mine": [
+          [
+            38.60243902439025,
+            "operating reconstruction"
+          ],
+          [
+            61.117002474372576,
+            "operating reconstruction"
+          ]
+        ],
+        "theirs": [
+          [
+            67.94817073170734,
+            "operating reconstruction"
+          ],
+          [
+            107.57839721254355,
+            "operating reconstruction"
+          ]
+        ]
+      },
+      "inputs": {
+        "method": "earnings",
+        "revenue": [
+          2.1,
+          4.1,
+          6
+        ],
+        "margin": [
+          0.025,
+          0.08,
+          0.1
+        ],
+        "shares": [
+          0.23,
+          0.24,
+          0.25
+        ],
+        "multiple": [
+          18,
+          28,
+          32
+        ],
+        "dividends": [
+          0,
+          0,
+          0
+        ],
+        "cash": [
+          0,
+          0,
+          0
+        ],
+        "probabilities": [
+          0.3,
+          0.5,
+          0.2
+        ]
+      },
+      "named_inputs": [
+        [
+          4.6,
+          0.085,
+          0.24,
+          28,
+          0,
+          0
+        ],
+        [
+          6.5,
+          0.1,
+          0.27,
+          30,
+          0,
+          0
+        ]
+      ],
+      "delay": 11.533076923076925
+    },
+    "MP": {
+      "price": 37.75,
+      "mine_expected": 49.691844155844166,
+      "theirs_expected": 47.25,
+      "new_expected": 50.376311688311695,
+      "mine_cagr": 0.06860303775957788,
+      "theirs_cagr": 0.0556831864761651,
+      "new_cagr": 0.07213795097128162,
+      "new_values": [
+        0.96,
+        50.28571428571429,
+        124.72727272727275
+      ],
+      "new_named": [
+        61.6186046511628,
+        117.0
+      ],
+      "new_named_cagr": [
+        0.12556440206083397,
+        0.3140023601934867
+      ],
+      "reconstructions": {
+        "mine": [
+          [
+            61.6186046511628,
+            "operating reconstruction"
+          ],
+          [
+            116.99999999999999,
+            "operating reconstruction"
+          ]
+        ],
+        "theirs": [
+          [
+            57.347315010570824,
+            "operating reconstruction"
+          ],
+          [
+            108.88977272727273,
+            "operating reconstruction"
+          ]
+        ]
+      },
+      "inputs": {
+        "method": "earnings",
+        "revenue": [
+          0.6,
+          2,
+          3.5
+        ],
+        "margin": [
+          0.02,
+          0.22,
+          0.28
+        ],
+        "shares": [
+          0.2,
+          0.21,
+          0.22
+        ],
+        "multiple": [
+          16,
+          24,
+          28
+        ],
+        "dividends": [
+          0,
+          0,
+          0
+        ],
+        "cash": [
+          0,
+          0,
+          0
+        ],
+        "probabilities": [
+          0.3,
+          0.5,
+          0.2
+        ]
+      },
+      "named_inputs": [
+        [
+          2.4,
+          0.23,
+          0.215,
+          24,
+          0,
+          0
+        ],
+        [
+          4.5,
+          0.25,
+          0.25,
+          26,
+          0,
+          0
+        ]
+      ],
+      "delay": 9.825882352941179
+    },
+    "BNTX": {
+      "price": 87.51000213623047,
+      "mine_expected": null,
+      "theirs_expected": 126.0,
+      "new_expected": 104.0,
+      "mine_cagr": null,
+      "theirs_cagr": 0.09198822873684032,
+      "new_cagr": 0.04255675229559075,
+      "new_values": [
+        45,
+        105,
+        190
+      ],
+      "new_named": [
+        120.0,
+        140.0
+      ],
+      "new_named_cagr": [
+        0.07920188391743221,
+        0.12011902044335221
+      ],
+      "reconstructions": {
+        "mine": [
+          [
+            120.0,
+            "new proxy; original not modeled"
+          ],
+          [
+            140.0,
+            "new proxy; original not modeled"
+          ]
+        ],
+        "theirs": [
+          [
+            137.14285714285714,
+            "terminal-wealth proxy; original bridge absent"
+          ],
+          [
+            160.0,
+            "terminal-wealth proxy; original bridge absent"
+          ]
+        ]
+      },
+      "inputs": {
+        "method": "sotp",
+        "terminal": [
+          45,
+          105,
+          190
+        ],
+        "probabilities": [
+          0.3,
+          0.5,
+          0.2
+        ],
+        "net_cash_bn": [
+          6,
+          10,
+          12
+        ],
+        "pipeline_bn": [
+          5.25,
+          16.25,
+          35.5
+        ],
+        "shares": [
+          0.25,
+          0.25,
+          0.25
+        ]
+      },
+      "named_inputs": [
+        [
+          10,
+          20,
+          0.25
+        ],
+        [
+          10,
+          25,
+          0.25
+        ]
+      ],
+      "delay": 69.0
+    },
+    "SNDK": {
+      "price": 886.510009765625,
+      "mine_expected": null,
+      "theirs_expected": 1177.5,
+      "new_expected": 1292.7619047619046,
+      "mine_cagr": null,
+      "theirs_cagr": 0.07092755948568663,
+      "new_cagr": 0.09534523455236688,
+      "new_values": [
+        390.0,
+        1372.8571428571427,
+        2446.6666666666665
+      ],
+      "new_named": [
+        1791.4285714285713,
+        2780.0
+      ],
+      "new_named_cagr": [
+        0.18509702967270392,
+        0.31772702628224425
+      ],
+      "reconstructions": {
+        "mine": [
+          [
+            1791.4285714285713,
+            "new proxy; original not modeled"
+          ],
+          [
+            2780.0,
+            "new proxy; original not modeled"
+          ]
+        ],
+        "theirs": [
+          [
+            1565.868886576483,
+            "terminal-wealth proxy; original bridge absent"
+          ],
+          [
+            2429.9687825182104,
+            "terminal-wealth proxy; original bridge absent"
+          ]
+        ]
+      },
+      "inputs": {
+        "method": "earnings",
+        "revenue": [
+          30,
+          55,
+          85
+        ],
+        "margin": [
+          0.2,
+          0.36,
+          0.45
+        ],
+        "shares": [
+          0.15,
+          0.14,
+          0.135
+        ],
+        "multiple": [
+          9,
+          9,
+          8
+        ],
+        "dividends": [
+          0,
+          0,
+          0
+        ],
+        "cash": [
+          30,
+          100,
+          180
+        ],
+        "probabilities": [
+          0.3,
+          0.5,
+          0.2
+        ]
+      },
+      "named_inputs": [
+        [
+          65,
+          0.4,
+          0.14,
+          9,
+          0,
+          120
+        ],
+        [
+          130,
+          0.4,
+          0.16,
+          8,
+          0,
+          180
+        ]
+      ],
+      "delay": 643.8630136986301
+    },
+    "RELX": {
+      "price": 40.02000045776367,
+      "mine_expected": 67.12360033030554,
+      "theirs_expected": null,
+      "new_expected": 67.12360033030554,
+      "mine_cagr": 0.1329734843467889,
+      "theirs_cagr": null,
+      "new_cagr": 0.1329734843467889,
+      "new_values": [
+        28.000000000000004,
+        65.61714285714285,
+        109.26011560693641
+      ],
+      "new_named": [
+        71.65142857142857,
+        81.97752808988766
+      ],
+      "new_named_cagr": [
+        0.15096883175460296,
+        0.18899127756840417
+      ],
+      "reconstructions": {
+        "mine": [
+          [
+            71.65142857142857,
+            "operating reconstruction"
+          ],
+          [
+            80.97752808988764,
+            "operating reconstruction"
+          ]
+        ],
+        "theirs": [
+          [
+            71.65142857142857,
+            "new proxy; original not modeled"
+          ],
+          [
+            81.97752808988766,
+            "new proxy; original not modeled"
+          ]
+        ]
+      },
+      "inputs": {
+        "method": "earnings",
+        "revenue": [
+          12,
+          17,
+          22
+        ],
+        "margin": [
+          0.2,
+          0.26,
+          0.29
+        ],
+        "shares": [
+          1.8,
+          1.75,
+          1.73
+        ],
+        "multiple": [
+          18,
+          24,
+          28
+        ],
+        "dividends": [
+          4,
+          5,
+          6
+        ],
+        "cash": [
+          0,
+          0,
+          0
+        ],
+        "probabilities": [
+          0.25,
+          0.5,
+          0.25
+        ]
+      },
+      "named_inputs": [
+        [
+          18,
+          0.27,
+          1.75,
+          24,
+          5,
+          0
+        ],
+        [
+          21,
+          0.28,
+          1.78,
+          23,
+          6,
+          0
+        ]
+      ],
+      "delay": 36.746606741573025
+    },
+    "VRSK": {
+      "price": 200.60000610351562,
+      "mine_expected": 357.92535853976534,
+      "theirs_expected": null,
+      "new_expected": 357.92535853976534,
+      "mine_cagr": 0.15001835953972886,
+      "theirs_cagr": null,
+      "new_cagr": 0.15001835953972886,
+      "new_values": [
+        138.76923076923077,
+        355.50000000000006,
+        581.9322033898305
+      ],
+      "new_named": [
+        389.80000000000007,
+        425.79999999999995
+      ],
+      "new_named_cagr": [
+        0.17394778209269046,
+        0.1992510449948719
+      ],
+      "reconstructions": {
+        "mine": [
+          [
+            389.80000000000007,
+            "operating reconstruction"
+          ],
+          [
+            424.8,
+            "operating reconstruction"
+          ]
+        ],
+        "theirs": [
+          [
+            389.80000000000007,
+            "new proxy; original not modeled"
+          ],
+          [
+            425.79999999999995,
+            "new proxy; original not modeled"
+          ]
+        ]
+      },
+      "inputs": {
+        "method": "earnings",
+        "revenue": [
+          3.4,
+          4.5,
+          5.7
+        ],
+        "margin": [
+          0.25,
+          0.33,
+          0.37
+        ],
+        "shares": [
+          0.13,
+          0.12,
+          0.118
+        ],
+        "multiple": [
+          20,
+          28,
+          32
+        ],
+        "dividends": [
+          8,
+          9,
+          10
+        ],
+        "cash": [
+          0,
+          0,
+          0
+        ],
+        "probabilities": [
+          0.25,
+          0.5,
+          0.25
+        ]
+      },
+      "named_inputs": [
+        [
+          4.8,
+          0.34,
+          0.12,
+          28,
+          9,
+          0
+        ],
+        [
+          5.5,
+          0.35,
+          0.125,
+          27,
+          10,
+          0
+        ]
+      ],
+      "delay": 187.84868571428575
+    },
+    "MSI": {
+      "price": 527.969970703125,
+      "mine_expected": 714.7113970588234,
+      "theirs_expected": null,
+      "new_expected": 714.7113970588234,
+      "mine_cagr": 0.07584650261300285,
+      "theirs_cagr": null,
+      "new_cagr": 0.07584650261300285,
+      "new_values": [
+        252.4705882352941,
+        703.2499999999999,
+        1199.875
+      ],
+      "new_named": [
+        808.875,
+        945.6470588235294
+      ],
+      "new_named_cagr": [
+        0.10847563590166032,
+        0.15107893660786886
+      ],
+      "reconstructions": {
+        "mine": [
+          [
+            808.875,
+            "operating reconstruction"
+          ],
+          [
+            941.6470588235294,
+            "operating reconstruction"
+          ]
+        ],
+        "theirs": [
+          [
+            808.875,
+            "new proxy; original not modeled"
+          ],
+          [
+            945.6470588235294,
+            "new proxy; original not modeled"
+          ]
+        ]
+      },
+      "inputs": {
+        "method": "earnings",
+        "revenue": [
+          13,
+          19,
+          25
+        ],
+        "margin": [
+          0.16,
+          0.22,
+          0.25
+        ],
+        "shares": [
+          0.17,
+          0.16,
+          0.16
+        ],
+        "multiple": [
+          19,
+          26,
+          30
+        ],
+        "dividends": [
+          20,
+          24,
+          28
+        ],
+        "cash": [
+          0,
+          0,
+          0
+        ],
+        "probabilities": [
+          0.25,
+          0.5,
+          0.25
+        ]
+      },
+      "named_inputs": [
+        [
+          21,
+          0.23,
+          0.16,
+          26,
+          24,
+          0
+        ],
+        [
+          26,
+          0.24,
+          0.17,
+          25,
+          28,
+          0
+        ]
+      ],
+      "delay": 356.5110361445783
+    },
+    "GEN": {
+      "price": 29.799999237060547,
+      "mine_expected": 36.88787141393443,
+      "theirs_expected": null,
+      "new_expected": 36.88787141393443,
+      "mine_cagr": 0.05285998248829715,
+      "theirs_cagr": null,
+      "new_cagr": 0.05285998248829715,
+      "new_values": [
+        13.953125,
+        35.549180327868854,
+        62.50000000000001
+      ],
+      "new_named": [
+        38.30327868852459,
+        39.56249999999999
+      ],
+      "new_named_cagr": [
+        0.06247374080578072,
+        0.07080267671350193
+      ],
+      "reconstructions": {
+        "mine": [
+          [
+            38.30327868852459,
+            "operating reconstruction"
+          ],
+          [
+            39.06249999999999,
+            "operating reconstruction"
+          ]
+        ],
+        "theirs": [
+          [
+            38.30327868852459,
+            "new proxy; original not modeled"
+          ],
+          [
+            39.56249999999999,
+            "new proxy; original not modeled"
+          ]
+        ]
+      },
+      "inputs": {
+        "method": "earnings",
+        "revenue": [
+          4.5,
+          6,
+          7.5
+        ],
+        "margin": [
+          0.17,
+          0.24,
+          0.28
+        ],
+        "shares": [
+          0.64,
+          0.61,
+          0.6
+        ],
+        "multiple": [
+          10,
+          14,
+          17
+        ],
+        "dividends": [
+          2,
+          2.5,
+          3
+        ],
+        "cash": [
+          0,
+          0,
+          0
+        ],
+        "probabilities": [
+          0.25,
+          0.5,
+          0.25
+        ]
+      },
+      "named_inputs": [
+        [
+          6.5,
+          0.24,
+          0.61,
+          14,
+          2.5,
+          0
+        ],
+        [
+          7.5,
+          0.24,
+          0.64,
+          13,
+          3,
+          0
+        ]
+      ],
+      "delay": 18.987121019108283
+    },
+    "LRCX": {
+      "price": 221.30999755859375,
+      "mine_expected": 371.9238700564972,
+      "theirs_expected": 261.8,
+      "new_expected": 308.8504237288136,
+      "mine_cagr": 0.13351198670179465,
+      "theirs_cagr": 0.041394287994664936,
+      "new_cagr": 0.08378489858810245,
+      "new_values": [
+        81.8,
+        279.25000000000006,
+        595.1016949152543
+      ],
+      "new_named": [
+        382.66666666666663,
+        692.9999999999999
+      ],
+      "new_named_cagr": [
+        0.14133071824000965,
+        0.3172664162949488
+      ],
+      "reconstructions": {
+        "mine": [
+          [
+            510.0736659524538,
+            "operating reconstruction"
+          ],
+          [
+            922.9779614325065,
+            "operating reconstruction"
+          ]
+        ],
+        "theirs": [
+          [
+            371.361384661295,
+            "terminal-wealth proxy; original bridge absent"
+          ],
+          [
+            672.5264100268574,
+            "terminal-wealth proxy; original bridge absent"
+          ]
+        ]
+      },
+      "inputs": {
+        "method": "earnings",
+        "revenue": [
+          25,
+          45,
+          70
+        ],
+        "margin": [
+          0.24,
+          0.33,
+          0.38
+        ],
+        "shares": [
+          1.25,
+          1.2,
+          1.18
+        ],
+        "multiple": [
+          16,
+          22,
+          26
+        ],
+        "dividends": [
+          5,
+          7,
+          9
+        ],
+        "cash": [
+          0,
+          0,
+          0
+        ],
+        "probabilities": [
+          0.25,
+          0.5,
+          0.25
+        ]
+      },
+      "named_inputs": [
+        [
+          56,
+          0.35,
+          1.2,
+          23,
+          7,
+          0
+        ],
+        [
+          95,
+          0.36,
+          1.25,
+          25,
+          9,
+          0
+        ]
+      ],
+      "delay": 128.4247804878049
+    }
+  },
+  "original_weights": {
+    "NVDA": 15,
+    "AVGO": 15,
+    "VRT": 15,
+    "CLS": 12,
+    "NVT": 12,
+    "NRG": 12,
+    "VST": 11,
+    "COHR": 8
+  },
+  "claude_weights": {
+    "TSM": 14,
+    "NVDA": 13,
+    "VRT": 9,
+    "VST": 9,
+    "MU": 9,
+    "ASML": 8,
+    "AVGO": 6,
+    "SNPS": 6,
+    "CEG": 6,
+    "COHR": 5,
+    "ETN": 5,
+    "CRDO": 3,
+    "PWR": 2,
+    "KTOS": 2,
+    "MP": 2,
+    "BNTX": 1
+  },
+  "revised_weights": {
+    "NVDA": 15,
+    "VRT": 15,
+    "CLS": 12,
+    "NVT": 12,
+    "NRG": 12,
+    "VST": 11,
+    "VRSK": 15,
+    "MU": 8
+  },
+  "portfolios": {
+    "Codex original, new underwriting": {
+      "expected_cagr": 0.1729847294583653,
+      "expected_total_return": 0.9365756384574855,
+      "ai_cagr": 0.22273310610245445,
+      "gw_cagr": 0.448984557240933,
+      "bust_return": -0.6498872084446135,
+      "delay_return": -0.288870312682849,
+      "HHI": 0.1292
+    },
+    "Codex revised": {
+      "expected_cagr": 0.17913116731387801,
+      "expected_total_return": 0.9789583270645759,
+      "ai_cagr": 0.22708251652482447,
+      "gw_cagr": 0.42522616340693165,
+      "bust_return": -0.5786952058708927,
+      "delay_return": -0.2157375996202907,
+      "HHI": 0.1292
+    },
+    "Claude weights, new underwriting": {
+      "expected_cagr": 0.13677019877810737,
+      "expected_total_return": 0.7006570369298584,
+      "ai_cagr": 0.1850278560508325,
+      "gw_cagr": 0.3882674858608677,
+      "bust_return": -0.6492738831754722,
+      "delay_return": -0.3321704456577115,
+      "HHI": 0.0852
+    }
+  },
+  "frozen_comparison": {
+    "Codex": {
+      "expected_cagr": 0.20913808119545596,
+      "expected_total_return": 1.1960667970805634
+    },
+    "Claude": {
+      "expected_cagr": 0.13228411188731393,
+      "expected_total_return": 0.6730279281973099
+    },
+    "Claude stress Nov6": {
+      "all_bear": -0.31800213093978646,
+      "hedges_at_base": -0.2663076811004197
+    },
+    "Claude stress Nov9": {
+      "all_bear": -0.3533372994115733,
+      "hedges_at_base": -0.3046302433360618
+    }
+  }
+}

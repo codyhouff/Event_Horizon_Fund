@@ -1,0 +1,109 @@
+{
+  "chart": {
+    "result": [
+      {
+        "meta": {
+          "currency": "USD",
+          "symbol": "ASML",
+          "exchangeName": "NMS",
+          "fullExchangeName": "NasdaqGS",
+          "instrumentType": "EQUITY",
+          "firstTradeDate": 795277800,
+          "regularMarketTime": 1794258001,
+          "hasPrePostMarketData": true,
+          "gmtoffset": -18000,
+          "timezone": "EST",
+          "exchangeTimezoneName": "America/New_York",
+          "regularMarketPrice": 1513.25,
+          "regularMarketChangePercent": 6.212,
+          "fulldayPrice": 1505.12,
+          "fulldayChange": 80.37,
+          "fulldayChangePercent": 5.641,
+          "fiftyTwoWeekHigh": 1999.96,
+          "fiftyTwoWeekLow": 946.11,
+          "regularMarketDayHigh": 1525.83,
+          "regularMarketDayLow": 1468.02,
+          "regularMarketVolume": 2190423,
+          "longName": "ASML Holding N.V.",
+          "shortName": "ASML Holding N.V. - New York Re",
+          "chartPreviousClose": 1356.65,
+          "priceHint": 2,
+          "currentTradingPeriod": {
+            "pre": {
+              "timezone": "EST",
+              "end": 1794234600,
+              "start": 1794214800,
+              "gmtoffset": -18000
+            },
+            "regular": {
+              "timezone": "EST",
+              "end": 1794258000,
+              "start": 1794234600,
+              "gmtoffset": -18000
+            },
+            "post": {
+              "timezone": "EST",
+              "end": 1794272400,
+              "start": 1794258000,
+              "gmtoffset": -18000
+            }
+          },
+          "dataGranularity": "1d",
+          "range": "",
+          "validRanges": [
+            "1d",
+            "5d",
+            "1mo",
+            "3mo",
+            "6mo",
+            "1y",
+            "2y",
+            "5y",
+            "10y",
+            "ytd",
+            "max"
+          ]
+        },
+        "timestamp": [
+          1793975400,
+          1794234600
+        ],
+        "indicators": {
+          "quote": [
+            {
+              "high": [
+                1447.489990234375,
+                1525.8299560546875
+              ],
+              "close": [
+                1424.75,
+                1513.25
+              ],
+              "volume": [
+                1903600,
+                2202700
+              ],
+              "low": [
+                1409.2099609375,
+                1468.02001953125
+              ],
+              "open": [
+                1446.0799560546875,
+                1476.719970703125
+              ]
+            }
+          ],
+          "adjclose": [
+            {
+              "adjclose": [
+                1424.75,
+                1513.25
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "error": null
+  }
+}

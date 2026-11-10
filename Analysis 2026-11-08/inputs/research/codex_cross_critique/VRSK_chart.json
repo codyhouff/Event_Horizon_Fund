@@ -1,0 +1,109 @@
+{
+  "chart": {
+    "result": [
+      {
+        "meta": {
+          "currency": "USD",
+          "symbol": "VRSK",
+          "exchangeName": "NMS",
+          "fullExchangeName": "NasdaqGS",
+          "instrumentType": "EQUITY",
+          "firstTradeDate": 1254922200,
+          "regularMarketTime": 1794258000,
+          "hasPrePostMarketData": true,
+          "gmtoffset": -18000,
+          "timezone": "EST",
+          "exchangeTimezoneName": "America/New_York",
+          "regularMarketPrice": 200.6,
+          "regularMarketChangePercent": -1.95,
+          "fulldayPrice": 200.6,
+          "fulldayChange": -3.99,
+          "fulldayChangePercent": -1.95,
+          "fiftyTwoWeekHigh": 227.16,
+          "fiftyTwoWeekLow": 155.94,
+          "regularMarketDayHigh": 205.72,
+          "regularMarketDayLow": 199.84,
+          "regularMarketVolume": 918555,
+          "longName": "Verisk Analytics, Inc.",
+          "shortName": "Verisk Analytics, Inc.",
+          "chartPreviousClose": 211.47,
+          "priceHint": 2,
+          "currentTradingPeriod": {
+            "pre": {
+              "timezone": "EST",
+              "end": 1794234600,
+              "start": 1794214800,
+              "gmtoffset": -18000
+            },
+            "regular": {
+              "timezone": "EST",
+              "end": 1794258000,
+              "start": 1794234600,
+              "gmtoffset": -18000
+            },
+            "post": {
+              "timezone": "EST",
+              "end": 1794272400,
+              "start": 1794258000,
+              "gmtoffset": -18000
+            }
+          },
+          "dataGranularity": "1d",
+          "range": "",
+          "validRanges": [
+            "1d",
+            "5d",
+            "1mo",
+            "3mo",
+            "6mo",
+            "1y",
+            "2y",
+            "5y",
+            "10y",
+            "ytd",
+            "max"
+          ]
+        },
+        "timestamp": [
+          1793975400,
+          1794234600
+        ],
+        "indicators": {
+          "quote": [
+            {
+              "volume": [
+                1596700,
+                918600
+              ],
+              "open": [
+                203.92999267578125,
+                204.66000366210938
+              ],
+              "low": [
+                199.91000366210938,
+                199.83999633789062
+              ],
+              "close": [
+                204.58999633789062,
+                200.60000610351562
+              ],
+              "high": [
+                206.4199981689453,
+                205.72000122070312
+              ]
+            }
+          ],
+          "adjclose": [
+            {
+              "adjclose": [
+                204.58999633789062,
+                200.60000610351562
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "error": null
+  }
+}

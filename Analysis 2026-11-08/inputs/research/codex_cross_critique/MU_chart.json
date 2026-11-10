@@ -1,0 +1,109 @@
+{
+  "chart": {
+    "result": [
+      {
+        "meta": {
+          "currency": "USD",
+          "symbol": "MU",
+          "exchangeName": "NMS",
+          "fullExchangeName": "NasdaqGS",
+          "instrumentType": "EQUITY",
+          "firstTradeDate": 454944600,
+          "regularMarketTime": 1794258000,
+          "hasPrePostMarketData": true,
+          "gmtoffset": -18000,
+          "timezone": "EST",
+          "exchangeTimezoneName": "America/New_York",
+          "regularMarketPrice": 733.15,
+          "regularMarketChangePercent": 6.254,
+          "fulldayPrice": 731.55,
+          "fulldayChange": 41.55,
+          "fulldayChangePercent": 6.022,
+          "fiftyTwoWeekHigh": 1255.0,
+          "fiftyTwoWeekLow": 192.59,
+          "regularMarketDayHigh": 744.74,
+          "regularMarketDayLow": 689.65,
+          "regularMarketVolume": 31809245,
+          "longName": "Micron Technology, Inc.",
+          "shortName": "Micron Technology, Inc.",
+          "chartPreviousClose": 656.39,
+          "priceHint": 2,
+          "currentTradingPeriod": {
+            "pre": {
+              "timezone": "EST",
+              "start": 1794214800,
+              "end": 1794234600,
+              "gmtoffset": -18000
+            },
+            "regular": {
+              "timezone": "EST",
+              "start": 1794234600,
+              "end": 1794258000,
+              "gmtoffset": -18000
+            },
+            "post": {
+              "timezone": "EST",
+              "start": 1794258000,
+              "end": 1794272400,
+              "gmtoffset": -18000
+            }
+          },
+          "dataGranularity": "1d",
+          "range": "",
+          "validRanges": [
+            "1d",
+            "5d",
+            "1mo",
+            "3mo",
+            "6mo",
+            "1y",
+            "2y",
+            "5y",
+            "10y",
+            "ytd",
+            "max"
+          ]
+        },
+        "timestamp": [
+          1793975400,
+          1794234600
+        ],
+        "indicators": {
+          "quote": [
+            {
+              "low": [
+                676.0,
+                689.6500244140625
+              ],
+              "high": [
+                724.7999877929688,
+                744.739990234375
+              ],
+              "volume": [
+                44887900,
+                31935900
+              ],
+              "open": [
+                708.3499755859375,
+                703.1799926757812
+              ],
+              "close": [
+                690.0,
+                733.1500244140625
+              ]
+            }
+          ],
+          "adjclose": [
+            {
+              "adjclose": [
+                690.0,
+                733.1500244140625
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "error": null
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "chart": {
+    "result": [
+      {
+        "meta": {
+          "currency": "USD",
+          "symbol": "VST",
+          "exchangeName": "NYQ",
+          "fullExchangeName": "NYSE",
+          "instrumentType": "EQUITY",
+          "firstTradeDate": 1475674200,
+          "regularMarketTime": 1794258002,
+          "hasPrePostMarketData": true,
+          "gmtoffset": -18000,
+          "timezone": "EST",
+          "exchangeTimezoneName": "America/New_York",
+          "regularMarketPrice": 133.92,
+          "regularMarketChangePercent": 7.308,
+          "fulldayPrice": 133.67,
+          "fulldayChange": 8.87,
+          "fulldayChangePercent": 7.107,
+          "fiftyTwoWeekHigh": 196.8,
+          "fiftyTwoWeekLow": 110.89,
+          "regularMarketDayHigh": 134.78,
+          "regularMarketDayLow": 125.2,
+          "regularMarketVolume": 7364286,
+          "longName": "Vistra Corp.",
+          "shortName": "Vistra Corp.",
+          "chartPreviousClose": 112.89,
+          "priceHint": 2,
+          "currentTradingPeriod": {
+            "pre": {
+              "timezone": "EST",
+              "start": 1794214800,
+              "end": 1794234600,
+              "gmtoffset": -18000
+            },
+            "regular": {
+              "timezone": "EST",
+              "start": 1794234600,
+              "end": 1794258000,
+              "gmtoffset": -18000
+            },
+            "post": {
+              "timezone": "EST",
+              "start": 1794258000,
+              "end": 1794272400,
+              "gmtoffset": -18000
+            }
+          },
+          "dataGranularity": "1d",
+          "range": "",
+          "validRanges": [
+            "1d",
+            "5d",
+            "1mo",
+            "3mo",
+            "6mo",
+            "1y",
+            "2y",
+            "5y",
+            "10y",
+            "ytd",
+            "max"
+          ]
+        },
+        "timestamp": [
+          1793975400,
+          1794234600
+        ],
+        "indicators": {
+          "quote": [
+            {
+              "low": [
+                118.86000061035156,
+                125.08999633789062
+              ],
+              "volume": [
+                12534200,
+                7371600
+              ],
+              "high": [
+                125.80000305175781,
+                134.8000030517578
+              ],
+              "close": [
+                124.80000305175781,
+                133.9199981689453
+              ],
+              "open": [
+                119.56999969482422,
+                128.0
+              ]
+            }
+          ],
+          "adjclose": [
+            {
+              "adjclose": [
+                124.80000305175781,
+                133.9199981689453
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "error": null
+  }
+}

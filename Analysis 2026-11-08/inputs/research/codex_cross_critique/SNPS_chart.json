@@ -1,0 +1,109 @@
+{
+  "chart": {
+    "result": [
+      {
+        "meta": {
+          "currency": "USD",
+          "symbol": "SNPS",
+          "exchangeName": "NMS",
+          "fullExchangeName": "NasdaqGS",
+          "instrumentType": "EQUITY",
+          "firstTradeDate": 699114600,
+          "regularMarketTime": 1794258000,
+          "hasPrePostMarketData": true,
+          "gmtoffset": -18000,
+          "timezone": "EST",
+          "exchangeTimezoneName": "America/New_York",
+          "regularMarketPrice": 466.97,
+          "regularMarketChangePercent": 3.665,
+          "fulldayPrice": 466.36,
+          "fulldayChange": 15.9,
+          "fulldayChangePercent": 3.53,
+          "fiftyTwoWeekHigh": 539.48,
+          "fiftyTwoWeekLow": 362.55,
+          "regularMarketDayHigh": 470.345,
+          "regularMarketDayLow": 451.78,
+          "regularMarketVolume": 1736043,
+          "longName": "Synopsys, Inc.",
+          "shortName": "Synopsys, Inc.",
+          "chartPreviousClose": 440.31,
+          "priceHint": 2,
+          "currentTradingPeriod": {
+            "pre": {
+              "timezone": "EST",
+              "start": 1794214800,
+              "end": 1794234600,
+              "gmtoffset": -18000
+            },
+            "regular": {
+              "timezone": "EST",
+              "start": 1794234600,
+              "end": 1794258000,
+              "gmtoffset": -18000
+            },
+            "post": {
+              "timezone": "EST",
+              "start": 1794258000,
+              "end": 1794272400,
+              "gmtoffset": -18000
+            }
+          },
+          "dataGranularity": "1d",
+          "range": "",
+          "validRanges": [
+            "1d",
+            "5d",
+            "1mo",
+            "3mo",
+            "6mo",
+            "1y",
+            "2y",
+            "5y",
+            "10y",
+            "ytd",
+            "max"
+          ]
+        },
+        "timestamp": [
+          1793975400,
+          1794234600
+        ],
+        "indicators": {
+          "quote": [
+            {
+              "volume": [
+                2317800,
+                1738100
+              ],
+              "close": [
+                450.4599914550781,
+                466.9700012207031
+              ],
+              "high": [
+                453.6000061035156,
+                470.3500061035156
+              ],
+              "low": [
+                438.010009765625,
+                451.05999755859375
+              ],
+              "open": [
+                449.7799987792969,
+                454.5400085449219
+              ]
+            }
+          ],
+          "adjclose": [
+            {
+              "adjclose": [
+                450.4599914550781,
+                466.9700012207031
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "error": null
+  }
+}

@@ -1,0 +1,470 @@
+[
+  {
+    "ticker": "NVDA",
+    "date": "2026-11-09",
+    "close": 178.6699981689453,
+    "currency": "USD",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?period1=1793923200&period2=1794268800&interval=1d&events=div%2Csplits",
+    "rows": [
+      {
+        "date": "2026-11-06",
+        "close": 186.63999938964844
+      },
+      {
+        "date": "2026-11-09",
+        "close": 178.6699981689453
+      }
+    ],
+    "retrieved_utc": "2026-11-10T02:58:40.435359+00:00"
+  },
+  {
+    "ticker": "AVGO",
+    "date": "2026-11-09",
+    "close": 319.4800109863281,
+    "currency": "USD",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/AVGO?period1=1793923200&period2=1794268800&interval=1d&events=div%2Csplits",
+    "rows": [
+      {
+        "date": "2026-11-06",
+        "close": 293.69000244140625
+      },
+      {
+        "date": "2026-11-09",
+        "close": 319.4800109863281
+      }
+    ],
+    "retrieved_utc": "2026-11-10T02:58:40.433364+00:00"
+  },
+  {
+    "ticker": "VRT",
+    "date": "2026-11-09",
+    "close": 200.47000122070312,
+    "currency": "USD",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/VRT?period1=1793923200&period2=1794268800&interval=1d&events=div%2Csplits",
+    "rows": [
+      {
+        "date": "2026-11-06",
+        "close": 182.86000061035156
+      },
+      {
+        "date": "2026-11-09",
+        "close": 200.47000122070312
+      }
+    ],
+    "retrieved_utc": "2026-11-10T02:58:40.424387+00:00"
+  },
+  {
+    "ticker": "CLS",
+    "date": "2026-11-09",
+    "close": 222.9199981689453,
+    "currency": "USD",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/CLS?period1=1793923200&period2=1794268800&interval=1d&events=div%2Csplits",
+    "rows": [
+      {
+        "date": "2026-11-06",
+        "close": 206.67999267578125
+      },
+      {
+        "date": "2026-11-09",
+        "close": 222.9199981689453
+      }
+    ],
+    "retrieved_utc": "2026-11-10T02:58:40.434361+00:00"
+  },
+  {
+    "ticker": "NVT",
+    "date": "2026-11-09",
+    "close": 114.44000244140625,
+    "currency": "USD",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/NVT?period1=1793923200&period2=1794268800&interval=1d&events=div%2Csplits",
+    "rows": [
+      {
+        "date": "2026-11-06",
+        "close": 106.22000122070312
+      },
+      {
+        "date": "2026-11-09",
+        "close": 114.44000244140625
+      }
+    ],
+    "retrieved_utc": "2026-11-10T02:58:40.442345+00:00"
+  },
+  {
+    "ticker": "NRG",
+    "date": "2026-11-09",
+    "close": 97.4000015258789,
+    "currency": "USD",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/NRG?period1=1793923200&period2=1794268800&interval=1d&events=div%2Csplits",
+    "rows": [
+      {
+        "date": "2026-11-06",
+        "close": 88.29000091552734
+      },
+      {
+        "date": "2026-11-09",
+        "close": 97.4000015258789
+      }
+    ],
+    "retrieved_utc": "2026-11-10T02:58:41.085341+00:00"
+  },
+  {
+    "ticker": "VST",
+    "date": "2026-11-09",
+    "close": 133.9199981689453,
+    "currency": "USD",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/VST?period1=1793923200&period2=1794268800&interval=1d&events=div%2Csplits",
+    "rows": [
+      {
+        "date": "2026-11-06",
+        "close": 124.80000305175781
+      },
+      {
+        "date": "2026-11-09",
+        "close": 133.9199981689453
+      }
+    ],
+    "retrieved_utc": "2026-11-10T02:58:41.072068+00:00"
+  },
+  {
+    "ticker": "COHR",
+    "date": "2026-11-09",
+    "close": 225.19000244140625,
+    "currency": "USD",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/COHR?period1=1793923200&period2=1794268800&interval=1d&events=div%2Csplits",
+    "rows": [
+      {
+        "date": "2026-11-06",
+        "close": 192.80999755859375
+      },
+      {
+        "date": "2026-11-09",
+        "close": 225.19000244140625
+      }
+    ],
+    "retrieved_utc": "2026-11-10T02:58:41.069714+00:00"
+  },
+  {
+    "ticker": "TSM",
+    "date": "2026-11-09",
+    "close": 388.6199951171875,
+    "currency": "USD",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/TSM?period1=1793923200&period2=1794268800&interval=1d&events=div%2Csplits",
+    "rows": [
+      {
+        "date": "2026-11-06",
+        "close": 375.44000244140625
+      },
+      {
+        "date": "2026-11-09",
+        "close": 388.6199951171875
+      }
+    ],
+    "retrieved_utc": "2026-11-10T02:58:41.085341+00:00"
+  },
+  {
+    "ticker": "MU",
+    "date": "2026-11-09",
+    "close": 733.1500244140625,
+    "currency": "USD",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/MU?period1=1793923200&period2=1794268800&interval=1d&events=div%2Csplits",
+    "rows": [
+      {
+        "date": "2026-11-06",
+        "close": 690.0
+      },
+      {
+        "date": "2026-11-09",
+        "close": 733.1500244140625
+      }
+    ],
+    "retrieved_utc": "2026-11-10T02:58:41.108969+00:00"
+  },
+  {
+    "ticker": "ASML",
+    "date": "2026-11-09",
+    "close": 1513.25,
+    "currency": "USD",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/ASML?period1=1793923200&period2=1794268800&interval=1d&events=div%2Csplits",
+    "rows": [
+      {
+        "date": "2026-11-06",
+        "close": 1424.75
+      },
+      {
+        "date": "2026-11-09",
+        "close": 1513.25
+      }
+    ],
+    "retrieved_utc": "2026-11-10T02:58:41.869247+00:00"
+  },
+  {
+    "ticker": "SNPS",
+    "date": "2026-11-09",
+    "close": 466.9700012207031,
+    "currency": "USD",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/SNPS?period1=1793923200&period2=1794268800&interval=1d&events=div%2Csplits",
+    "rows": [
+      {
+        "date": "2026-11-06",
+        "close": 450.4599914550781
+      },
+      {
+        "date": "2026-11-09",
+        "close": 466.9700012207031
+      }
+    ],
+    "retrieved_utc": "2026-11-10T02:58:41.701471+00:00"
+  },
+  {
+    "ticker": "CEG",
+    "date": "2026-11-09",
+    "close": 276.0899963378906,
+    "currency": "USD",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/CEG?period1=1793923200&period2=1794268800&interval=1d&events=div%2Csplits",
+    "rows": [
+      {
+        "date": "2026-11-06",
+        "close": 249.9499969482422
+      },
+      {
+        "date": "2026-11-09",
+        "close": 276.0899963378906
+      }
+    ],
+    "retrieved_utc": "2026-11-10T02:58:41.723560+00:00"
+  },
+  {
+    "ticker": "ETN",
+    "date": "2026-11-09",
+    "close": 359.29998779296875,
+    "currency": "USD",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/ETN?period1=1793923200&period2=1794268800&interval=1d&events=div%2Csplits",
+    "rows": [
+      {
+        "date": "2026-11-06",
+        "close": 341.7200012207031
+      },
+      {
+        "date": "2026-11-09",
+        "close": 359.29998779296875
+      }
+    ],
+    "retrieved_utc": "2026-11-10T02:58:41.806874+00:00"
+  },
+  {
+    "ticker": "CRDO",
+    "date": "2026-11-09",
+    "close": 132.88999938964844,
+    "currency": "USD",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/CRDO?period1=1793923200&period2=1794268800&interval=1d&events=div%2Csplits",
+    "rows": [
+      {
+        "date": "2026-11-06",
+        "close": 120.51000213623047
+      },
+      {
+        "date": "2026-11-09",
+        "close": 132.88999938964844
+      }
+    ],
+    "retrieved_utc": "2026-11-10T02:58:41.751683+00:00"
+  },
+  {
+    "ticker": "PWR",
+    "date": "2026-11-09",
+    "close": 591.47998046875,
+    "currency": "USD",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/PWR?period1=1793923200&period2=1794268800&interval=1d&events=div%2Csplits",
+    "rows": [
+      {
+        "date": "2026-11-06",
+        "close": 540.9000244140625
+      },
+      {
+        "date": "2026-11-09",
+        "close": 591.47998046875
+      }
+    ],
+    "retrieved_utc": "2026-11-10T02:58:42.334238+00:00"
+  },
+  {
+    "ticker": "KTOS",
+    "date": "2026-11-09",
+    "close": 37.689998626708984,
+    "currency": "USD",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/KTOS?period1=1793923200&period2=1794268800&interval=1d&events=div%2Csplits",
+    "rows": [
+      {
+        "date": "2026-11-06",
+        "close": 35.099998474121094
+      },
+      {
+        "date": "2026-11-09",
+        "close": 37.689998626708984
+      }
+    ],
+    "retrieved_utc": "2026-11-10T02:58:42.349452+00:00"
+  },
+  {
+    "ticker": "MP",
+    "date": "2026-11-09",
+    "close": 37.75,
+    "currency": "USD",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/MP?period1=1793923200&period2=1794268800&interval=1d&events=div%2Csplits",
+    "rows": [
+      {
+        "date": "2026-11-06",
+        "close": 35.40999984741211
+      },
+      {
+        "date": "2026-11-09",
+        "close": 37.75
+      }
+    ],
+    "retrieved_utc": "2026-11-10T02:58:42.395555+00:00"
+  },
+  {
+    "ticker": "BNTX",
+    "date": "2026-11-09",
+    "close": 87.51000213623047,
+    "currency": "USD",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/BNTX?period1=1793923200&period2=1794268800&interval=1d&events=div%2Csplits",
+    "rows": [
+      {
+        "date": "2026-11-06",
+        "close": 87.51000213623047
+      },
+      {
+        "date": "2026-11-09",
+        "close": 87.51000213623047
+      }
+    ],
+    "retrieved_utc": "2026-11-10T02:58:42.451367+00:00"
+  },
+  {
+    "ticker": "SNDK",
+    "date": "2026-11-09",
+    "close": 886.510009765625,
+    "currency": "USD",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/SNDK?period1=1793923200&period2=1794268800&interval=1d&events=div%2Csplits",
+    "rows": [
+      {
+        "date": "2026-11-06",
+        "close": 835.0599975585938
+      },
+      {
+        "date": "2026-11-09",
+        "close": 886.510009765625
+      }
+    ],
+    "retrieved_utc": "2026-11-10T02:58:42.495163+00:00"
+  },
+  {
+    "ticker": "RELX",
+    "date": "2026-11-09",
+    "close": 40.02000045776367,
+    "currency": "USD",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/RELX?period1=1793923200&period2=1794268800&interval=1d&events=div%2Csplits",
+    "rows": [
+      {
+        "date": "2026-11-06",
+        "close": 40.16999816894531
+      },
+      {
+        "date": "2026-11-09",
+        "close": 40.02000045776367
+      }
+    ],
+    "retrieved_utc": "2026-11-10T02:58:43.038849+00:00"
+  },
+  {
+    "ticker": "VRSK",
+    "date": "2026-11-09",
+    "close": 200.60000610351562,
+    "currency": "USD",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/VRSK?period1=1793923200&period2=1794268800&interval=1d&events=div%2Csplits",
+    "rows": [
+      {
+        "date": "2026-11-06",
+        "close": 204.58999633789062
+      },
+      {
+        "date": "2026-11-09",
+        "close": 200.60000610351562
+      }
+    ],
+    "retrieved_utc": "2026-11-10T02:58:42.998438+00:00"
+  },
+  {
+    "ticker": "MSI",
+    "date": "2026-11-09",
+    "close": 527.969970703125,
+    "currency": "USD",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/MSI?period1=1793923200&period2=1794268800&interval=1d&events=div%2Csplits",
+    "rows": [
+      {
+        "date": "2026-11-06",
+        "close": 514.510009765625
+      },
+      {
+        "date": "2026-11-09",
+        "close": 527.969970703125
+      }
+    ],
+    "retrieved_utc": "2026-11-10T02:58:43.081603+00:00"
+  },
+  {
+    "ticker": "GEN",
+    "date": "2026-11-09",
+    "close": 29.799999237060547,
+    "currency": "USD",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/GEN?period1=1793923200&period2=1794268800&interval=1d&events=div%2Csplits",
+    "rows": [
+      {
+        "date": "2026-11-06",
+        "close": 29.790000915527344
+      },
+      {
+        "date": "2026-11-09",
+        "close": 29.799999237060547
+      }
+    ],
+    "retrieved_utc": "2026-11-10T02:58:43.119737+00:00"
+  },
+  {
+    "ticker": "LRCX",
+    "date": "2026-11-09",
+    "close": 221.30999755859375,
+    "currency": "USD",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/LRCX?period1=1793923200&period2=1794268800&interval=1d&events=div%2Csplits",
+    "rows": [
+      {
+        "date": "2026-11-06",
+        "close": 200.44000244140625
+      },
+      {
+        "date": "2026-11-09",
+        "close": 221.30999755859375
+      }
+    ],
+    "retrieved_utc": "2026-11-10T02:58:43.136829+00:00"
+  },
+  {
+    "ticker": "ALAB",
+    "date": "2026-11-09",
+    "close": 216.8699951171875,
+    "currency": "USD",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/ALAB?period1=1793923200&period2=1794268800&interval=1d&events=div%2Csplits",
+    "rows": [
+      {
+        "date": "2026-11-06",
+        "close": 190.7100067138672
+      },
+      {
+        "date": "2026-11-09",
+        "close": 216.8699951171875
+      }
+    ],
+    "retrieved_utc": "2026-11-10T02:58:43.633523+00:00"
+  }
+]

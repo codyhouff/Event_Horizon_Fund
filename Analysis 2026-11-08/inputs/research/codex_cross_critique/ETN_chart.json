@@ -1,0 +1,109 @@
+{
+  "chart": {
+    "result": [
+      {
+        "meta": {
+          "currency": "USD",
+          "symbol": "ETN",
+          "exchangeName": "NYQ",
+          "fullExchangeName": "NYSE",
+          "instrumentType": "EQUITY",
+          "firstTradeDate": 76253400,
+          "regularMarketTime": 1794258003,
+          "hasPrePostMarketData": true,
+          "gmtoffset": -18000,
+          "timezone": "EST",
+          "exchangeTimezoneName": "America/New_York",
+          "regularMarketPrice": 359.3,
+          "regularMarketChangePercent": 5.145,
+          "fulldayPrice": 358.37,
+          "fulldayChange": 16.65,
+          "fulldayChangePercent": 4.872,
+          "fiftyTwoWeekHigh": 478.0,
+          "fiftyTwoWeekLow": 311.92,
+          "regularMarketDayHigh": 363.39,
+          "regularMarketDayLow": 345.28,
+          "regularMarketVolume": 3549031,
+          "longName": "Eaton Corporation plc",
+          "shortName": "Eaton Corporation, PLC",
+          "chartPreviousClose": 327.02,
+          "priceHint": 2,
+          "currentTradingPeriod": {
+            "pre": {
+              "timezone": "EST",
+              "start": 1794214800,
+              "end": 1794234600,
+              "gmtoffset": -18000
+            },
+            "regular": {
+              "timezone": "EST",
+              "start": 1794234600,
+              "end": 1794258000,
+              "gmtoffset": -18000
+            },
+            "post": {
+              "timezone": "EST",
+              "start": 1794258000,
+              "end": 1794272400,
+              "gmtoffset": -18000
+            }
+          },
+          "dataGranularity": "1d",
+          "range": "",
+          "validRanges": [
+            "1d",
+            "5d",
+            "1mo",
+            "3mo",
+            "6mo",
+            "1y",
+            "2y",
+            "5y",
+            "10y",
+            "ytd",
+            "max"
+          ]
+        },
+        "timestamp": [
+          1793975400,
+          1794234600
+        ],
+        "indicators": {
+          "quote": [
+            {
+              "open": [
+                345.489990234375,
+                348.0
+              ],
+              "close": [
+                341.7200012207031,
+                359.29998779296875
+              ],
+              "volume": [
+                4524400,
+                3549800
+              ],
+              "high": [
+                347.5,
+                363.4100036621094
+              ],
+              "low": [
+                333.8599853515625,
+                345.2799987792969
+              ]
+            }
+          ],
+          "adjclose": [
+            {
+              "adjclose": [
+                341.7200012207031,
+                359.29998779296875
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "error": null
+  }
+}

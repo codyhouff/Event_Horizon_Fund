@@ -1,0 +1,107 @@
+{
+  "chart": {
+    "result": [
+      {
+        "meta": {
+          "currency": "USD",
+          "symbol": "SNDK",
+          "exchangeName": "NMS",
+          "fullExchangeName": "NasdaqGS",
+          "instrumentType": "EQUITY",
+          "firstTradeDate": 1739457000,
+          "regularMarketTime": 1794258000,
+          "hasPrePostMarketData": true,
+          "gmtoffset": -18000,
+          "timezone": "EST",
+          "exchangeTimezoneName": "America/New_York",
+          "regularMarketPrice": 886.51,
+          "regularMarketChangePercent": 6.161,
+          "fulldayPrice": 882.82,
+          "fulldayChange": 47.76,
+          "fulldayChangePercent": 5.719,
+          "fiftyTwoWeekHigh": 2354.39,
+          "fiftyTwoWeekLow": 183.0,
+          "regularMarketDayHigh": 904.0,
+          "regularMarketDayLow": 830.644,
+          "regularMarketVolume": 13806837,
+          "longName": "Sandisk Corporation",
+          "shortName": "Sandisk Corporation",
+          "chartPreviousClose": 806.43,
+          "priceHint": 2,
+          "currentTradingPeriod": {
+            "pre": {
+              "timezone": "EST",
+              "end": 1794234600,
+              "start": 1794214800,
+              "gmtoffset": -18000
+            },
+            "regular": {
+              "timezone": "EST",
+              "end": 1794258000,
+              "start": 1794234600,
+              "gmtoffset": -18000
+            },
+            "post": {
+              "timezone": "EST",
+              "end": 1794272400,
+              "start": 1794258000,
+              "gmtoffset": -18000
+            }
+          },
+          "dataGranularity": "1d",
+          "range": "",
+          "validRanges": [
+            "1d",
+            "5d",
+            "1mo",
+            "3mo",
+            "6mo",
+            "1y",
+            "2y",
+            "ytd",
+            "max"
+          ]
+        },
+        "timestamp": [
+          1793975400,
+          1794234600
+        ],
+        "indicators": {
+          "quote": [
+            {
+              "high": [
+                912.0900268554688,
+                904.0
+              ],
+              "close": [
+                835.0599975585938,
+                886.510009765625
+              ],
+              "volume": [
+                17763700,
+                13848800
+              ],
+              "open": [
+                898.27001953125,
+                856.4400024414062
+              ],
+              "low": [
+                816.4199829101562,
+                830.6439819335938
+              ]
+            }
+          ],
+          "adjclose": [
+            {
+              "adjclose": [
+                835.0599975585938,
+                886.510009765625
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "error": null
+  }
+}

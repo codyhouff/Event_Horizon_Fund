@@ -1,0 +1,109 @@
+{
+  "chart": {
+    "result": [
+      {
+        "meta": {
+          "currency": "USD",
+          "symbol": "MP",
+          "exchangeName": "NYQ",
+          "fullExchangeName": "NYSE",
+          "instrumentType": "EQUITY",
+          "firstTradeDate": 1592832600,
+          "regularMarketTime": 1794258003,
+          "hasPrePostMarketData": true,
+          "gmtoffset": -18000,
+          "timezone": "EST",
+          "exchangeTimezoneName": "America/New_York",
+          "regularMarketPrice": 37.75,
+          "regularMarketChangePercent": 6.608,
+          "fulldayPrice": 37.67,
+          "fulldayChange": 2.26,
+          "fulldayChangePercent": 6.382,
+          "fiftyTwoWeekHigh": 76.8,
+          "fiftyTwoWeekLow": 31.9,
+          "regularMarketDayHigh": 38.055,
+          "regularMarketDayLow": 35.1,
+          "regularMarketVolume": 7269265,
+          "longName": "MP Materials Corp.",
+          "shortName": "MP Materials Corp.",
+          "chartPreviousClose": 33.74,
+          "priceHint": 2,
+          "currentTradingPeriod": {
+            "pre": {
+              "timezone": "EST",
+              "end": 1794234600,
+              "start": 1794214800,
+              "gmtoffset": -18000
+            },
+            "regular": {
+              "timezone": "EST",
+              "end": 1794258000,
+              "start": 1794234600,
+              "gmtoffset": -18000
+            },
+            "post": {
+              "timezone": "EST",
+              "end": 1794272400,
+              "start": 1794258000,
+              "gmtoffset": -18000
+            }
+          },
+          "dataGranularity": "1d",
+          "range": "",
+          "validRanges": [
+            "1d",
+            "5d",
+            "1mo",
+            "3mo",
+            "6mo",
+            "1y",
+            "2y",
+            "5y",
+            "10y",
+            "ytd",
+            "max"
+          ]
+        },
+        "timestamp": [
+          1793975400,
+          1794234600
+        ],
+        "indicators": {
+          "quote": [
+            {
+              "high": [
+                35.79999923706055,
+                38.05500030517578
+              ],
+              "open": [
+                34.93000030517578,
+                36.130001068115234
+              ],
+              "close": [
+                35.40999984741211,
+                37.75
+              ],
+              "volume": [
+                8746000,
+                7276300
+              ],
+              "low": [
+                33.81999969482422,
+                35.099998474121094
+              ]
+            }
+          ],
+          "adjclose": [
+            {
+              "adjclose": [
+                35.40999984741211,
+                37.75
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "error": null
+  }
+}

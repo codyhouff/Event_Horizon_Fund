@@ -1,0 +1,109 @@
+{
+  "chart": {
+    "result": [
+      {
+        "meta": {
+          "currency": "USD",
+          "symbol": "COHR",
+          "exchangeName": "NYQ",
+          "fullExchangeName": "NYSE",
+          "instrumentType": "EQUITY",
+          "firstTradeDate": 560179800,
+          "regularMarketTime": 1794258002,
+          "hasPrePostMarketData": true,
+          "gmtoffset": -18000,
+          "timezone": "EST",
+          "exchangeTimezoneName": "America/New_York",
+          "regularMarketPrice": 225.19,
+          "regularMarketChangePercent": 16.794,
+          "fulldayPrice": 225.8,
+          "fulldayChange": 32.99,
+          "fulldayChangePercent": 17.11,
+          "fiftyTwoWeekHigh": 440.0,
+          "fiftyTwoWeekLow": 130.42,
+          "regularMarketDayHigh": 229.39,
+          "regularMarketDayLow": 197.21,
+          "regularMarketVolume": 14926300,
+          "longName": "Coherent Corp.",
+          "shortName": "Coherent Corp.",
+          "chartPreviousClose": 169.76,
+          "priceHint": 2,
+          "currentTradingPeriod": {
+            "pre": {
+              "timezone": "EST",
+              "end": 1794234600,
+              "start": 1794214800,
+              "gmtoffset": -18000
+            },
+            "regular": {
+              "timezone": "EST",
+              "end": 1794258000,
+              "start": 1794234600,
+              "gmtoffset": -18000
+            },
+            "post": {
+              "timezone": "EST",
+              "end": 1794272400,
+              "start": 1794258000,
+              "gmtoffset": -18000
+            }
+          },
+          "dataGranularity": "1d",
+          "range": "",
+          "validRanges": [
+            "1d",
+            "5d",
+            "1mo",
+            "3mo",
+            "6mo",
+            "1y",
+            "2y",
+            "5y",
+            "10y",
+            "ytd",
+            "max"
+          ]
+        },
+        "timestamp": [
+          1793975400,
+          1794234600
+        ],
+        "indicators": {
+          "quote": [
+            {
+              "high": [
+                195.6699981689453,
+                229.47999572753906
+              ],
+              "close": [
+                192.80999755859375,
+                225.19000244140625
+              ],
+              "volume": [
+                16269300,
+                14957100
+              ],
+              "open": [
+                189.5500030517578,
+                197.5
+              ],
+              "low": [
+                179.0399932861328,
+                197.19000244140625
+              ]
+            }
+          ],
+          "adjclose": [
+            {
+              "adjclose": [
+                192.80999755859375,
+                225.19000244140625
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "error": null
+  }
+}

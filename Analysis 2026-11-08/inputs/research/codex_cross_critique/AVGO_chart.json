@@ -1,0 +1,109 @@
+{
+  "chart": {
+    "result": [
+      {
+        "meta": {
+          "currency": "USD",
+          "symbol": "AVGO",
+          "exchangeName": "NMS",
+          "fullExchangeName": "NasdaqGS",
+          "instrumentType": "EQUITY",
+          "firstTradeDate": 1249565400,
+          "regularMarketTime": 1794258001,
+          "hasPrePostMarketData": true,
+          "gmtoffset": -18000,
+          "timezone": "EST",
+          "exchangeTimezoneName": "America/New_York",
+          "regularMarketPrice": 319.48,
+          "regularMarketChangePercent": 8.781,
+          "fulldayPrice": 319.57,
+          "fulldayChange": 25.88,
+          "fulldayChangePercent": 8.812,
+          "fiftyTwoWeekHigh": 495.0,
+          "fiftyTwoWeekLow": 289.77,
+          "regularMarketDayHigh": 323.05,
+          "regularMarketDayLow": 304.292,
+          "regularMarketVolume": 36557862,
+          "longName": "Broadcom Inc.",
+          "shortName": "Broadcom Inc.",
+          "chartPreviousClose": 291.53,
+          "priceHint": 2,
+          "currentTradingPeriod": {
+            "pre": {
+              "timezone": "EST",
+              "start": 1794214800,
+              "end": 1794234600,
+              "gmtoffset": -18000
+            },
+            "regular": {
+              "timezone": "EST",
+              "start": 1794234600,
+              "end": 1794258000,
+              "gmtoffset": -18000
+            },
+            "post": {
+              "timezone": "EST",
+              "start": 1794258000,
+              "end": 1794272400,
+              "gmtoffset": -18000
+            }
+          },
+          "dataGranularity": "1d",
+          "range": "",
+          "validRanges": [
+            "1d",
+            "5d",
+            "1mo",
+            "3mo",
+            "6mo",
+            "1y",
+            "2y",
+            "5y",
+            "10y",
+            "ytd",
+            "max"
+          ]
+        },
+        "timestamp": [
+          1793975400,
+          1794234600
+        ],
+        "indicators": {
+          "quote": [
+            {
+              "low": [
+                289.7699890136719,
+                304.2900085449219
+              ],
+              "close": [
+                293.69000244140625,
+                319.4800109863281
+              ],
+              "open": [
+                311.1300048828125,
+                305.2900085449219
+              ],
+              "volume": [
+                32442500,
+                36603900
+              ],
+              "high": [
+                311.5199890136719,
+                323.04998779296875
+              ]
+            }
+          ],
+          "adjclose": [
+            {
+              "adjclose": [
+                293.69000244140625,
+                319.4800109863281
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "error": null
+  }
+}

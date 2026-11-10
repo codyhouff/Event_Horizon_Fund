@@ -1,0 +1,108 @@
+{
+  "chart": {
+    "result": [
+      {
+        "meta": {
+          "currency": "USD",
+          "symbol": "CRDO",
+          "exchangeName": "NMS",
+          "fullExchangeName": "NasdaqGS",
+          "instrumentType": "EQUITY",
+          "firstTradeDate": 1643293800,
+          "regularMarketTime": 1794258001,
+          "hasPrePostMarketData": true,
+          "gmtoffset": -18000,
+          "timezone": "EST",
+          "exchangeTimezoneName": "America/New_York",
+          "regularMarketPrice": 132.89,
+          "regularMarketChangePercent": 10.273,
+          "fulldayPrice": 133.22,
+          "fulldayChange": 12.71,
+          "fulldayChangePercent": 10.547,
+          "fiftyTwoWeekHigh": 308.67,
+          "fiftyTwoWeekLow": 86.485,
+          "regularMarketDayHigh": 136.89,
+          "regularMarketDayLow": 122.27,
+          "regularMarketVolume": 9110134,
+          "longName": "Credo Technology Group Holding Ltd",
+          "shortName": "Credo Technology Group Holding ",
+          "chartPreviousClose": 112.33,
+          "priceHint": 2,
+          "currentTradingPeriod": {
+            "pre": {
+              "timezone": "EST",
+              "start": 1794214800,
+              "end": 1794234600,
+              "gmtoffset": -18000
+            },
+            "regular": {
+              "timezone": "EST",
+              "start": 1794234600,
+              "end": 1794258000,
+              "gmtoffset": -18000
+            },
+            "post": {
+              "timezone": "EST",
+              "start": 1794258000,
+              "end": 1794272400,
+              "gmtoffset": -18000
+            }
+          },
+          "dataGranularity": "1d",
+          "range": "",
+          "validRanges": [
+            "1d",
+            "5d",
+            "1mo",
+            "3mo",
+            "6mo",
+            "1y",
+            "2y",
+            "5y",
+            "ytd",
+            "max"
+          ]
+        },
+        "timestamp": [
+          1793975400,
+          1794234600
+        ],
+        "indicators": {
+          "quote": [
+            {
+              "volume": [
+                9669700,
+                9124500
+              ],
+              "close": [
+                120.51000213623047,
+                132.88999938964844
+              ],
+              "open": [
+                124.7300033569336,
+                124.0999984741211
+              ],
+              "high": [
+                125.80000305175781,
+                136.88999938964844
+              ],
+              "low": [
+                114.73400115966797,
+                122.2699966430664
+              ]
+            }
+          ],
+          "adjclose": [
+            {
+              "adjclose": [
+                120.51000213623047,
+                132.88999938964844
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "error": null
+  }
+}

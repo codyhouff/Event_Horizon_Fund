@@ -1,0 +1,109 @@
+{
+  "chart": {
+    "result": [
+      {
+        "meta": {
+          "currency": "USD",
+          "symbol": "PWR",
+          "exchangeName": "NYQ",
+          "fullExchangeName": "NYSE",
+          "instrumentType": "EQUITY",
+          "firstTradeDate": 887293800,
+          "regularMarketTime": 1794258002,
+          "hasPrePostMarketData": true,
+          "gmtoffset": -18000,
+          "timezone": "EST",
+          "exchangeTimezoneName": "America/New_York",
+          "regularMarketPrice": 591.48,
+          "regularMarketChangePercent": 9.351,
+          "fulldayPrice": 591.64,
+          "fulldayChange": 50.74,
+          "fulldayChangePercent": 9.381,
+          "fiftyTwoWeekHigh": 788.75,
+          "fiftyTwoWeekLow": 408.36,
+          "regularMarketDayHigh": 595.795,
+          "regularMarketDayLow": 548.43,
+          "regularMarketVolume": 1885457,
+          "longName": "Quanta Services, Inc.",
+          "shortName": "Quanta Services, Inc.",
+          "chartPreviousClose": 509.06,
+          "priceHint": 2,
+          "currentTradingPeriod": {
+            "pre": {
+              "timezone": "EST",
+              "end": 1794234600,
+              "start": 1794214800,
+              "gmtoffset": -18000
+            },
+            "regular": {
+              "timezone": "EST",
+              "end": 1794258000,
+              "start": 1794234600,
+              "gmtoffset": -18000
+            },
+            "post": {
+              "timezone": "EST",
+              "end": 1794272400,
+              "start": 1794258000,
+              "gmtoffset": -18000
+            }
+          },
+          "dataGranularity": "1d",
+          "range": "",
+          "validRanges": [
+            "1d",
+            "5d",
+            "1mo",
+            "3mo",
+            "6mo",
+            "1y",
+            "2y",
+            "5y",
+            "10y",
+            "ytd",
+            "max"
+          ]
+        },
+        "timestamp": [
+          1793975400,
+          1794234600
+        ],
+        "indicators": {
+          "quote": [
+            {
+              "low": [
+                533.0,
+                548.4299926757812
+              ],
+              "close": [
+                540.9000244140625,
+                591.47998046875
+              ],
+              "open": [
+                539.5,
+                555.0999755859375
+              ],
+              "volume": [
+                2775400,
+                1885600
+              ],
+              "high": [
+                554.8099975585938,
+                595.7999877929688
+              ]
+            }
+          ],
+          "adjclose": [
+            {
+              "adjclose": [
+                540.9000244140625,
+                591.47998046875
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "error": null
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "chart": {
+    "result": [
+      {
+        "meta": {
+          "currency": "USD",
+          "symbol": "GEN",
+          "exchangeName": "NMS",
+          "fullExchangeName": "NasdaqGS",
+          "instrumentType": "EQUITY",
+          "firstTradeDate": 614611800,
+          "regularMarketTime": 1794258001,
+          "hasPrePostMarketData": true,
+          "gmtoffset": -18000,
+          "timezone": "EST",
+          "exchangeTimezoneName": "America/New_York",
+          "regularMarketPrice": 29.8,
+          "regularMarketChangePercent": 0.034,
+          "fulldayPrice": 29.74,
+          "fulldayChange": -0.05,
+          "fulldayChangePercent": -0.168,
+          "fiftyTwoWeekHigh": 31.65,
+          "fiftyTwoWeekLow": 17.78,
+          "regularMarketDayHigh": 30.08,
+          "regularMarketDayLow": 29.445,
+          "regularMarketVolume": 5342149,
+          "longName": "Gen Digital Inc.",
+          "shortName": "Gen Digital Inc.",
+          "chartPreviousClose": 30.6,
+          "priceHint": 2,
+          "currentTradingPeriod": {
+            "pre": {
+              "timezone": "EST",
+              "end": 1794234600,
+              "start": 1794214800,
+              "gmtoffset": -18000
+            },
+            "regular": {
+              "timezone": "EST",
+              "end": 1794258000,
+              "start": 1794234600,
+              "gmtoffset": -18000
+            },
+            "post": {
+              "timezone": "EST",
+              "end": 1794272400,
+              "start": 1794258000,
+              "gmtoffset": -18000
+            }
+          },
+          "dataGranularity": "1d",
+          "range": "",
+          "validRanges": [
+            "1d",
+            "5d",
+            "1mo",
+            "3mo",
+            "6mo",
+            "1y",
+            "2y",
+            "5y",
+            "10y",
+            "ytd",
+            "max"
+          ]
+        },
+        "timestamp": [
+          1793975400,
+          1794234600
+        ],
+        "indicators": {
+          "quote": [
+            {
+              "high": [
+                30.5,
+                30.079999923706055
+              ],
+              "open": [
+                30.309999465942383,
+                29.809999465942383
+              ],
+              "close": [
+                29.790000915527344,
+                29.799999237060547
+              ],
+              "volume": [
+                6270600,
+                5342200
+              ],
+              "low": [
+                29.65999984741211,
+                29.450000762939453
+              ]
+            }
+          ],
+          "adjclose": [
+            {
+              "adjclose": [
+                29.790000915527344,
+                29.799999237060547
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "error": null
+  }
+}

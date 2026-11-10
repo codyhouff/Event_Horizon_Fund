@@ -1,0 +1,109 @@
+{
+  "chart": {
+    "result": [
+      {
+        "meta": {
+          "currency": "USD",
+          "symbol": "CLS",
+          "exchangeName": "NYQ",
+          "fullExchangeName": "NYSE",
+          "instrumentType": "EQUITY",
+          "firstTradeDate": 899213400,
+          "regularMarketTime": 1794258003,
+          "hasPrePostMarketData": true,
+          "gmtoffset": -18000,
+          "timezone": "EST",
+          "exchangeTimezoneName": "America/New_York",
+          "regularMarketPrice": 222.92,
+          "regularMarketChangePercent": 7.858,
+          "fulldayPrice": 224.02,
+          "fulldayChange": 17.34,
+          "fulldayChangePercent": 8.39,
+          "fiftyTwoWeekHigh": 474.03,
+          "fiftyTwoWeekLow": 197.5,
+          "regularMarketDayHigh": 225.255,
+          "regularMarketDayLow": 208.22,
+          "regularMarketVolume": 4639620,
+          "longName": "Celestica Inc.",
+          "shortName": "Celestica, Inc.",
+          "chartPreviousClose": 205.64,
+          "priceHint": 2,
+          "currentTradingPeriod": {
+            "pre": {
+              "timezone": "EST",
+              "end": 1794234600,
+              "start": 1794214800,
+              "gmtoffset": -18000
+            },
+            "regular": {
+              "timezone": "EST",
+              "end": 1794258000,
+              "start": 1794234600,
+              "gmtoffset": -18000
+            },
+            "post": {
+              "timezone": "EST",
+              "end": 1794272400,
+              "start": 1794258000,
+              "gmtoffset": -18000
+            }
+          },
+          "dataGranularity": "1d",
+          "range": "",
+          "validRanges": [
+            "1d",
+            "5d",
+            "1mo",
+            "3mo",
+            "6mo",
+            "1y",
+            "2y",
+            "5y",
+            "10y",
+            "ytd",
+            "max"
+          ]
+        },
+        "timestamp": [
+          1793975400,
+          1794234600
+        ],
+        "indicators": {
+          "quote": [
+            {
+              "volume": [
+                3705100,
+                4844000
+              ],
+              "open": [
+                219.60000610351562,
+                210.3300018310547
+              ],
+              "low": [
+                202.08999633789062,
+                208.22000122070312
+              ],
+              "close": [
+                206.67999267578125,
+                222.9199981689453
+              ],
+              "high": [
+                221.75,
+                225.25999450683594
+              ]
+            }
+          ],
+          "adjclose": [
+            {
+              "adjclose": [
+                206.67999267578125,
+                222.9199981689453
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "error": null
+  }
+}

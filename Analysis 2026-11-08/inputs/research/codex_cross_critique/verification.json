@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "report_sha256": "4714e27ea4b317dfb258c9d93590754ae76bbc337c9095edd91fa9f4df9611d6",
+  "report_words": 13612,
+  "sections": 7,
+  "verdict_bullets": 8,
+  "required_head_to_heads": 19,
+  "additional_head_to_heads": 1,
+  "fully_modeled_names": 25,
+  "generated_blocks": 10,
+  "original_Claude_models_transcription_checked": 19,
+  "quote_date": "2026-11-09",
+  "allocation_checksum": 100,
+  "changed_weights": {
+    "MU": 8,
+    "AVGO": -15,
+    "VRSK": 15,
+    "COHR": -8
+  },
+  "original_deep_dives_unchanged_from_HEAD": true,
+  "original_sha256": {
+    "Codex Deep Dive 2026-11-08.md": "69b8ec1684875d08cca9a4e04f117ec12a968492869661d16e7afc202ebb9a12",
+    "Claude Deep Dive 2026-11-08.md": "77029b8192e06ddaf43a6515d025050ae91468bbc5f3033cab1a434710c30fb3"
+  },
+  "source_urls": 32,
+  "pdf": {
+    "status": "PASS",
+    "pages": 43,
+    "characters": 75138,
+    "links": 36,
+    "outside_page_bounds": [],
+    "preview_pages": [
+      1,
+      4,
+      21,
+      31,
+      36,
+      39
+    ],
+    "sha256": "df5967611899c615be3662466eef1fe6fffb896b43614dd0ccc3133c50ca6656"
+  }
+}

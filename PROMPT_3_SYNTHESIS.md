@@ -15,7 +15,7 @@ Step 3 of 4 in the analysis flow (see `README.md` → Analysis Flow):
 - Cycle folder: `Analysis 2026-11-08/`
 - Prior analysis: `Analysis 2026-05-10/Event Horizon Fund Analysis 2026-05-10.md`
 - Baseline allocation: `V9.1`
-- Synthesis model (you): **`<Claude or Codex>`**
+- Synthesis model (you): **`Claude`** (2026-11-08 cycle; next cycle: Codex)
 
 This prompt runs as a full deep dive. It may take a while; prioritize completeness and quality over speed.
 

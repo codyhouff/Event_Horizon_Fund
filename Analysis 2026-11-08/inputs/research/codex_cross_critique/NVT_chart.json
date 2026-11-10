@@ -1,0 +1,109 @@
+{
+  "chart": {
+    "result": [
+      {
+        "meta": {
+          "currency": "USD",
+          "symbol": "NVT",
+          "exchangeName": "NYQ",
+          "fullExchangeName": "NYSE",
+          "instrumentType": "EQUITY",
+          "firstTradeDate": 1524576600,
+          "regularMarketTime": 1794258098,
+          "hasPrePostMarketData": true,
+          "gmtoffset": -18000,
+          "timezone": "EST",
+          "exchangeTimezoneName": "America/New_York",
+          "regularMarketPrice": 114.44,
+          "regularMarketChangePercent": 7.739,
+          "fulldayPrice": 114.44,
+          "fulldayChange": 2.18,
+          "fulldayChangePercent": 2.052,
+          "fiftyTwoWeekHigh": 184.64,
+          "fiftyTwoWeekLow": 93.22,
+          "regularMarketDayHigh": 115.14,
+          "regularMarketDayLow": 108.794,
+          "regularMarketVolume": 3660970,
+          "longName": "nVent Electric plc",
+          "shortName": "nVent Electric plc",
+          "chartPreviousClose": 98.38,
+          "priceHint": 2,
+          "currentTradingPeriod": {
+            "pre": {
+              "timezone": "EST",
+              "start": 1794214800,
+              "end": 1794234600,
+              "gmtoffset": -18000
+            },
+            "regular": {
+              "timezone": "EST",
+              "start": 1794234600,
+              "end": 1794258000,
+              "gmtoffset": -18000
+            },
+            "post": {
+              "timezone": "EST",
+              "start": 1794258000,
+              "end": 1794272400,
+              "gmtoffset": -18000
+            }
+          },
+          "dataGranularity": "1d",
+          "range": "",
+          "validRanges": [
+            "1d",
+            "5d",
+            "1mo",
+            "3mo",
+            "6mo",
+            "1y",
+            "2y",
+            "5y",
+            "10y",
+            "ytd",
+            "max"
+          ]
+        },
+        "timestamp": [
+          1793975400,
+          1794234600
+        ],
+        "indicators": {
+          "quote": [
+            {
+              "close": [
+                106.22000122070312,
+                114.44000244140625
+              ],
+              "volume": [
+                5174500,
+                3661100
+              ],
+              "high": [
+                107.6500015258789,
+                115.13999938964844
+              ],
+              "open": [
+                105.33000183105469,
+                110.25
+              ],
+              "low": [
+                102.42500305175781,
+                108.79399871826172
+              ]
+            }
+          ],
+          "adjclose": [
+            {
+              "adjclose": [
+                106.22000122070312,
+                114.44000244140625
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "error": null
+  }
+}

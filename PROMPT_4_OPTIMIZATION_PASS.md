@@ -13,7 +13,7 @@ Step 4 of 4 in the analysis flow (see `README.md` → Analysis Flow):
 
 - Cycle date: `2026-11-08`
 - Cycle folder: `Analysis 2026-11-08/`
-- You are: **`<Claude or Codex>`** (the model that did not write the Step 3 final)
+- You are: **`Codex`** (the model that did not write the Step 3 final; 2026-11-08 cycle)
 
 ## Goal (shared by all four prompts)
 

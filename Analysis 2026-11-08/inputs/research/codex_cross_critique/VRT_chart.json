@@ -1,0 +1,109 @@
+{
+  "chart": {
+    "result": [
+      {
+        "meta": {
+          "currency": "USD",
+          "symbol": "VRT",
+          "exchangeName": "NYQ",
+          "fullExchangeName": "NYSE",
+          "instrumentType": "EQUITY",
+          "firstTradeDate": 1533216600,
+          "regularMarketTime": 1794258003,
+          "hasPrePostMarketData": true,
+          "gmtoffset": -18000,
+          "timezone": "EST",
+          "exchangeTimezoneName": "America/New_York",
+          "regularMarketPrice": 200.47,
+          "regularMarketChangePercent": 9.63,
+          "fulldayPrice": 200.76,
+          "fulldayChange": 17.9,
+          "fulldayChangePercent": 9.789,
+          "fiftyTwoWeekHigh": 379.935,
+          "fiftyTwoWeekLow": 147.82,
+          "regularMarketDayHigh": 203.3,
+          "regularMarketDayLow": 188.01,
+          "regularMarketVolume": 7526647,
+          "longName": "Vertiv Holdings Co",
+          "shortName": "Vertiv Holdings, LLC",
+          "chartPreviousClose": 176.73,
+          "priceHint": 2,
+          "currentTradingPeriod": {
+            "pre": {
+              "timezone": "EST",
+              "start": 1794214800,
+              "end": 1794234600,
+              "gmtoffset": -18000
+            },
+            "regular": {
+              "timezone": "EST",
+              "start": 1794234600,
+              "end": 1794258000,
+              "gmtoffset": -18000
+            },
+            "post": {
+              "timezone": "EST",
+              "start": 1794258000,
+              "end": 1794272400,
+              "gmtoffset": -18000
+            }
+          },
+          "dataGranularity": "1d",
+          "range": "",
+          "validRanges": [
+            "1d",
+            "5d",
+            "1mo",
+            "3mo",
+            "6mo",
+            "1y",
+            "2y",
+            "5y",
+            "10y",
+            "ytd",
+            "max"
+          ]
+        },
+        "timestamp": [
+          1793975400,
+          1794234600
+        ],
+        "indicators": {
+          "quote": [
+            {
+              "high": [
+                192.13999938964844,
+                203.3000030517578
+              ],
+              "close": [
+                182.86000061035156,
+                200.47000122070312
+              ],
+              "low": [
+                178.25,
+                188.00999450683594
+              ],
+              "open": [
+                190.47000122070312,
+                189.02000427246094
+              ],
+              "volume": [
+                9641700,
+                7551900
+              ]
+            }
+          ],
+          "adjclose": [
+            {
+              "adjclose": [
+                182.86000061035156,
+                200.47000122070312
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "error": null
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "chart": {
+    "result": [
+      {
+        "meta": {
+          "currency": "USD",
+          "symbol": "KTOS",
+          "exchangeName": "NMS",
+          "fullExchangeName": "NasdaqGS",
+          "instrumentType": "EQUITY",
+          "firstTradeDate": 941812200,
+          "regularMarketTime": 1794258001,
+          "hasPrePostMarketData": true,
+          "gmtoffset": -18000,
+          "timezone": "EST",
+          "exchangeTimezoneName": "America/New_York",
+          "regularMarketPrice": 37.69,
+          "regularMarketChangePercent": 7.379,
+          "fulldayPrice": 37.55,
+          "fulldayChange": 2.45,
+          "fulldayChangePercent": 6.98,
+          "fiftyTwoWeekHigh": 134.0,
+          "fiftyTwoWeekLow": 31.57,
+          "regularMarketDayHigh": 38.13,
+          "regularMarketDayLow": 34.755,
+          "regularMarketVolume": 6396401,
+          "longName": "Kratos Defense & Security Solutions, Inc.",
+          "shortName": "Kratos Defense & Security Solut",
+          "chartPreviousClose": 33.39,
+          "priceHint": 2,
+          "currentTradingPeriod": {
+            "pre": {
+              "timezone": "EST",
+              "end": 1794234600,
+              "start": 1794214800,
+              "gmtoffset": -18000
+            },
+            "regular": {
+              "timezone": "EST",
+              "end": 1794258000,
+              "start": 1794234600,
+              "gmtoffset": -18000
+            },
+            "post": {
+              "timezone": "EST",
+              "end": 1794272400,
+              "start": 1794258000,
+              "gmtoffset": -18000
+            }
+          },
+          "dataGranularity": "1d",
+          "range": "",
+          "validRanges": [
+            "1d",
+            "5d",
+            "1mo",
+            "3mo",
+            "6mo",
+            "1y",
+            "2y",
+            "5y",
+            "10y",
+            "ytd",
+            "max"
+          ]
+        },
+        "timestamp": [
+          1793975400,
+          1794234600
+        ],
+        "indicators": {
+          "quote": [
+            {
+              "high": [
+                35.310001373291016,
+                38.130001068115234
+              ],
+              "open": [
+                33.72999954223633,
+                35.630001068115234
+              ],
+              "close": [
+                35.099998474121094,
+                37.689998626708984
+              ],
+              "volume": [
+                8007000,
+                6400700
+              ],
+              "low": [
+                31.56999969482422,
+                34.65999984741211
+              ]
+            }
+          ],
+          "adjclose": [
+            {
+              "adjclose": [
+                35.099998474121094,
+                37.689998626708984
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "error": null
+  }
+}

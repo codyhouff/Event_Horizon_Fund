@@ -1,0 +1,108 @@
+{
+  "chart": {
+    "result": [
+      {
+        "meta": {
+          "currency": "USD",
+          "symbol": "CEG",
+          "exchangeName": "NMS",
+          "fullExchangeName": "NasdaqGS",
+          "instrumentType": "EQUITY",
+          "firstTradeDate": 1642602600,
+          "regularMarketTime": 1794258001,
+          "hasPrePostMarketData": true,
+          "gmtoffset": -18000,
+          "timezone": "EST",
+          "exchangeTimezoneName": "America/New_York",
+          "regularMarketPrice": 276.09,
+          "regularMarketChangePercent": 10.458,
+          "fulldayPrice": 275.47,
+          "fulldayChange": 25.52,
+          "fulldayChangePercent": 10.21,
+          "fiftyTwoWeekHigh": 380.78,
+          "fiftyTwoWeekLow": 228.63,
+          "regularMarketDayHigh": 277.66,
+          "regularMarketDayLow": 247.0,
+          "regularMarketVolume": 6840580,
+          "longName": "Constellation Energy Corporation",
+          "shortName": "Constellation Energy Corporatio",
+          "chartPreviousClose": 239.65,
+          "priceHint": 2,
+          "currentTradingPeriod": {
+            "pre": {
+              "timezone": "EST",
+              "end": 1794234600,
+              "start": 1794214800,
+              "gmtoffset": -18000
+            },
+            "regular": {
+              "timezone": "EST",
+              "end": 1794258000,
+              "start": 1794234600,
+              "gmtoffset": -18000
+            },
+            "post": {
+              "timezone": "EST",
+              "end": 1794272400,
+              "start": 1794258000,
+              "gmtoffset": -18000
+            }
+          },
+          "dataGranularity": "1d",
+          "range": "",
+          "validRanges": [
+            "1d",
+            "5d",
+            "1mo",
+            "3mo",
+            "6mo",
+            "1y",
+            "2y",
+            "5y",
+            "ytd",
+            "max"
+          ]
+        },
+        "timestamp": [
+          1793975400,
+          1794234600
+        ],
+        "indicators": {
+          "quote": [
+            {
+              "high": [
+                252.72000122070312,
+                277.6600036621094
+              ],
+              "volume": [
+                5565900,
+                7331500
+              ],
+              "open": [
+                246.0500030517578,
+                260.3999938964844
+              ],
+              "close": [
+                249.9499969482422,
+                276.0899963378906
+              ],
+              "low": [
+                243.3800048828125,
+                247.0
+              ]
+            }
+          ],
+          "adjclose": [
+            {
+              "adjclose": [
+                249.9499969482422,
+                276.0899963378906
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "error": null
+  }
+}

@@ -124,7 +124,7 @@ Each step looks for better stocks in a different place, so the steps work like a
 
 | Cycle | Step 3 synthesis | Step 4 optimization | Adopted version |
 | ----- | ---------------- | --------------- | --------------- |
-| 2026-11-08 | TBD | TBD | pending |
+| 2026-11-08 | Claude (V10.0 proposed, Nov 9–10) | Codex (pending) | pending (Step 4 + owner decisions E1–E5) |
 
 ## Repository Layout
 
