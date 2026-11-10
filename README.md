@@ -2,60 +2,43 @@
 
 Concentrated AI infrastructure portfolio focused on physical and economic bottlenecks across power, semis, memory, networking, optical, and grid buildout.
 
-Current active allocation version: **V9.1** (as of 2026-05-10).  
-Primary source doc: `Analysis 2026-05-10/Event Horizon Fund Analysis 2026-05-10.md`.
+Current active allocation version: **V10.1** (adopted 2026-11-10, after Steps 4 and 5 of the 2026-11-08 cycle). Supersedes V9.1 (2026-05-10).  
+Primary source doc: `Analysis 2026-11-08/Event Horizon Fund Analysis 2026-11-08.md`.
 
 ## Read This First
 
-- Core thesis and full framework: `Analysis 2026-05-10/Event Horizon Fund Analysis 2026-05-10.md`
-- Current execution plan: `Analysis 2026-05-10/Deployment Strategy/Deployment Strategy 2026-05-10.md`
-- Reconciliation notes: `Analysis 2026-05-10/Follow Up/Followup Cursor Results 5-10-2026.md`
+- Core thesis, full framework and the adopted allocation: `Analysis 2026-11-08/Event Horizon Fund Analysis 2026-11-08.md`
+- Current execution plan: `Analysis 2026-11-08/Deployment Strategy/Deployment Strategy 2026-11-08.md` (local only; the `Deployment Strategy/` folders are gitignored)
+- How the final decisions were made: `Analysis 2026-11-08/inputs/Step 5 Decision Log 2026-11-08.md`
+- Prior cycle: `Analysis 2026-05-10/Event Horizon Fund Analysis 2026-05-10.md` (V9.1)
 
-## Current Allocation Snapshot (V9.1)
+## Current Allocation Snapshot (V10.1)
 
-**Foundry (11%):** TSM (11%)  
-**Accelerators & Custom Silicon (9%):** NVDA (6%), AVGO (3%)  
-**HBM / Memory (6%):** MU (6%)  
-**WFE / Semi Capital Equipment (12%):** ASML (8%), AMAT (4%)  
-**Electronic Design Automation (5%):** SNPS (5%)  
-**AI Data Center Fabric (4%):** ANET (4%)  
-**Rack-Scale Integration & Liquid Cooling (8%):** VRT (6%), DELL (2%)  
-**Energy / Power Generation (19%):** CEG (9%), VST (6%), PWR (4%)  
-**AI-Native Security (3%):** CRWD (3%)  
-**AI-Native Operate & Control (2%):** PLTR (2%)  
-**AI-Enabled Military (2%):** AVAV (1%), KTOS (1%)  
-**Bio-Risk Insurance (1%):** MRNA (1%)  
-**Strategic Materials (3%):** MP (3%)  
-**Domestic Foundry (3%):** INTC (3%)  
-**Electrical Equipment (5%):** GEV (5%)  
-**Nuclear Fuel (2%):** CCJ (2%)  
-**Grid-Bypass Power (3%):** BE (3%)  
-**Optical Fabric (2%):** COHR (2%)  
+**Accelerators (15%):** NVDA (15%)  
+**AI Platform (15%):** META (15%)  
+**Rack Thermal & Power (15%):** VRT (15%)  
+**HBM / Memory (15%):** MU (15%)  
+**Power Generation (12%):** NRG (12%)  
+**Electrical Distribution & Cooling (12%):** NVT (12%)  
+**Rack-Scale Integration (10%):** CLS (10%)  
+**Site Development & Electrical Installation (6%):** STRL (6%)  
+**Moonshot (0%)**  
 Total: 100%
+
+On the synthesis model at Nov 9, 2026 prices: Expected CAGR 15.4% to 2030 (AI-2027 Scenario 24.0%; 100GW 2030 Scenario 38.1%), bust −61.5%, 2–3 year delay −22.3%. V9.1 on the same model: 7.9% expected, bust −67.3%.
 
 ### Sleeve Rollup
 
 
-| Sleeve                             | Weight |
-| ---------------------------------- | ------ |
-| Power Generation (CEG + VST + PWR) | 19%    |
-| Foundry + WFE (TSM + ASML + AMAT)  | 23%    |
-| Rack-Scale & Cooling (VRT + DELL)  | 8%     |
-| Accelerators (NVDA + AVGO)         | 9%     |
-| Memory (MU)                        | 6%     |
-| EDA (SNPS)                         | 5%     |
-| Networking (ANET)                  | 4%     |
-| Security (CRWD)                    | 3%     |
-| Operations (PLTR)                  | 2%     |
-| Defense (AVAV + KTOS)              | 2%     |
-| Bio-Risk Hedge (MRNA)              | 1%     |
-| Materials (MP)                     | 3%     |
-| Domestic Foundry (INTC)            | 3%     |
-| Electrical Equipment (GEV)         | 5%     |
-| Nuclear Fuel (CCJ)                 | 2%     |
-| Grid-Bypass (BE)                   | 3%     |
-| Optical Fabric (COHR)              | 2%     |
-| Moonshot                           | 0%     |
+| Sleeve                                               | Weight |
+| ---------------------------------------------------- | ------ |
+| Accelerators (NVDA)                                  | 15%    |
+| HBM / Memory (MU)                                    | 15%    |
+| Rack-Scale Integration (CLS)                         | 10%    |
+| Thermal, Electrical & Site Work (VRT + NVT + STRL)   | 33%    |
+| Power Generation (NRG)                               | 12%    |
+| AI Platform (META)                                   | 15%    |
+| Moonshot                                             | 0%     |
 
 
 
@@ -125,7 +108,7 @@ Each step looks for better stocks in a different place, so the steps work like a
 
 | Cycle | Step 3 + Step 5 (synthesis model) | Step 4 optimization (both models) | Adopted version |
 | ----- | ---------------- | --------------- | --------------- |
-| 2026-11-08 | Claude (V10.0 proposed, Nov 9–10) | Codex (done); Claude (done, Nov 10) | pending (Step 5) |
+| 2026-11-08 | Claude (V10.0 proposed Nov 9–10; Step 5 Nov 10) | Codex (done); Claude (done, Nov 10) | **V10.1** (adopted Nov 10, 2026) |
 
 ## Repository Layout
 
@@ -183,6 +166,25 @@ Event_Horizon_Fund/
 │   └── Deployment Strategy/
 │       ├── Deployment Strategy 2026-05-10.md
 │       └── Portfolio_Positions_2026-05-11.xlsx
+├── Analysis 2026-11-08/
+│   ├── Event Horizon Fund Analysis 2026-11-08.md / .pdf      (adopted V10.1)
+│   ├── Deployment Strategy/                                  (local only, gitignored)
+│   │   └── Deployment Strategy 2026-11-08.md / .pdf
+│   └── inputs/
+│       ├── Claude Deep Dive 2026-11-08.md / .pdf             (Step 1)
+│       ├── Codex Deep Dive 2026-11-08.md / .pdf              (Step 1)
+│       ├── Claude Critique of Codex 2026-11-08.md / .pdf     (Step 2)
+│       ├── Codex Critique of Claude 2026-11-08.md / .pdf     (Step 2)
+│       ├── Candidate Ranking 2026-11-08.md / .pdf            (Step 3, with a Step 4–5 addendum)
+│       ├── Claude Optimization Pass 2026-11-08.md / .pdf     (Step 4)
+│       ├── Codex Optimization Pass 2026-11-08.md / .pdf      (Step 4)
+│       ├── Step 5 Decision Log 2026-11-08.md / .pdf          (Step 5)
+│       ├── superseded/                                       (Step 3 proposal; Codex single-model run)
+│       └── research/
+│           ├── claude_synthesis/                             (Steps 2–5 model, data and tables)
+│           ├── codex_initial_deep_dive/
+│           ├── codex_cross_critique/
+│           └── forecast_audit/
 ├── Original Large Thesis Writeup 2025-09-10/
 │   └── Event Horizon Fund Draft V7.3 2025-09-10.md
 └── Archive/

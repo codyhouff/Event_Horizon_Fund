@@ -482,3 +482,58 @@ Relative to Claude's post-critique portfolio, 22 points of capital were cut. **2
 - `tables/`: the generated tables used in this file.
 
 Re-running the pipeline reproduces every table byte for byte.
+
+---
+
+## Addendum: Step 4 and Step 5 decisions (added November 10, 2026)
+
+This file is the Step 3 ranking and is not rewritten. **The adopted portfolio is V10.1**, decided in Step 5 on the same model with the input changes below. Full evidence is in `inputs/Step 5 Decision Log 2026-11-08.md`. The adopted final is `Event Horizon Fund Analysis 2026-11-08.md`.
+
+### Merged items and decisions
+
+| ID (sources) | Item | Decision |
+|---|---|---|
+| D1 (C1) | AVGO base 2030 owner EPS $23.5 → $27.0 (management's FY28 target > $30) | **Accepted** (input correction). AVGO 11.6% → 13.5%; bench #1 |
+| D2 (Codex flag) | Double stock-comp charge on VRT and NVT anchors | **Accepted** (input correction). VRT 13.8% → 13.9%; NVT 13.7% → 13.8% |
+| D3 (Codex O1) | WCC 8% for VST | **Rejected.** Codex's bridge needs growth and margins above Wesco's own guidance; 7.0% on consistent inputs |
+| D4 (Codex O2, Claude C2) | Add STRL | **Accepted at Codex's inputs, 6%, funded by exiting VST**; VRT and MU to the 15% cap. +0.41pp portfolio expected |
+| D5 (C3) | Bench for freed capital | **Accepted:** AVGO; VST or TLN; AEIS; TSM |
+| D6 (C4, E3) | Texas trigger | **Re-underwrite NRG and STRL within 5 sessions** of a bill clearing a chamber; if confirmed NRG 12 → 8, STRL 6 → 3, TLN +7 |
+| D7 (E1) | MOD | **Gate kept**; Nov 18 investor day confirmed; gate restated as FY28 targets bridging to 2030 owner EPS $8.84 |
+| D8 (E2) | NVDA during the board review | **15%; no purchase before the Nov 17 report.** Adverse review: NVDA 15 → 8, AVGO +7 |
+| D9 (E4) | META 15% | **Kept** |
+| D10 (E5) | Holdings count | **8** |
+| D11–D13 (Codex flags) | Multiple-policy claim; "upper bound" wording; HBM scorecard | **Accepted** (wording and record corrections) |
+| D14 | Other Step 4 names | **Watchlist:** SANM, ONTO. The rest rejected |
+
+### Changed and new rows (60-stock ranking, Nov 9 prices)
+
+STRL and WCC entered the pool in Step 5, fully underwritten on the same model. AVGO, VRT and NVT carry the corrected inputs. VST is shown because it left the portfolio.
+
+| Rank | Ticker | Bottleneck | Price (Nov 9) | Status | Expected CAGR | AI-2027 | 100GW | Bust | Delay | Depth | V9.1 → V10.1 |
+|---:|---|---|---:|---|---:|---:|---:|---:|---:|---|---|
+| 1 | **STRL** | Data-center site development + electrical installation | $290.67 | Attractive (multiple-sensitive) | 19.5% | 28.7% | 43.7% | -65% | -15% | Full A1 | 0 → **6** (Add) |
+| 8 | **VRT** | Rack power + liquid cooling | $200.47 | Fair | 13.9% | 22.0% | 34.9% | -72% | -29% | Full A1 | 6 → **15** (Increase) |
+| 9 | **NVT** | Electrical distribution + liquid cooling | $114.44 | Attractive | 13.8% | 21.4% | 34.0% | -58% | -21% | Full A1 | 0 → **12** (Add) |
+| 10 | AVGO | Custom silicon + networking | $319.48 | Fair | 13.5% | 21.9% | 34.6% | -73% | -44% | Full A1 | 3 → **0** (Remove) |
+| 12 | VST | Merchant power (TX/PJM) | $133.92 | Fair | 13.0% | 20.2% | 26.8% | -67% | -29% | Full A1 | 6 → **0** (Remove) |
+| 29 | WCC | Electrical / datacom distribution | $316.47 | Fair | 7.0% | 10.5% | 16.9% | -54% | -26% | Full A1 | 0 → **0** (Not added) |
+
+### Weights: V10.0 (A5.2) → V10.1 (adopted)
+
+| Ticker | V10.0 (Step 3) | V10.1 (adopted) | Change |
+|---|---:|---:|---|
+| NVDA | 15 | 15 | — |
+| META | 15 | 15 | — |
+| VRT | 14 | **15** | +1 (VST's exit) |
+| MU | 14 | **15** | +1 (VST's exit) |
+| NRG | 12 | 12 | — |
+| NVT | 12 | 12 | — |
+| CLS | 10 | 10 | — |
+| VST | 8 | **0** | −8 (D4) |
+| STRL | 0 | **6** | +6 (D4) |
+| **Total** | 100 | **100** | |
+
+Same model, Nov 9 prices: V10.0 14.9% expected / 23.4% AI-2027 / 36.9% 100GW / −61.6% bust; **V10.1 15.4% / 24.0% / 38.1% / −61.5%**.
+
+**Step 5 companion files** (same folder): `step5_model.py` (the Step 3 model plus the decided input changes), `step5_tables.py`, `data/step5_*.json`, `data/ports5.json` and `tables5/`.

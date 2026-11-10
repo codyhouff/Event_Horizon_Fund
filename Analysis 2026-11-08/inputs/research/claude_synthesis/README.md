@@ -1,9 +1,11 @@
-# Claude Step 2 / Step 3 model files (2026-11-08 cycle)
+# Claude Step 2–5 model files (2026-11-08 cycle)
 
 These are the reproducible inputs and scripts behind:
 
 - `inputs/Claude Critique of Codex 2026-11-08.md` (Step 2), in `step2/`
-- `inputs/Candidate Ranking 2026-11-08.md` and the Step 3 final `Event Horizon Fund Analysis 2026-11-08.md` / `Deployment Strategy 2026-11-08.md`, in this folder
+- `inputs/Candidate Ranking 2026-11-08.md` and the Step 3 proposal (V10.0, now in `inputs/superseded/`), in this folder
+- `inputs/Claude Optimization Pass 2026-11-08.md` (Step 4)
+- the adopted final (V10.1) `Event Horizon Fund Analysis 2026-11-08.md`, its `Deployment Strategy 2026-11-08.md` and `inputs/Step 5 Decision Log 2026-11-08.md` (Step 5)
 
 All prices are the **Nov 9, 2026 close**. The terminal date is **Dec 31, 2030** (T = 4.1424 years).
 
@@ -22,6 +24,12 @@ All prices are the **Nov 9, 2026 close**. The terminal date is **Dec 31, 2030** 
 | `extra_tables.py` | Writes `tables/reconciliation.md`, `pool.md`, `disputes.md` and `trades.md`, plus `data/drift_nov9.json`. It also prints the tranche cash path and the buy-price limits |
 | `tables/` | The generated tables pasted into the reports |
 | `step4_model.py`, `data/step4_snap.json`, `data/step4_out.json` | Step 4 (Claude Optimization Pass): values ~20 out-of-pool candidates and the re-underwritten AVGO on the same A1 rules, then tests swap variants. Run: `python -I step4_model.py data/step3_out.json data/step4_snap.json data/step4_out.json` |
+| `step5_model.py` | Step 5 (final assembly): `step3_model.py` plus the decided input changes (Decision Log D1–D4): AVGO base corrected; VRT/NVT stock-comp double count removed; WCC and STRL added |
+| `data/step5_snap.json` | `data/step3_snap.json` plus STRL and WCC, copied unchanged from `data/step4_snap.json` (same Nov 9 close) |
+| `data/ports5.json` | Every portfolio compared in Step 5: the Step 3 set plus Codex's O1/O2 proposals, the STRL-8% alternative, the adopted V10.1 and its three conditional variants (MOD gate, Texas hit, NVDA adverse) |
+| `data/step5_out.json`, `data/step5_out_cxmult.json` | Step 5 model output, and the robustness run on Codex's multiples |
+| `step5_tables.py` | Writes `tables5/pool5.md`, `recon5.md`, `portfolios5.md`, `trades5.md` and `destination5.md`, plus `data/drift_nov9.json`. It prints the tranche cash path |
+| `tables5/` | The generated tables used in the adopted final and its Deployment Strategy |
 | `step2/` | Step 2 critique model (`step2_model.py`), the Nov 9 fundamentals (`fund_step2.json`) and its output (`step2_out.json`) |
 
 The Codex deep-dive ledger the model reads is `../codex_initial_deep_dive/valuation_outputs.json` (sibling folder). Codex's own Step 2 model is in `../codex_cross_critique/`.
@@ -36,6 +44,14 @@ python -I extra_tables.py data/step3_out.json data/step3_snap.json data/disputes
 ```
 
 Re-running reproduces every file in `tables/` and `data/` byte for byte (verified Nov 10, 2026).
+
+**Step 5 (adopted V10.1):**
+
+```bash
+python -I step5_model.py data/step5_snap.json ../codex_initial_deep_dive/valuation_outputs.json data/step5_out.json "$(cat data/ports5.json)"
+python -I step5_model.py data/step5_snap.json ../codex_initial_deep_dive/valuation_outputs.json data/step5_out_cxmult.json "$(cat data/ports5.json)" codexmult
+python -I step5_tables.py data/step5_out.json data/step5_out_cxmult.json data/step5_snap.json tables5 data
+```
 
 To refresh prices for a later date, re-run:
 
