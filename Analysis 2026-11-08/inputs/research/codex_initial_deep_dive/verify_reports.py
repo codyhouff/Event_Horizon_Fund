@@ -11,10 +11,10 @@ sys.path.insert(0,str(deps))
 import pymupdf
 from build_report import check, BASELINE, FINAL, CORE, ROWS, FUNDING
 
-ROOT=Path(__file__).resolve().parents[2]
-RESEARCH=ROOT/'inputs'/'research'
+ROOT=Path(__file__).resolve().parents[3]
+RESEARCH=ROOT/'inputs'/'research'/'codex_initial_deep_dive'
 MAIN=ROOT/'inputs'/'Codex Deep Dive 2026-11-08.md'
-CANONICAL=ROOT/'Event Horizon Fund Analysis 2026-11-08.md'
+CANONICAL=ROOT/'inputs'/'superseded'/'Event Horizon Fund Analysis 2026-11-08 (Codex single-model run).md'
 DEPLOY=ROOT/'Deployment Strategy'/'Deployment Strategy 2026-11-08.md'
 
 def digest(path): return hashlib.sha256(path.read_bytes()).hexdigest()
@@ -60,7 +60,7 @@ def main():
     for p in [MAIN,CANONICAL,DEPLOY]:
         assert p.exists() and p.with_suffix('.pdf').exists()
     assert digest(MAIN.with_suffix('.pdf'))==digest(CANONICAL.with_suffix('.pdf'))
-    audit=json.loads((RESEARCH/'forecast_audit'/'audit_verification.json').read_text(encoding='utf-8'))
+    audit=json.loads((RESEARCH.parent/'forecast_audit'/'audit_verification.json').read_text(encoding='utf-8'))
     assert audit['status']=='PASS'
     assert audit['report_sha256']==digest(MAIN)
     a,at=inspect_pdf(MAIN.with_suffix('.pdf'),[0,4,12,20,35])

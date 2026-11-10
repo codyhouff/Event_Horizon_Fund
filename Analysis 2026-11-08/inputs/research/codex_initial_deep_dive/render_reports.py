@@ -22,7 +22,7 @@ from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.platypus import BaseDocTemplate, PageTemplate, Frame, Paragraph, Spacer, LongTable, TableStyle, PageBreak, NextPageTemplate
 
-ROOT=Path(__file__).resolve().parents[2]
+ROOT=Path(__file__).resolve().parents[3]
 FONT=Path('C:/Windows/Fonts')
 for name,file in [('EHF','arial.ttf'),('EHF-Bold','arialbd.ttf'),('EHF-Italic','ariali.ttf'),('EHF-BoldItalic','arialbi.ttf')]:
     pdfmetrics.registerFont(TTFont(name,str(FONT/file)))

@@ -4,7 +4,7 @@
 
 **Inputs read in full:**
 
-- `inputs/Claude Deep Dive 2026-11-08.md` (Rev 2) and `inputs/Codex Deep Dive 2026-11-08.md` (Nov 9 research revision), including Codex's `research/valuation_outputs.json` ledger for all 56 names it modeled
+- `inputs/Claude Deep Dive 2026-11-08.md` (Rev 2) and `inputs/Codex Deep Dive 2026-11-08.md` (Nov 9 research revision), including Codex's `research/codex_initial_deep_dive/valuation_outputs.json` ledger for all 56 names it modeled
 - `inputs/Claude Critique of Codex 2026-11-08.md` and `inputs/Codex Critique of Claude 2026-11-08.md`, including Codex's `research/codex_cross_critique/critique_model.py`
 - `PROMPT_1_DEEP_DIVE.md`; `Analysis 2026-05-10/Event Horizon Fund Analysis 2026-05-10.md`; V7.3 (for continuity)
 

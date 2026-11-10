@@ -7,7 +7,7 @@ from pathlib import Path
 from valuation_model import BASELINE, FINAL, CORE, calculate, architecture, mdtable, YEARS
 
 ROOT = Path(__file__).resolve().parent
-REPORT = ROOT.parent / 'Codex Deep Dive 2026-11-08.md'
+REPORT = ROOT.parent.parent / 'Codex Deep Dive 2026-11-08.md'
 ROWS = calculate()
 FUNDING = {
  'TSM':{'NVDA':9,'AVGO':2},'ASML':{'AVGO':8},'AMAT':{'AVGO':2,'CLS':2},

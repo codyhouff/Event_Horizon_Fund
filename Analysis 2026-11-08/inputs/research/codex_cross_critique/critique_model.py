@@ -11,7 +11,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 YEARS = (dt.date(2030, 12, 31)-dt.date(2026, 11, 9)).days/365.25
 Q = {x['ticker']: x for x in json.loads((ROOT/'quotes.json').read_text())}
-OLD = json.loads((ROOT.parent/'valuation_outputs.json').read_text())['stocks']
+OLD = json.loads((ROOT.parent/'codex_initial_deep_dive'/'valuation_outputs.json').read_text())['stocks']
 MINE = dict(NVDA=15, AVGO=15, VRT=15, CLS=12, NVT=12, NRG=12, VST=11, COHR=8)
 THEIRS = dict(TSM=14, NVDA=13, VRT=9, VST=9, MU=9, ASML=8, AVGO=6, SNPS=6,
               CEG=6, COHR=5, ETN=5, CRDO=3, PWR=2, KTOS=2, MP=2, BNTX=1)

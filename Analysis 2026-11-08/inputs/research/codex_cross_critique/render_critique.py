@@ -3,7 +3,7 @@ from pathlib import Path
 import sys
 
 ROOT=Path(__file__).resolve().parent
-sys.path.insert(0,str(ROOT.parent))
+sys.path.insert(0,str(ROOT.parent/'codex_initial_deep_dive'))
 import render_reports as renderer
 
 default_widths=renderer.column_widths

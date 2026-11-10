@@ -25,6 +25,10 @@ Take a fresh pass at the final allocation and answer one question: **is there a 
 
 Don't rewrite the final analysis. Propose specific, justified changes, or show why none are warranted.
 
+**Don't modify the final analysis, the Deployment Strategy, or the Candidate Ranking.** Your only output is the Optimization Pass file below. Accepted changes are applied in Step 5.
+
+**Keep numbers comparable.** If the Step 3 synthesis model published its valuation scripts, value new candidates with the same rules: states, owner EPS, multiple evidence band, named-scenario loadings and prices. That way your CAGRs compare directly with the final's. This cycle the scripts are `Analysis 2026-11-08/inputs/research/claude_synthesis/step3_model.py`, and the run commands are in that folder's `README.md`.
+
 ## Files to Read
 
 1. Final: `Analysis 2026-11-08/Event Horizon Fund Analysis 2026-11-08.md`

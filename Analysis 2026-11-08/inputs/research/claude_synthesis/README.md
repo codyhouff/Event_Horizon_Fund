@@ -23,13 +23,13 @@ All prices are the **Nov 9, 2026 close**. The terminal date is **Dec 31, 2030** 
 | `tables/` | The generated tables pasted into the reports |
 | `step2/` | Step 2 critique model (`step2_model.py`), the Nov 9 fundamentals (`fund_step2.json`) and its output (`step2_out.json`) |
 
-The Codex deep-dive ledger the model reads is `../valuation_outputs.json`, one folder up. Codex's own Step 2 model is in `../codex_cross_critique/`.
+The Codex deep-dive ledger the model reads is `../codex_initial_deep_dive/valuation_outputs.json` (sibling folder). Codex's own Step 2 model is in `../codex_cross_critique/`.
 
 ## Reproduce (run from this folder)
 
 ```bash
-python -I step3_model.py data/step3_snap.json ../valuation_outputs.json data/step3_out.json "$(cat data/ports.json)"
-python -I step3_model.py data/step3_snap.json ../valuation_outputs.json data/step3_out_cxmult.json "$(cat data/ports.json)" codexmult
+python -I step3_model.py data/step3_snap.json ../codex_initial_deep_dive/valuation_outputs.json data/step3_out.json "$(cat data/ports.json)"
+python -I step3_model.py data/step3_snap.json ../codex_initial_deep_dive/valuation_outputs.json data/step3_out_cxmult.json "$(cat data/ports.json)" codexmult
 python -I step3_tables.py data/step3_out.json data/step3_out_cxmult.json tables
 python -I extra_tables.py data/step3_out.json data/step3_snap.json data/disputes.json tables data
 ```
