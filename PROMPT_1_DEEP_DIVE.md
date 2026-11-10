@@ -1,6 +1,11 @@
-# Event Horizon Fund Prompt Template
+# Event Horizon Fund — Step 1: Independent Deep Dive
 
-Use this prompt to run each full analysis cycle.
+Step 1 of 4 in the analysis flow (see `README.md` → Analysis Flow):
+
+1. **`PROMPT_1_DEEP_DIVE.md`** ← this file: Claude and Codex each run it separately, without seeing each other's work
+2. `PROMPT_2_CROSS_CRITIQUE.md`: each model critiques the other's deep dive
+3. `PROMPT_3_SYNTHESIS.md`: one model builds the disagreement ledger and writes the final analysis
+4. `PROMPT_4_RED_TEAM.md`: the other model audits the final
 
 ---
 
@@ -8,6 +13,15 @@ Read this file and execute it as a **full deep dive**.
 This may take a while; prioritize completeness and quality over speed.
 
 You are doing a full-cycle Event Horizon Fund review.
+
+## Independence Rule (Step 1)
+
+This deep dive must be independent. Another model is running the same prompt in parallel.
+
+- Do **not** open, read, or use the other model's deep dive for this cycle (`Analysis 2026-11-08/inputs/<Other Model> Deep Dive 2026-11-08.md` or `.pdf`), or any other file that model generated for this cycle (research data, charts, drafts).
+- Do not use the cycle's final-analysis or deployment files if they already exist in the cycle folder; those belong to Step 3.
+- Build your own data pipeline (prices, fundamentals, valuation model) from primary sources.
+- In the report header, state that the analysis was produced independently and list any accidental exposure to the other model's work (for example, seeing file names in a directory listing).
 
 ## Objective
 
@@ -30,6 +44,36 @@ Produce one decisive recommended allocation and clearly identify the additional 
 - <https://situational-awareness.ai/>
 - <https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/>
 - <https://epoch.ai/trends>
+
+3) AI-2027 / AI-2040 framework deep dive (required; read at the primary source):
+
+AI-2027 is written by top forecasters and has tracked reality closely since publication. It is a core input to the thesis, not optional background. Read every page below directly; do not rely on secondary trackers, summaries, or search snippets.
+
+- AI-2027 scenario and endings:
+  - <https://ai-2027.com/> (main scenario)
+  - <https://ai-2027.com/race> (race ending)
+  - <https://ai-2027.com/summary>
+- AI-2027 research supplements:
+  - <https://ai-2027.com/research/compute-forecast>
+  - <https://ai-2027.com/research/timelines-forecast>
+  - <https://ai-2027.com/research/takeoff-forecast>
+  - <https://ai-2027.com/research/ai-goals-forecast>
+  - <https://ai-2027.com/research/security-forecast>
+- AI chip compute forecast Google Sheet (shared 2024-10-02). **Take a deep look at this sheet**, including every tab:
+  - <https://docs.google.com/spreadsheets/d/1Ko-olwjDy6h8rXLZBFpP-e2GibGqRhfV28S4v8xtzrM/edit?gid=1866551567#gid=1866551567>
+  - If the web view can't be read, the public export works: `https://docs.google.com/spreadsheets/d/1Ko-olwjDy6h8rXLZBFpP-e2GibGqRhfV28S4v8xtzrM/export?format=xlsx`
+- AI-2040 and its supplements: <https://ai-2040.com/>
+- Situational Awareness, especially <https://situational-awareness.ai/racing-to-the-trillion-dollar-cluster/>
+- AI Futures Project updates (timeline revisions and grading posts): <https://blog.aifutures.org/>
+
+Follow the side links and data sources referenced in the text of these pages (linked sheets, models, appendices, update posts) when they bear on compute, capex, chips, power, memory, timelines, or security.
+
+Required output from this reading (include as its own subsection in Part II):
+
+- **Scorecard:** grade the frameworks' past predictions for the period they cover so far against actual outcomes (capex, chip volumes, lab revenue, capabilities, power, geopolitics, markets): ahead / on track / behind / missed.
+- **Timelines:** the authors' current timeline estimates and how they changed since the last cycle.
+- **Forward paths:** the frameworks' projections for 2027–2030 (compute, capex, binding constraints such as EUV, HBM, power, financing) and what each implies for specific sleeves and holdings.
+- **Portfolio changes:** which allocation decisions the framework evidence changed or reinforced, stated explicitly.
 
 ## Portfolio Constraints
 
@@ -212,7 +256,12 @@ Do not copy the May answers mechanically. Re-research and re-answer every questi
 
 ## Required Deliverables
 
-1) New analysis file:
+Where outputs go depends on the step:
+
+- **Step 1 (this deep dive):** write one self-contained report to `Analysis 2026-11-08/inputs/<Model> Deep Dive 2026-11-08.md` and `.pdf`, where `<Model>` is `Claude` or `Codex`. Put the full deployment plan (item 3 below) in an appendix of that report rather than a separate file. Do **not** write the final analysis or Deployment Strategy files listed below.
+- **Step 3 (`PROMPT_3_SYNTHESIS.md`):** produces the final analysis and Deployment Strategy files at the paths below, to the same content standard.
+
+1) New analysis file (Step 3 final):
 
 - `Analysis 2026-11-08/Event Horizon Fund Analysis 2026-11-08.md`
 - `Analysis 2026-11-08/Event Horizon Fund Analysis 2026-11-08.pdf`
@@ -231,7 +280,7 @@ Do not copy the May answers mechanically. Re-research and re-answer every questi
 - Top 5 risks and invalidation triggers
 - What changed vs `2026-05-10` (new evidence only)
 
-3) Near-term execution plan (separate file):
+3) Near-term execution plan (separate file in Step 3; appendix of the deep dive in Step 1):
 
 - `Analysis 2026-11-08/Deployment Strategy/Deployment Strategy 2026-11-08.md`
 - `Analysis 2026-11-08/Deployment Strategy/Deployment Strategy 2026-11-08.pdf`
@@ -276,6 +325,8 @@ Do not copy the May answers mechanically. Re-research and re-answer every questi
 
 ## Final Verification (required)
 
-- Verify all required markdown and PDF outputs were generated.
+- Verify all required markdown and PDF outputs were generated (Step 1: the deep-dive `.md` and `.pdf` in `inputs/`).
 - Verify allocation checksum = 100.0%.
 - Verify every allocation change has a funding source.
+- Verify the AI-2027 / AI-2040 framework subsection exists and covers every source listed in Required Inputs §3.
+- Verify the independence statement is in the report header.

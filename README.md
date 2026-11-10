@@ -73,15 +73,56 @@ Total: 100%
 
 
 
-## Workflow
+## Analysis Flow
+
+Each cycle runs two models (Claude Code and Codex) through four prompts. Both models research blind first, then critique each other. One model writes the final and the other audits it, so the final comes from resolving disagreements one by one rather than from averaging two portfolios.
+
+```text
+1. Deep dive      Claude Deep Dive              Codex Deep Dive            (blind, parallel)
+                         │      ╲            ╱      │
+2. Cross-critique  Claude Critique of Codex    Codex Critique of Claude   (parallel)
+                         └───────────┬──────────────┘
+3. Synthesis       one model:  Disagreement Ledger → Final Analysis + Deployment Strategy
+                                     │
+4. Red team        other model:  Red Team Review + Owner Decision Sheet
+                                     │
+5. Owner           decide escalations → synthesis model applies fixes → adopt + update README
+```
+
+| Step | Prompt | Who runs it | Output (in `Analysis YYYY-MM-DD/`) |
+| ---- | ------ | ----------- | ---------------------------------- |
+| 0 | — | Owner | Update the cycle settings in all four prompts: cycle date, prior analysis, baseline version and allocation. Create `Analysis YYYY-MM-DD/inputs/`. |
+| 1 | `PROMPT_1_DEEP_DIVE.md` | Claude **and** Codex, separately. Neither may open the other's files. | `inputs/Claude Deep Dive YYYY-MM-DD.md/.pdf`, `inputs/Codex Deep Dive YYYY-MM-DD.md/.pdf` |
+| 2 | `PROMPT_2_CROSS_CRITIQUE.md` | Claude **and** Codex, in parallel. Each critiques the *other's* deep dive. | `inputs/Claude Critique of Codex YYYY-MM-DD.md`, `inputs/Codex Critique of Claude YYYY-MM-DD.md` |
+| 3 | `PROMPT_3_SYNTHESIS.md` | **One** model, alternating each cycle (see log below) | `inputs/Disagreement Ledger YYYY-MM-DD.md`, `Event Horizon Fund Analysis YYYY-MM-DD.md/.pdf`, `Deployment Strategy/Deployment Strategy YYYY-MM-DD.md/.pdf` |
+| 4 | `PROMPT_4_RED_TEAM.md` | The **other** model (audit only, no rewrite) | `inputs/Red Team Review YYYY-MM-DD.md`, which includes the Owner Decision Sheet |
+| 5 | — | Owner, then the synthesis model | Answer the Owner Decision Sheet. The synthesis model applies Blocker/Major fixes and the owner's decisions, regenerates the PDFs, and marks the version adopted. Then update this README and commit. |
+
+**How to run a step:** open the repo in Claude Code or Codex and say: `Read and execute PROMPT_N_....md. You are <Claude/Codex>.`
+
+**Rules that make the flow work:**
+
+- Step 1 must stay blind. Don't give either model the other's deep dive until Step 2.
+- Never average the two portfolios. Facts are settled at the primary source. Judgment calls go to the stronger evidence. A true tie takes the risk-control default or goes to the owner.
+- Keep every intermediate file. Next cycle's accountability section grades the Claude blind, Codex blind, and final allocations separately (the Model Reconciliation table in the final analysis). Over a few cycles this shows which model to trust on which kinds of calls.
+- PDFs: `python md_to_pdf.py "<path to .md>"`. On Windows this needs `$env:WEASYPRINT_DLL_DIRECTORIES = 'C:\msys64\mingw64\bin'` first. Python-Markdown needs a blank line before every list.
+
+### Synthesis Log (alternate the Step 3 model each cycle)
+
+| Cycle | Step 3 synthesis | Step 4 red team | Adopted version |
+| ----- | ---------------- | --------------- | --------------- |
+| 2026-11-08 | TBD | TBD | pending |
+
+## Repository Layout
 
 
 | Path                                                                                           | Purpose                                                                                                                      |
 | ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| `PROMPT_1_DEEP_DIVE.md` … `PROMPT_4_RED_TEAM.md`                                               | The four prompts of the analysis flow, in order (see Analysis Flow above).                                                   |
 | `Analysis YYYY-MM-DD/`                                                                         | Repeatable cycle folder. Each cycle contains the dated thesis, allocation updates, and execution materials for that refresh. |
-| `Analysis YYYY-MM-DD/Inputs/`                                                                  | Cycle inputs and supporting source material used to produce that cycle's analysis (create/use this folder each cycle).       |
+| `Analysis YYYY-MM-DD/inputs/`                                                                  | Steps 1–4 working files: both deep dives, both critiques, the disagreement ledger, the red team review, and research data.  |
 | `Analysis YYYY-MM-DD/Deployment Strategy/`                                                     | Cycle-specific deployment planning (tranches, timing windows, trigger rules, and position tracking artifacts).               |
-| `Followup Gemini & GPT Prompt.md` and `Cursor Followup Prompt.md`                              | Follow-up prompt templates used for reanalysis and iterative updates between major cycle refreshes.                          |
+| `Followup Gemini & GPT Prompt.md` and `Cursor Followup Prompt.md`                              | Legacy follow-up prompts from the 2026-05-10 cycle and earlier, replaced by Steps 2–4. Kept for reference.                  |
 | `Analysis 2025-09-14/`, `Analysis 2026-01-20/`, `Analysis 2026-03-31/`, `Analysis 2026-05-10/` | Historical cycle snapshots so thesis and allocation changes remain auditable over time.                                      |
 | `Original Large Thesis Writeup 2025-09-10/`                                                    | Initial long-form foundation thesis and early framing used before the recurring cycle structure.                             |
 | `Archive/`                                                                                     | Older or superseded research/support materials retained for reference.                                                       |
@@ -94,9 +135,12 @@ Total: 100%
 ```text
 Event_Horizon_Fund/
 ├── README.md
-├── ANALYSIS_PROMPT_TEMPLATE.md
-├── Followup Gemini & GPT Prompt.md
-├── Cursor Followup Prompt.md
+├── PROMPT_1_DEEP_DIVE.md
+├── PROMPT_2_CROSS_CRITIQUE.md
+├── PROMPT_3_SYNTHESIS.md
+├── PROMPT_4_RED_TEAM.md
+├── Followup Gemini & GPT Prompt.md   (legacy)
+├── Cursor Followup Prompt.md         (legacy)
 ├── md_to_pdf.py
 ├── Analysis 2025-09-14/
 │   └── inputs/
@@ -135,8 +179,10 @@ Event_Horizon_Fund/
 
 ## Top Background Reading
 
-- [AI-2027](https://ai-2027.com/)
-- [SITUATIONAL AWARENESS](https://situational-awareness.ai/)
+- [AI-2027](https://ai-2027.com/): also the [race ending](https://ai-2027.com/race), [summary](https://ai-2027.com/summary), and research supplements on [compute](https://ai-2027.com/research/compute-forecast), [timelines](https://ai-2027.com/research/timelines-forecast), [takeoff](https://ai-2027.com/research/takeoff-forecast), [AI goals](https://ai-2027.com/research/ai-goals-forecast), and [security](https://ai-2027.com/research/security-forecast)
+- [AI chip compute forecast (Google Sheet)](https://docs.google.com/spreadsheets/d/1Ko-olwjDy6h8rXLZBFpP-e2GibGqRhfV28S4v8xtzrM/edit?gid=1866551567#gid=1866551567): the data behind the AI-2027 compute forecast
+- [AI-2040](https://ai-2040.com/) and [AI Futures Project updates](https://blog.aifutures.org/)
+- [SITUATIONAL AWARENESS](https://situational-awareness.ai/), especially [Racing to the Trillion-Dollar Cluster](https://situational-awareness.ai/racing-to-the-trillion-dollar-cluster/)
 - [METR Long Horizon Tasks](https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/)
 - [Epoch Trends](https://epoch.ai/trends)
 
