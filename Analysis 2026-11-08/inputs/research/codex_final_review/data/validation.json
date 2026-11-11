@@ -1,0 +1,287 @@
+{
+  "checks": [
+    {
+      "check": "Baseline exact expected weights",
+      "pass": true
+    },
+    {
+      "check": "100 percent and unchanged constraints",
+      "pass": true
+    },
+    {
+      "check": "Rule 2 lower branch passes",
+      "pass": true
+    },
+    {
+      "check": "Exact already-tested alternative",
+      "pass": true
+    },
+    {
+      "check": "All held numeric inputs unchanged",
+      "pass": true
+    },
+    {
+      "check": "Only WCC has changed numerical stock output",
+      "pass": true
+    },
+    {
+      "check": "Frozen pool symbols and horizon",
+      "pass": true
+    },
+    {
+      "check": "Full/screen depth 29/31",
+      "pass": true
+    },
+    {
+      "check": "final adopted V10.2",
+      "pass": true
+    },
+    {
+      "check": "final no template placeholders",
+      "pass": true
+    },
+    {
+      "check": "deployment adopted V10.2",
+      "pass": true
+    },
+    {
+      "check": "deployment no template placeholders",
+      "pass": true
+    },
+    {
+      "check": "README adopted V10.2",
+      "pass": true
+    },
+    {
+      "check": "README no template placeholders",
+      "pass": true
+    },
+    {
+      "check": "recon6 generated table exact",
+      "pass": true
+    },
+    {
+      "check": "pool6 generated table exact",
+      "pass": true
+    },
+    {
+      "check": "portfolios6 generated table exact",
+      "pass": true
+    },
+    {
+      "check": "trades6 generated table exact",
+      "pass": true
+    },
+    {
+      "check": "destination6 generated body exact",
+      "pass": true
+    },
+    {
+      "check": "Part I weights equal model",
+      "pass": true
+    },
+    {
+      "check": "Selection weights equal model",
+      "pass": true
+    },
+    {
+      "check": "Part V.C weights equal model",
+      "pass": true
+    },
+    {
+      "check": "Part VI.A weights equal model",
+      "pass": true
+    },
+    {
+      "check": "Part VI.C weights equal model",
+      "pass": true
+    },
+    {
+      "check": "Deployment weights equal model",
+      "pass": true
+    },
+    {
+      "check": "README NVDA",
+      "pass": true
+    },
+    {
+      "check": "README META",
+      "pass": true
+    },
+    {
+      "check": "README VRT",
+      "pass": true
+    },
+    {
+      "check": "README MU",
+      "pass": true
+    },
+    {
+      "check": "README NRG",
+      "pass": true
+    },
+    {
+      "check": "README NVT",
+      "pass": true
+    },
+    {
+      "check": "README CLS",
+      "pass": true
+    },
+    {
+      "check": "README STRL",
+      "pass": true
+    },
+    {
+      "check": "15 targeted questions retained",
+      "pass": true
+    },
+    {
+      "check": "All D1-D14 verdicts",
+      "pass": true
+    },
+    {
+      "check": "Verdict counts 3/10/1",
+      "pass": true
+    },
+    {
+      "check": "31 fixed findings",
+      "pass": true
+    },
+    {
+      "check": "No unfinished log inserts",
+      "pass": true
+    },
+    {
+      "check": "Core/satellite and clusters",
+      "pass": true
+    },
+    {
+      "check": "AI-2027 path total return/CAGR",
+      "pass": true
+    },
+    {
+      "check": "100GW 2030 path total return/CAGR",
+      "pass": true
+    },
+    {
+      "check": "NVDA published return triplet",
+      "pass": true
+    },
+    {
+      "check": "META published return triplet",
+      "pass": true
+    },
+    {
+      "check": "VRT published return triplet",
+      "pass": true
+    },
+    {
+      "check": "MU published return triplet",
+      "pass": true
+    },
+    {
+      "check": "NRG published return triplet",
+      "pass": true
+    },
+    {
+      "check": "NVT published return triplet",
+      "pass": true
+    },
+    {
+      "check": "CLS published return triplet",
+      "pass": true
+    },
+    {
+      "check": "STRL published return triplet",
+      "pass": true
+    },
+    {
+      "check": "NVDA selection return triplet",
+      "pass": true
+    },
+    {
+      "check": "META selection return triplet",
+      "pass": true
+    },
+    {
+      "check": "VRT selection return triplet",
+      "pass": true
+    },
+    {
+      "check": "MU selection return triplet",
+      "pass": true
+    },
+    {
+      "check": "NRG selection return triplet",
+      "pass": true
+    },
+    {
+      "check": "NVT selection return triplet",
+      "pass": true
+    },
+    {
+      "check": "CLS selection return triplet",
+      "pass": true
+    },
+    {
+      "check": "STRL selection return triplet",
+      "pass": true
+    },
+    {
+      "check": "V10.2 final (adopted after Step 6) conditional caps",
+      "pass": true
+    },
+    {
+      "check": "V10.2 if MOD gate passes conditional caps",
+      "pass": true
+    },
+    {
+      "check": "V10.2 if Texas impact confirmed conditional caps",
+      "pass": true
+    },
+    {
+      "check": "V10.2 if NVDA review adverse conditional caps",
+      "pass": true
+    },
+    {
+      "check": "Cash path nonnegative and zero final",
+      "pass": true
+    },
+    {
+      "check": "No pre-earnings NVDA buy",
+      "pass": true
+    },
+    {
+      "check": "All protected records unchanged",
+      "pass": true
+    },
+    {
+      "check": "Eight-artifact exact reproduction",
+      "pass": true
+    },
+    {
+      "check": "Quotes no missing or over10pct",
+      "pass": true
+    },
+    {
+      "check": "Backup Event Horizon Fund Analysis 2026-11-08 (V10.1 before Step 6).md",
+      "pass": true
+    },
+    {
+      "check": "Backup Event Horizon Fund Analysis 2026-11-08 (V10.1 before Step 6).pdf",
+      "pass": true
+    },
+    {
+      "check": "Backup Deployment Strategy/Deployment Strategy 2026-11-08 (V10.1 before Step 6).md",
+      "pass": true
+    },
+    {
+      "check": "Backup Deployment Strategy/Deployment Strategy 2026-11-08 (V10.1 before Step 6).pdf",
+      "pass": true
+    }
+  ],
+  "protected_count": 365,
+  "protected_changes": [],
+  "passed": true
+}

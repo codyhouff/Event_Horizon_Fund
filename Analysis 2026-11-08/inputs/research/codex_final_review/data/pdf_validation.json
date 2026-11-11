@@ -1,0 +1,45 @@
+[
+  {
+    "file": "C:\\Users\\00MrK\\OneDrive\\Documents\\Projects\\Event_Horizon_Fund\\Analysis 2026-11-08\\Event Horizon Fund Analysis 2026-11-08.pdf",
+    "pages": 85,
+    "out_of_bounds": [],
+    "target_pages": [
+      7,
+      8,
+      8,
+      9,
+      27,
+      28,
+      80,
+      81
+    ]
+  },
+  {
+    "file": "C:\\Users\\00MrK\\OneDrive\\Documents\\Projects\\Event_Horizon_Fund\\Analysis 2026-11-08\\Deployment Strategy\\Deployment Strategy 2026-11-08.pdf",
+    "pages": 8,
+    "out_of_bounds": [],
+    "target_pages": [
+      5,
+      6
+    ]
+  },
+  {
+    "file": "C:\\Users\\00MrK\\OneDrive\\Documents\\Projects\\Event_Horizon_Fund\\Analysis 2026-11-08\\inputs\\Step 6 Review Log 2026-11-08.pdf",
+    "pages": 15,
+    "out_of_bounds": [],
+    "target_pages": [
+      3,
+      4,
+      11,
+      12,
+      12,
+      13
+    ]
+  },
+  {
+    "file": "C:\\Users\\00MrK\\OneDrive\\Documents\\Projects\\Event_Horizon_Fund\\README.pdf",
+    "pages": 8,
+    "out_of_bounds": [],
+    "target_pages": []
+  }
+]

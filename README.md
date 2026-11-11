@@ -2,30 +2,31 @@
 
 Concentrated AI infrastructure portfolio focused on physical and economic bottlenecks across power, semis, memory, networking, optical, and grid buildout.
 
-Current active allocation version: **V10.1** (adopted 2026-11-10, after Steps 4 and 5 of the 2026-11-08 cycle). Supersedes V9.1 (2026-05-10).  
+Current active allocation version: **V10.2** (adopted 2026-11-10, after Codex's Step 6 review of the 2026-11-08 cycle). Supersedes V9.1 (2026-05-10).  
 Primary source doc: `Analysis 2026-11-08/Event Horizon Fund Analysis 2026-11-08.md`.
 
 ## Read This First
 
 - Core thesis, full framework and the adopted allocation: `Analysis 2026-11-08/Event Horizon Fund Analysis 2026-11-08.md`
 - Current execution plan: `Analysis 2026-11-08/Deployment Strategy/Deployment Strategy 2026-11-08.md` (local only; the `Deployment Strategy/` folders are gitignored)
+- Independent final review: `Analysis 2026-11-08/inputs/Step 6 Review Log 2026-11-08.md` (D1–D14 verdicts; same-model rule-2 test; preserved V10.1 backup)
 - How the final decisions were made: `Analysis 2026-11-08/inputs/Step 5 Decision Log 2026-11-08.md`
 - Prior cycle: `Analysis 2026-05-10/Event Horizon Fund Analysis 2026-05-10.md` (V9.1)
 
-## Current Allocation Snapshot (V10.1)
+## Current Allocation Snapshot (V10.2)
 
 **Accelerators (15%):** NVDA (15%)  
 **AI Platform (15%):** META (15%)  
-**Rack Thermal & Power (15%):** VRT (15%)  
-**HBM / Memory (15%):** MU (15%)  
+**Rack Thermal & Power (14%):** VRT (14%)  
+**HBM / Memory (14%):** MU (14%)  
 **Power Generation (12%):** NRG (12%)  
 **Electrical Distribution & Cooling (12%):** NVT (12%)  
 **Rack-Scale Integration (10%):** CLS (10%)  
-**Site Development & Electrical Installation (6%):** STRL (6%)  
+**Site Development & Electrical Installation (8%):** STRL (8%)  
 **Moonshot (0%)**  
 Total: 100%
 
-On the synthesis model at Nov 9, 2026 prices: Expected CAGR 15.4% to 2030 (AI-2027 Scenario 24.0%; 100GW 2030 Scenario 38.1%), bust −61.5%, 2–3 year delay −22.3%. V9.1 on the same model: 7.9% expected, bust −67.3%.
+On the synthesis model at Nov 9, 2026 prices: Expected CAGR 15.5% to 2030 (AI-2027 Scenario 24.1%; 100GW 2030 Scenario 38.2%), bust −61.5%, 2–3 year delay −22.1%. V9.1 on the same model: 7.9% expected, bust −67.3%.
 
 ### Sleeve Rollup
 
@@ -33,9 +34,9 @@ On the synthesis model at Nov 9, 2026 prices: Expected CAGR 15.4% to 2030 (AI-20
 | Sleeve                                               | Weight |
 | ---------------------------------------------------- | ------ |
 | Accelerators (NVDA)                                  | 15%    |
-| HBM / Memory (MU)                                    | 15%    |
+| HBM / Memory (MU)                                    | 14%    |
 | Rack-Scale Integration (CLS)                         | 10%    |
-| Thermal, Electrical & Site Work (VRT + NVT + STRL)   | 33%    |
+| Thermal, Electrical & Site Work (VRT + NVT + STRL)   | 34%    |
 | Power Generation (NRG)                               | 12%    |
 | AI Platform (META)                                   | 15%    |
 | Moonshot                                             | 0%     |
@@ -112,7 +113,7 @@ Each step looks for better stocks in a different place, so the steps work like a
 
 | Cycle | Step 3 + Step 5 (synthesis model) | Step 4 optimization (both models) | Step 6 review (other model) | Adopted version |
 | ----- | ---------------- | --------------- | --------------- | --------------- |
-| 2026-11-08 | Claude (V10.0 proposed Nov 9–10; Step 5 Nov 10) | Codex (done); Claude (done, Nov 10) | Codex (pending) | **V10.1** (adopted Nov 10, 2026) |
+| 2026-11-08 | Claude (V10.0 proposed Nov 9–10; Step 5 Nov 10) | Codex (done); Claude (done, Nov 10) | Codex (done Nov 10; exact reproduction; D4 sizing overturned; STRL +2 / VRT −1 / MU −1; other corrections logged) | **V10.2** (adopted Nov 10, 2026) |
 
 ## Repository Layout
 
@@ -172,7 +173,7 @@ Event_Horizon_Fund/
 │       ├── Deployment Strategy 2026-05-10.md
 │       └── Portfolio_Positions_2026-05-11.xlsx
 ├── Analysis 2026-11-08/
-│   ├── Event Horizon Fund Analysis 2026-11-08.md / .pdf      (adopted V10.1)
+│   ├── Event Horizon Fund Analysis 2026-11-08.md / .pdf      (adopted V10.2)
 │   ├── Deployment Strategy/                                  (local only, gitignored)
 │   │   └── Deployment Strategy 2026-11-08.md / .pdf
 │   └── inputs/
@@ -184,8 +185,10 @@ Event_Horizon_Fund/
 │       ├── Claude Optimization Pass 2026-11-08.md / .pdf     (Step 4)
 │       ├── Codex Optimization Pass 2026-11-08.md / .pdf      (Step 4)
 │       ├── Step 5 Decision Log 2026-11-08.md / .pdf          (Step 5)
-│       ├── superseded/                                       (Step 3 proposal; Codex single-model run)
+│       ├── Step 6 Review Log 2026-11-08.md / .pdf          (Step 6, Codex)
+│       ├── superseded/                                       (Step 3 proposal; V10.1 before Step 6; Codex single-model run)
 │       └── research/
+│           ├── codex_final_review/                           (Step 6 overlays, verification and generated tables)
 │           ├── claude_synthesis/                             (Steps 2–5 model, data and tables)
 │           ├── codex_initial_deep_dive/
 │           ├── codex_cross_critique/
@@ -214,4 +217,3 @@ Event_Horizon_Fund/
 
 - This repository is a research and process workspace, not financial advice.
 - Keep `README.md` synced when active allocation version or sleeve weights change.
-

@@ -1,0 +1,54 @@
+{
+  "cwd": "C:\\Users\\00MrK\\OneDrive\\Documents\\Projects\\Event_Horizon_Fund\\Analysis 2026-11-08\\inputs\\research\\claude_synthesis",
+  "scratch": "C:\\Users\\00MrK\\AppData\\Local\\Temp\\ehf_step6_eb701102b07a4717b8c1b19391edb9a9",
+  "checks": [
+    {
+      "file": "data\\step5_out.json",
+      "original_sha256": "f32a910c2f79d70fef843fe7280ae77dd6fe1be7962b055d22fbe24a83a4040f",
+      "reproduced_sha256": "f32a910c2f79d70fef843fe7280ae77dd6fe1be7962b055d22fbe24a83a4040f",
+      "byte_identical": true
+    },
+    {
+      "file": "data\\step5_out_cxmult.json",
+      "original_sha256": "f538a694c2d985c967fc4991129f6d7968450b56599c7d989c32101224ce5b7b",
+      "reproduced_sha256": "f538a694c2d985c967fc4991129f6d7968450b56599c7d989c32101224ce5b7b",
+      "byte_identical": true
+    },
+    {
+      "file": "data\\drift_nov9.json",
+      "original_sha256": "104010807ed263d553f949d81b556b3595063c455578ecaee9f4f64219421f02",
+      "reproduced_sha256": "104010807ed263d553f949d81b556b3595063c455578ecaee9f4f64219421f02",
+      "byte_identical": true
+    },
+    {
+      "file": "tables5\\destination5.md",
+      "original_sha256": "5922728f6126b87d8324865ab35131c947a40cca688bc17579c17ea3fcb8f12d",
+      "reproduced_sha256": "5922728f6126b87d8324865ab35131c947a40cca688bc17579c17ea3fcb8f12d",
+      "byte_identical": true
+    },
+    {
+      "file": "tables5\\pool5.md",
+      "original_sha256": "cb3cd14b7021749069bf227b059032eef7b8e409515e1374c6abd8bf1af32775",
+      "reproduced_sha256": "cb3cd14b7021749069bf227b059032eef7b8e409515e1374c6abd8bf1af32775",
+      "byte_identical": true
+    },
+    {
+      "file": "tables5\\portfolios5.md",
+      "original_sha256": "748bdeaf040d502718d71e9e23c4798aa2fcd9906aff5ff03490cfe2115b3d7e",
+      "reproduced_sha256": "748bdeaf040d502718d71e9e23c4798aa2fcd9906aff5ff03490cfe2115b3d7e",
+      "byte_identical": true
+    },
+    {
+      "file": "tables5\\recon5.md",
+      "original_sha256": "e40ecad05787057392719e981286f465d95f0ac365112589caf12f4d9d2e103f",
+      "reproduced_sha256": "e40ecad05787057392719e981286f465d95f0ac365112589caf12f4d9d2e103f",
+      "byte_identical": true
+    },
+    {
+      "file": "tables5\\trades5.md",
+      "original_sha256": "3980c30cb6385ca92c1d95fdeadb962f6b1f6c2a72b18f07293ebbe89bcbfde8",
+      "reproduced_sha256": "3980c30cb6385ca92c1d95fdeadb962f6b1f6c2a72b18f07293ebbe89bcbfde8",
+      "byte_identical": true
+    }
+  ]
+}

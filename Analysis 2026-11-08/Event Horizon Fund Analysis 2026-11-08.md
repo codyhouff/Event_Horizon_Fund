@@ -1,22 +1,23 @@
 # Event Horizon Fund Analysis — November 2026 Cycle
 
 **Date:** November 8, 2026 cycle. Synthesis completed November 9–10, 2026; final assembly (Step 5) November 10, 2026.
-**Version:** **V10.1 (adopted November 10, 2026).** Supersedes V9.1 (May 10, 2026).
-**Status:** **Adopted after Step 4 (both models' independent optimization passes) and Step 5 (final assembly).** The Step 3 proposal (V10.0) is preserved in `inputs/superseded/`, and every Step 5 decision with its evidence is in `inputs/Step 5 Decision Log 2026-11-08.md`.
+**Version:** **V10.2 (adopted after Step 6 review by Codex on November 10, 2026).** Supersedes V9.1 (May 10, 2026).
+**Status:** **Adopted after Step 6 independent review by Codex.** Claude's Step 5 V10.1 and its PDF are preserved in `inputs/superseded/` as "V10.1 before Step 6". The unchanged Step 5 decisions remain in `inputs/Step 5 Decision Log 2026-11-08.md`; verdicts, corrections and the same-model weight test are in `inputs/Step 6 Review Log 2026-11-08.md`.
 
-**How this report was made.** This is the adopted final of the five-step analysis flow, synthesized by Claude (Opus 5.5):
+**How this report was made.** This is the adopted final of the five-step analysis flow, synthesized by Claude (Opus 5.5), with an independent sixth-step review by Codex:
 
 - **Step 1:** Claude and Codex each produced an independent deep dive.
 - **Step 2:** each then critiqued the other stock by stock.
-- **Step 3:** this report pooled every stock either model held, fully underwrote or proposed (58 in total), valued them on **one** consistent model at current prices, ranked them, and built the portfolio from the ranking.
+- **Step 3:** this report pooled every stock either model held, fully underwrote or proposed (58 in total), put them into a common terminal-value framework at current prices (full A1 underwrites plus explicitly labeled screens), ranked them, and built the portfolio from the ranking.
 - **Step 4:** both models then searched independently for better stocks and weights, mostly outside that pool.
-- **Step 5:** every proposal from Step 4 and every open Step 3 call was decided on the same model. A change was accepted only if it beat the model's noise.
+- **Step 5:** every proposal from Step 4 and every open Step 3 call was decided on the same model. A change was accepted only if it passed the stated decision rule.
+- **Step 6:** exact Step 5 reproduction passed. One sizing decision was overturned under rule 2: STRL 6 → 8%, funded VRT 15 → 14% and MU 15 → 14%. WCC's duplicate SBC deduction was corrected without adding it. Historical pool ranks are frozen, not re-ranked.
 
-The full ranking, the disputed inputs and the Step 3 self-sided audit are in `inputs/Candidate Ranking 2026-11-08.md` (with a Step 4–5 addendum). Conclusions taken from either model's work were re-checked at the primary source. Sources are cited inline and in Appendix B.
+The full ranking, the disputed inputs and the Step 3 self-sided audit are in `inputs/Candidate Ranking 2026-11-08.md` (with a Step 4–5 addendum). Decision-driving facts were spot-checked at primary sources; unresolved source/date gaps are identified in Appendix A and the Review Log. Sources are cited inline and in Appendix B.
 
 > **Market-data timestamp:** all prices are **closing prices from Monday, November 9, 2026** (Yahoo chart endpoint; last bar confirmed 21:00 UTC). This is the price date of record for Steps 3–5; no later close existed when Step 5 ran. "Since May" means the **May 8, 2026 close**, the last session before the V9.1 decision. Consensus estimates and multiples are Yahoo quoteSummary snapshots from the evening of Nov 9. **Inputs older than 30 days are flagged `[STALE >30d]`.**
 >
-> **Model convention:** terminal date **Dec 31, 2030** (T = 4.142 years). Expected terminal value = Σ(probability × scenario value); implied CAGR = (E[TV] / price)^(1/T) − 1. CAGRs are never averaged. Each stock has four 2030 states (bust, plateau, base, bull). The 25% bear bucket is half bust, half plateau. All values are model estimates, not consensus or guarantees. Portfolio-level error bands are about ±2pp.
+> **Model convention:** terminal date **Dec 31, 2030** (T = 4.142 years). Expected terminal value = Σ(probability × scenario value); implied CAGR = (E[TV] / price)^(1/T) − 1. CAGRs are never averaged. Each fully modeled stock has four 2030 states (bust, plateau, base, bull); screen-only rows have less complete source-model coverage (Part III.C). The standard 25% bear bucket is half bust, half plateau; named exceptions are in Appendix A. All values are model estimates, not consensus or guarantees. Portfolio-level error bands are about ±2pp.
 
 ---
 
@@ -53,19 +54,19 @@ At Nov 9 prices, **V9.1 offers only about 7.9% a year to 2030** on the synthesis
 - NRG at about 6× 2027 free cash flow;
 - STRL at 10.3×.
 
-### B. Allocation: V10.1, eight positions
+### B. Allocation: V10.2, eight positions
 
-| # | Ticker | Bottleneck | V9.1 | **V10.1** | Expected CAGR | AI-2027 Scenario CAGR | 100GW 2030 Scenario CAGR | Why |
+| # | Ticker | Bottleneck | V9.1 | **V10.2** | Expected CAGR | AI-2027 Scenario CAGR | 100GW 2030 Scenario CAGR | Why |
 |---:|---|---|---:|---:|---:|---:|---:|---|
 | 1 | **NVDA** | Accelerators / CUDA platform | 6% | **15%** | 17.8% | 26.8% | 41.5% | #3 of 60. 11.2× FY28 consensus after +24% estimate revisions in 90 days. The 15% cap binds |
 | 2 | **META** | AI application + ads (buyer of compute) | 0% | **15%** | 15.0% | 20.0% | 33.9% | #6 of 60, 18.0× forward. The mildest bust of any top-10 name (−34%): it diversifies the hardware cluster without giving up return |
-| 3 | **VRT** | Rack power + liquid cooling | 6% | **15%** | 13.9% | 22.0% | 34.9% | Q3 sales +61%, orders more than doubled; down 41% since May on de-rating alone. Raised to the cap in Step 5 |
-| 4 | **MU** | HBM / DRAM | 6% | **15%** | 13.1% | **26.8%** | **45.3%** | 3.5× forward. Wins the AI-2027 tie-break in its band; HBM is the binding input in every year 2024–2030 of the AI-2027 compute workbook. Raised to the cap in Step 5 |
+| 3 | **VRT** | Rack power + liquid cooling | 6% | **14%** | 13.9% | 22.0% | 34.9% | Q3 sales +61%, orders more than doubled; down 41% since May on de-rating alone. 14% after the Step 6 funded STRL increase |
+| 4 | **MU** | HBM / DRAM | 6% | **14%** | 13.1% | **26.8%** | **45.3%** | 3.5× forward. Wins the AI-2027 tie-break in its band; HBM is the binding input in every year 2024–2030 of the AI-2027 compute workbook. 14% after the Step 6 funded STRL increase |
 | 5 | **NRG** | Merchant power + retail (Texas/PJM) | 0% | **12%** | 17.1% | 24.9% | 35.6% | #4 of 60. ~6× 2027 FCF before growth, $4B asset sale funding deleveraging. Capped for leverage and Texas |
 | 6 | **NVT** | Electrical distribution + liquid cooling | 0% | **12%** | 13.8% | 21.4% | 34.0% | +44% organic growth at 16.4× forward against ~21× for electrical peers. Replaces GEV, PWR and BE |
 | 7 | **CLS** | Rack-scale integration | 0% | **10%** | 14.8% | 23.2% | 35.6% | #7 of 60. 2027 outlook of $40B revenue and $21.50 EPS, at 10.0× forward. Capped for cash conversion |
-| 8 | **STRL** | Data-center site development + electrical installation | 0% | **6%** | 19.5% | 28.7% | 43.7% | **Added in Step 5.** Both Step 4 passes independently found it the best name outside the pool. Q3 revenue +127%; combined backlog $6.1B (+78%). Replaces VST. Sized for Texas and project risk |
-| | **Total** | | | **100%** | | | | **Checksum: 15 + 15 + 15 + 15 + 12 + 12 + 10 + 6 = 100.0%** |
+| 8 | **STRL** | Data-center site development + electrical installation | 0% | **8%** | 19.5% | 28.7% | 43.7% | **Added in Step 5.** Both Step 4 passes independently found it the best name outside the pool. Q3 revenue +127%; combined backlog $6.1B (+78%). Replaces VST. Sized for Texas and project risk |
+| | **Total** | | | **100%** | | | | **Checksum: 15 + 15 + 14 + 14 + 12 + 12 + 10 + 8 = 100.0%** |
 
 Event Horizon stays at about 50% of total net investments. Foundation and Continuity are unchanged, and Moonshot stays at 0%. There are no options, leverage, shorts, private holdings or ETFs.
 
@@ -75,22 +76,22 @@ Event Horizon stays at about 50% of total net investments. Foundation and Contin
 |---|---:|---:|---:|---:|---:|
 | V9.1 (prior) | 7.9% | 15.5% | 27.0% | −67.3% | −41.4% |
 | V10.0 (Step 3 proposal) | 14.9% | 23.4% | 36.9% | −61.6% | −23.3% |
-| **V10.1 (adopted)** | **15.4%** | **24.0%** | **38.1%** | **−61.5%** | **−22.3%** |
-| V10.1 on Codex's higher terminal multiples | 18.4% | 27.1% | 41.5% | −56.3% | −13.3% |
+| **V10.2 (adopted)** | **15.5%** | **24.1%** | **38.2%** | **−61.5%** | **−22.1%** |
+| V10.2 on Codex's higher terminal multiples | 18.5% | 27.2% | 41.5% | −56.3% | −13.1% |
 
-V10.1 roughly **doubles V9.1's expected return** while *reducing* the loss in both the bust and the delay scenarios. V9.1's apparent diversification was illusory: its most expensive names (CRWD, PLTR, MRNA, CCJ, INTC) add bust-case loss rather than reduce it.
+V10.2 roughly **doubles V9.1's expected return** while *reducing* the loss in both the bust and the delay scenarios. V9.1's apparent diversification was illusory: its most expensive names (CRWD, PLTR, MRNA, CCJ, INTC) add bust-case loss rather than reduce it.
 
 ### C. The decisive changes
 
 1. **Exit the upstream "toll roads" at today's prices: TSM 11 → 0, ASML 8 → 0, SNPS 5 → 0, AVGO 3 → 0.**
     - On one consistent model they return 11.0–13.5% (SNPS 2.1% once its stock comp is charged), against 13–20% for the holdings.
     - AVGO's corrected 13.5% (Step 5) puts it first on the bench, but within noise of the holdings, with a worse bust (−73%) and delay (−44%).
-    - V10.1 keeps exposure to the binding upstream constraint through **MU**, which has the highest AI-2027 (26.8%) and 100GW (45.3%) CAGRs of any holding.
+    - V10.2 keeps exposure to the binding upstream constraint through **MU**, which has a 26.8% AI-2027 CAGR and the highest 100GW CAGR among holdings (45.3%); STRL has the highest held AI-2027 CAGR (28.7%).
 2. **Move power from the nuclear premium to cash yield, and cap it: CEG 9 → 0, CCJ 2 → 0, BE 3 → 0, VST 6 → 0; NRG 0 → 12.**
     - CEG beat and raised on Nov 9 but rose 10.5% to 20.6× forward (8.4% expected).
     - NRG offers the same scarcity at ~6× 2027 FCF before growth.
     - VST was the weakest Step 3 holding on both expected (13.0%) and AI-2027 (20.2%) returns. Step 5 replaced it.
-3. **Own the physical deployment layer cheaply: GEV 5 → 0, PWR 4 → 0; NVT 0 → 12, VRT 6 → 15, STRL 0 → 6.**
+3. **Own the physical deployment layer cheaply: GEV 5 → 0, PWR 4 → 0; NVT 0 → 12, VRT 6 → 14, STRL 0 → 8.**
     - GEV (32.1×) and PWR (27.3×) are priced for their backlogs.
     - NVT grew 44% organically at 16.4×; VRT is a third cheaper than in May despite orders that more than doubled.
     - STRL converts equipment into energized capacity at 10.3× forward.
@@ -98,42 +99,47 @@ V10.1 roughly **doubles V9.1's expected return** while *reducing* the loss in bo
 5. **Sell everything priced for perfection or broken:**
     - CRWD (−12.5% expected), PLTR, MRNA (the oncology windfall), INTC (falsifier triggered), AVAV (restatement), CCJ (execution), KTOS and MP (owner economics), AMAT, ANET, DELL, COHR (+17% on Nov 9).
 
-### D. Final decisions (Step 5)
+### D. Final decisions (Step 5, reviewed in Step 6)
 
-Each decision was made on the same model as the final. A change had to beat noise: at least +0.25pp of portfolio expected CAGR. Full evidence is in the Decision Log.
+Rule 2 accepts **at least +0.25pp Expected CAGR, OR at least +0.1pp with higher AI-2027 CAGR and no more than 1pp worse bust**. Both branches matter. The unchanged Step 5 Decision Log and the Step 6 Review Log separate historical decisions from corrections.
 
-| ID | Item | Decision | Effect |
+| ID | Item | Reviewed decision | Effect |
 |---|---|---|---|
-| D4 | **STRL** (both Step 4 passes) | **Add 6%, funded by exiting VST**; VRT and MU rise to the 15% cap. Codex's explicit STRL operating bridge adopted | **+0.41pp expected**, +0.61pp AI-2027, +1.22pp 100GW, bust +0.09pp better |
-| D3 | **WCC** for VST (Codex) | **Reject.** Codex's case needs growth and margins above Wesco's own guidance; on consistent inputs WCC returns 7.0% | — |
-| D1 | **AVGO** base EPS (Claude) | **Correct** $23.5 → $27.0 (management's FY28 target > $30): 13.5% expected. Bench #1, not held | — |
-| D2 | VRT/NVT double stock-comp charge (Codex) | **Correct** | +0.02pp |
-| D7 | **MOD** (E1) | **Gate kept.** The investor day is confirmed for **Nov 18**. Add 5% (VRT −3, NVT −2) if FY28 targets credibly bridge to **2030** owner EPS of $8.84, the data-center margin is stable, and H2 FCF guidance is positive | Conditional: 15.6% expected |
-| D8 | **NVDA** during the CEO board review (E2) | **15%, no purchase before the Nov 17 report** and a review-status check. If the review turns adverse: NVDA 15 → 8, AVGO +7 | Conditional (adverse): 15.1% |
-| D6 | **Texas** (E3) | A moratorium bill clearing a chamber triggers a **re-underwrite of NRG and STRL within 5 sessions**, not an automatic trade. If the impact is confirmed: NRG 12 → 8, STRL 6 → 3, TLN +7 | Conditional: 15.0% |
-| D9 | **META at 15%** (E4) | **Keep.** Verify household look-through via Continuity | — |
-| D10 | **Concentration** (E5) | **8 names** | — |
+| D1 | AVGO EPS | Retain $27 owner EPS as judgment, not a guaranteed management outcome; 13.5% expected. Bench, not held | No weight effect |
+| D2 | VRT/NVT duplicate SBC | Remove duplicate deductions; ordinary SBC remains in adjusted EPS | Step 5 correction retained |
+| D3 | WCC | Reject holding; remove duplicate 4% SBC haircut. 8.0% expected. The 9% growth assumption is judgment, not company 2027 guidance | No held-weight effect |
+| D4 | STRL / VST | Keep STRL's operating bridge and VST exit. **Overturn sizing: STRL 8%, VRT 14%, MU 14%** | Versus V10.1: +0.1243pp Expected, +0.0891pp AI-2027, +0.0726pp 100GW, +0.0528pp better bust |
+| D5 | Bench | AVGO; VST/TLN; AEIS; TSM. Risk-specific replacement and eligibility override generic order | No automatic purchase |
+| D6 | Texas | Re-underwrite within 5 sessions; inspect existing administrative restrictions now. If cash-flow impact confirmed: **NRG 8, STRL 3, TLN 9** | Conditional Expected 15.0% |
+| D7 | MOD | Nov 18 gate kept: FY28 targets must bridge to **2030** owner EPS $8.84, stable DC margin and positive H2 FCF. MOD 5 from VRT −3/NVT −2 | Conditional Expected 15.7% |
+| D8 | NVDA | 15%; no buy before Nov 17 report and review-status check. Adverse review: NVDA 8 / AVGO 7 | Conditional Expected 15.2% |
+| D9 | META | Keep 15%; verify household look-through before orders | No change |
+| D10 | Architecture | Eight names; 82% core, 18% satellites | No name-count change |
+| D11 | Multiple sensitivity | Retain primary multiple policy; remove claim of multiple-invariant optimality | No repricing |
+| D12 | Screens | Distinguish full underwrites from screens; no certified upper bounds | No re-ranking |
+| D13 | HBM | Qualitative tightness corroborated; workbook HBM-market forecast not verified like-for-like | No probability change |
+| D14 | Other alternatives | Retain rejection/watchlist; restore omitted EME/IESC/HUBB comparison rows | No new candidates |
 
 ### E. Additional risks accepted in pursuing maximum expected return
 
-- **Concentration.** Eight names; top three = 45%; HHI 0.132, against 0.057 for V9.1. A single-name blow-up moves the fund 10–15 points. Four positions sit at the 15% cap.
+- **Concentration.** Eight names; top three = 44%; HHI 0.1294, against 0.057 for V9.1. A single-name blow-up moves the fund 10–15 points. Two positions sit at the 15% cap.
 - **Shared driver.** Every holding except META depends on AI infrastructure spending. In a deep AI-capex bust (2030 earnings back to 2025 levels for every holding simultaneously), the fund loses about 62%. That is better than V9.1's ~67% on the same stress, but it is a large loss for a sleeve that is half of household investments.
 - **No upstream monopolies and no hedges.**
     - The hedges (KTOS, MP, BNTX) returned 2–4% expected with 49–95% bust losses, so they didn't hedge.
     - The upstream monopolies are fully priced.
-    - If the AI-2027 compute path proves EUV-limited *and* the market pays monopoly multiples again, V10.1 will lag.
-- **Texas.** NRG (12%) and STRL (6%) are both Texas-heavy: one is power, the other data-center construction. A Texas moratorium that becomes law hits both, which is why D6 makes it a re-underwriting trigger.
+    - If the AI-2027 compute path proves EUV-limited *and* the market pays monopoly multiples again, V10.2 will lag.
+- **Texas.** NRG (12%) and STRL (8%) are both Texas-heavy: one is power, the other data-center construction. A Texas moratorium that becomes law hits both, which is why D6 makes it a re-underwriting trigger.
 - **Leverage in power.** NRG carries ~$22.8B of net financial claims against ~$19.5B of equity.
 - **Key-person and governance risk at NVDA.** The board review is unresolved.
 - **Project and multiple risk at STRL.**
-    - Its case uses a 14× exit, against a band of 10.3× (its own) to ~15.5× (peers). At its own multiple it returns ~6–7%.
+    - Its case uses a 14× exit, against a band of 10.3× (its own) to ~15.5× (peers). At 12× it returns 15.15%, and at its own 10.3×, 10.98% (same Step 5 operating bridge; regenerated Step 6 sensitivity).
     - Signed book-to-burn was 0.9 in Q3.
-- **Turnover.** Moving from the drifted V9.1 holdings to V10.1 turns over about 85% of the sleeve. On May-basis lots, realized losses roughly offset the gains (Deployment Strategy §3).
-- **Model risk.** The headline depends on terminal multiples: on Codex's higher multiples V10.1 returns 18.4%, on the synthesis model 15.4%. V10.1 is the best of the tested portfolios under **both** policies.
+- **Turnover.** Moving from the drifted V9.1 holdings to V10.2 turns over about 85% of the sleeve. May-price lot illustrations suggest losses exceed gains; actual tax consequences require the account's lots and wash-sale review (Deployment Strategy §3).
+- **Model risk.** The headline depends on terminal multiples: on Codex's higher multiples V10.2 returns 18.5%, on the synthesis model 15.5%. V10.2 beats the named unconditional comparison portfolios on primary A1 Expected CAGR; this is not a global optimum or an invariant ranking under different multiples.
 
-    The constituents are not invariant, though. Under Codex's multiples, MSFT (18.0%) would outrank VRT and MU on expected return, while they stay ahead of it on the AI-2027 tie-break.
+    The constituents are not invariant, though. Under Codex's multiples, MSFT (18.0%) would outrank VRT and MU on expected return, and the MSFT–VRT expected-return gap exceeds the 2pp tie band. A tie-break cannot erase that gap; a higher-multiple optimization belongs to the next cycle.
 
-**Confidence in the allocation: 3.5/5.** Confidence that V10.1 beats V9.1 and both models' Step 2 and Step 4 portfolios is 4/5. Confidence in exact weights is 3/5.
+**Confidence in the allocation: 3.5/5.** Confidence that V10.2 beats V9.1 and both models' Step 2 and Step 4 portfolios is 4/5. Confidence in exact weights is 3/5.
 
 ---
 
@@ -143,43 +149,43 @@ This section is the record the next cycle uses to grade each model separately.
 
 ### Weights by source
 
-| Ticker | Rank (of 60) | Expected CAGR | V9.1 % | Claude blind % | Codex blind % | Claude post-critique % | Codex post-critique % | Step 3 proposal (V10.0) % | Claude Step 4 % | Codex Step 4 % | **Adopted V10.1 %** |
-|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| NVDA | 3 | 17.8% | 6 | 13 | 15 | 15 | 15 | 15 | 15 | 15 | **15** |
-| META | 6 | 15.0% | 0 | 0 | 0 | 0 | 0 | 15 | 15 | 15 | **15** |
-| VRT | 8 | 13.9% | 6 | 9 | 15 | 14 | 15 | 14 | 14 | 14 | **15** |
-| MU | 11 | 13.1% | 6 | 9 | 0 | 12 | 8 | 14 | 14 | 14 | **15** |
-| NRG | 4 | 17.1% | 0 | 0 | 12 | 11 | 12 | 12 | 12 | 12 | **12** |
-| NVT | 9 | 13.8% | 0 | 0 | 12 | 11 | 12 | 12 | 12 | 7 | **12** |
-| CLS | 7 | 14.8% | 0 | 0 | 12 | 7 | 12 | 10 | 10 | 10 | **10** |
-| STRL | 1 | 19.5% | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 5 | **6** |
-| AVGO | 10 | 13.5% | 3 | 6 | 15 | 11 | 0 | 0 | 0 | 0 | **0** |
-| VST | 12 | 13.0% | 6 | 9 | 11 | 9 | 11 | 8 | 8 | 0 | **0** |
-| TSM | 15 | 11.8% | 11 | 14 | 0 | 5 | 0 | 0 | 0 | 0 | **0** |
-| ASML | 18 | 11.0% | 8 | 8 | 0 | 4 | 0 | 0 | 0 | 0 | **0** |
-| VRSK | 19 | 10.7% | 0 | 0 | 0 | 0 | 15 | 0 | 0 | 0 | **0** |
-| ETN | 20 | 10.5% | 0 | 5 | 0 | 0 | 0 | 0 | 0 | 0 | **0** |
-| CRDO | 21 | 10.3% | 0 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | **0** |
-| CEG | 24 | 8.4% | 9 | 6 | 0 | 0 | 0 | 0 | 0 | 0 | **0** |
-| WCC | 29 | 7.0% | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 8 | **0** |
-| COHR | 30 | 6.6% | 2 | 5 | 8 | 0 | 0 | 0 | 0 | 0 | **0** |
-| GEV | 32 | 6.1% | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | **0** |
-| ANET | 33 | 6.1% | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | **0** |
-| DELL | 35 | 5.6% | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | **0** |
-| PWR | 39 | 5.1% | 4 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | **0** |
-| AMAT | 40 | 4.6% | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | **0** |
-| AVAV | 41 | 4.6% | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | **0** |
-| BNTX | 43 | 4.3% | 0 | 1 | 0 | 1 | 0 | 0 | 0 | 0 | **0** |
-| MP | 47 | 2.3% | 3 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | **0** |
-| SNPS | 48 | 2.1% | 5 | 6 | 0 | 0 | 0 | 0 | 0 | 0 | **0** |
-| CCJ | 49 | 2.1% | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | **0** |
-| PLTR | 50 | 1.0% | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | **0** |
-| KTOS | 54 | -2.1% | 1 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | **0** |
-| MRNA | 57 | -7.1% | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | **0** |
-| BE | 58 | -10.5% | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | **0** |
-| CRWD | 59 | -12.5% | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | **0** |
-| INTC | 60 | -15.1% | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | **0** |
-| **Total** | | | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | **100** |
+| Ticker | Rank (of 60) | Expected CAGR | V9.1 % | Claude blind % | Codex blind % | Claude post-critique % | Codex post-critique % | Step 3 proposal (V10.0) % | Claude Step 4 % | Codex Step 4 % | Step 5 V10.1 % | **Step 6 % (V10.2)** |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| NVDA | 3 | 17.8% | 6 | 13 | 15 | 15 | 15 | 15 | 15 | 15 | 15 | **15** |
+| META | 6 | 15.0% | 0 | 0 | 0 | 0 | 0 | 15 | 15 | 15 | 15 | **15** |
+| VRT | 8 | 13.9% | 6 | 9 | 15 | 14 | 15 | 14 | 14 | 14 | 15 | **14** |
+| MU | 11 | 13.1% | 6 | 9 | 0 | 12 | 8 | 14 | 14 | 14 | 15 | **14** |
+| NRG | 4 | 17.1% | 0 | 0 | 12 | 11 | 12 | 12 | 12 | 12 | 12 | **12** |
+| NVT | 9 | 13.8% | 0 | 0 | 12 | 11 | 12 | 12 | 12 | 7 | 12 | **12** |
+| CLS | 7 | 14.8% | 0 | 0 | 12 | 7 | 12 | 10 | 10 | 10 | 10 | **10** |
+| STRL | 1 | 19.5% | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 5 | 6 | **8** |
+| AVGO | 10 | 13.5% | 3 | 6 | 15 | 11 | 0 | 0 | 0 | 0 | 0 | **0** |
+| VST | 12 | 13.0% | 6 | 9 | 11 | 9 | 11 | 8 | 8 | 0 | 0 | **0** |
+| TSM | 15 | 11.8% | 11 | 14 | 0 | 5 | 0 | 0 | 0 | 0 | 0 | **0** |
+| ASML | 18 | 11.0% | 8 | 8 | 0 | 4 | 0 | 0 | 0 | 0 | 0 | **0** |
+| VRSK | 19 | 10.7% | 0 | 0 | 0 | 0 | 15 | 0 | 0 | 0 | 0 | **0** |
+| ETN | 20 | 10.5% | 0 | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | **0** |
+| CRDO | 21 | 10.3% | 0 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | **0** |
+| CEG | 24 | 8.4% | 9 | 6 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | **0** |
+| WCC | 29 | 8.0% | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 8 | 0 | **0** |
+| COHR | 30 | 6.6% | 2 | 5 | 8 | 0 | 0 | 0 | 0 | 0 | 0 | **0** |
+| GEV | 32 | 6.1% | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | **0** |
+| ANET | 33 | 6.1% | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | **0** |
+| DELL | 35 | 5.6% | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | **0** |
+| PWR | 39 | 5.1% | 4 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | **0** |
+| AMAT | 40 | 4.6% | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | **0** |
+| AVAV | 41 | 4.6% | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | **0** |
+| BNTX | 43 | 4.3% | 0 | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | **0** |
+| MP | 47 | 2.3% | 3 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | **0** |
+| SNPS | 48 | 2.1% | 5 | 6 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | **0** |
+| CCJ | 49 | 2.1% | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | **0** |
+| PLTR | 50 | 1.0% | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | **0** |
+| KTOS | 54 | -2.1% | 1 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | **0** |
+| MRNA | 57 | -7.1% | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | **0** |
+| BE | 58 | -10.5% | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | **0** |
+| CRWD | 59 | -12.5% | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | **0** |
+| INTC | 60 | -15.1% | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | **0** |
+| **Total** | | | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | **100** |
 
 ### Every portfolio on the same assumptions (Nov 9 prices)
 
@@ -193,33 +199,33 @@ This section is the record the next cycle uses to grade each model separately.
 | Arch1 diversified (16) | 16 | 13.7% | 70% | 21.0% | 32.6% | -59.1% | -24.3% | 16.6% | 26% | 0.068 |
 | Arch2 concentrated (7) | 7 | 15.2% | 80% | 23.5% | 37.0% | -61.9% | -23.3% | 18.6% | 45% | 0.145 |
 | V10.0 Step 3 proposal | 8 | 14.9% | 78% | 23.4% | 36.9% | -61.6% | -23.3% | 18.2% | 44% | 0.129 |
-| Codex O1+O2 (WCC 8 for VST; STRL 5 from NVT) | 9 | 14.8% | 77% | 23.2% | 36.8% | -61.0% | -22.7% | 17.6% | 44% | 0.122 |
-| O1 only (WCC 8 for VST) | 8 | 14.5% | 75% | 22.8% | 36.3% | -60.6% | -23.1% | 17.5% | 44% | 0.129 |
+| Codex O1+O2 (WCC 8 for VST; STRL 5 from NVT) | 9 | 14.9% | 78% | 23.2% | 36.9% | -61.0% | -22.5% | 17.6% | 44% | 0.122 |
+| O1 only (WCC 8 for VST) | 8 | 14.6% | 76% | 22.9% | 36.4% | -60.6% | -22.8% | 17.5% | 44% | 0.129 |
 | O2 only (STRL 5 from NVT) | 9 | 15.2% | 80% | 23.8% | 37.4% | -62.0% | -23.0% | 18.3% | 44% | 0.122 |
 | Alt: STRL 8 for VST (VRT/MU stay 14) | 8 | 15.5% | 82% | 24.1% | 38.2% | -61.5% | -22.1% | 18.5% | 44% | 0.129 |
-| **V10.1 final (adopted)** | 8 | **15.4%** | 81% | 24.0% | 38.1% | -61.5% | -22.3% | 18.4% | 45% | 0.132 |
+| V10.1 final (adopted) | 8 | 15.4% | 81% | 24.0% | 38.1% | -61.5% | -22.3% | 18.4% | 45% | 0.132 |
 | V10.1 if MOD gate passes | 9 | 15.6% | 82% | 24.8% | 39.7% | -61.7% | -21.9% | 18.5% | 45% | 0.122 |
 | V10.1 if Texas hit (NRG 8, STRL 3, TLN 7) | 9 | 15.0% | 78% | 23.5% | 37.3% | -61.1% | -24.1% | 17.9% | 45% | 0.127 |
 | V10.1 if NVDA review adverse (NVDA 8, AVGO 7) | 9 | 15.1% | 79% | 23.7% | 37.6% | -62.2% | -24.0% | 17.6% | 45% | 0.121 |
+| **V10.2 final (adopted after Step 6)** | 8 | **15.5%** | 82% | 24.1% | 38.2% | -61.5% | -22.1% | 18.5% | 44% | 0.129 |
+| V10.2 if MOD gate passes | 9 | 15.7% | 83% | 24.9% | 39.8% | -61.7% | -21.7% | 18.6% | 44% | 0.120 |
+| V10.2 if Texas impact confirmed | 9 | 15.0% | 78% | 23.4% | 37.1% | -60.9% | -24.3% | 17.8% | 44% | 0.124 |
+| V10.2 if NVDA review adverse | 9 | 15.2% | 80% | 23.8% | 37.7% | -62.2% | -23.8% | 17.7% | 43% | 0.118 |
 
 **Reading the comparison:**
 
-- **V10.1 beats the alternatives on expected return:**
-    - both Step 2 portfolios (by about +1.0pp);
-    - the Step 3 proposal (+0.4pp);
-    - Codex's Step 4 proposal (+0.5pp).
-- **It also beats them on AI-2027 and 100GW.** Its bust is better than all of them except Codex's Step 4 proposal, the WCC-only variant and the diversified build, each of which gives up 0.5–1.7pp of expected return.
-- **Two variants score slightly higher:** STRL at 8% (+0.1pp, within noise) and the conditional MOD-gate case (+0.2pp, not yet eligible).
-- **Holding STRL at 8% instead of 6%** (keeping VRT and MU at 14%) is within noise: +0.1pp, with the same bust. The smaller position in the less-proven name wins under rule 4.
-- **The 7-name concentrated architecture** returns 0.2pp less than V10.1 and needs CLS and NRG at 15%, which the confidence caps reject.
-- **Each model's blind (Step 1) portfolio** scores 11.5% (Claude) and 14.3% (Codex). Codex's stock selection was the better starting point, and its terminal multiples explain most of the gap between its published 22.8% and the 14.3% here.
+- V10.2 returns 15.5% expected versus 14.4% for either Step 2 portfolio, 14.9% for the Step 3 proposal and 14.9% for Codex's WCC/STRL proposal after the WCC accounting fix. AI-2027 and 100GW are also higher; the diversified and WCC variants have milder modeled busts.
+- **D4 sizing correction:** the already-tested STRL-8 alternative equals V10.2. Its unrounded gains over V10.1 are +0.124331pp Expected and +0.089072pp AI-2027, with a 0.052802pp better bust. It passes rule 2's lower branch. Rule 4 does not override that pass, and its better bust also favors V10.2.
+- STRL remains below the adopted 10% satellite cap; NRG + STRL = 20%, exactly the existing Texas cap. D4 called 6% a residual, not a hard cap. Codex's proposed 5% ceiling was not the adopted constraint; this correction does not reinstate that earlier proposal.
+- The MOD variant has higher modeled returns but is ineligible until its gate passes. The concentrated architecture violates the NRG/CLS confidence caps. No claim of exhaustive or multiple-invariant optimization is made.
+- The table retains historical weights and conditional variants for accountability. WCC-containing portfolios are re-evaluated only for the duplicate-SBC correction; original Step 5 outputs remain unchanged. Ranks are frozen to Step 5.
 
 ### How the two models' disagreements were resolved
 
 | Dispute | Claude's view | Codex's view | Resolution (evidence) |
 |---|---|---|---|
-| Terminal exit multiples (the largest driver of the headline gap) | Peer- and history-anchored (NVDA 18×, CLS 14×, NVT 19×) | Re-rated (NVDA 25 → 22×, CLS 17 → 16×, NVT 22×) | **One policy:** a value inside the evidence band (own forward P/E to peer median) beats one outside; if both are in or both out, the lower wins. V10.1 is the best tested portfolio under either side's multiples, but the constituents aren't invariant (MSFT, Step 5 D11) |
-| MU | Hold 9–12% | 0% in Step 1, 8% in Step 2, 14% in Step 4 | **15%.** Wins the AI-2027 tie-break; at the cap once VST exits |
+| Terminal exit multiples (the largest driver of the headline gap) | Peer- and history-anchored (NVDA 18×, CLS 14×, NVT 19×) | Re-rated (NVDA 25 → 22×, CLS 17 → 16×, NVT 22×) | **One policy:** a value inside the evidence band (own forward P/E to peer median) beats one outside; if both are in or both out, the lower wins. the primary A1 result is retained; higher multiples can change both the constituent ranking and the best tested architecture (D11) |
+| MU | Hold 9–12% | 0% in Step 1, 8% in Step 2, 14% in Step 4 | **14%.** Wins the AI-2027 tie-break within its return band; one point funds STRL in Step 6 |
 | Upstream (TSM, ASML) | 22% in Step 1, 9% in Step 2 | 0% | **0%.** 11.0–11.8% expected on the shared model |
 | AVGO vs VRSK | AVGO 6 → 11% | AVGO 15 → 0%; VRSK 0 → 15% | **Both 0%.** AVGO 13.5% after the Step 5 correction, but within noise with a worse bust; VRSK 10.7% at its own 23.0× multiple (Codex used 28×) |
 | CLS size | 0 → 7% | 12% | **10%** (cash-conversion cap) |
@@ -227,14 +233,14 @@ This section is the record the next cycle uses to grade each model separately.
 | META | Rejected at 20× (~11%) in Step 2 | "Preferred replacement," not held | **15%.** 15.0% at 20× under the shared bear rule |
 | MOD | Watchlist | Excluded (confidence 2) | **Gated** (D7) |
 | Bear construction | ½ deep bust + ½ mild bear | Single deep bear | **Mixture, with the deep bear kept as the bust stress.** It moves portfolio expected return by under 1pp and changes no pick |
-| STRL (Step 4) | 14.6% at a formula base; keep VST | 19.5% at an explicit bridge; fund from NVT | **Codex's inputs, funded from VST, 6%** (D4) |
-| WCC (Step 4) | 6.9% | 18.3% | **Reject**; Codex's bridge exceeds Wesco's own guidance (D3) |
+| STRL (Step 4) | 14.6% at a formula base; keep VST | 19.5% at an explicit bridge; fund from NVT | **Codex's inputs; net funding from VST; 8% after Step 6 rule-2 correction** (D4) |
+| WCC (Step 4) | 6.9% | 18.3% | **Reject holding; correct SBC treatment to 8.0% expected.** Lower growth is judgment, not company 2027 guidance (D3) |
 
 **Self-sided audit.**
 
 - **Step 3:** of 53 disputed inputs, 29 went to Claude's original view (16 of them mechanical ties), 17 to Codex's, 4 split and 3 to neither.
-- **Step 5:** of the decided items, 7 went to Codex's Step 4 pass and 4 to Claude's; 3 were agreed.
-- **Weights:** V10.1 overlaps **72%** with Codex's Step 2 portfolio and **92%** with Codex's Step 4 proposal. Every Step 5 weight change came from a name both Step 4 passes surfaced (STRL), funded by the holding both ranked last (VST).
+- **Step 5:** the historical count mixed D4's input and funding decisions; see the unchanged Decision Log. **Step 6 mutually exclusive attribution:** Codex 6, Claude 4, both 3, mixed/neither 1 (D4); all 14 decisions counted once. This is attribution, not an accuracy score.
+- **Weights:** V10.2 overlaps **71%** with Codex's Step 2 portfolio and **92%** with Codex's Step 4 proposal. Every Step 5 weight change came from a name both Step 4 passes surfaced (STRL), funded by the holding both ranked last (VST). Step 6's sizing correction follows the documented rule, not either author's preferred portfolio.
 
 ---
 
@@ -256,12 +262,12 @@ This section is the record the next cycle uses to grade each model separately.
 |---|---:|---:|---:|---:|---:|---:|---|---|---|
 | NVDA | 15 | 3 | 17.8% | 26.8% | 41.5% | −63% | Dominant platform at 11.2× FY28E after +24% revisions | 15% cap | AVGO (same layer) 13.5%: +4.3pp |
 | META | 15 | 6 | 15.0% | 20.0% | 33.9% | −34% | Self-funded monetization at 18×; mildest top-10 bust | 15% cap | MSFT 12.3%: +2.7pp, and a milder bust |
-| VRT | 15 | 8 | 13.9% | 22.0% | 34.9% | −72% | Thermal/power leader, a third cheaper than in May with orders >2× | 15% cap (raised in Step 5 as VST's exit freed capital) | AEIS 13.4%: +0.5pp; ETN 10.5%: +3.4pp |
-| MU | 15 | 11 | 13.1% | 26.8% | 45.3% | −64% | The only HBM/EUV exposure; 3.5× forward; LTAs with price floors | 15% cap; wins the AI-2027 tie-break | AVGO 13.5%: −0.4pp expected but +4.9pp AI-2027 and +10.7pp 100GW |
+| VRT | 14 | 8 | 13.9% | 22.0% | 34.9% | −72% | Thermal/power leader, a third cheaper than in May with orders >2× | 14% after the rule-2 STRL increase (Step 6) | AEIS 13.4%: +0.5pp; ETN 10.5%: +3.3pp |
+| MU | 14 | 11 | 13.1% | 26.8% | 45.3% | −64% | The only HBM/EUV exposure; 3.5× forward; LTAs with price floors | 14%; wins the AI-2027 tie-break within its return band | AVGO 13.5%: −0.4pp expected but +4.9pp AI-2027 and +10.7pp 100GW |
 | NRG | 12 | 4 | 17.1% | 24.9% | 35.6% | −67% | Energized supply at ~6× FCF, with funded deleveraging | Leverage and Texas cap | TLN 12.7%: +4.3pp |
-| NVT | 12 | 9 | 13.8% | 21.4% | 34.0% | −58% | +44% organic growth at 16.4× | Integration cap | ETN 10.5%: +3.3pp; WCC 7.0%: +6.7pp |
+| NVT | 12 | 9 | 13.8% | 21.4% | 34.0% | −58% | +44% organic growth at 16.4× | Integration cap | ETN 10.5%: +3.3pp; WCC 8.0%: +5.8pp |
 | CLS | 10 | 7 | 14.8% | 23.2% | 35.6% | −75% | 10× a $40B 2027 outlook | Cash-conversion cap | HPE 8.7%: +6.1pp; SANM (Codex model 16.2%; watchlist) |
-| STRL | 6 | 1 | 19.5% | 28.7% | 43.7% | −65% | Site development and electrical installation at 10.3× forward; backlog +78% | Residual after the caps; Texas and project risk | VST 13.0%: +6.5pp |
+| STRL | 8 | 1 | 19.5% | 28.7% | 43.7% | −65% | Site development and electrical installation at 10.3× forward; backlog +78% | Texas cap binds at 20% jointly with NRG; satellite cap 10% | VST 13.0%: +6.6pp |
 
 ### Considered, not chosen
 
@@ -273,19 +279,24 @@ This section is the record the next cycle uses to grade each model separately.
 | VST | #12 (pool; held in Step 3) | 13.0% | 20.2% | 26.8% | Weakest Step 3 holding; replaced by STRL (D4) | Bench #2. Texas risk clears, or price below ~$112 |
 | TLN | #13 (pool) | 12.7% | 19.3% | 27.3% | Below VST | The PJM substitute in the Texas trigger (D6) |
 | MSFT | #14 (pool) | 12.3% | 16.7% | 27.1% | Needs a 29× exit, above its band (18.0% on Codex's multiples) | Below ~$470 |
-| TSM | #15 (pool) | 11.8% | 17.9% | 26.6% | Priced; Taiwan window | Below ~$340, or CY27 EPS ≥ $26 at the Jan 14 report |
+| TSM | #15 (pool) | 11.8% | 17.9% | 26.6% | Priced; Taiwan window | Below ~$340, or CY27 EPS ≥ $26 at the next TSM earnings report (Jan 14 unconfirmed) |
 | ORCL | Claude Step 4 | 13.6% | 21.3% | 33.8% | Financing chain: FCF −$45.9B; >50% of RPO from OpenAI | OpenAI funding secured and FCF turns positive |
 | AEIS | Claude Step 4 | 13.4% | 21.6% | 34.4% | Below VRT and NVT; 10.1% at 15× | Bench #3; below ~$190 |
 | MKSI | Claude Step 4 | 12.1% | 19.7% | 32.2% | WFE-cyclical; convertibles | A confirmed 2028 WFE upcycle |
-| WCC | Codex Step 4 (O1) | 7.0% (Codex: 18.3%) | 10.5% | 16.9% | Codex's bridge exceeds Wesco's own growth and margin guidance (D3) | 2027 guidance of ≥ 10% sales growth with margin expansion |
+| WCC | Codex Step 4 (O1) | 8.0% (Codex: 18.3%) | 11.6% | 18.0% | Retains Step 5's lower growth judgment; no verified 2027 numeric company sales guide (D3) | 2027 guidance of ≥ 10% sales growth with margin expansion |
 | SANM | Codex Step 4 | 16.2% (Codex model) | 26.8% | 44.2% | Earn-out, tariff benefit and new-perimeter margins unreconciled; +0.07pp portfolio gain | A clean cash bridge; below ~$146 |
 | PRIM | Codex Step 4 | 17.5% (Codex model) | 26.4% | 43.3% | Project losses; the bust floor is invalid (confidence 2) | Two clean execution and cash quarters |
 | SPXC | Codex Step 4 | 14.7% (Codex model) | 21.0% | 32.0% | +1pp over NVT only; weak FCF | Cash conversion improves |
 | ONTO | Codex Step 4 | 13.4% (Codex model) | 22.9% | 38.6% | MU wins the tie-break | Orders sustained while MU falters |
+| EME | Claude Step 4 | 13.5% | 20.0% | 32.3% | Below the selected contractor STRL; within noise of VRT/NVT | Re-underwrite if valuation improves enough to clear rule 2 |
+| IESC | Claude Step 4 | 13.3% | 22.6% | 39.7% | Backlog/cash cushion weaker; not enough portfolio advantage | Fresh FY26 cash conversion and backlog support |
+| HUBB | Claude Step 4 | 12.1% | 17.1% | 28.0% | Less AI sensitivity and lower return than NVT | Re-underwrite if price or growth closes that gap |
+
+Step 4-only returns retain their authors' models and are not new A1 ranks. Other rejected Step 4 names remain in D14's record: LRCX/KLAC/AMAT/TER/BESI need a better priced packaging/WFE cash bridge; HUBB/ABB/Schneider/MTZ/PWR/FIX need better relative return; CSCO/APH/TEL/AMKR/ETN/COHR/CRDO need a stronger owner-cash/valuation case. These are review conditions, not automatic entry orders; no candidate is added to the frozen pool.
 
 ### Removed from V9.1
 
-All 20 V9.1 positions not in V10.1 went to 0%, and VST (raised to 8% in Step 3) left in Step 5. Each one's main reason and re-entry trigger are in Part VI.C and Part IV.B.
+Twenty-one of the 24 V9.1 positions go to 0%, including VST (raised to 8% in Step 3 and removed in Step 5). Each one's main reason and re-entry trigger are in Part VI.C and Part IV.B.
 
 ---
 
@@ -375,15 +386,15 @@ Total return assumes buy-and-hold at V9.1 target weights, dividends included. "F
 - **NVIDIA governance (Nov 8–9, new).**
     - In a Nov 8 memo to employees, CEO Jensen Huang admitted an extramarital affair and promised full cooperation with an independent board review.
     - The board said it would investigate his relationship with a woman reportedly believed by US intelligence to be a Chinese agent. China's Foreign Ministry called the allegation "unsubstantiated."
-    - No 8-K or regulator action was reported, and Huang has not stepped aside.
+    - The [Nov 8 NVIDIA board statement](https://investor.nvidia.com/news/press-release-details/2026/Statement-from-NVIDIA-Board-of-Directors/default.aspx) confirms an independent review and says the board has no reason to believe sensitive information was compromised. It is not a completed finding; the alleged foreign-agent connection remains unverified. No adverse conclusion was located in the Step 6 check.
     - NVDA fell 4.3% on Nov 9 while the SOX rose about 6%.
     - **This is a key-person and US–China relations risk, not an earnings fact.** It is handled by staging NVDA purchases after the Nov 17 report (E2).
     - Sources: [Yahoo Finance/24/7 Wall St, Nov 9](https://finance.yahoo.com/markets/stocks/articles/nvidia-falls-5-board-probes-134356169.html); [CNN, Nov 9](https://www.cnn.com/2026/11/09/investing/nvidia-stock-huang-investigation).
-- **Texas.** The governor-elect's pledged moratorium on new data-center approvals ([CNN, Nov 5](https://www.cnn.com/2026/11/05/economy/data-center-texas-election); [ABC13](https://abc13.com/post/governor-elect-gina-hinojosa-vows-ban-future-data-centers-texas/20021143/)) needs the Legislature, which convenes in January. Existing and under-construction projects are likely exempt.
+- **Texas.** The governor-elect's pledged moratorium on new data-center approvals ([CNN, Nov 5](https://www.cnn.com/2026/11/05/economy/data-center-texas-election); [ABC13](https://abc13.com/post/governor-elect-gina-hinojosa-vows-ban-future-data-centers-texas/20021143/)) needs the Legislature, which convenes in January. Do not assume exemptions: before NRG/STRL buys, check operative permits and project exposure under the [existing September TCEQ directive](https://gov.texas.gov/news/post/governor-abbott-directs-tceq-to-halt-data-center-permits), not just the future bill.
     - Texas was **$1,018M of NRG's $2,013M** Q3 adjusted EBITDA.
 - **PJM.**
     - The 2028/29 auction cleared at the $325/MW-day cap, about 6.8 GW short `[STALE >30d]`.
-    - **The 2029/30 auction is Dec 9, 2026.**
+    - **The 2029/30 auction opens Dec 9, closes Dec 15, and results are scheduled Dec 22, 2026** ([PJM schedule](https://www.pjm.com/-/media/DotCom/markets-ops/rpm/rpm-auction-info/rpm-auction-schedule.xlsx), BRA rows 59–61).
     - FERC suspended PJM's backstop procurement in late September.
     - Google–Constellation's 3.6 GW package is the bring-your-own-power template.
 - **US–China.**
@@ -403,7 +414,7 @@ Total return assumes buy-and-hold at V9.1 target weights, dividends included. "F
 | SMH | — | $487.41 (−11.2% on Nov 5; +5.1% on Nov 9) |
 | VIX | 17.2 | ~25 (Nov 6: 25.6) |
 | US 10-year yield | 4.36% | ~4.9% (peaked ~5.3% in Oct) |
-| Upcoming catalysts | — | CRWV (Nov 10), AMAT (Nov 12), **NVDA (Nov 17)**, **MOD investor day (Nov 18, confirmed by Modine)**, DELL (Nov 24), CRDO (Nov 30), **AVGO and PJM BRA (Dec 9)**, **MU (Dec 23)**, truce expiry (Jan 10), TSM (Jan 14), Texas Legislature (Jan) |
+| Upcoming catalysts | — | CRWV (Nov 10), AMAT (Nov 12), **NVDA (Nov 17)**, **MOD investor day (Nov 18, confirmed by Modine)**, DELL (Nov 24), CRDO (Nov 30), **AVGO (Dec 9); PJM opens Dec 9, results Dec 22**, **MU (Dec 23 unconfirmed)**, truce expiry (Jan 10), TSM (Jan 14 unconfirmed), Texas Legislature (Jan) |
 
 **Interpretation:** fundamentals are at records, prices are 25–60% off their highs, and volatility is elevated. That setup rewards valuation-driven rotation, provided the financing and permission shocks slow the cycle rather than break it. Part VII defines what "break" would look like.
 
@@ -434,7 +445,7 @@ Both deep dives read these sources at the primary source in Step 1, independentl
 | Leading-lab revenue | AI-2027 compute supplement | ~$45B in 2026 | Anthropic ~$81B run-rate (Oct 31); OpenAI ~$50B (Sep) | **Ahead** (revenue 1.43× of pace) |
 | Frontier-lab ARR | AI-2040 | $30B (start-2026) → $180B (start-2027) | ≈ $130–150B by Nov 2026 | **On track** |
 | AI chip market 2026 | Workbook | $396B | ≈ $450–500B | **Ahead** |
-| HBM | Workbook | $20.6B HBM market (2026). **HBM is the binding (minimum) input in every year 2024–2030** of the high-demand model | SK hynix: DRAM and HBM "sold out to 2029"; Micron's $54B quarter is *total* DRAM + NAND, so it can't measure HBM market size | **Tighter than modeled, but not verified like-for-like** (no measured HBM-only market figure; Step 5 correction D13) |
+| HBM | Workbook | $20.6B HBM market (2026). **HBM is the binding (minimum) input in every year 2024–2030** of the high-demand model | Micron reports most CY27 HBM bits contracted with higher prices; its $54B quarter is total DRAM + NAND, not industry HBM-market revenue | **Qualitative tightness corroborated; quantitative forecast unverified** (no measured HBM-only market figure; Step 5 correction D13) |
 | Wafer/EUV constraint | Workbook; compute supplement | Wafers bind only after 2027 | ASML 2027–28 supply < demand; cleanroom-limited 2027 WFE | **Binding earlier than modeled** |
 | Capex overtakes hyperscaler OCF, forcing debt | AI-2040 | ~Q3 2026 | October financing scare; record bond issuance | **On time** |
 | Coding automation | AI-2027 scenario | ~1.5× AI R&D multiplier, early 2026 | "Almost all code" at top labs AI-written (testimony); coding-uplift surveys 1.25× → 4× in seven months | **On point** |
@@ -479,7 +490,7 @@ The full yearly table is in `inputs/Candidate Ranking 2026-11-08.md`, §A1.1.
 | Plateau / 2–3 year delay (half the bear bucket) | 12.5% | ~$0.9T | Capex stalls near 2026 levels; growth resumes late | Owners of existing power (NRG/VST delay losses −5% to −29%) |
 | Base | 50% | ~$2.8T | Capex grows ~30%/yr 2027–30; HBM ~$165B; ~150 GW of AI power | Broad: accelerators, memory, electrical, power |
 | Bull | 25% | ~$4.5T | AI-2027-like or faster | Memory, accelerators, thermal |
-| **AI-2027 Scenario** | **35%** (base-to-bull) | **~$4.2T** | AI-2040's $2.4T in 2028 (38% debt-financed); EUV wall 2029–30; HBM ~$306B; ~230 GW | STRL, MU, NVDA, NRG, CLS (highest AI-2027 CAGRs in V10.1) |
+| **AI-2027 Scenario** | **35%** (base-to-bull) | **~$4.2T** | AI-2040's $2.4T in 2028 (38% debt-financed); EUV wall 2029–30; HBM ~$306B; ~230 GW | STRL, MU, NVDA, NRG, CLS (highest AI-2027 CAGRs in V10.2) |
 | **100GW 2030 Scenario** | **10%** (subset of bull) | **~$8T** | One ~100 GW / ~100M-H100e training cluster; total AI power ≈ US electricity; ~4× TSMC leading-edge capacity | Near term: energized power and electrical/thermal. Then memory and lithography |
 
 **Distance from the 100GW path today:**
@@ -492,15 +503,15 @@ The full yearly table is in `inputs/Candidate Ranking 2026-11-08.md`, §A1.1.
 
 #### C4. What the framework evidence changed in the allocation
 
-| Framework finding | Implication | V10.1 decision |
+| Framework finding | Implication | V10.2 decision |
 |---|---|---|
-| HBM is the binding input in every modeled year, and HBM uses about two-thirds of AI's EUV draw | Memory supply growth is capped; glut risk is lower than the cycle's history suggests | **MU 6 → 15%**, the highest AI-2027 (26.8%) and 100GW (45.3%) CAGRs in its band |
+| HBM is the binding input in every modeled year, and HBM uses about two-thirds of AI's EUV draw | Memory supply growth is capped; glut risk is lower than the cycle's history suggests | **MU 6 → 14%**, the highest AI-2027 (26.8%) and 100GW (45.3%) CAGRs in its band |
 | EUV is the named 2027–30 wall (AI share of the fleet 27% → 65% → 77%) | ASML has pricing power, but the stock already trades at 23.9× forward | **ASML 8 → 0%:** 11.0% expected. Owning the constraint through MU is cheaper |
 | AI-2040's "$1.2M per wafer" is an all-in cost; TSMC's foundry component is ~$25–30k | No special TSMC price lever beyond volume | **TSM 11 → 0%:** 11.8% expected |
-| The economics run at or ahead of pace while equity prices lag | Supports buying compressed owners on rising estimates | NVDA 15%, VRT 15%, CLS 10%, STRL 6% |
+| The economics run at or ahead of pace while equity prices lag | Supports buying compressed owners on rising estimates | NVDA 15%, VRT 14%, CLS 10%, STRL 8% |
 | Power is the 10–100 GW constraint, and the forecasts exclude politics | Existing energized fleets capture scarcity first, but Texas politics is live | **NRG 12%** (VST exited in Step 5). A Texas bill triggers a re-underwrite of NRG and STRL, with TLN as the PJM substitute |
 | AI-2040 depicts "AI on the ballot" in 2028 and a 2029 deal cutting ~31% of debt-financed capex; real incidents (Jul 2026) | Policy risk to the 2029–30 tail | The bust and plateau states carry it; META's mild bust (−34%) partly offsets it |
-| Race vs slowdown endings | Ordinary terminal-P/E analysis is irrelevant in a loss-of-control or expropriation branch | **Not modeled in expected value.** An extra 10% common zero-recovery regime cuts V10.1 from 15.4% to 12.5% (Part VII) |
+| Race vs slowdown endings | Ordinary terminal-P/E analysis is irrelevant in a loss-of-control or expropriation branch | **Not modeled in expected value.** An extra 10% common zero-recovery regime cuts V10.2 from 15.5% to 12.5% (Part VII) |
 
 ---
 
@@ -566,26 +577,26 @@ The full yearly table is in `inputs/Candidate Ranking 2026-11-08.md`, §A1.1.
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
-| Bottleneck layer | Binding severity now | Trend vs May | Key public owners | Owner valuation (Nov 9) | V10.1 coverage |
+| Bottleneck layer | Binding severity now | Trend vs May | Key public owners | Owner valuation (Nov 9) | V10.2 coverage |
 |---|---|---|---|---|---|
-| **Capital / financing** | **Very high (new #1)** | ↑↑ | No clean owner. Beneficiaries are self-funded buyers and suppliers with prepaid customers | META 18.0×, MSFT 22.5×; MU 3.5× | **META 15%** (self-funded buyer); **MU 15%** (LTA/prepay economics); avoid financing-dependent chains (CRWV, ORCL, AMD-OpenAI) |
+| **Capital / financing** | **Very high (new #1)** | ↑↑ | No clean owner. Beneficiaries are self-funded buyers and suppliers with prepaid customers | META 18.0×, MSFT 22.5×; MU 3.5× | **META 15%** (monetizing buyer; Q3 FCF negative, not cash ballast); **MU 14%** (LTA/prepay economics); avoid financing-dependent chains (CRWV, ORCL, AMD-OpenAI) |
 | **Permission / social license** | **High (new #2)** | ↑↑ | Owners of energized, permitted fleets | NRG ~6× 2027 FCF; VST ~9.7×; TLN ~9×; CEG 20.6× P/E | **NRG 12%** (VST exited in Step 5) |
 | Existing dispatchable generation | High | → | NRG, VST, TLN, CEG | See above | NRG |
 | Grid interconnection and transmission | High | ↑ | PWR, MTZ, EME | PWR 27.3× | None (PWR 5.1% expected) |
-| **Site development and electrical installation** (added in Step 5) | High | ↑ | STRL, FIX, EME, IESC, PRIM | **STRL 10.3×**; FIX 16.6×; EME 16.0× | **STRL 6%** |
+| **Site development and electrical installation** (added in Step 5) | High | ↑ | STRL, FIX, EME, IESC, PRIM | **STRL 10.3×**; FIX 16.6×; EME 16.0× | **STRL 8%** |
 | Transformers / switchgear / breakers | Very high | ↑ | ETN, NVT, HUBB, GEV, Schneider, ABB | **NVT 16.4×**; ETN 21.8×; GEV 32.1× | **NVT 12%** |
 | Gas turbine slots | High (decelerating orders) | ↓ | GEV, Siemens Energy, MHI | GEV 32.1× | None (6.1% expected) |
 | Behind-the-meter generation | Medium-high | → | BE; recips (CAT, CMI) | BE 36.4× | None |
 | Fab and cleanroom | High | ↑ | TSM; builders; WFE | TSM 16.6× | None (11.8%) |
 | EUV lithography | **Very high: the named 2027–30 wall** | ↑↑ | ASML (monopoly) | 23.9× | None (11.0%); exposure via MU |
 | Other WFE | Medium-high, cyclical | ↑ 2027 | AMAT, LRCX, KLAC | 18–21× | None |
-| **DRAM / HBM** | **Very high; HBM ≈ ⅔ of AI's EUV draw** | ↑↑ | MU, SK hynix (KRX), Samsung | **MU 3.5×** | **MU 15%** |
+| **DRAM / HBM** | **Very high; HBM ≈ ⅔ of AI's EUV draw** | ↑↑ | MU, SK hynix (KRX), Samsung | **MU 3.5×** | **MU 14%** |
 | NAND / storage | Medium-high | ↑ | SNDK, WDC, STX | 3–8× | None (MU cleaner) |
 | **Accelerators / custom silicon** | High | → | NVDA, AVGO, AMD, MRVL, GOOGL TPU | **NVDA 11.2×**; AVGO 16.4×; AMD 28.8× | **NVDA 15%** |
 | Optics / InP lasers / CPO | High | ↑ | COHR, LITE, FN | 14–15× (after a +11–17% Nov 9 rebound) | None (≤ 7.7% expected) |
 | Scale-up interconnect | High | ↑↑ | CRDO, ALAB, MRVL | 13.7× / 30.6× / 21.0× | None (owner EPS: CRDO 10.3%) |
 | Ethernet switching | Medium | → | ANET; NVDA Spectrum-X; AVGO Tomahawk | ANET 31.1× | Via NVDA |
-| **Liquid cooling / rack power** | High | ↑ | VRT, NVT, ETN, MOD | **VRT 20.4×**, NVT 16.4×, MOD 11.3× | **VRT 15%, NVT 12%** (MOD gated) |
+| **Liquid cooling / rack power** | High | ↑ | VRT, NVT, ETN, MOD | **VRT 20.4×**, NVT 16.4×, MOD 11.3× | **VRT 14%, NVT 12%** (MOD gated) |
 | **Rack-scale integration** | Medium-high (memory-gated) | ↑ | CLS, DELL, HPE, SMCI | **CLS 10.0×**; DELL 11.4×; HPE 10.0× | **CLS 10%** |
 | EDA / IP | Medium (structural) | → | SNPS, CDNS | 25.0× / 34.2× | None (owner basis 2–7%) |
 | AI application / platform | Demand side | ↑ | META, MSFT, GOOGL, AMZN | 18–25× | **META 15%** |
@@ -604,27 +615,27 @@ The great monopolies (ASML, TSM, SNPS) meet the first two conditions but not the
 
 ### C. The Zero-Based Ranking (60 stocks after Step 5, Nov 9 prices)
 
-Bold tickers are V10.1 holdings.
+Bold tickers are V10.2 holdings. **Step 5 rank is a frozen ordinal reference, not a newly sorted rank after WCC's accounting correction.**
 
 - **Depth:**
     - **Full A1:** fully re-underwritten on the synthesis model.
     - **Screen:** re-priced on the more conservative deep-dive model. The other model's figure is shown as a *favorable-model estimate*, not a mathematical upper bound (Step 5 D12). No screen-level name's favorable estimate reaches the marginal holding.
-- **Bust:** every 2030 value at its FY2025-earnings state.
-- **Delay:** every 2030 value at its FY2026-earnings state.
+- **Bust:** full A1 underwrites use their explicitly modeled bust states; screen-level rows inherit source-model downside values and do not constitute equivalent FY2025-earnings stresses. The universe has 29 full A1 underwrites and 31 screens; all eight holdings are full underwrites.
+- **Delay:** full A1 rows use explicit plateau states; screen-only rows inherit source-model downside proxies, not a separately modeled FY2026 plateau.
 
-| Rank | Ticker | Bottleneck | Price (Nov 9) | Status | Expected CAGR | AI-2027 | 100GW | Bust | Delay | Depth | V9.1 → V10.1 |
+| Step 5 rank | Ticker | Bottleneck | Price (Nov 9) | Status | Expected CAGR | AI-2027 | 100GW | Bust | Delay | Depth | V9.1 → V10.2 |
 |---:|---|---|---:|---|---:|---:|---:|---:|---:|---|---|
-| 1 | **STRL** | Data-center site development + electrical installation | $290.67 | Attractive (multiple-sensitive) | 19.5% | 28.7% | 43.7% | -65% | -15% | Full A1 | 0 → **6** (Add) |
+| 1 | **STRL** | Data-center site development + electrical installation | $290.67 | Attractive (multiple-sensitive) | 19.5% | 28.7% | 43.7% | -65% | -15% | Full A1 | 0 → **8** (Add) |
 | 2 | MOD | Thermal (post-spin pure play) | $106.15 | Speculative (post-spin) | 18.7% | 35.5% | 60.6% | -71% | -17% | Full A1 | 0 → **0** (Not added) |
 | 3 | **NVDA** | Accelerators / CUDA platform | $178.67 | Attractive | 17.8% | 26.8% | 41.5% | -63% | -20% | Full A1 | 6 → **15** (Increase) |
 | 4 | **NRG** | Merchant power + retail (TX/PJM) | $97.40 | Attractive (levered) | 17.1% | 24.9% | 35.6% | -67% | -5% | Full A1 | 0 → **12** (Add) |
 | 5 | CRWV | Neocloud GPU capacity | $48.98 | Speculative (financing) | 16.5% | 35.5% | 62.2% | -100% | -100% | Full A1 | 0 → **0** (Not added) |
 | 6 | **META** | AI application + ads (buyer) | $641.37 | Attractive | 15.0% | 20.0% | 33.9% | -34% | -21% | Full A1 | 0 → **15** (Add) |
 | 7 | **CLS** | Rack-scale integration (EMS/HPS) | $222.92 | Attractive | 14.8% | 23.2% | 35.6% | -75% | -43% | Full A1 | 0 → **10** (Add) |
-| 8 | **VRT** | Rack power + liquid cooling | $200.47 | Fair | 13.9% | 22.0% | 34.9% | -72% | -29% | Full A1 | 6 → **15** (Increase) |
+| 8 | **VRT** | Rack power + liquid cooling | $200.47 | Fair | 13.9% | 22.0% | 34.9% | -72% | -29% | Full A1 | 6 → **14** (Increase) |
 | 9 | **NVT** | Electrical distribution + liquid cooling | $114.44 | Attractive | 13.8% | 21.4% | 34.0% | -58% | -21% | Full A1 | 0 → **12** (Add) |
 | 10 | AVGO | Custom silicon + networking | $319.48 | Fair | 13.5% | 21.9% | 34.6% | -73% | -44% | Full A1 | 3 → **0** (Remove) |
-| 11 | **MU** | HBM / DRAM | $733.15 | Deep Discount (cyclical) | 13.1% | 26.8% | 45.3% | -64% | -22% | Full A1 | 6 → **15** (Increase) |
+| 11 | **MU** | HBM / DRAM | $733.15 | Deep Discount (cyclical) | 13.1% | 26.8% | 45.3% | -64% | -22% | Full A1 | 6 → **14** (Increase) |
 | 12 | VST | Merchant power (TX/PJM) | $133.92 | Fair | 13.0% | 20.2% | 26.8% | -67% | -29% | Full A1 | 6 → **0** (Remove) |
 | 13 | TLN | Nuclear/gas power (PJM) | $363.13 | Fair | 12.7% | 19.3% | 27.3% | -60% | -35% | Full A1 | 0 → **0** (Not added) |
 | 14 | MSFT | AI platform + cloud (buyer) | $545.18 | Fair | 12.3% | 16.7% | 27.1% | -43% | -24% | Full A1 | 0 → **0** (Not added) |
@@ -642,7 +653,7 @@ Bold tickers are V10.1 holdings.
 | 26 | FN | Optical contract manufacturing | $365.94 | Fair | 7.7% | 27.1% | 51.6% | -71% | -71% | Screen (favorable-model estimate 7.7%) | 0 → **0** (Not added) |
 | 27 | MSI | Public-safety comms | $527.97 | Fair | 7.6% | 11.3% | 18.7% | -52% | -52% | Screen (favorable-model estimate 7.6%) | 0 → **0** (Not added) |
 | 28 | SNDK | NAND / enterprise SSD | $886.51 | Deep Discount (cyclical) | 7.1% | 18.6% | 35.0% | -44% | -44% | Screen (favorable-model estimate 9.5%) | 0 → **0** (Not added) |
-| 29 | WCC | Electrical / datacom distribution | $316.47 | Fair | 7.0% | 10.5% | 16.9% | -54% | -26% | Full A1 | 0 → **0** (Not added) |
+| 29 | WCC | Electrical / datacom distribution | $316.47 | Fair | 8.0% | 11.6% | 18.0% | -54% | -23% | Full A1 | 0 → **0** (Not added) |
 | 30 | COHR | Optical transceivers / lasers | $225.19 | Expensive (after +17%) | 6.6% | 14.8% | 29.1% | -77% | -38% | Full A1 | 2 → **0** (Remove) |
 | 31 | CDNS | EDA | $336.53 | Fair | 6.6% | 12.5% | 21.8% | -32% | -32% | Screen (favorable-model estimate 6.9%) | 0 → **0** (Not added) |
 | 32 | GEV | Gas turbines + grid | $829.34 | Fair | 6.1% | 13.8% | 26.5% | -39% | -39% | Screen (favorable-model estimate 6.5%) | 5 → **0** (Remove) |
@@ -675,27 +686,27 @@ Bold tickers are V10.1 holdings.
 | 59 | CRWD | AI-native security | $228.58 | Expensive | -12.5% | -9.0% | 0.7% | -93% | -93% | Screen (favorable-model estimate -9.9%) | 3 → **0** (Remove) |
 | 60 | INTC | Domestic foundry | $59.37 | Expensive | -15.1% | -2.9% | 15.6% | -90% | -90% | Screen (favorable-model estimate -1.2%) | 3 → **0** (Remove) |
 
-**The zero-based result is V10.1.** The eight holdings are the highest-ranked eligible names, with these exceptions:
+**The zero-based result is V10.2.** The eight holdings are the highest-ranked eligible names, with these exceptions:
 
-- STRL (#1), added in Step 5, is held at 6%: the residual after the caps, sized for Texas and project risk.
+- STRL (#1), added in Step 5, is 8% after the Step 6 rule-2 correction; the 20% combined Texas cap binds.
 - MOD (#2) is gated pending its Nov 18 investor day.
 - CRWV (#5) is excluded because a 40% zero-equity bear gives it a −100% bust.
 - NRG (#4) and CLS (#7) are capped by leverage and confidence limits.
 - AVGO (#10) is within noise of the holdings with a worse bust, so it is bench #1.
-- MU (#11) is held at the cap on the AI-2027 tie-break.
+- MU (#11) is held at 14% on the AI-2027 tie-break within its return band.
 
-Part V shows V10.1 is the best tested portfolio under both multiple policies, though the constituents aren't invariant (MSFT would rank higher on Codex's multiples).
+Part V compares the named architectures on primary A1 inputs; different multiples change the ranking and can change the preferred portfolio.
 
 ### D. Zero-Based vs V9.1: every material difference explained
 
-| Difference | V9.1 | V10.1 | Explanation |
+| Difference | V9.1 | V10.2 | Explanation |
 |---|---:|---:|---|
 | Accelerators (NVDA + AVGO) | 9% | **15%** (NVDA) | NVDA at 11.2× after +24% revisions is #3 of 60. AVGO, at 13.5% after the Step 5 correction (owner EPS, 13% stock comp, a reserve for up to ~$43B of guarantee exposure), is within noise of the holdings with a worse bust: bench #1 |
 | Foundry (TSM) | 11% | **0%** | 11.8% expected: an excellent compounder, but the holdings return 13–18% |
-| Memory (MU) | 6% | **15%** | 3.5× forward; LTAs with floors through 2030; HBM binding in every modeled year. Highest AI-2027 and 100GW CAGRs in its band |
+| Memory (MU) | 6% | **14%** | 3.5× forward; LTAs with floors through 2030; HBM binding in every modeled year. Highest AI-2027 and 100GW CAGRs in its band |
 | WFE + EDA (ASML, AMAT, SNPS) | 17% | **0%** | ASML 11.0% (already at 23.9× for the EUV wall); AMAT 4.6%; SNPS 2.1% once ~31% stock comp is charged |
 | Optics + fabric (COHR, ANET) | 6% | **0%** | COHR +17% on Nov 9 to 6.6% expected; ANET 6.1% at 31× |
-| Rack thermal + electrical + grid + site work (VRT, GEV, PWR, BE, DELL) | 20% | **33%** (VRT 15, NVT 12, STRL 6) | VRT is a third cheaper than in May with orders >2×; NVT +44% organic at 16.4×; STRL converts equipment into energized capacity at 10.3×. GEV (32×), PWR (27×) and BE are priced for their backlogs |
+| Rack thermal + electrical + grid + site work (VRT, GEV, PWR, BE, DELL) | 20% | **34%** (VRT 14, NVT 12, STRL 8) | VRT is a third cheaper than in May with orders >2×; NVT +44% organic at 16.4×; STRL converts equipment into energized capacity at 10.3×. GEV (32×), PWR (27×) and BE are priced for their backlogs |
 | Rack integration (CLS) | 0% | **10%** | 10.0× on a $40B 2027 outlook; #7 of 60. Capped for cash conversion (FY26 FCF $460M) |
 | Power generation (CEG, VST, CCJ) | 17% | **12%** (NRG) | NRG (~6× FCF, funded deleveraging) beats CEG (8.4% after its Nov 9 jump) and CCJ (2.1%). VST (13.0%) was held in Step 3 and replaced by STRL in Step 5 |
 | Platforms / software (CRWD, PLTR) | 5% | **15%** (META) | CRWD (−12.5%) and PLTR (1.0%) are priced for perfection. META at 18× with +26% growth returns 15.0% with the mildest bust (−34%) |
@@ -707,7 +718,7 @@ Part V shows V10.1 is the best tested portfolio under both multiple policies, th
 
 ## Part IV: Sleeve-by-Sleeve Review, Alternatives, and Forward-Return Analysis
 
-Each V10.1 sleeve is reviewed against V9.1, the new evidence, and at least two alternatives, each ranked **Better / Comparable / Worse** against the holding. Sleeves that go to zero are in IV.B.
+Each V10.2 sleeve is reviewed against V9.1, the new evidence, and at least two alternatives, each ranked **Better / Comparable / Worse** against the holding. Sleeves that go to zero are in IV.B.
 
 ### 1. Accelerators — 15% (NVDA) · *NVDA increase 6% → 15%; AVGO remove 3% → 0%*
 
@@ -720,14 +731,15 @@ Each V10.1 sleeve is reviewed against V9.1, the new evidence, and at least two a
     - AI-2027 Scenario: 26.8%. 100GW 2030 Scenario: 41.5%.
     - Bust: −63% (FY2025 EPS of $4.90 at 12.6×).
 - **New risk (Nov 8–9): board review of the CEO.** The fundamentals are unaffected so far. The governance and key-person tail is real, and the review touches US–China relations. NVDA stays at the 15% cap (E2), with purchases staged after the Nov 17 report.
-- Under Codex's 22× multiple, NVDA returns 23.6%. Either way it's the highest-ranked eligible stock of the 58.
+- Under Codex's 22× multiple, NVDA returns 23.6%. Either way it is #3 of the 60-name Step 5 pool; eligible STRL ranks #1.
 
 **Broadcom (AVGO) — removed (3% → 0%):**
 
 - AI revenue targets are $115B (FY27) and $230B (FY28) `[STALE >30d]`.
 - AVGO has become a financier. The XPV platform with residual-value guarantees carries ~$29B of maximum exposure on the first transaction (10-Q, Sep 10) and ~$43B maximum undiscounted exposure in the Oct 27 8-K (72.5% of remaining lease payments less realized rack value). It is also raising $60B of debt.
-- **Owner-basis model (corrected in Step 5, D1):** base 2030 owner EPS $27.0. The Step 3 base of $23.5 sat below management's FY28 adjusted-EPS target of "exceeding $30" (Sep 2, reaffirmed Sep 14), implying earnings decline after FY28. The correction treats the target as reached about two years late, after a ~13% stock-comp haircut. The rest is unchanged: 20× (both models agree), a −$8/−$4/−$2/$0 credit reserve per share across the four states, and ~$13 of dividends.
-- That gives **13.5%** expected, with a 21.9% AI-2027 Scenario CAGR and 34.6% on the 100GW 2030 Scenario. This is within noise of the lowest-ranked holdings (MU 13.1%, NVT 13.8%), with a worse bust (−73%) and delay (−44%) than either. **AVGO is bench #1:** the first destination for capital freed by any trigger.
+- **Owner-basis model (D1, retained):** base 2030 owner EPS $27.0, 20×, credit reserves −$8/−$4/−$2/$0 per share and about $13 cumulative dividends. The reported FY28 adjusted-EPS target above $30 is corroborated by the [Q3 call transcript](https://www.fool.com/earnings/call-transcripts/2026/09/09/broadcom-avgo-q3-2026-earnings-call-transcript/), not by the issuer release itself. Step 6 did not authenticate the call audio or the claimed September 14 reaffirmation. $27 after a 13% deduction implies about $31.03 adjusted EPS; it is a delayed-target judgment, not a mechanical conversion of $30 or a guaranteed floor. The older $23.50 owner case did not itself prove an earnings decline versus an adjusted target. The [Oct 27 8-K](https://investors.broadcom.com/static-files/0ee4f6b7-4a23-4de0-8f3e-48f147ae30d3) directly confirms the contingent ~$43B maximum, not a booked loss.
+
+- That gives **13.5%** expected, with a 21.9% AI-2027 Scenario CAGR and 34.6% on the 100GW 2030 Scenario. This is within noise of the lowest-ranked holdings (MU 13.1%, NVT 13.8%), with a worse bust (−73%) and delay (−44%) than either. **AVGO is bench #1:** a default candidate, not an automatic destination for every trigger. Specific risk-matched replacements and fresh underwriting take precedence.
 - **Re-entry:** below ~$275, or a December report (Dec 9) that discloses limited guarantee exposure with non-Anthropic tenants.
 
 | Alternative | Theme | vs NVDA | Decision |
@@ -737,9 +749,9 @@ Each V10.1 sleeve is reviewed against V9.1, the new evidence, and at least two a
 | MRVL | Custom silicon + optics DSP | **Worse** (0.5–6.3% expected) | No |
 | GOOGL (TPU + Cloud) | Self-funded custom silicon | **Worse** (9.9–10.9%; Continuity overlap) | No |
 
-### 2. HBM / Memory — 15% (MU) · *Increase 6% → 15%*
+### 2. HBM / Memory — 14% (MU) · *Increase 6% → 14%*
 
-- FQ4 FY26 revenue was $54.2B with an 87% gross margin. FQ1 FY27 is guided to $61.5B and $38.15 EPS. **26 strategic agreements cover more than 35% of revenue through 2030, most with pricing floors and ceilings.** SK hynix says DRAM and HBM are effectively sold out to 2029. `[STALE >30d: Sep 30; FQ1 report Dec 23]`
+- FQ4 FY26 revenue was $54.2B with an 87% gross margin. FQ1 FY27 is guided to $61.5B and $38.15 EPS. **26 strategic agreements cover more than 35% of revenue through 2030, most with pricing floors and ceilings.** SK hynix says DRAM and HBM are effectively sold out to 2029. `[STALE >30d: Sep 30; FQ1 date unconfirmed; Dec 23 tentative]`
 - **Why 3.5× forward:** the market prices a classic memory peak. FY27 capex is up ~83%, SK hynix and Samsung are expanding, and CXMT is rising.
 - **Value-trap test:**
     - **Passes for 2027–28:** LTAs and prepayments give unusual visibility.
@@ -749,15 +761,16 @@ Each V10.1 sleeve is reviewed against V9.1, the new evidence, and at least two a
     - **Bull:** $187.5 at 9× plus $250 of cash.
     - **Bust:** $20 at 11× plus $40 of cash.
     - **Plateau:** $45 at 10.5× plus $90.
-- **Results:** expected CAGR 13.1%; **AI-2027 Scenario 26.8% (tied highest in the pool's top 15); 100GW 2030 Scenario 45.3%**; bust −64%.
-- **Why 15% when it ranks #11:** inside the 2pp band, the AI-2027 tie-break goes to MU, and it is the only remaining exposure to the upstream binding constraint (HBM and EUV) after TSM and ASML exit. Step 5 raised it from 14% to the 15% cap with capital freed by VST's exit; only MU and VRT had room under their caps.
-- **It is a deliberate cyclical holding, not a compounder.** The Dec 23 report (HBM4 pricing, LTA floors, capex vs FCF) is the first test.
+- **Results:** expected CAGR 13.1%; **AI-2027 Scenario 26.8% (highest within MU's ±2pp expected-return band); 100GW 2030 Scenario 45.3%**; bust −64%.
+- **Why 14% when it ranks #11:** within the 2pp expected-return band, MU wins the AI-2027 tie-break and retains upstream HBM exposure. Step 6 moves one point from MU and one from VRT to STRL because that funded alternative clears rule 2; no valuation input changes.
+
+- **It is a deliberate cyclical holding, not a compounder.** The next report (Dec 23 unconfirmed) (HBM4 pricing, LTA floors, capex vs FCF) is the first test.
 
 | Alternative | vs MU | Decision |
 |---|---|---|
 | SNDK (NAND; 8-for-1 split trades from Nov 20) | **Worse** (7.1–9.5%; NAND more commoditized) | No |
 | WDC / STX (HDD) | **Worse** (lower bottleneck intensity) | No |
-| SK hynix (KRX: 000660) | **Comparable or Better**, but not a US-listed common or ADR | Not investable under the mandate |
+| SK hynix (KRX: 000660) | **Comparable or Better** operationally; access/liquidity not established | The mandate is global common stock, not US-only. Broker access and a full like-for-like valuation belong to the next cycle; no new pool entry now |
 
 ### 3. Rack-Scale Integration — 10% (CLS) · *Add 0% → 10%*
 
@@ -779,15 +792,15 @@ Each V10.1 sleeve is reviewed against V9.1, the new evidence, and at least two a
 | FN (optical contract manufacturing) | **Worse** (7.7%; +11.9% on Nov 9) | No |
 | SMCI | **Worse** (governance; thin margins) | No |
 
-### 4. Thermal, Electrical and Site Work — 33% (VRT 15%, NVT 12%, STRL 6%) · *VRT increase 6% → 15%; NVT add; STRL add (Step 5); GEV, PWR, BE remove*
+### 4. Thermal, Electrical and Site Work — 34% (VRT 14%, NVT 12%, STRL 8%) · *VRT increase 6% → 14%; NVT add; STRL add (Step 5); GEV, PWR, BE remove*
 
-**Vertiv (VRT) — 15% (+9):**
+**Vertiv (VRT) — 14% (+8):**
 
 - Q3 net sales were $4.31B (+61%) and organic orders more than doubled. 2026 guidance was raised to about $14.45–14.85B.
 - The stock is **−41% since May**, a pure de-rating from ~48× to **20.4× 2027 consensus ($9.84)**.
 - **Caveat:** management stopped reporting orders, which removes the earliest demand signal. That is why confidence is 3, not 4.
 - **Model:** base 2030 EPS $15.0 at 23×, bull $21.
-- **Results:** expected 13.9% (after the Step 5 stock-comp double-count fix); AI-2027 22.0%; 100GW 34.9%; bust −72%. Raised from 14% to the 15% cap in Step 5.
+- **Results:** expected 13.9% (after the Step 5 stock-comp double-count fix); AI-2027 22.0%; 100GW 34.9%; bust −72%. Step 5 raised it to 15%; Step 6 returns it to 14% to fund STRL under rule 2.
 - Data-center construction delays shift VRT revenue to the right rather than removing it.
 
 **nVent (NVT) — 12% (new):**
@@ -798,7 +811,7 @@ Each V10.1 sleeve is reviewed against V9.1, the new evidence, and at least two a
 - **Results:** 13.8% expected (after the Step 5 stock-comp fix); AI-2027 21.4%; 100GW 34.0%; bust −58%.
 - Integration risk keeps it at 12%.
 
-**Sterling Infrastructure (STRL) — 6% (new, Step 5):**
+**Sterling Infrastructure (STRL) — 8% (added in Step 5; resized in Step 6):**
 
 - **Q3 2026 (Oct 28):**
     - Revenue $1.56B, +127% (70% organic). E-Infrastructure (data-center campuses, semiconductor and manufacturing sites) $1.30B, +212%.
@@ -812,17 +825,16 @@ Each V10.1 sleeve is reviewed against V9.1, the new evidence, and at least two a
     - Bust and plateau anchors are 2025/2026 adjusted EPS less stock comp ($10.26 / $20.85).
     - Exit 14×, inside the 10.3–15.5× band. No dividends; no credit for retained cash.
 - **Results:** expected **19.5%** (#1 of 60); AI-2027 28.7%; 100GW 43.7%; bust −65%; delay −15%.
-- **Why only 6%:**
-    - it's the residual after VRT and MU reach their caps;
-    - its growth is concentrated in **Texas** (via the CEC acquisition), the same political risk as NRG;
-    - signed book-to-burn was 0.9 in Q3;
-    - its edge depends on the 14× exit: ~10% at 12×, ~6% at its own 10.3×.
+- **Why 8%, not a larger position:** NRG 12% plus STRL 8% reaches the adopted Texas cap of 20%; the satellite cap remains 10%. Project risk, 0.9 signed book-to-burn and unsigned backlog remain material.
+- **Cash/history cross-check:** Q3's nine-month CFO $427.095M less capex $115.458M gives $311.637M FCF. The adopted Codex bridge projects 2027–30 base FCF $0.60/$0.80/$1.00/$1.15B; terminal owner income $1.35B + depreciation $0.18B − capex $0.28B − working capital $0.10B = $1.15B. These are forecasts, not guidance, and no cumulative FCF or excess cash is added to the earnings terminal value. Owner anchors are $10.88 − $24M × 0.8 / 30.9M = $10.26 (2025) and $21.83 − $38M × 0.8 / 31.1M = $20.85 (2026 estimate). Source: [Q3 release](https://www.sec.gov/Archives/edgar/data/874238/000087423826000122/a20261028ex991earningsrele.htm); the historical/forecast bridge is preserved in Codex's Step 4 pass.
+- **Multiple sensitivity on that same bridge:** Expected CAGR 19.52% at 14×, 15.15% at 12×, 10.98% at 10.3×. The old ~10%/~6% statements belonged to a different operating case. The 10.3–15.5× band is a current forward comparison, not a verified multi-year forward-multiple history; the historical ex-post P/E check is not directly comparable.
+
 - **Buy ceiling:** $315, where expected return is still ~17%.
 
 | Alternative | vs VRT / NVT | Decision |
 |---|---|---|
 | ETN | **Worse** (10.5%; 21.8× for the same layer; a better-quality fallback if NVT's integration fails) | No |
-| WCC | **Worse** (7.0% on consistent inputs; Codex's 18.3% needs revenue and margin growth above Wesco's own guidance) | No (Step 5 D3) |
+| WCC | **Worse** (8.0% after the Step 6 SBC correction; Codex's stronger revenue/margin bridge is not disproved by company 2027 guidance; the conservative judgment stands) | No (Step 5 D3) |
 | AEIS | **Comparable** (13.4%; rack power supplies; 10.1% at 15×) | No; bench #3 |
 | GEV | **Worse** (6.1%; 32.1×; gas orders decelerating) | Removed |
 | PWR | **Worse** (5.1%; 27.3×) | Removed |
@@ -851,7 +863,7 @@ Each V10.1 sleeve is reviewed against V9.1, the new evidence, and at least two a
 - The stock fell 14% on election day on the Texas moratorium pledge.
 - **Model:** base 2030 EBITDA $11B at 8.3× with ~$20B of claims and ~300m shares; bear probability 30%.
 - **Results:** 13.0% expected; AI-2027 20.2%; 100GW 26.8%; bust −67%.
-- **Why removed:** it was the weakest Step 3 holding on both expected and AI-2027 returns, and both Step 4 passes ranked it last. Its 8% funded STRL (19.5%), with VRT and MU rising to the cap: **+0.41pp** of portfolio expected return.
+- **Why removed:** it was the weakest Step 3 holding on both expected and AI-2027 returns, and both Step 4 passes ranked it last. In Step 5 its 8% funded STRL 6% and one point each of VRT/MU, adding 0.41pp expected. Step 6 reallocates those two points to STRL, adding a further 0.1243pp versus V10.1.
 - **Bench #2** (with TLN as the PJM alternative): re-enter if the Texas risk clears or the price falls below ~$112.
 
 **Constellation (CEG) — removed (9% → 0%):**
@@ -862,7 +874,7 @@ Each V10.1 sleeve is reviewed against V9.1, the new evidence, and at least two a
 | Alternative | vs NRG | Decision |
 |---|---|---|
 | VST | **Comparable** (13.0%) | Exited in Step 5 (weakest holding); bench #2 |
-| **TLN** | **Comparable** (12.7%; PJM nuclear/gas; Amazon 1.92 GW) | **The PJM substitute** in the Texas re-underwrite trigger (Step 5 D6): NRG 12 → 8, STRL 6 → 3, TLN +7 if the impact is confirmed |
+| **TLN** | **Comparable** (12.7%; PJM nuclear/gas; Amazon 1.92 GW) | **The PJM substitute** in the Texas re-underwrite trigger (Step 5 D6): NRG 12 → 8, STRL 8 → 3, TLN +9 if the impact is confirmed |
 | CEG | **Worse** (8.4% after its Nov 9 jump) | Removed |
 | NEE | **Worse** (renewables-heavy; 19.9×) | No |
 | CCJ | **Worse** (2.1%; execution) | Removed |
@@ -884,7 +896,7 @@ Each V10.1 sleeve is reviewed against V9.1, the new evidence, and at least two a
 - **Results:** 15.0% expected; AI-2027 20.0%; 100GW 33.9%; delay −21%.
 - **Caveats:**
     - The large bull spread comes from one model.
-    - Continuity's FSKAX already holds ~2.5% META.
+    - Continuity's FSKAX also owns META; the ~2.5% constituent estimate is illustrative and unverified live (Part V.D).
     - Whether an AI *buyer* belongs in the fund was an open call (E4); Step 5 kept META at 15% (D9). Without META, the portfolio returns 0.4pp less and its bust is 4pp worse.
 
 | Alternative | vs META | Decision |
@@ -893,11 +905,11 @@ Each V10.1 sleeve is reviewed against V9.1, the new evidence, and at least two a
 | GOOGL | **Worse** (9.9–10.9%; search cannibalization; 2026 EPS inflated by investment gains) | No |
 | AMZN | **Worse** (8.3%; capex-heavy, FCF negative) | No |
 
-### IV.B Sleeves and Holdings Taken to Zero (V9.1 → V10.1)
+### IV.B Sleeves and Holdings Taken to Zero (V9.1 → V10.2)
 
 | V9.1 sleeve | Holding (weight) | Expected CAGR (Nov 9) | Verdict | Why (one line) | Re-entry trigger |
 |---|---|---:|---|---|---|
-| Foundry | TSM (11) | 11.8% | **Remove** | Excellent business; 1.2pp below the marginal holding; Taiwan 2027 window | Below ~$340 (≈14.5× CY27), or CY27 EPS ≥ $26 at the Jan 14 report |
+| Foundry | TSM (11) | 11.8% | **Remove** | Excellent business; 1.2pp below the marginal holding; Taiwan 2027 window | Below ~$340 (≈14.5× CY27), or CY27 EPS ≥ $26 at the next TSM earnings report (Jan 14 unconfirmed) |
 | Lithography | ASML (8) | 11.0% | **Remove** | The EUV wall is priced at 23.9×; exposure kept via MU | Below ~$1,250, or a 2027 guide implying ≥ €60B of sales |
 | Custom silicon | AVGO (3) | 13.5% (corrected in Step 5) | **Remove** | Within noise of the holdings, with a worse bust and delay; financing guarantees (up to ~$43B); 13% stock comp | Bench #1. Below ~$275, or Dec 9 disclosure of limited guarantee exposure |
 | EDA | SNPS (5) | 2.1% | **Remove** | Stock comp is ~31% of adjusted EPS; 25× forward | Owner-EPS margin ≥ 28% |
@@ -913,12 +925,12 @@ Each V10.1 sleeve is reviewed against V9.1, the new evidence, and at least two a
 | Nuclear fuel | CCJ (2) | 2.1% | **Remove** | Execution miss; 44× forward | Westinghouse IPO valuing the stake ≥ market cap ex-uranium |
 | Security | CRWD (3) | −12.5% | **Remove** | 142× forward | Below ~$150 with NNARR growth ≥ 25% |
 | Operate & control | PLTR (2) | 1.0% | **Remove** | 67× forward | Below ~$110 |
-| Defense | KTOS (1), AVAV (1) | −2.1%, 4.6% | **Remove** | KTOS: cash-consuming production (FY26 FCF use $110–120M), 22% stock comp. AVAV: restatement | KTOS: positive owner FCF for two quarters |
+| Defense | KTOS (1), AVAV (1) | −2.1%, 4.6% | **Remove** | KTOS: cash-consuming production (FY26 FCF use $110–120M), 22% stock comp. AVAV: restatement | KTOS: positive owner FCF for two quarters; AVAV: clean audit and a program-of-record win |
 | Materials | MP (3) | 2.3% | **Remove** | Owner economics weak; −95% bust; the Nov 10 rare-earth lapse is a binary event, not a hedge at this price | Below ~$25, or a reimposed China control regime with DoD offtake expansion |
-| Bio-risk | MRNA (1) | −7.1% | **Remove** | Priced as an oncology success | n/a |
+| Bio-risk | MRNA (1) | −7.1% | **Remove** | Priced as an oncology success | Re-underwrite on cash-funded clinical/commercial evidence and valuation above the marginal holding; no automatic pandemic purchase |
 | Domestic foundry | INTC (3) | −15.1% | **Remove** | Falsifier triggered | A named 14A/18A-P volume commitment from Apple, NVIDIA or a hyperscaler |
 
-**Hedges were reconsidered and rejected on evidence, not neglected.** BNTX, the strongest hedge candidate, returns 4.3% once cash is valued *after* four years of burn (€16.2B today, continuing losses). It loses 49% in its own bear. KTOS and MP lose 93–95% in a bust. META's −34% bust gives V10.1 more downside protection than any of the hedges did.
+**Hedges were reconsidered and rejected on evidence, not neglected.** BNTX, the strongest hedge candidate, returns 4.3% once cash is valued *after* four years of burn (€16.2B today, continuing losses). It loses 49% in its own bear. KTOS and MP lose 93–95% in a bust. META's −34% bust gives V10.2 more downside protection than any of the hedges did.
 
 ### IV.C Cross-Sleeve Candidate Evaluation
 
@@ -927,8 +939,8 @@ Each V10.1 sleeve is reviewed against V9.1, the new evidence, and at least two a
 | **META** | AI monetization platform | 18× forward, +26% growth | **Better** (vs CRWD/PLTR software) | **Y (15%)** | #6 of 60; mildest top-10 bust |
 | **NRG** | Merchant power + retail | ~6× FCF; asset-sale deleveraging | **Better** (vs CEG) | **Y (12%)** | #4 of 60 |
 | **NVT** | Electrical + liquid cooling | +44% organic at 16.4× | **Better** (vs GEV/ETN) | **Y (12%)** | 13.8% vs 6.1%/10.5% |
-| **STRL** | Data-center site work + electrical installation | Both Step 4 passes; 10.3× forward | **Better** (vs VST) | **Y (6%)** | 19.5% vs 13.0% (Step 5) |
-| WCC | Electrical/datacom distribution | Codex Step 4 (O1) | Worse | N | 7.0% on consistent inputs (Step 5 D3) |
+| **STRL** | Data-center site work + electrical installation | Both Step 4 passes; 10.3× forward | **Better** (vs VST) | **Y (8%)** | 19.5% vs 13.0% (Step 5) |
+| WCC | Electrical/datacom distribution | Codex Step 4 (O1) | Worse | N | 8.0% after the Step 6 SBC correction (Step 5 D3) |
 | **CLS** | Rack-scale integration | 10× on a $40B 2027 outlook | **Better** (vs DELL) | **Y (10%)** | 14.8% vs 5.6% |
 | MOD | Thermal pure play (post-spin) | #2 of 60 on the model | Better (model) / lower confidence | **Gated** | Nov 18 investor day (D7) |
 | CRWV | Neocloud | 16.5% expected | Worse (risk) | N | −100% bust; financing |
@@ -952,7 +964,7 @@ Each V10.1 sleeve is reviewed against V9.1, the new evidence, and at least two a
 | KTOS / AVAV / MP / MRNA / BNTX / CCJ | Hedges / fuel | −7.1% to 4.6% | Worse | N | They don't hedge at these prices |
 | SPY / QQQ / SMH / SOXX / XLU / ITA / IBB | ETF fallbacks | Benchmarks | Worse | N | Direct holdings dominate; emergency parking only |
 
-### IV.D Forward-Return and Valuation Table (every V10.1 holding)
+### IV.D Forward-Return and Valuation Table (every V10.2 holding)
 
 Prices are the Nov 9, 2026 close. TV = value per share at Dec 31, 2030, including cumulative dividends and explicit cash or reserves. The bear TV is the 50/50 average of the bust and plateau states.
 
@@ -980,7 +992,7 @@ Prices are the Nov 9, 2026 close. TV = value per share at Dec 31, 2030, includin
 | CLS | Owner EPS $5.63 / $10.75 / $29.14 / $40 | 9.8 / 11.9 / 14 / 16.8× | — | 2027 outlook $40B / $21.50. 145m diluted shares. Bust TV $55, plateau $128 |
 | STRL | Owner EPS $10.26 / $20.85 / $42.86 / $63.03 | 9.8 / 11.9 / 14 / 16.8× | — | 2027E $28.10 (10.3×). Base: $9.0B revenue × 15% owner margin ÷ 31.5m shares (Codex bridge, Step 5 D4). Bust TV $101, plateau $248 |
 
-**Portfolio:** weighted expected terminal multiple **1.81×**, which gives **15.4% expected CAGR**. It is computed from expected terminal value, not by averaging CAGRs.
+**Portfolio:** weighted expected terminal multiple **1.82×**, which gives **15.5% expected CAGR**. It is computed from expected terminal value, not by averaging CAGRs.
 
 **Named-scenario flags (PROMPT_1):**
 
@@ -1009,8 +1021,8 @@ Prices are the Nov 9, 2026 close. TV = value per share at Dec 31, 2030, includin
 | Name | Discount | Cause | Classification | What closes it | What invalidates it |
 |---|---|---|---|---|---|
 | NVDA | Forward P/E ~25× (May) → 11.2× | Financing fears; circularity; new CEO probe | **Temporary**, if FY28 holds | Nov 17 report; board review outcome; OpenAI refinancing | FY28 growth guided below 40%; CEO departure with a strategy break; top-customer order cuts |
-| MU | 3.5× forward | Peak-cycle fear | **Partly structural (cyclical)** | LTAs extended to 2029–30 at higher prices (Dec 23) | DRAM contract prices down two quarters running; gross margin below 75% |
-| NRG | ~6× FCF | Retail/gas mix; leverage; Texas | **Temporary** if the sale closes | Sale close (Q2 2027); debt paydown; buybacks | Failed sale; Texas moratorium becomes law; ERCOT forwards −25% |
+| MU | 3.5× forward | Peak-cycle fear | **Partly structural (cyclical)** | LTAs extended to 2029–30 at higher prices (Dec 23 unconfirmed) | DRAM contract prices down two quarters running; gross margin below 75% |
+| NRG | ~6× FCF | Retail/gas mix; leverage; Texas | **Temporary** if the sale closes | Sale close (Q2 2027); debt paydown; buybacks | Failed sale; Texas restriction demonstrably impairs cash flow after re-underwrite; ERCOT forwards −25% |
 | STRL | 10.3× forward | Contractor cyclicality; margin mix; Texas | **Temporary** if signed backlog converts | Signed book-to-burn ≥ 1.1 (Feb 2027) | Signed book-to-burn < 1.0 for two quarters; cancellations |
 | CLS | 10× forward | Cash conversion; customer concentration | **Temporary** if 2027 converts | Q4 FCF (Jan); 2027 capex funded without equity | Another equity raise; top-customer loss |
 | VRT | ~48× → 20.4× | Valuation reset; order-disclosure stop | **Temporary** | 2027 guidance (Feb) | 2027 revenue guide < +15% |
@@ -1030,33 +1042,33 @@ Prices are the Nov 9, 2026 close. TV = value per share at Dec 31, 2030, includin
     - NRG 8, VST 5, TLN 5;
     - META 8, MSFT 4, RELX 4, VRSK 7.
 - **(2) Concentrated highest-conviction:** 7 names at the 15% cap with no confidence caps: NVDA 15, META 15, NRG 15, CLS 15, VRT 15, NVT 15, MU 10.
-- **(3) Core-and-satellite (V10.1, adopted in Step 5):**
-    - **Core:** NVDA 15, META 15, VRT 15, MU 15, NRG 12, NVT 12.
-    - **Satellites:** CLS 10 and STRL 6, each capped for a named risk.
+- **(3) Core-and-satellite (V10.2, adopted after Step 6):**
+    - **Core:** NVDA 15, META 15, VRT 14, MU 14, NRG 12, NVT 12.
+    - **Satellites:** CLS 10 and STRL 8, each capped for a named risk.
 - Architectures (1b) and (2) are the Step 3 definitions, re-valued on the Step 5 model.
 
-| Metric (to Dec 31, 2030) | (1a) V9.1 as held | (1b) Diversified, rebuilt | (2) Concentrated | **(3) Core-and-satellite (V10.1)** |
+| Metric (to Dec 31, 2030) | (1a) V9.1 as held | (1b) Diversified, rebuilt | (2) Concentrated | **(3) Core-and-satellite (V10.2)** |
 |---|---:|---:|---:|---:|
 | Holdings | 24 | 16 | 7 | **8** |
-| **Expected CAGR** | 7.9% | 13.7% | 15.2% | **15.4%** |
-| Expected total return | +37% | +70% | +80% | **+81%** |
-| **AI-2027 Scenario CAGR** (faster AI) | 15.5% | 21.0% | 23.5% | **24.0%** |
-| **100GW 2030 Scenario CAGR** | 27.0% | 32.6% | 37.0% | **38.1%** |
-| **2–3 year AI delay** (plateau state) | −41.4% | −24.3% | −23.3% | **−22.3%** |
+| **Expected CAGR** | 7.9% | 13.7% | 15.2% | **15.5%** |
+| Expected total return | +37% | +70% | +80% | **+82%** |
+| **AI-2027 Scenario CAGR** (faster AI) | 15.5% | 21.0% | 23.5% | **24.1%** |
+| **100GW 2030 Scenario CAGR** | 27.0% | 32.6% | 37.0% | **38.2%** |
+| **2–3 year AI delay** (plateau state) | −41.4% | −24.3% | −23.3% | **−22.1%** |
 | **AI-capex bust** (every holding at its bust state) | −67.3% | **−59.1%** | −61.9% | −61.5% |
-| Expected CAGR on Codex's multiples | 9.1% | 16.6% | 18.6% | 18.4% |
-| Largest name / top-3 | 11% / 28% | 10% / 26% | 15% / 45% | 15% / 45% |
-| HHI | 0.057 | 0.068 | 0.145 | 0.132 |
-| Clusters (C1 / C2 / C3 / C4 / C5) | 34 / 20 / 18 / 17 / 5 (+C6 6) | 36 / 5 / 18 / 18 / 23 | 40 / 0 / 30 / 15 / 15 | 40 / 0 / 33 / 12 / 15 |
+| Expected CAGR on Codex's multiples | 9.1% | 16.6% | 18.6% | 18.5% |
+| Largest name / top-3 | 11% / 28% | 10% / 26% | 15% / 45% | 15% / 44% |
+| HHI | 0.057 | 0.068 | 0.145 | 0.129 |
+| Clusters (C1 / C2 / C3 / C4 / C5) | 34 / 20 / 18 / 17 / 5 (+C6 6) | 36 / 5 / 18 / 18 / 23 | 40 / 0 / 30 / 15 / 15 | 39 / 0 / 34 / 12 / 15 |
 | Weighted confidence | ~3.0 | ~3.4 | ~3.2 | ~3.1 |
-| Major opportunity cost | Twenty names below the hurdle; three thesis failures; the most expensive software | 1.7pp of expected return a year to save 2.4pp of bust loss; includes eight names at 10.5–11.8% | CLS and NRG at 15% despite cash-conversion and leverage flags; 0.2pp a year below (3) | 2.4pp more bust loss than (1b) |
+| Major opportunity cost | Twenty names below the hurdle; three thesis failures; the most expensive software | 1.8pp of expected return a year to save 2.4pp of bust loss; includes eight names at 10.5–11.8% | CLS and NRG at 15% despite cash-conversion and leverage flags; 0.3pp a year below (3) | 2.4pp more bust loss than (1b) |
 
-### B. Verdict: Core-and-Satellite (V10.1)
+### B. Verdict: Core-and-Satellite (V10.2)
 
 - **V9.1 is dominated on every metric.** Its 24-name diversification didn't reduce the bust loss (−67%), because its most expensive names are the ones that fall furthest.
-- **The rebuilt diversified portfolio** buys 2.4pp less bust loss for 1.7pp a year less expected return, about 11pp less cumulative return over four years. Under a goal that treats losses as a constraint, not the objective, that's poor value. The bust remains about −59% either way, so this diversification doesn't actually remove the risk.
-- **The concentrated portfolio** returns 0.2pp a year less than V10.1, with a worse bust and delay. It puts the two lowest-confidence high-ranked names (CLS with weak cash conversion; NRG with ~$22.8B of claims) at the full 15%, and both deep dives independently capped these names below 15%. A concentrated variant that also put STRL at 15% would take Texas exposure (NRG + STRL) to 30%, above the 20% limit.
-- **V10.1** has the highest expected return of the three architectures (up from 98% of the concentrated portfolio's return at Step 3, because Step 5 replaced VST with STRL). It has the best delay outcome and caps the estimate-sensitive names.
+- **The rebuilt diversified portfolio** buys 2.4pp less bust loss for 1.8pp a year less expected return, about 12pp less cumulative return over four years. Under a goal that treats losses as a constraint, not the objective, that's poor value. The bust remains about −59% either way, so this diversification doesn't actually remove the risk.
+- **The concentrated portfolio** returns 0.3pp a year less than V10.2, with a worse bust and delay. It puts the two lowest-confidence high-ranked names (CLS with weak cash conversion; NRG with ~$22.8B of claims) at the full 15%, and both deep dives independently capped these names below 15%. A concentrated variant that also put STRL at 15% would take Texas exposure (NRG + STRL) to 30%, above the 20% limit.
+- **V10.2** has the highest expected return of the three architectures (up from 98% of the concentrated portfolio's return at Step 3, because Step 5 replaced VST with STRL). It has the best delay outcome and caps the estimate-sensitive names.
 
 **Is eight holdings right?** Yes. Twenty V9.1 positions return below the hurdle, so the fund was over-diversified into weak returns, not under-diversified. Fewer than seven would push names past the 15% cap or past their confidence limits. More than about ten adds names expected at 10.5–11.8% that don't reduce the bust.
 
@@ -1066,49 +1078,49 @@ Prices are the Nov 9, 2026 close. TV = value per share at Dec 31, 2030, includin
 - Exit if the thesis fails one quarterly check.
 - Promotion to core needs two consecutive quarters of confirmation and a valuation still above the hurdle.
 
-### C. Cross-Portfolio Capital Competition (every V10.1 position)
+### C. Cross-Portfolio Capital Competition (every V10.2 position)
 
 | Ticker | Weight | Expected CAGR | Next-best alternative for this capital | Expected-return advantage | If removed, capital goes to |
 |---|---:|---:|---|---|---|
 | NVDA | 15% | 17.8% | AVGO (13.5%, corrected in Step 5) in the same layer | +4.3pp vs AVGO | AVGO (bench #1; the D8 adverse-review action) |
 | META | 15% | 15.0% | MSFT (12.3%) | +2.7pp, with a milder bust (−34% vs −43%) | TLN 8 + TSM 7 (portfolio −0.4pp; bust −4pp) |
-| VRT | 15% | 13.9% | AEIS (13.4%); ETN (10.5%); MOD (gated) | +0.5pp vs AEIS; +3.4pp vs ETN | AEIS (bench #3), then ETN |
-| MU | 15% | 13.1% | TSM (11.8%) upstream; SNDK (7.1–9.5%) in memory | +1.3pp and **+8.9pp on AI-2027** vs TSM | TSM, then AVGO |
-| NRG | 12% | 17.1% | TLN (12.7%); CEG (8.4%) | +4.4pp vs TLN | TLN (keeps the Texas cap) |
-| NVT | 12% | 13.8% | ETN (10.5%); WCC (7.0%) | +3.3pp vs ETN | AEIS (bench #3), then ETN |
+| VRT | 14% | 13.9% | AEIS (13.4%); ETN (10.5%); MOD (gated) | +0.5pp vs AEIS; +3.3pp vs ETN | AEIS (bench #3), then ETN |
+| MU | 14% | 13.1% | TSM (11.8%) upstream; SNDK (7.1–9.5%) in memory | +1.3pp and **+8.9pp on AI-2027** vs TSM | TSM, then AVGO |
+| NRG | 12% | 17.1% | TLN (12.7%); CEG (8.4%) | +4.3pp vs TLN | TLN (keeps the Texas cap) |
+| NVT | 12% | 13.8% | ETN (10.5%); WCC (8.0%) | +3.3pp vs ETN | AEIS (bench #3), then ETN |
 | CLS | 10% | 14.8% | HPE (8.7%); DELL (5.6%); SANM (watchlist) | +6.1pp vs HPE | AVGO (bench #1) |
-| STRL | 6% | 19.5% | VST (13.0%), the holding it replaced | +6.5pp vs VST | VST or TLN (bench #2) |
+| STRL | 8% | 19.5% | VST (13.0%), the holding it replaced | +6.6pp vs VST | VST or TLN (bench #2) |
 
-**The explicit price of risk control:** caps hold STRL (19.5%), NRG (17.1%) and CLS (14.8%) below names that rank lower (VRT, NVT, MU). STRL is the largest case: each point moved from MU to STRL would add about 0.06pp a year. Three limits bind: the 20% Texas limit (NRG + STRL is 18%); STRL's project and multiple risk (Codex's own ceiling was 5%); and the D4 test, where 8% STRL was within noise of 6%. **That trade is declined deliberately.**
+**The explicit price of risk control:** STRL 8% + NRG 12% now binds the existing Texas cap at 20%; CLS remains at its 10% confidence cap and NVT at 12%. The already-tested STRL-8 alternative passed rule 2's +0.1pp branch, so it cannot be rejected merely as rounded "noise." V10.2 does not claim global optimality and does not adopt Codex's earlier STRL-5/WCC-8 proposal.
+
+**Replacement precedence:** the specific risk-matched destination above overrides the generic bench ordering. Re-underwrite the replacement at live prices, within the approved total weights and caps; do not rotate into another name exposed to the same invalidating risk. In a Taiwan event, TSM/AVGO are not automatic safe destinations. If no candidate qualifies, retain temporary reserve and obtain a revised funded allocation. No single-name trigger authorizes overlapping, unfunded conditional trades.
 
 ### D. Three-Fund Architecture Check
 
 - **Foundation Liquidity (SPAXX):** unchanged.
 - **Continuity Fund (~50% target; FSKAX 80% / FTIHX 20% in tax-advantaged accounts):** unchanged.
-    - It already holds about 2.5% META, 6% NVDA and smaller VRT/MU/VST/NRG weights through the total-market index.
-    - V10.1 raises household META exposure to roughly 8.5% of total investments (about 7.5% through Event Horizon plus ~1.0% through Continuity). That is acceptable for a top-5 ranked name with the portfolio's mildest bust (E4).
+    - Index look-through is not verified live. The earlier FSKAX estimates (META ~2.5%, NVDA ~6%) are illustrative only. At exactly 50% Event Horizon / 50% Continuity and 80% FSKAX, direct META is 7.5% of investments and that illustrative index weight adds 1.0%; verify fund holdings, accounts and actual sleeve values before treating 8.5% as household exposure. META is #6, not top five.
 - **Event Horizon (~50% target):**
-    - After −12.3% against a roughly flat Continuity Fund since May, Event Horizon is about 46–47% of investments.
-    - **Direct new contributions to Event Horizon until it is back at 50%.** That buys compressed valuations without selling tax-advantaged Continuity holdings.
-    - Rebalance if Event Horizon exceeds 55%.
+    - The earlier 46–47% estimate used the Nov 6 drawdown, not the Nov 9 rebound or actual account balances. No live household weight is established.
+    - Direct contributions to Event Horizon **only if** verified current weight is below 50%; stop at target. Foundation and Continuity remain unchanged. Rebalance review if Event Horizon exceeds 55%.
 
 ---
 
 ## Part VI: Final Allocation + Checksum (100.0%)
 
-### A. Final Event Horizon Fund Allocation: **V10.1 (adopted November 10, 2026)**
+### A. Final Event Horizon Fund Allocation: **V10.2 (adopted November 10, 2026)**
 
-| Sleeve | Ticker | V9.1 (May 10) | **V10.1** | Delta | Role | Rationale |
+| Sleeve | Ticker | V9.1 (May 10) | **V10.2** | Delta | Role | Rationale |
 |---|---|---:|---:|---:|---|---|
 | **Accelerators** | NVDA | 6% | **15%** | +9 | Core | #3 of 60; 11.2× FY28E after +24% revisions; no purchase before Nov 17 |
 | **AI Platform** | META | 0% | **15%** | +15 | Core (**NEW**) | #6 of 60; mildest top-10 bust; 18× |
-| **Rack Thermal & Power** | VRT | 6% | **15%** | +9 | Core | Orders >2×; 20.4× after a 41% de-rating; raised to the cap in Step 5 |
-| **HBM / Memory** | MU | 6% | **15%** | +9 | Core | 3.5×; HBM binding; highest AI-2027/100GW CAGRs in its band; raised to the cap in Step 5 |
+| **Rack Thermal & Power** | VRT | 6% | **14%** | +8 | Core | Orders >2×; 20.4× after a 41% de-rating; 14% after the Step 6 funded STRL increase |
+| **HBM / Memory** | MU | 6% | **14%** | +8 | Core | 3.5×; HBM binding; highest AI-2027/100GW CAGRs in its band; 14% after the Step 6 funded STRL increase |
 | **Power Generation** | NRG | 0% | **12%** | +12 | Core (**NEW**) | #4 of 60; ~6× FCF; capped for leverage and Texas |
 | | VST | 6% | **0%** | −6 | — | Removed in Step 5: weakest holding (13.0%); bench #2 |
 | **Electrical Distribution & Cooling** | NVT | 0% | **12%** | +12 | Core (**NEW**) | +44% organic at 16.4× |
 | **Rack-Scale Integration** | CLS | 0% | **10%** | +10 | Satellite (**NEW**) | 10× on a $40B 2027 outlook; capped for cash conversion |
-| **Site Development & Electrical Installation** | STRL | 0% | **6%** | +6 | Satellite (**NEW**, Step 5) | #1 of 60 (19.5%) at 10.3× forward; capped for Texas and project risk |
+| **Site Development & Electrical Installation** | STRL | 0% | **8%** | +8 | Satellite (**NEW**, Step 5) | #1 of 60 (19.5%) at 10.3× forward; capped for Texas and project risk |
 | Foundry | TSM | 11% | **0%** | −11 | — | 11.8% expected |
 | Custom silicon | AVGO | 3% | **0%** | −3 | — | 13.5% (corrected in Step 5); worse bust; bench #1 |
 | Lithography | ASML | 8% | **0%** | −8 | — | 11.0%; EUV wall priced |
@@ -1131,11 +1143,11 @@ Prices are the Nov 9, 2026 close. TV = value per share at Dec 31, 2030, includin
 | **Moonshot** | — | 0% | **0%** | 0 | — | Neocloud equity carries zero-equity bears |
 | **Total** | | **100%** | **100%** | **0** | 8 holdings | **Checksum ✓** |
 
-**V10.1 checksum:** `NVDA 15 + META 15 + VRT 15 + MU 15 + NRG 12 + NVT 12 + CLS 10 + STRL 6 = 100.0%` ✓
+**V10.2 checksum:** `NVDA 15 + META 15 + VRT 14 + MU 14 + NRG 12 + NVT 12 + CLS 10 + STRL 8 = 100.0%` ✓
 
 **Delta checksum:**
 
-- **Increases:** NVDA +9, META +15, VRT +9, MU +9, NRG +12, NVT +12, CLS +10, STRL +6 = **+82**.
+- **Increases:** NVDA +9, META +15, VRT +8, MU +8, NRG +12, NVT +12, CLS +10, STRL +8 = **+82**.
 - **Decreases:** TSM −11, AVGO −3, ASML −8, AMAT −4, SNPS −5, ANET −4, COHR −2, DELL −2, CEG −9, VST −6, PWR −4, GEV −5, CCJ −2, BE −3, CRWD −3, PLTR −2, AVAV −1, KTOS −1, MRNA −1, MP −3, INTC −3 = **−82**.
 
 Increases equal decreases ✓.
@@ -1144,10 +1156,10 @@ Increases equal decreases ✓.
 
 | Cluster | Holdings | Weight |
 |---|---|---:|
-| C1 AI silicon, memory and integration | NVDA, MU, CLS | 40% |
-| C3 Data-center physical, electrical and site work | VRT, NVT, STRL | 33% |
+| C1 AI silicon, memory and integration | NVDA, MU, CLS | 39% |
+| C3 Data-center physical, electrical and site work | VRT, NVT, STRL | 34% |
 | C4 Power generation | NRG | 12% |
-| *Texas-heavy (across clusters)* | *NRG, STRL* | *18% (limit 20%)* |
+| *Texas-heavy (across clusters)* | *NRG, STRL* | *20% (limit 20%)* |
 | C5 AI platform | META | 15% |
 | C2 Fab tools and design / C6 hedges | — | 0% |
 
@@ -1157,15 +1169,15 @@ Increases equal decreases ✓.
 |---|---:|---:|---:|---|---|
 | NVDA | 6% | 15% | **+9** | TSM −9 | The compute layer moves from the foundry (11.8%) to the accelerator (17.8%) |
 | META | 0% | 15% | **+15** | CRWD −3, PLTR −2, INTC −3, AVGO −3, TSM −2, MRNA −1, AVAV −1 | Expensive software, failed options and a financing-exposed supplier rotate into the cheapest platform |
-| MU | 6% | 15% | **+9** | ASML −8, VST −1 | The EUV/HBM constraint is owned more cheaply through memory: 13.1% (26.8% AI-2027) vs 11.0% |
-| VRT | 6% | 15% | **+9** | ANET −4, DELL −2, COHR −2, VST −1 | Fabric, server and optics capital moves to the de-rated thermal leader |
+| MU | 6% | 14% | **+8** | ASML −8 | The EUV/HBM constraint is owned more cheaply through memory: 13.1% (26.8% AI-2027) vs 11.0% |
+| VRT | 6% | 14% | **+8** | ANET −4, DELL −2, COHR −2 | Fabric, server and optics capital moves to the de-rated thermal leader |
 | NRG | 0% | 12% | **+12** | CEG −9, CCJ −2, KTOS −1 | The nuclear premium and fuel move to cash-yielding generation and retail |
 | NVT | 0% | 12% | **+12** | GEV −5, PWR −4, BE −3 | Expensive turbine, grid and behind-the-meter names move to the cheap electrical grower |
 | CLS | 0% | 10% | **+10** | SNPS −5, AMAT −4, MP −1 | Design and tool capital moves to the integrator at 10× |
-| STRL | 0% | 6% | **+6** | VST −4, MP −2 | VST (13.0%, the weakest Step 3 holding) and the materials hedge move to the best-ranked name, 19.5% (Step 5 D4) |
+| STRL | 0% | 8% | **+8** | VST −6, MP −2 | VST (13.0%, the weakest Step 3 holding) and the materials hedge move to the best-ranked name, 19.5% (Step 5 D4) |
 | **Totals** | | | **+82 / −82** | **Every add has a named funding source** ✓ | |
 
-**Against drifted holdings:** if V9.1 was held from May without rebalancing, the Nov 9 weights have drifted. Examples: CRWD ~5.6%, ANET ~5.6%, MRNA ~5.3%, NVDA ~5.3%, VRT ~3.8%. Moving to V10.1 from those weights turns over about **85%** of the sleeve. The trade-by-trade plan is in the Deployment Strategy file.
+**Against drifted holdings:** if V9.1 was held from May without rebalancing, the Nov 9 weights have drifted. Examples: CRWD ~5.6%, ANET ~5.6%, MRNA ~5.3%, NVDA ~5.3%, VRT ~3.8%. Moving to V10.2 from those weights turns over about **85%** of the sleeve. The trade-by-trade plan is in the Deployment Strategy file.
 
 ### C. Per-Ticker Decision Framework (every ticker)
 
@@ -1173,16 +1185,16 @@ Increases equal decreases ✓.
 |---|---:|---:|---|:---:|---|---|
 | NVDA | 6 | **15** | **Increase** | 4 | 11.2× FY28E; 17.8% expected; #3 of 60. No purchase before the Nov 17 report (D8) | Nov 17 guide implies FY28 growth < 40%; the board review ends in Huang's departure with a strategy break or evidence of IP/security compromise; top-customer order cuts |
 | META | 0 | **15** | **Add** | 3 | 18× with +26% growth; 15.0%; −34% bust | Ad growth < 10% for two quarters; 2027 capex guide > operating cash flow without revenue acceleration; adverse litigation over $20B |
-| VRT | 6 | **15** | **Increase** | 3 | Q3 +61%, orders >2×; 20.4×; 13.9% | 2027 revenue guide < +15%; hyperscaler in-house cooling wins; gross margin < 33% |
-| MU | 6 | **15** | **Increase** | 3 | 3.5×; LTAs with floors; HBM binding; AI-2027 26.8% | DRAM contract prices fall two quarters running; gross margin < 75%; LTA renegotiation; FY27 capex > 50% of operating cash flow without HBM share gains |
-| NRG | 0 | **12** | **Add** | 3 | ~6× FCF; 17.1%; funded deleveraging | Asset sale fails or is re-cut below $3.5B; 2027 FCF guide cut > 10%; a Texas moratorium becomes law; net claims rise |
+| VRT | 6 | **14** | **Increase** | 3 | Q3 +61%, orders >2×; 20.4×; 13.9% | 2027 revenue guide < +15%; hyperscaler in-house cooling wins; gross margin < 33% |
+| MU | 6 | **14** | **Increase** | 3 | 3.5×; LTAs with floors; HBM binding; AI-2027 26.8% | DRAM contract prices fall two quarters running; gross margin < 75%; LTA renegotiation; FY27 capex > 50% of operating cash flow without HBM share gains |
+| NRG | 0 | **12** | **Add** | 3 | ~6× FCF; 17.1%; funded deleveraging | Asset sale fails or is re-cut below $3.5B; 2027 FCF guide cut > 10%; confirmed cash-flow impairment from Texas restrictions after re-underwrite; net claims rise |
 | NVT | 0 | **12** | **Add** | 3 | +44% organic at 16.4×; 13.8% | Organic growth < 10% in 2027 guidance; leverage > 3× for a year; Maverick margin dilution |
 | CLS | 0 | **10** | **Add** | 3 | 10× a $40B 2027 outlook; 14.8% | Another equity raise; Q4 FCF below plan; loss of a top-2 customer program |
-| STRL | 0 | **6** | **Add (Step 5)** | 3 | #1 of 60 (19.5%) at 10.3× forward; Q3 revenue +127%; combined backlog $6.1B | Signed book-to-burn < 1.0 for two quarters; project cancellations; a Texas moratorium that cuts its pipeline (D6 re-underwrite) |
+| STRL | 0 | **8** | **Add (Step 5)** | 3 | #1 of 60 (19.5%) at 10.3× forward; Q3 revenue +127%; combined backlog $6.1B | Signed book-to-burn < 1.0 for two quarters; project cancellations; a Texas moratorium that cuts its pipeline (D6 re-underwrite) |
 | VST | 6 | **0** | **Remove (Step 5)** | 3 | 13.0%: the weakest Step 3 holding on expected and AI-2027 returns | *Re-enter (bench #2):* the Texas risk clears, or below ~$112 |
-| TSM | 11 | **0** | **Remove** | 4 | 11.8%: below the hurdle, not broken | *Re-enter:* < ~$340, or CY27 EPS ≥ $26 at the Jan 14 report |
+| TSM | 11 | **0** | **Remove** | 4 | 11.8%: below the hurdle, not broken | *Re-enter:* < ~$340, or CY27 EPS ≥ $26 at the next TSM earnings report (Jan 14 unconfirmed) |
 | ASML | 8 | **0** | **Remove** | 3 | 11.0%; EUV wall priced at 23.9× | *Re-enter:* < ~$1,250, or a 2027 sales guide ≥ €60B |
-| AVGO | 3 | **0** | **Remove** | 3 | 13.5% after the Step 5 correction: within noise of the holdings, with a worse bust and delay; guarantees up to ~$43B | *Bench #1:* first destination for freed capital (incl. NVDA 15 → 8 if the review turns adverse); < ~$275, or limited guarantee exposure disclosed Dec 9 |
+| AVGO | 3 | **0** | **Remove** | 3 | 13.5% after the Step 5 correction: within noise of the holdings, with a worse bust and delay; guarantees up to ~$43B | *Bench #1:* default bench candidate, subject to risk-specific precedence (incl. NVDA 15 → 8 if the review turns adverse); < ~$275, or limited guarantee exposure disclosed Dec 9 |
 | SNPS | 5 | **0** | **Remove** | 4 | 2.1% on owner EPS | Owner margin ≥ 28% |
 | AMAT | 4 | **0** | **Remove** | 3 | 4.6%; China rules | < ~$270 |
 | ANET | 4 | **0** | **Remove** | 3 | 6.1% at 31× | < ~$130 |
@@ -1197,39 +1209,39 @@ Increases equal decreases ✓.
 | PLTR | 2 | **0** | **Remove** | 4 | 1.0% at 67× | < ~$110 |
 | AVAV | 1 | **0** | **Remove** | 4 | Restatement; 4.6% | Clean audit plus a program-of-record win |
 | KTOS | 1 | **0** | **Remove** | 3 | −2.1% on owner EPS | Two quarters of positive owner FCF |
-| MRNA | 1 | **0** | **Remove** | 4 | −7.1%; priced as an oncology success | n/a |
+| MRNA | 1 | **0** | **Remove** | 4 | −7.1%; priced as an oncology success | Cash-funded clinical/commercial evidence plus valuation above the marginal holding; not an automatic pandemic purchase |
 | MP | 3 | **0** | **Remove** | 3 | 2.3%; −95% bust | < ~$25, or reimposed China controls plus DoD offtake expansion |
 | INTC | 3 | **0** | **Remove** | 4 | −15.1%; falsifier triggered | A named 14A/18A-P volume customer |
 | MOD | 0 | **0 (gated → 5)** | **Gate** | 2 | #2 of 60 (18.7%), but the post-spin perimeter is unproven | *Add 5% (VRT −3, NVT −2)* if the Nov 18 investor day gives FY28 targets that credibly bridge to 2030 owner EPS of $8.84, a stable data-center gross margin and positive H2 FCF guidance (D7) |
-| TLN | 0 | **0 (Texas trigger)** | **Watch** | 3 | 12.7%; PJM diversification | *+7%* if the Texas re-underwrite confirms the impact (D6): NRG 12 → 8, STRL 6 → 3 |
-| WCC | 0 | **0** | **Not added** | 3 | 7.0% on consistent inputs; Codex's 18.3% needs growth above Wesco's own guidance (D3) | 2027 guidance of ≥ 10% sales growth with margin expansion |
+| TLN | 0 | **0 (Texas trigger)** | **Watch** | 3 | 12.7%; PJM diversification | *+9%* if the Texas re-underwrite confirms the impact (D6): NRG 12 → 8, STRL 8 → 3 |
+| WCC | 0 | **0** | **Not added** | 3 | 8.0% after the Step 6 SBC correction; Codex's 18.3% uses a stronger operating bridge; no verified 2027 numeric company sales guide (D3) | 2027 guidance of ≥ 10% sales growth with margin expansion |
 | Moonshot | 0 | **0** | **Keep** | 5 | No options/LEAPS; neocloud equity carries zero-equity bears | User instruction to reactivate |
 
 ---
 
 ## Part VII: Risk, Scenario, and Invalidation Dashboard
 
-### A. Scenario Lens (V10.1 vs V9.1, to Dec 31, 2030)
+### A. Scenario Lens (V10.2 vs V9.1, to Dec 31, 2030)
 
-| Scenario | Description | Probability | V10.1 | V9.1 |
+| Scenario | Description | Probability | V10.2 | V9.1 |
 |---|---|---:|---|---|
-| **100GW 2030 path** | One ~100 GW training cluster; ~$8T/yr of AI investment; AI power ≈ US electricity | 10% (inside the bull) | **+281% (38.1%/yr)** | +170% (27.0%/yr) |
-| **AI-2027 path** | AI-2040's $2.4T of capex in 2028 → ~$4.2T in 2030; automated coder 2027–29 | 35% (base-to-bull) | **+144% (24.0%/yr)** | +82% (15.5%/yr) |
+| **100GW 2030 path** | One ~100 GW training cluster; ~$8T/yr of AI investment; AI power ≈ US electricity | 10% (inside the bull) | **+282% (38.2%/yr)** | +170% (27.0%/yr) |
+| **AI-2027 path** | AI-2040's $2.4T of capex in 2028 → ~$4.2T in 2030; automated coder 2027–29 | 35% (base-to-bull) | **+145% (24.1%/yr)** | +82% (15.5%/yr) |
 | **Bull bucket** | 2030 capex ~$4.5T | 25% | Each holding at its bull value | — |
-| **Base** | 2030 capex ~$2.8T; HBM ~$165B; ~150 GW of AI power | 50% | **+78% (14.9%/yr)** | +40% (8.4%/yr) |
-| **Plateau / 2–3 year delay** | Capex stalls near 2026 levels; growth resumes late | 12.5% | **−22.3%** | −41.4% |
+| **Base** | 2030 capex ~$2.8T; HBM ~$165B; ~150 GW of AI power | 50% | **+79% (15.0%/yr)** | +40% (8.4%/yr) |
+| **Plateau / 2–3 year delay** | Capex stalls near 2026 levels; growth resumes late | 12.5% | **−22.1%** | −41.4% |
 | **AI-capex bust** | Financing wall; 2030 earnings back to FY2025 for every holding at once | 12.5% | **−61.5%** | −67.3% |
-| **Probability-weighted** | | | **+81% (15.4%/yr)** | +37% (7.9%/yr) |
+| **Probability-weighted** | | | **+82% (15.5%/yr)** | +37% (7.9%/yr) |
 
 ### B. Top 5 Risks and Invalidation Triggers
 
 | # | Risk | Measurable invalidation trigger | Status (Nov 9) | Pre-committed action if triggered |
 |---|---|---|---|---|
-| 1 | **AI financing wall / credit event** | Any two of: OpenAI fails to close new primary funding at ≥ its prior valuation by Mar 31, 2027; a neocloud misses a coupon or breaches a covenant; US high-yield spreads > 500bp; AVGO or NVDA books a material financing impairment | **Yellow-red** (OpenAI target cut; CRWV bonds ~15%) | Cut C1 + C3 from 73% to ≤ 55%: CLS 10 → 5, VRT 15 → 10, NVT 12 → 7, STRL 6 → 3; hold NVDA and MU. Hold the 18 points in reserve until spreads stabilize (META and NRG, with the lowest delay losses, are already at their caps) |
-| 2 | **Permission shock (Texas / PJM / FERC)** | A Texas moratorium bill clears a chamber; ≥ 3 states pass statewide restrictions; FERC/PJM rules void bring-your-own-power deals | **Yellow-red** | **Re-underwrite NRG and STRL within 5 sessions** (D6); no automatic headline trade. If the impact is confirmed: NRG 12 → 8, STRL 6 → 3, TLN +7. If two of the three trip, the same action applies without waiting for the re-underwrite |
-| 3 | **Memory glut (2028)** | DRAM contract prices fall two quarters running; MU guides gross margin < 75%; LTA renegotiations | **Green** (prices rising into Q4) | MU 15 → 7; capital to the bench in order (AVGO first), then TSM (re-entry) |
+| 1 | **AI financing wall / credit event** | Any two of: OpenAI fails to close new primary funding at ≥ its prior valuation by Mar 31, 2027; a neocloud misses a coupon or breaches a covenant; US high-yield spreads > 500bp; AVGO or NVDA books a material financing impairment | **Yellow-red** (OpenAI target cut; CRWV bonds ~15%) | Cut C1 + C3 from 73% to ≤ 55%: CLS 10 → 5, VRT 14 → 10, NVT 12 → 7, STRL 8 → 3; hold NVDA and MU. Hold the 19 points in reserve (C1 + C3 becomes 54%) until spreads stabilize (META and NRG, the preferred alternatives in this shock, are already at their caps) |
+| 2 | **Permission shock (Texas / PJM / FERC)** | A Texas moratorium bill clears a chamber; ≥ 3 states pass statewide restrictions; FERC/PJM rules void bring-your-own-power deals | **Yellow-red** | **Re-underwrite NRG and STRL within 5 sessions** (D6); no automatic headline trade. If the impact is confirmed: NRG 12 → 8, STRL 8 → 3, TLN +9. If two trip, expedite the review; confirmed cash-flow impact is still required before applying the funded substitution |
+| 3 | **Memory glut (2028)** | DRAM contract prices fall two quarters running; MU guides gross margin < 75%; LTA renegotiations | **Green** (prices rising into Q4) | MU 14 → 7; capital to the bench in order (AVGO first), then TSM (re-entry) |
 | 4 | **NVDA governance / key person** (new) | The board review finds a security compromise; Huang steps down without a clear successor; a US government restriction tied to the episode | **Yellow** (review open; China denies) | NVDA 15 → 8; AVGO +7 (bench #1) (D8) |
-| 5 | **Taiwan coercion (2027 PLA centenary window)** | Blockade drills closing ports for more than 48 hours; an official US warning of imminent action; TSMC export disruption | **Green-yellow** | NVDA and MU depend on TSMC and Taiwan packaging. Cut NVDA 15 → 10 and MU 15 → 10. The other holdings are at their caps, so add **TLN** (domestic, PJM) up to 8% and hold the remaining ~2 points in reserve until the situation clarifies |
+| 5 | **Taiwan coercion (2027 PLA centenary window)** | Blockade drills closing ports for more than 48 hours; an official US warning of imminent action; TSMC export disruption | **Green-yellow** | NVDA and MU depend on TSMC and Taiwan packaging. Cut NVDA 15 → 10 and MU 14 → 10. Preserve the approved targets of the other holdings; add **TLN** (domestic, PJM) up to 8% and hold the remaining 1 point in reserve until the situation clarifies |
 
 **Sixth risk: rates and inflation.** The trigger is a 10-year yield above 5.5% for four weeks, another Fed hike, or CPI above 4%. NRG is levered, so stop adding to it, favor cash generators with low multiples, and pause reserve deployment.
 
@@ -1239,32 +1251,32 @@ Increases equal decreases ✓.
 - **Trigger:** federal caps on AI-R&D compute, or US–China compute verification talks.
 - **Action:** cut C1 + C3 to ≤ 50%. META and power generation are the most resilient, since deployment-driven demand survives a training cap.
 
-**Zero-recovery (ownership) risk.** In the race ending's loss-of-control or expropriation branch, ordinary valuation is irrelevant and the return is −100%. This isn't in the primary expected value. As sensitivities, an **extra** 10% common zero-recovery state cuts V10.1 from 15.4% to **12.5%**, and 20% cuts it to **9.3%**. The same overlay cuts both models' Step 2 portfolios by the same amount, so it doesn't change the choice.
+**Zero-recovery (ownership) risk.** In the race ending's loss-of-control or expropriation branch, ordinary valuation is irrelevant and the return is −100%. This isn't in the primary expected value. As sensitivities, an **extra** 10% common zero-recovery state cuts V10.2 from 15.5% to **12.6%**, and 20% cuts it to **9.4%**. A common zero-recovery probability scales expected terminal wealth equally and preserves the ordering; the CAGR reductions are not identical in percentage points.
 
 ### C. Sleeve-Level Monitors (quarterly)
 
 | Sleeve | Bullish signal | Bearish signal | Next datapoint |
 |---|---|---|---|
 | Accelerators (NVDA) | FY28 "~70%" framing intact; Rubin on schedule; board review closes cleanly | Guide-down; review escalates; China retaliation | **Nov 17** |
-| Memory (MU) | LTAs extended to 2029–30 at higher prices; HBM4 share | Spot DRAM below contract; capex creep | **Dec 23** |
+| Memory (MU) | LTAs extended to 2029–30 at higher prices; HBM4 share | Spot DRAM below contract; capex creep | **Date unconfirmed (Dec 23 tentative)** |
 | Thermal / electrical (VRT, NVT) | 2027 guides ≥ +20%; transformer lead times > 120 weeks | Lead times < 80 weeks; organic growth < 10% | **Nov 18** (MOD gate); Feb 2027 |
 | Site work (STRL) | Signed book-to-burn ≥ 1.1; E-Infrastructure margins hold | Book-to-burn < 1.0 for two quarters; cancellations; Texas bill | Feb 2027 (Q4 report) |
-| Integration (CLS) | Q4 FCF on plan; 2027 capex funded internally | Equity raise; customer loss | Jan 27 |
-| Power (NRG) | PJM 2029/30 auction (**Dec 9**) at the cap; asset sale progress; buybacks | Texas bill; FERC caps on bilateral deals; ERCOT forwards −25% | **Dec 9; Jan session** |
+| Integration (CLS) | Q4 FCF on plan; 2027 capex funded internally | Equity raise; customer loss | Jan 27 unconfirmed |
+| Power (NRG) | PJM 2029/30 results (**Dec 22 scheduled**) at the cap; asset sale progress; buybacks | Texas bill; FERC caps on bilateral deals; ERCOT forwards −25% | **Dec 22; Jan session** |
 | Platform (META) | Ad growth ≥ 20%; capex discipline | Ad growth < 10%; legal losses | Jan 2027 |
 
 ### D. What Would *Not* Count as Invalidation
 
 - A further 20–30% drawdown in AI-infrastructure stocks while CY27 estimates hold or rise. That is a deeper discount, and the reserve rules apply.
 - One company-specific miss while peers confirm demand.
-- Headline volatility around the Nov 10 rare-earth lapse, NVDA's Nov 17 report and the board review, the Dec 9 PJM auction, or MU's Dec 23 report.
-- A higher Codex-style terminal multiple, or a lower one. V10.1 is the best of the tested portfolios under both multiple policies, though the constituents are not invariant: on Codex's multiples MSFT would outrank VRT and MU on expected return.
+- Headline volatility around the Nov 10 rare-earth lapse, NVDA's Nov 17 report and the board review, the Dec 22 scheduled PJM results, or MU's next report (Dec 23 unconfirmed).
+- A higher Codex-style terminal multiple, or a lower one. The primary A1 conclusion is conditional on its multiple policy: under Codex's multiples MSFT outranks VRT/MU, and a different portfolio may win.
 
 ---
 
 ## Part VIII: Targeted Question Reanalysis (November 2026 Update of May Part XIV)
 
-All 15 questions from May Part XIV are kept, in order. Each has the prior May answer, the new evidence since May 10, the updated answer, the V10.1 portfolio implication (updated in Step 5 where the weights changed), and confidence with disconfirming evidence.
+All 15 questions from May Part XIV are kept, in order. Each has the prior May answer, the new evidence since May 10, the updated answer, the V10.2 portfolio implication (updated in Step 5 where the weights changed), and confidence with disconfirming evidence.
 
 ### Q1) What Is the Complete AI Datacenter Bottleneck Map?
 
@@ -1326,7 +1338,7 @@ The monopolies at step 6 fail only the third test.
 
 #### Portfolio implication
 
-- V10.1 owns steps 1–2, 4–5, 7–8, 11 and 12. STRL (added in Step 5) is the site-development and electrical-installation contractor that carries a campus through steps 1, 4 and 5.
+- V10.2 owns steps 1–2, 4–5, 7–8, 11 and 12. STRL (added in Step 5) is the site-development and electrical-installation contractor that carries a campus through steps 1, 4 and 5.
 - It deliberately leaves step 6 (TSM, ASML) and step 9 (optics) unowned at current prices, with re-entry triggers in Part VI.C.
 - If steps 0–1 ease (financing reopens, local opposition fades), the next move is to re-add TSM or AVGO on weakness. The greenfield-equipment names (GEV, PWR) wait for a lower price.
 
@@ -1379,10 +1391,10 @@ A money-maximizer would update its playbook in one decisive way: **when the bind
 5. **Integrate throughput.** Bundle power, site, compute and cooling into "tokens per second, delivered," and keep balance-sheet capacity for the 2028 digestion.
 6. **Hedge only when insurance is cheap.** At current prices it isn't (MP 2.3%, KTOS −2.1%, BNTX 4.3% expected), so the maximizer would hold cash-like dry powder instead of expensive insurance.
 
-| A money-maximizer would overweight | Why now | V10.1 |
+| A money-maximizer would overweight | Why now | V10.2 |
 |---|---|---:|
-| NVDA, MU, CLS | Hard bottlenecks at trough multiples on rising estimates | 40% |
-| VRT, NVT, STRL | Physical deployment gates (equipment and site work), reasonably priced | 33% |
+| NVDA, MU, CLS | Hard bottlenecks at trough multiples on rising estimates | 39% |
+| VRT, NVT, STRL | Physical deployment gates (equipment and site work), reasonably priced | 34% |
 | NRG | Permitted, energized fleets at cash yields ("permission owners") | 12% |
 | META | Self-funded monetization; the mildest bust | 15% |
 
@@ -1394,7 +1406,7 @@ A money-maximizer would update its playbook in one decisive way: **when the bind
 
 #### Portfolio implication
 
-- Supports V10.1's rotation from priced toll roads, software and failed options into compressed owners, permitted power and a self-funded monetizer.
+- Supports V10.2's rotation from priced toll roads, software and failed options into compressed owners, permitted power and a self-funded monetizer.
 - The "financier" phase isn't directly investable under the mandate. Its closest equity proxies are MU (customers prepay) and NRG (deleveraging is a return on capital).
 
 #### Confidence (1-5) and disconfirming evidence
@@ -1444,14 +1456,14 @@ Alternates: ETN, TLN, LITE, CDNS, LRCX/KLAC.
 
 **The ranking is now valuation-adjusted capture: 100GW 2030 Scenario CAGR, then Expected CAGR as a check.** All values are on the same synthesis model, at Nov 9 prices.
 
-| Rank | Stock | 100GW 2030 Scenario CAGR | Expected CAGR | Capture logic | V10.1 | May rank |
+| Rank | Stock | 100GW 2030 Scenario CAGR | Expected CAGR | Capture logic | V10.2 | May rank |
 |---:|---|---:|---:|---|---:|---:|
-| 1 | **MU** | **45.3%** | 13.1% | HBM is the binding input, and memory content per GW rises fastest | 15% | 6 |
-| 2 | **STRL** | 43.7% | 19.5% | Site development and electrical installation scale with campus MW (added in Step 5) | 6% | — |
+| 1 | **MU** | **45.3%** | 13.1% | HBM is the binding input, and memory content per GW rises fastest | 14% | 6 |
+| 2 | **STRL** | 43.7% | 19.5% | Site development and electrical installation scale with campus MW (added in Step 5) | 8% | — |
 | 3 | **NVDA** | 41.5% | 17.8% | The largest single share of campus capex | 15% | 10 |
 | 4 | **CLS** | 35.6% | 14.8% | Rack-scale integration volume | 10% | — |
 | 5 | **NRG** | 35.6% | 17.1% | Energized supply and retail in the two largest AI-load markets | 12% | — |
-| 6 | **VRT** | 34.9% | 13.9% | Thermal and power per MW scale linearly with GW | 15% | 9 |
+| 6 | **VRT** | 34.9% | 13.9% | Thermal and power per MW scale linearly with GW | 14% | 9 |
 | 7 | AVGO | 34.6% | 13.5% | Custom silicon for the non-NVIDIA share (base corrected in Step 5) | 0% (bench #1) | 11 |
 | 8 | **NVT** | 34.0% | 13.8% | Switchgear, distribution and cooling per MW | 12% | alt (ETN) |
 | 9 | **META** | 33.9% | 15.0% | Monetization and self-funded capex | 15% | — |
@@ -1468,7 +1480,7 @@ If the **single-cluster** 100GW path happens, power and electrical equipment bin
 
 #### Portfolio implication
 
-- Among stocks with Expected CAGR above 11% (excluding the gated MOD and the excluded CRWV), V10.1 holds eight of the ten highest 100GW CAGRs (all but AVGO and AXON). It is aligned with the 100GW path without paying up for it.
+- Among stocks with Expected CAGR above 11% (excluding the gated MOD and the excluded CRWV), V10.2 holds eight of the ten highest 100GW CAGRs (all but AVGO and AXON). It is aligned with the 100GW path without paying up for it.
 - If 100 GW slips to 2031–32, the owner of *existing* capacity (NRG) holds value best, with a delay-state loss of −5%. STRL's is −15%, against −21% to −43% for the thermal and integration names (NVT, VRT, CLS).
 
 #### Confidence (1-5) and disconfirming evidence
@@ -1521,16 +1533,16 @@ An intelligence-maximizer in a capital- and permission-constrained world reorder
 5. **Secure the 2028–2030 pipeline:** prepay for 2nm capacity, EUV slots and memory LTAs.
 6. **Hedge interruption:** weight security, supply shocks, regulation and **single-financier dependence**.
 
-| Constraint the ASI attacks first | Public expression | V10.1 weight |
+| Constraint the ASI attacks first | Public expression | V10.2 weight |
 |---|---|---:|
-| Memory bandwidth and capacity | MU | 15% |
+| Memory bandwidth and capacity | MU | 14% |
 | Compute and the scale-up domain | NVDA, CLS | 25% |
-| Power, cooling, electrical and site work | VRT, NVT, NRG, STRL | 45% |
+| Power, cooling, electrical and site work | VRT, NVT, NRG, STRL | 46% |
 | Wafers, EUV and design | TSM, ASML, SNPS | 0% (priced) |
 | Workload owner (inference demand) | META | 15% |
 
 #### Portfolio implication
-The update favors **memory and dense rack infrastructure** even more than May did, which is consistent with MU at 15% and VRT/NVT/CLS at 37%. The intelligence-maximizer would also want the foundry and EUV slots, but at today's prices it can secure them by contract rather than by owning the equity.
+The update favors **memory and dense rack infrastructure** even more than May did, which is consistent with MU at 14% and VRT/NVT/CLS at 36%. The intelligence-maximizer would also want the foundry and EUV slots, but at today's prices it can secure them by contract rather than by owning the equity.
 
 #### Confidence (1-5) and disconfirming evidence
 **Confidence: 4/5.**
@@ -1587,7 +1599,7 @@ An ASI advisor would say the US is **not losing on chips. It risks losing on per
 
 #### Portfolio implication
 
-- V10.1 is positioned for the most likely US policy response, which targets the *permission and financing* bottlenecks. Those are exactly the layers whose equities were de-rated most.
+- V10.2 is positioned for the most likely US policy response, which targets the *permission and financing* bottlenecks. Those are exactly the layers whose equities were de-rated most.
 - The NVIDIA episode adds a security dimension: a finding that compromises NVIDIA's leadership or triggers new US restrictions is Part VII risk #4.
 - Monitor federal siting and financing legislation after the new Congress sits in January 2027.
 
@@ -1660,7 +1672,7 @@ How big a deal is the need for power, and which source benefits most from increa
 
 #### New evidence since May 10
 
-- **PJM:** the 2028/29 auction cleared at the $325/MW-day cap, ~6.8 GW short (an uncapped price was estimated at ~$555) `[STALE >30d]`. **The 2029/30 auction is Dec 9.** FERC suspended backstop procurement.
+- **PJM:** the 2028/29 auction cleared at the $325/MW-day cap, ~6.8 GW short (an uncapped price was estimated at ~$555) `[STALE >30d]`. **The 2029/30 auction runs Dec 9–15, with results scheduled Dec 22.** FERC suspended backstop procurement.
 - **Contracting shifted to bring-your-own-power:**
     - Google–CEG 3.6 GW;
     - VST's Cogentrix close plus the Meta PPA;
@@ -1676,10 +1688,10 @@ How big a deal is the need for power, and which source benefits most from increa
 
 **Power is still the largest physical bottleneck, and politics now sits on top of it.** The investable question has moved from "who generates" to **"who already has permission to generate, and what does the market charge for that?"**
 
-| Rank | Source / layer | Why it wins now | Key limitation | Best equity (V10.1) |
+| Rank | Source / layer | Why it wins now | Key limitation | Best equity (V10.2) |
 |---:|---|---|---|---|
 | 1 | **Existing dispatchable fleets with permitted sites, bought at cash-flow multiples** | No new permission needed; bring-your-own-power deals monetize them | Political price caps; merchant exposure; Texas | **NRG 12%** (VST exited in Step 5; bench #2) |
-| 2 | **Electrical distribution and protection** | Every source needs switchgear, breakers and transformers | Lead times eventually normalize | **NVT 12%**; STRL 6% (installation) |
+| 2 | **Electrical distribution and protection** | Every source needs switchgear, breakers and transformers | Lead times eventually normalize | **NVT 12%**; STRL 8% (installation) |
 | 3 | Nuclear uprates | Fastest new clean MW (2028+) | Limited volume; **priced** (CEG 20.6×) | None |
 | 4 | Behind-the-meter | Bypasses queues | Permits; financing chain | None |
 | 5 | New gas turbines (CCGT) | Workhorse for 2029+ | Slots to 2029–30; GEV 32× | None |
@@ -1695,15 +1707,15 @@ How big a deal is the need for power, and which source benefits most from increa
 | TLN | 12.7% | ~9.9× EV/EBITDA | PJM |
 | CEG | 8.4% | 20.6× | The nuclear premium is in the price |
 
-NRG's 12% and STRL's 6% are both Texas-heavy and are capped together at 20%. A Texas moratorium bill clearing a chamber triggers a **re-underwrite of both, with TLN as the PJM substitute** (Step 5 D6).
+NRG's 12% and STRL's 8% are both Texas-heavy and are capped together at 20%. A Texas moratorium bill clearing a chamber triggers a **re-underwrite of both, with TLN as the PJM substitute** (Step 5 D6).
 
 #### Portfolio implication
 
-- **The power chain (NRG + NVT + STRL) is 30%, or 45% including VRT's power and thermal products.**
+- **The power chain (NRG + NVT + STRL) is 32%, or 46% including VRT's power and thermal products.**
 - **Conditional framework:**
-    - **PJM's Dec 9 auction clears at the cap with a shortfall:** hold.
+    - **PJM's Dec 22 scheduled results show the auction clears at the cap with a shortfall:** hold.
     - **FERC or Congress caps bilateral AI-load contracts:** cut NRG by a third (12 → 8), with the 4 points to the bench in order (AVGO first).
-    - **A Texas bill advances:** re-underwrite NRG and STRL within 5 sessions; if the impact is confirmed, NRG 12 → 8, STRL 6 → 3, TLN +7.
+    - **A Texas bill advances:** re-underwrite NRG and STRL within 5 sessions; if the impact is confirmed, NRG 12 → 8, STRL 8 → 3, TLN +9.
 
 #### Confidence (1-5) and disconfirming evidence
 **Confidence: 4/5.**
@@ -1750,7 +1762,7 @@ Should the portfolio invest in Department of Defense and war stocks, especially 
 
 #### Portfolio implication
 
-- **No defense sleeve in V10.1.** This is a change from my Step 1 view (KTOS 2%), made on owner-earnings evidence.
+- **No defense sleeve in V10.2.** This is a change from my Step 1 view (KTOS 2%), made on owner-earnings evidence.
 - **Re-entry:** KTOS shows two quarters of positive owner FCF with backlog conversion, *or* an Anduril IPO at a reasonable multiple. Start at 2% from the lowest-ranked holding.
 
 #### Confidence (1-5) and disconfirming evidence
@@ -1837,7 +1849,7 @@ Should I invest in identity, provenance, or compliance rails?
 
 #### Portfolio implication
 
-- **V10.1 exits the security and identity layer (CRWD 3% → 0%)** on valuation, not thesis.
+- **V10.2 exits the security and identity layer (CRWD 3% → 0%)** on valuation, not thesis.
 - **Re-entry:** CRWD below ~$150 with NNARR growth ≥ 25%, or OKTA if agent identity becomes a separately reported line growing >50% at < 7× EV/sales.
 
 #### Confidence (1-5) and disconfirming evidence
@@ -2009,7 +2021,7 @@ Which five developments, ranked, would most strongly invalidate the Event Horizo
 | 2 | Two clusters weaken for two quarters or more | Cut C1 + C3 to ≤ 50%; raise the reserve | Triggers if financing and permission stay bearish through Q1 2027 *and* any of #3–#5 turns |
 | 3 | Three or more clusters weaken structurally | De-risk the thesis concentration | — |
 
-**Not invalidation:** price drawdowns while lead times, pricing and capex stay bullish. That is the current state, and it's why V10.1 *adds* to the de-rated owners.
+**Not invalidation:** price drawdowns while lead times, pricing and capex stay bullish. That is the current state, and it's why V10.2 *adds* to the de-rated owners.
 
 #### Portfolio implication
 
@@ -2017,7 +2029,7 @@ Which five developments, ranked, would most strongly invalidate the Event Horizo
     - failed-execution names are out (INTC, AVAV, CCJ);
     - financing-exposed links are cut (AVGO, DELL, neoclouds);
     - Texas-heavy exposure (NRG + STRL) is capped at 20%, with a re-underwrite trigger.
-- The pre-committed Level 2 actions are Part VII.B risks #1 and #2.
+- Part VII.B risk #1 is an immediate financing stress action (C1 + C3 ≤55%, specifically 54% on V10.2). This prolonged Level 2 combines additional deterioration and requires a separately funded review to reach ≤50%; the initial 19-point cut alone does not achieve 50%. Risk #2 still requires confirmed cash-flow impact, even when multiple permission headlines fire.
 
 #### Confidence (1-5) and disconfirming evidence
 **Confidence: 4/5** on the ranking; **5/5** on the framework.
@@ -2041,17 +2053,17 @@ How does this portfolio compare to two or three alternative architectures? Is th
 
 - **V9.1's breadth didn't protect it.** Its uncorrelated-looking names either failed (INTC, AVAV, CCJ, MP) or became the most expensive (CRWD, PLTR, MRNA).
 - **Valuation dispersion inside the AI stack is extreme** (3.5× to 140× forward earnings), which rewards selection over coverage.
-- **The two-model process showed the selection error is larger than the weighting error.** Codex's 8 names beat Claude's 16 on one model (14.0% vs 11.4%) before either was refined.
+- **The two-model process showed the selection error is larger than the weighting error.** Codex's 8 names beat Claude's 16 on one model (14.3% vs 11.5% on the adopted model) before either was refined.
 
 #### Updated answer (Nov 9)
 
-**Core-and-satellite with eight names is optimal for this mandate.**
+**Core-and-satellite with eight names wins the named primary-A1 architecture comparison; this is not proof of a global optimum.**
 
-| Criterion (maximize expected return subject to loss constraints) | V9.1 integrated (24) | Diversified rebuilt (16) | Concentrated (7) | **Core + satellite (8, V10.1)** | Barbell (reference) |
+| Criterion (maximize expected return subject to loss constraints) | V9.1 integrated (24) | Diversified rebuilt (16) | Concentrated (7) | **Core + satellite (8, V10.2)** | Barbell (reference) |
 |---|---:|---:|---:|---:|---:|
-| Expected CAGR | 7.9% | 13.7% | 15.2% | **15.4%** | n/m (the Continuity Fund already *is* the barbell's safe leg) |
-| AI-2027 / 100GW CAGR | 15.5% / 27.0% | 21.0% / 32.6% | 23.5% / 37.0% | **24.0% / 38.1%** | Lower |
-| Bust / delay | −67.3% / −41.4% | −59.1% / −24.3% | −61.9% / −23.3% | **−61.5% / −22.3%** | Better, at a large return cost |
+| Expected CAGR | 7.9% | 13.7% | 15.2% | **15.5%** | n/m (the Continuity Fund already *is* the barbell's safe leg) |
+| AI-2027 / 100GW CAGR | 15.5% / 27.0% | 21.0% / 32.6% | 23.5% / 37.0% | **24.1% / 38.2%** | Lower |
+| Bust / delay | −67.3% / −41.4% | −59.1% / −24.3% | −61.9% / −23.3% | **−61.5% / −22.1%** | Better, at a large return cost |
 | Estimate-sensitive names at the full cap | — | None | CLS, NRG at 15% | **None** | — |
 | Fit with the three-fund structure | Good | Good | Fair | **Best** | Duplicates Continuity |
 | **Overall (/10)** | 5.5 | 7.6 | 8.3 | **8.8** | 6.0 |
@@ -2060,9 +2072,9 @@ How does this portfolio compare to two or three alternative architectures? Is th
 
 #### Portfolio implication
 
-- **V10.1 adopted** (Part VI) after Steps 4 and 5:
-    - **Core** (NVDA, META, VRT, MU, NRG, NVT): 84%.
-    - **Satellites** (CLS, STRL): 16%, each capped at 10%.
+- **V10.2 adopted** (Part VI) after Step 6:
+    - **Core** (NVDA, META, VRT, MU, NRG, NVT): 82%.
+    - **Satellites** (CLS, STRL): 18%, each capped at 10%.
 - **Governance:**
     - Quarterly architecture review.
     - A satellite gets one failed thesis check before exit.
@@ -2078,41 +2090,42 @@ How does this portfolio compare to two or three alternative architectures? Is th
 
 ## Part IX: Near-Term Deployment Strategy (Summary)
 
-The full plan is in `Analysis 2026-11-08/Deployment Strategy/Deployment Strategy 2026-11-08.md`, updated in Step 5 for the adopted V10.1.
+The full plan is in `Analysis 2026-11-08/Deployment Strategy/Deployment Strategy 2026-11-08.md`, updated in Step 6 for the adopted V10.2.
 
 **Summary: about 3 weeks, four tranches, catalyst-aware. Turnover is about 85% from drifted V9.1 weights.**
 
 | Tranche | Window | What happens | Reserve after (% of sleeve) |
 |---|---|---|---:|
-| T1: fund and pair-swap | Wed Nov 11 – Thu Nov 12 | Exit 18 names with no role in V10.1, including VST (−62.9 pts). Same-theme pair buys: NVT (vs GEV/PWR/BE), META (vs CRWD/PLTR/INTC/MRNA), NRG (vs CEG/CCJ), STRL (vs VST), CLS (vs AMAT/SNPS), VRT (vs ANET/DELL/COHR). Starter MU. **No NVDA before its report** | ~23.9% |
-| T2: upstream rotation | Fri Nov 13 – Mon Nov 16 | Sell half of TSM/ASML. Complete META, NRG, NVT and STRL (≤ $315); add CLS, VRT, MU | ~6.1% |
-| T3: after NVDA | Wed Nov 18 – Fri Nov 20 | Complete the TSM/ASML sales and sell AVGO (unless the review turns adverse). NVDA under Scenarios A/B/C/D (board review status); complete VRT; MOD gate decision (Nov 18 investor day) | ~9.0% |
-| T4: final | Mon Nov 30 – Thu Dec 3 | Complete NVDA, MU (three weeks before its Dec 23 report) and CLS; band cleanup | ~0% |
+| T1: fund and pair-swap | Wed Nov 11 – Thu Nov 12 | Exit 18 names with no role in V10.2, including VST (−62.9 pts). Same-theme pair buys: NVT (vs GEV/PWR/BE), META (vs CRWD/PLTR/INTC/MRNA), NRG (vs CEG/CCJ), STRL (vs VST), CLS (vs AMAT/SNPS), VRT (vs ANET/DELL/COHR). Starter MU. **No NVDA before its report** | ~23.8% |
+| T2: upstream rotation | Fri Nov 13 – Mon Nov 16 | Sell half of TSM/ASML. Complete META, NRG, NVT and STRL (≤ $315); add CLS, VRT, MU | ~5.5% |
+| T3: after NVDA | Wed Nov 18 – Fri Nov 20 | Complete the TSM/ASML sales and sell AVGO (unless the review turns adverse). NVDA under Scenarios A/B/C/D (board review status); complete VRT; MOD gate decision (Nov 18 investor day) | ~8.7% |
+| T4: final | Mon Nov 30 – Thu Dec 3 | Complete NVDA, MU (subject to its issuer-confirmed earnings date (Dec 23 unconfirmed)) and CLS; band cleanup | ~0% |
 
 **Key rules:**
 
-- Pair each sale with a same-day buy in the same economic theme.
+- Pair sales and same-theme buys only when all gates and limits pass; otherwise retain the temporary reserve.
 - Never buy above a name's maximum buy price (the price at which its expected return falls to 12%).
 - Never buy in the session before a name's earnings.
-- Deploy all reserve by **Dec 11** unless the financing-shock or Taiwan scenario is active.
+- **Dec 11 is a reserve review checkpoint, not a forced-buy deadline.** Gates, risk pauses, tax checks, limits and all position/cluster caps override schedules and acceleration rules. PJM results are not scheduled until Dec 22. Buy only remaining approved gaps; carry blocked cash to a documented owner review, not an over-target position.
 - **Triggers (Step 5):**
-    - **Texas bill:** re-underwrite NRG and STRL within 5 sessions; if confirmed, NRG 12 → 8, STRL 6 → 3, TLN +7 (D6).
+    - **Texas bill:** re-underwrite NRG and STRL within 5 sessions; if confirmed, NRG 12 → 8, STRL 8 → 3, TLN +9 (D6).
     - **Adverse board finding:** NVDA capped at 8%; AVGO +7 (D8).
     - **MOD gate passes** at the Nov 18 investor day: MOD +5%, from VRT −3 and NVT −2 (D7).
 
-**Tax note:** on lots bought in May, realized losses (TSM, ASML, CEG, VST, AVGO, GEV, PWR, INTC, MP and others) exceed the gains (MRNA, CRWD, ANET, DELL, PLTR), so the rotation can be roughly tax-neutral. Verify against actual lots.
+**Tax note:** on lots bought in May, realized losses (TSM, ASML, CEG, VST, AVGO, GEV, PWR, INTC, MP and others) exceed the gains (MRNA, CRWD, ANET, DELL, PLTR), but this is not a tax-neutrality estimate for the account. Verify actual lots, gains/loss character and the wash-sale window (30 days before and after, including relevant household/IRA transactions) with the broker or tax adviser.
 
 ---
 
 ## Appendix A: Methodology, Data Provenance, and Stale-Input Flags
 
-**Process (five-step flow):**
+**Process (five steps plus independent final review):**
 
 1. **Step 1:** independent deep dives by Claude and by Codex (`inputs/Claude Deep Dive 2026-11-08.md`, `inputs/Codex Deep Dive 2026-11-08.md`).
 2. **Step 2:** stock-by-stock cross-critiques (`inputs/Claude Critique of Codex 2026-11-08.md`, `inputs/Codex Critique of Claude 2026-11-08.md`). Each was written without seeing the other.
 3. **Step 3:** pooled ranking and synthesis by Claude (V10.0 proposal). The ranking, disputed inputs, open calls and self-sided audit are in `inputs/Candidate Ranking 2026-11-08.md`.
 4. **Step 4:** independent optimization passes by both models (`inputs/Claude Optimization Pass 2026-11-08.md`, `inputs/Codex Optimization Pass 2026-11-08.md`). Claude's was written without reading Codex's.
-5. **Step 5 (this report):** final assembly by Claude. Every Step 4 item and Step 3 open call was decided on the same model (`inputs/Step 5 Decision Log 2026-11-08.md`), producing the adopted V10.1.
+5. **Step 5:** final assembly by Claude. Every Step 4 item and Step 3 open call was decided on the same model (`inputs/Step 5 Decision Log 2026-11-08.md`), producing V10.1.
+6. **Step 6:** Codex reproduced all eight Step 5 artifacts byte for byte, audited D1–D14 and corrected the final to V10.2. New scripts, overlays, generated tables and the quote/calendar audit are only in `inputs/research/codex_final_review/`; Step 1–5 records are unchanged.
 
 **Market data.** Prices are Yahoo Finance chart-endpoint closes for Nov 6 and Nov 9, 2026 (last bar 21:00 UTC Nov 9). Consensus estimates, forward P/Es, earnings history, annual diluted EPS, stock-based compensation and shares come from Yahoo quoteSummary and fundamentals-timeseries pulls on the evening of Nov 9, covering 58 pool names plus 32 peers and benchmarks. Step 5 added STRL and WCC (60 names) from the same Nov 9 pull. Accountability returns from May 8 to Nov 6 come from dividend-adjusted daily closes.
 
@@ -2154,12 +2167,16 @@ The full plan is in `Analysis 2026-11-08/Deployment Strategy/Deployment Strategy
 
 Each is used only where no newer primary source exists. The next datapoints are listed in Part VII.C.
 
-**Unverified items:**
+**Step 6 verification and remaining gaps:**
 
-- Broadcom's ~$43B maximum undiscounted exposure: Codex's citation of the Oct 27 8-K. Adopted as the newer and more conservative figure, but not re-fetched for this report.
+- Broadcom's ~$43B maximum contingent exposure was re-fetched and verified in its Oct 27 8-K. The FY28 EPS target is corroborated by a third-party call transcript; the September 14 reaffirmation was not verified.
 - The MOD investor-day date (Nov 18): confirmed in Step 5 from Modine's own announcement.
 - NRG's sold-asset EBITDA (~$0.5B): a modeling assumption, not disclosed.
-- The NVIDIA board-review details: from Yahoo/24/7 Wall St (read in full) and CNN's headline. No company filing was found.
+- NVIDIA's Nov 8 board statement confirms the review, not the reported foreign-agent allegation. The Nov 17 earnings date is issuer-confirmed; MOD Nov 18 and AVGO Dec 9 are also issuer-confirmed. MU Dec 23, TSM Jan 14 and CLS Jan 27 are unconfirmed; refresh the issuer calendars before orders. Other read-through dates in this report are inherited, not an authorization to trade without checking.
+- PJM's downloaded schedule (2029/30 BRA rows 59–61) distinguishes Dec 9 opening, Dec 15 close and Dec 22 results. All reserve deadlines are subordinate to trading gates.
+- WCC's [Q1 investor presentation, PDF page 13](https://investors.wesco.com/static-files/6da5e262-57ff-497d-b112-ff02b3aa1af2) explicitly retains SBC in adjusted EPS; Step 6 reverses only the duplicate 4% factor in the stored plateau/base/bull EPS. Its 2027 growth rate is the synthesis model's judgment, not verified guidance.
+- Nov 10 approximately 20:27 UTC live-quote check: none of 16 held/bench/gated/watchlist names moved more than 10% versus Nov 9 (largest: NVDA −5.85%; SANM +4.30%). These intraday observations do not reprice the report. Raw timestamps and public quote endpoints are in `codex_final_review/data/quote_audit.json`.
+- The 60-name table combines 29 full A1 underwrites and 31 screens; screen stress values are not equivalent to full modeled bust states. Rankings are frozen Step 5 ordinal references even where WCC's accounting correction raises its return. A complete uniform-model re-ranking belongs to the next cycle.
 
 **Limits.** The model's probabilities are subjective, not frequencies. The bust stress is a deep, simultaneous scenario, not a loss quantile. Portfolio-level error bands are about ±2pp of CAGR. Taxes, spreads and household overlap are outside the model.
 
@@ -2207,9 +2224,9 @@ Each is used only where no newer primary source exists. The next datapoints are 
 
 ## Appendix C: Final Verification
 
-- **Allocation checksum:** NVDA 15 + META 15 + VRT 15 + MU 15 + NRG 12 + NVT 12 + CLS 10 + STRL 6 = **100.0%** ✓
-- **Funding:** every increase has a named funding source; increases +82 = decreases −82 ✓. Every change from the Step 3 proposal (VST −8; STRL +6, VRT +1, MU +1) is funded by VST's exit ✓
-- **Constraints:** no position above 15%; Texas-heavy NRG + STRL = 18% (limit 20%); bust −61.5% vs V9.1's −67.3% ✓
+- **Allocation checksum:** NVDA 15 + META 15 + VRT 14 + MU 14 + NRG 12 + NVT 12 + CLS 10 + STRL 8 = **100.0%** ✓
+- **Funding:** every increase has a named funding source; increases +82 = decreases −82 ✓. Net change from Step 3 is VST −8 / STRL +8; Step 6 specifically funds STRL +2 from VRT −1 and MU −1 ✓
+- **Constraints:** no position above 15%; Texas-heavy NRG + STRL = 20% (limit 20%); bust −61.5% vs V9.1's −67.3% ✓
 - **Locked structure followed (Parts I–IX):**
     - Model Reconciliation after the Executive Verdict ✓
     - all 15 targeted questions ✓
@@ -2219,6 +2236,6 @@ Each is used only where no newer primary source exists. The next datapoints are 
 - **Pool coverage:** every stock either model held or fully underwrote (58), plus the two Step 4 names that entered in Step 5 (STRL, WCC), appears in the ranked table (Part III.C and the Candidate Ranking addendum) ✓
 - **No averaging:** no weight or input averages the two models' values. Disputes were resolved by evidence or the tie rule, and are listed with their deciding evidence in the Candidate Ranking §A4.3 ✓
 - **Framework coverage:** the AI-2027 / AI-2040 / Situational Awareness subsection covers every source in PROMPT_1 Required Inputs §3 (Part II.C) ✓
-- **Status:** V10.1 is marked **adopted** (Step 5, Nov 10). The Step 3 proposal is preserved in `inputs/superseded/`. `README.md`'s active allocation shows V10.1 ✓
-- **Step 5 checks:** the Decision Log covers every merged item (D1–D14) with deciding evidence; every accepted change passed the noise rule on the same model; every rejected name is on the bench or watchlist with a trigger; weights match across this report, the Deployment Strategy and the README; the Selection Rationale covers every holding and every name ranked above the lowest-ranked holding (MU, #11) ✓
+- **Status:** V10.2 is marked **adopted after Step 6 review** (Codex, Nov 10). The Step 3 proposal is preserved in `inputs/superseded/`. `README.md`'s active allocation shows V10.2 ✓
+- **Step 5 checks:** the Decision Log covers every merged item (D1–D14) with deciding evidence; Step 6 corrected D4's omitted lower rule-2 branch with the same prices/model/caps; every rejected name is on the bench or watchlist with a trigger; weights match across this report, the Deployment Strategy and the README; the Selection Rationale covers every holding and every name ranked above the lowest-ranked holding (MU, #11) ✓
 - **Outputs:** the Markdown and PDF of this report, the Deployment Strategy (Markdown and PDF), and the Candidate Ranking exist at the required paths (checked at render time) ✓
