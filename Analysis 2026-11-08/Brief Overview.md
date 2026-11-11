@@ -22,7 +22,7 @@
     - Lab revenue is running at 1.43× pace.
     - AI chip sales are about $450–500B, against the workbook's $396B.
 - **Capabilities are a little behind,** at about 70–90% of AI-2027's pace.
-- **The forecasters' own timelines have moved earlier.** Kokotajlo's median for an automated coder is now Dec 2027.
+- **The forecasters moved toward the story during 2026, but are still behind it.** Kokotajlo's median for an automated coder went from late 2029 (late 2025) to mid-2028 (Apr 2026) to **Dec 2027** (Aug 2026). That's about 2 years earlier than a year ago, but still about 9 months after the story's March 2027. Brendan is at Jul 2028 and Lifland at Mar 2029.
 - **Stock prices are behind the fundamentals.** Part II.C has the full scorecard.
 
 The fund's model is more cautious. It weights the base case, which is roughly AI-2027 running 1.5–2 years late, at 50%. This overview shows both views side by side.
