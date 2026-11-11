@@ -5,15 +5,66 @@
 ## 1. Bottom Line
 
 - **V10.2 holds eight stocks that supply the scarcest inputs to an AI-2027-style buildout:** chips, HBM memory, power, cooling, electrical gear, rack integration and site construction, plus META as ballast.
+- **The thesis hasn't changed since V7.3; the emphasis has.** The fund moved from owning every bottleneck plus hedges to owning the *cheapest, currently binding* bottlenecks in concentrated size: memory, power and the physical buildout (Section 2).
 - **If AI-2027 lands within about a year of schedule, the fund ends 2030 at about 2.0–2.9×** (2.45× if exactly on time). That turns $100k into about $199k–$293k. If it runs 1.5–2 years late it still makes about 15% a year. Its weak spot is an AI-spending bust, where it loses about 62%.
 - **Under your view (AI-2027 ±1 year), the fund's expected return is about 20% a year.** On the model's more cautious probabilities it is 15.5%.
-- **Every holding trades below fair value:** 22–40% below under your view, 11–29% on the model's view. Today's prices assume AI lands somewhere between a stall and "AI-2027 late," so the on-time case is essentially free upside (Section 4).
+- **Every holding trades below fair value:** 22–40% below under your view, 11–29% on the model's view. Today's prices assume AI lands somewhere between a stall and "AI-2027 late," so the on-time case is essentially free upside (Section 5).
 - **Re-weighting toward your view barely changes the stock list.** The best names under your view are mostly the ones already held. The one clear improvement is **MOD**: 5% if its Nov 18 investor day passes the gate (already planned), then **up to 8%** once its next report confirms it.
-- **AGI-focused investors mostly hold what the fund already owns:** memory, power and NVDA. The big new name is **Anthropic's IPO (ANT, trading Nov 19)**. On a rough screen it doesn't beat the holdings at the IPO price; at most it's a small Moonshot position (Section 9).
+- **AGI-focused investors mostly hold what the fund already owns:** memory, power and NVDA. The big new name is **Anthropic's IPO (ANT, trading Nov 19)**. On a rough screen it doesn't beat the holdings at the IPO price; at most it's a small Moonshot position (Section 10).
 - **The AI-2027 compute workbook confirms the picks rather than changing them.** HBM is the binding input in every year from 2025 to 2030. The workbook leaves out power entirely, and power is the real wall it would hit.
 - **Conviction averages 6.9/10.** NVDA and MU are highest at 8.5. CLS is lowest at 5. Nothing reaches 9–10, because every hardware holding loses 58–75% in a bust and several have unresolved near-term events.
 
-## 2. How We Think About the Future
+## 2. What Changed in the Thesis
+
+**The core thesis is the same. What changed is where and how the fund applies it.**
+
+- **Unchanged since V7.3 (Sept 2025):** an AI-2027 / Situational-Awareness-style buildout is coming, so own the companies that control its scarce inputs, the bottlenecks.
+    - This cycle's verdict (Part I.A of the final) is "**the thesis held; the prices broke.**"
+    - The fundamentals beat expectations: NVIDIA guided $108B for its October quarter, Micron printed an 87% gross margin, PJM's capacity auction came up about 6.8 GW short, and transformer lead times passed 160 weeks.
+    - AI stocks fell anyway, mostly because their valuation multiples shrank.
+- **What changed:** the fund moved from "**own every bottleneck, plus hedges**" to "**own the cheapest bottlenecks, concentrated where the scarcity is now: memory, power and the physical buildout.**"
+
+| Layer | V7.3 (Sep 2025) | V9.1 (May 2026) | **V10.2 (Nov 2026)** |
+|---|---:|---:|---:|
+| Chipmaking chain (TSM, ASML, AMAT, SNPS) | 29% | 28% | **0%** |
+| Chips + memory (NVDA, AVGO, MU) | 15% | 15% | **29%** (NVDA, MU) |
+| Networking / optics (ANET, COHR) | 5% | 6% | **0%** (via NVDA) |
+| Racks / servers (DELL → CLS) | 5% | 2% | **10%** |
+| **Power, cooling, electrical, sites** | 26% | 35% | **46%** (VRT, NVT, STRL, NRG) |
+| Software / platforms (CRWD, PLTR → META) | 4% | 5% | **15%** (META) |
+| Hedges (defense, bio, minerals) | 6% | 6% | **0%** |
+| Moonshot / options (INTC, miners) | 10% | 3% | **0%** |
+| **Number of stocks** | ~20 | 24 | **8** (9 with MOD) |
+
+### The four shifts
+
+1. **From the chip *factory* to the chip *site*.** The fund left the chipmaking toll roads (TSM, ASML, AMAT, SNPS). They're still bottlenecks, but they're priced like it: ASML at 23.9× earnings returns about 11% a year. The money moved downstream to what's binding *and* cheap right now:
+    - **Memory:** MU at 3.5×. HBM is the binding input in every year of the AI-2027 workbook (Section 8), and it uses about two-thirds of AI's EUV lithography capacity, so MU is a cheaper way to own the EUV wall.
+    - **The physical buildout:** power, cooling, electrical and sites, from 26% to 46%.
+2. **Price became the deciding question.** Before: "who owns a bottleneck?" Now: "**which bottleneck is cheapest for its expected return?**" Each stock has to beat the next-best use of the money at today's price.
+    - That's why 20 of V9.1's 24 positions failed.
+    - At Nov 9 prices, V9.1 was on track for about 7.9% a year, against 15.5% for V10.2.
+3. **Hedges were swapped for one ballast stock.**
+    - The defense, bio and minerals hedges (KTOS, AVAV, MRNA, MP) turned out not to hedge: they lose 65–98% in a bust and return little otherwise.
+    - The new rule is "**hedge only when the insurance is cheap.**"
+    - META replaces them: the first time the fund owns the *demand* side ("own the monetization"). It's cheap at 18× and loses only about 34% in a bust.
+4. **Two new constraints are recognized: capital and permission.** In 2025 the bottlenecks were physical. Now money and politics also gate the buildout: the September Fed hike, about 15% neocloud bond yields, Broadcom guaranteeing customer financing, and about 40 of 41 local data-center restrictions passed. So the fund prefers:
+    - **companies that fund themselves:** META, NVDA;
+    - **suppliers with prepaid customers:** MU;
+    - **cash generators:** NRG.
+
+    It avoids financing-dependent chains: AVGO's guarantees, CoreWeave, Oracle, AMD's OpenAI deal.
+
+### What stayed the same
+
+- **The guiding frameworks:** AI-2027, Situational Awareness, METR and Epoch are the same reading list as V7.3. AI-2027 and 100GW are now *quantified* per stock rather than qualitative.
+- **"Power is the bottleneck"** was already the biggest V7.3 sleeve (18%). It's now the core of the fund.
+- **NVDA, MU and VRT** survive from V7.3, and all three got bigger.
+- **The household structure:** Event Horizon is about 50% of investments, with Continuity (index funds) and Foundation (cash) unchanged.
+
+**In one sentence:** same bet on an AI-2027-style buildout, but V10.2 owns the *cheapest, currently binding* bottlenecks in concentrated size, instead of a bit of every bottleneck plus insurance that wasn't working.
+
+## 3. How We Think About the Future
 
 **Owner's view:** AI-2027, give or take about a year, is the most likely path. It has tracked well so far.
 
@@ -53,9 +104,9 @@ The fund's model is more cautious. It weights the base case, which is roughly AI
 | **Probability-weighted, owner view** | **20.2%/yr** | **~$214k** |
 | Probability-weighted, model view | 15.5%/yr | ~$182k |
 
-## 3. The Holdings at a Glance (Eight, Plus MOD)
+## 4. The Holdings at a Glance (Eight, Plus MOD)
 
-The scenario columns show what $1 becomes by the end of 2030. **Weight** shows V10.2 now → Stage 1, which applies if MOD passes its Nov 18 gate (D7, already adopted; Section 10).
+The scenario columns show what $1 becomes by the end of 2030. **Weight** shows V10.2 now → Stage 1, which applies if MOD passes its Nov 18 gate (D7, already adopted; Section 11).
 
 | Stock | Weight (now → if MOD passes) | Role | AI-2027 1.5–2y late | 1y late | **On time** | 1y early | 100GW | Bust | Owner-view E | Model E | Conviction |
 |---|---:|---|---:|---:|---:|---:|---:|---:|---:|---:|:---:|
@@ -71,9 +122,9 @@ The scenario columns show what $1 becomes by the end of 2030. **Weight** shows V
 | **Fund, V10.2 (now)** | **100%** | | **1.8×** | **2.0×** | **2.45×** | **2.9×** | **3.8×** | **−62%** | **20.2%** | **15.5%** | **6.9** (weighted) |
 | **Fund, Stage 1 (MOD 5%)** | **100%** | | **1.8×** | **2.0×** | **2.5×** | **3.0×** | **4.0×** | **−62%** | **20.9%** | **15.7%** | **6.9** (weighted) |
 
-**How to read this:** "Owner-view E" is the expected return using the owner's probabilities from Section 2. "Model E" is the fund's official ranking metric.
+**How to read this:** "Owner-view E" is the expected return using the owner's probabilities from Section 3. "Model E" is the fund's official ranking metric.
 
-## 4. Valuation at a Glance
+## 5. Valuation at a Glance
 
 **Price is built into every return in this document.** Expected CAGR = (expected 2030 value ÷ today's price), annualized. The same company scores lower as its price rises, so the fund buys a bottleneck only while it's still cheap enough.
 
@@ -96,7 +147,7 @@ The scenario columns show what $1 becomes by the end of 2030. **Weight** shows V
 
 - **Under the owner view, every holding trades 22–40% below fair value.** On the model's more cautious view the range is 11–29%.
 - **MU's two numbers differ the most (11% vs 36%).** At 3.5× earnings it looks extremely cheap, but the model *halves* its earnings by 2030 to allow for the memory cycle, so the model sees only a modest discount. If AI-2027 keeps HBM sold out, as the workbook implies, the discount is closer to 36%.
-- **META has the smallest owner-view discount (22%)**, because AI-2027 helps it less. It's held for protection (Section 5).
+- **META has the smallest owner-view discount (22%)**, because AI-2027 helps it less. It's held for protection (Section 6).
 
 ### How much room to grow (to Dec 31, 2030)
 
@@ -152,7 +203,7 @@ What would each stock have to be worth in 2030 to earn a normal 10%/yr from toda
 
 CRWD −12.5% · PLTR 1.0% · AMZN 8.3% · GOOGL ~10% · ASML 11.0% (23.9× earnings) · TSM 11.8% · SNDK 7.1% · MRNA −7.1%. These are model-view expected returns at Nov 9 prices. Good companies, but at these prices they return less than every holding.
 
-## 5. Holding by Holding
+## 6. Holding by Holding
 
 ### NVDA: 15% (at the cap). Conviction 8.5/10
 
@@ -172,7 +223,7 @@ CRWD −12.5% · PLTR 1.0% · AMZN 8.3% · GOOGL ~10% · ASML 11.0% (23.9× earn
     - At 18× earnings it's the cheapest big tech platform. Model E 15.0% (#6 of 60), against 12.3% for MSFT.
     - It loses only 34% in a bust, against about 60% or worse for every other holding.
 - **The honest weak spot:** on its own, META is the **lowest holding under the owner view** (16.7%, #17 of 60). AI-2027 makes it spend *more* on capex, and only one model (Codex) valued it.
-- **Why it still earns 15%:** replacing it with the best available swap, AVGO 15%, raises owner-view return by only 0.16pp. In exchange, the bust gets 5.8pp worse (−67.3%) and the delay case 3.4pp worse, and model E falls 0.21pp. Section 8 has the test.
+- **Why it still earns 15%:** replacing it with the best available swap, AVGO 15%, raises owner-view return by only 0.16pp. In exchange, the bust gets 5.8pp worse (−67.3%) and the delay case 3.4pp worse, and model E falls 0.21pp. Section 9 has the test.
 - **What raises conviction:** a second model confirming its bull case, and ad growth of at least 20% with capex discipline.
 
 ### VRT: 14%. Conviction 6/10
@@ -187,7 +238,7 @@ CRWD −12.5% · PLTR 1.0% · AMZN 8.3% · GOOGL ~10% · ASML 11.0% (23.9× earn
 
 ### MU: 14%. Conviction 8.5/10
 
-- **Role:** HBM memory is the **binding input in every year from 2025 to 2030** in the AI-2027 compute workbook (Section 7). By 2030 the workbook needs **~31.6M HBM wafers a year**. That is more than the whole DRAM industry produces today, very roughly 20M wafers a year.
+- **Role:** HBM memory is the **binding input in every year from 2025 to 2030** in the AI-2027 compute workbook (Section 8). By 2030 the workbook needs **~31.6M HBM wafers a year**. That is more than the whole DRAM industry produces today, very roughly 20M wafers a year.
 - **Why it's here:**
     - It trades at 3.5× forward earnings, with 26 long-term contracts covering more than 35% of revenue through 2030, most with price floors.
     - Its 100GW return (4.7×) is the best of any holding.
@@ -235,7 +286,7 @@ CRWD −12.5% · PLTR 1.0% · AMZN 8.3% · GOOGL ~10% · ASML 11.0% (23.9× earn
 - **Why it's the likely ninth holding:**
     - **#2 of 60 on the model (18.7%)** and **#1 under the owner view (30.6%)** among stocks that don't go to zero in a bust.
     - **The biggest fast-path lever in the pool:** 3.5× if AI-2027 is on time, 7.1× under 100GW.
-    - **Cheap:** 11.3× forward earnings; 27% below fair value on the model and 51% under the owner view (Section 4).
+    - **Cheap:** 11.3× forward earnings; 27% below fair value on the model and 51% under the owner view (Section 5).
 - **Why it's gated:**
     - The business has only existed in its current form for about five weeks.
     - Continuing-business guidance for FY27 is $3.1–3.2B of sales and $470–500M of adjusted EBITDA (Nov 3).
@@ -243,7 +294,7 @@ CRWD −12.5% · PLTR 1.0% · AMZN 8.3% · GOOGL ~10% · ASML 11.0% (23.9× earn
     - Its base and bull inputs come from one model (Codex) only.
 - **The gate (D7):** at the **Nov 18 investor day**, Modine must give FY28 targets that credibly bridge to **2030 owner EPS of $8.84**, a **stable data-center gross margin**, and **positive H2 free-cash-flow guidance**.
     - **If it passes:** MOD 5%, funded VRT −3 / NVT −2 (Stage 1). It stays within the same cooling and electrical layer, and the fund's expected return goes 15.5% → 15.7% (owner view 20.2% → 20.9%).
-    - **If its next quarterly report then confirms the thesis:** up to 8% (Stage 2, Section 10).
+    - **If its next quarterly report then confirms the thesis:** up to 8% (Stage 2, Section 11).
     - **If it fails:** stay at V10.2. VRT and NVT keep their weights.
 - **Why wait rather than buy now:**
     - The investor day is the single most informative event for this stock, and it's one week away.
@@ -254,7 +305,7 @@ CRWD −12.5% · PLTR 1.0% · AMZN 8.3% · GOOGL ~10% · ASML 11.0% (23.9× earn
 - **Main risks:** −71% in a bust; a short track record as a standalone company; cash conversion; thin evidence on its base case.
 - **What raises conviction:** passing the gate (→ 7); a first standalone quarterly report that confirms the FY28 bridge (→ 7.5–8).
 
-## 6. How Conviction Is Scored
+## 7. How Conviction Is Scored
 
 **Conviction** = how confident we are that this stock, *at this weight*, is the right choice compared with the alternatives. It is not a prediction that the stock won't fall.
 
@@ -280,7 +331,7 @@ CRWD −12.5% · PLTR 1.0% · AMZN 8.3% · GOOGL ~10% · ASML 11.0% (23.9× earn
 
 **Why nothing is 9–10:** a 9 needs Evidence 2, meaning no open event, which no holding has right now. A 10 also needs Downside 2, and only META has that. Conviction should rise as events resolve: NVDA after Nov 17, MU after its Dec report, NRG after the asset sale, and MOD after Nov 18.
 
-## 7. The AI-2027 Compute Workbook
+## 8. The AI-2027 Compute Workbook
 
 ### What it is
 
@@ -311,7 +362,7 @@ The workbook is "AI chip compute forecast" by Romeo Dean, the backend model for 
 ### What it means for the portfolio
 
 1. **HBM is the wall, every year.** HBM output grows 7.8× from 2026 to 2030, and its wafer demand (31.6M a year by 2030) exceeds the entire DRAM industry's output today.
-    - **Supports MU at or near the cap**, and is the strongest argument for SK hynix (see Section 9, and its ADR problem).
+    - **Supports MU at or near the cap**, and is the strongest argument for SK hynix (see Section 10, and its ADR problem).
 2. **Chip volume grows about 67% a year.** That supports NVDA, and CLS, which assembles the racks.
 3. **Power per chip rises 2.6× by 2027.** Liquid cooling and rack power become mandatory: **VRT, NVT and MOD.**
 4. **Power is the missing constraint, and it's the real one.** The sheet's own chips would draw about 490 GW by 2030; its US-capacity row is only about 1,600 GW in total. An AI-2027 path is limited in practice by energized power, interconnection and buildable sites.
@@ -319,7 +370,7 @@ The workbook is "AI chip compute forecast" by Romeo Dean, the backend model for 
 5. **Leading-edge wafers are the second wall, in 2029–30** (99% AI share by 2030). That is the case for TSM and ASML. But at today's prices they return only 14–15% under the owner view, below every holding, so they stay on re-entry triggers.
 6. **Packaging is not the wall.** CoWoS capacity has about 2× slack in every year, so no packaging-only names are needed.
 
-**Did it change the picks?** No new names. It confirms the existing ones, and supports two small tilts: MU from 14% to 15%, and the MOD gate. Both are in Section 10.
+**Did it change the picks?** No new names. It confirms the existing ones, and supports two small tilts: MU from 14% to 15%, and the MOD gate. Both are in Section 11.
 
 ### Problems in the workbook (don't treat its dollars as forecasts)
 
@@ -330,7 +381,7 @@ The workbook is "AI chip compute forecast" by Romeo Dean, the backend model for 
 - **Copy-paste errors in the notes.** The note on Anthropic's chip share describes Meta's.
 - **Correction for the final document:** Part II.C says V7.3's "25 Palo Verdes" figure is a 2028 number. In the sheet, **25 is the 2030 value** (row 75: 4.5 in 2027, 9.2 in 2028). The Codex deep dive's actual point was that the ">9" figure belongs to 2028. Fix this line when merging.
 
-## 8. Why This Mix Under an AI-2027 View
+## 9. Why This Mix Under an AI-2027 View
 
 1. **Every holding pays even if AI-2027 is late.** At 1.5–2 years late, every stock returns 1.6–2.1×. At 1 year late, 1.7–2.3×. The fund doesn't need AI-2027 to hit its dates.
 2. **It owns the inputs, not the winners.** Chips, memory, power, cooling, electrical and sites get bought whichever lab wins.
@@ -348,14 +399,14 @@ The workbook is "AI chip compute forecast" by Romeo Dean, the backend model for 
 
 *META's job is to cut the bust loss, and it does that at almost no cost to return, even under the owner view.*
 
-## 9. Alternatives Worth Considering
+## 10. Alternatives Worth Considering
 
 Ranked by owner-view expected return. "Depth" means: **Full** = fully valued on the synthesis model; **Screen** = re-priced from a deep-dive model only, with downside inherited rather than modeled.
 
 | Rank | Stock | What it is | Model E | Owner-view E | AI-2027 | 1y early | 100GW | Bust | Depth | Verdict |
 |---:|---|---|---:|---:|---:|---:|---:|---:|---|---|
 | 1 | **CRWV** | Neocloud GPU capacity | 16.5% | 30.8% | 35.5% | 46.7% | 62.2% | **−100%** | Full | **Moonshot only** (financing risk; 40% chance of zero in its bear) |
-| 2 | **MOD** | Liquid cooling (post-spin) | 18.7% | **30.6%** | 35.5% | 46.0% | 60.6% | −71% | Full | **Add at the Nov 18 gate (5%), then up to 8%** (Section 10) |
+| 2 | **MOD** | Liquid cooling (post-spin) | 18.7% | **30.6%** | 35.5% | 46.0% | 60.6% | −71% | Full | **Add at the Nov 18 gate (5%), then up to 8%** (Section 11) |
 | 3 | IREN | Bitcoin miner turned AI host | 5.6% | 26.5% | 32.3% | 44.6% | 61.1% | −100% | Screen | Moonshot only |
 | 5 | APLD | Bitcoin miner turned AI host | 3.8% | 23.1% | 28.7% | 39.8% | 54.9% | −100% | Screen | Moonshot only |
 | 6 | CORZ | Bitcoin miner turned AI host | 5.6% | 23.0% | 28.5% | 39.2% | 53.8% | −100% | Screen | Moonshot only |
@@ -441,7 +492,7 @@ A cross-check against people who believe AGI is near, and against insiders. Posi
 **What this tells us:**
 
 1. **AGI money clusters in memory, power and NVDA, and V10.2 already owns all three** (MU, NRG, NVDA).
-2. **The fund's difference is the physical buildout layer** (VRT, NVT, STRL, CLS), which the crowd under-owns. That's why it's cheap (Section 4).
+2. **The fund's difference is the physical buildout layer** (VRT, NVT, STRL, CLS), which the crowd under-owns. That's why it's cheap (Section 5).
 3. **The names the crowd owns that V10.2 doesn't** are either fairly priced big companies (GOOGL, MSFT, AMZN, TSM, ASML, AVGO), behind a premium or IPO pop (SKHY, ANT), or zero-in-a-bust (neoclouds, OKLO). None beats a current holding at today's price.
 4. **The cautionary tale is the most AGI-convinced fund of all.** Aschenbrenner was largely right on direction and still lost about two-thirds in a month: too concentrated, with borrowed money, at the wrong moment.
 
@@ -457,7 +508,7 @@ A cross-check against people who believe AGI is near, and against insiders. Posi
 
 - **AI-driven biotech and pandemic-hedge names** aren't modeled. Most of the value lands after 2030 because trials take years. Add an "AGI bio" screen (LLY, TMO/DHR, RXRX/SDGR, and one biodefense name) to the next cycle's Step 1.
 
-## 10. Updated Allocation
+## 11. Updated Allocation
 
 **Recommendation:** keep V10.2 now. The changes worth making all depend on MOD passing its Nov 18 gate.
 
@@ -499,7 +550,7 @@ A cross-check against people who believe AGI is near, and against insiders. Posi
 
 **The standing triggers still apply:** Texas (D6: NRG 8 / STRL 3 / TLN 9) and an adverse NVDA review (D8: NVDA 8 / AVGO 7).
 
-## 11. What Would Change This Overview
+## 12. What Would Change This Overview
 
 | If… | Then… |
 |---|---|
@@ -516,7 +567,7 @@ A cross-check against people who believe AGI is near, and against insiders. Posi
 ## Method Notes and Sources
 
 - **Model:** the adopted V10.2 synthesis model (`claude_synthesis/step5_model.py`), with Step 6's WCC fix (`codex_final_review/data/step6_out.json`). Nov 9, 2026 prices; horizon 4.14 years to Dec 31, 2030.
-- **Owner view:** the same per-stock values, re-weighted (Section 2). The ~1-year-late and ~1-year-early points are interpolated along the model's named-scenario path, using AI-pace lever settings of 0.25 and 1.4, between AI-2027 (0.8) and 100GW (2.5). Portfolio returns use expected terminal value, not averaged CAGRs.
+- **Owner view:** the same per-stock values, re-weighted (Section 3). The ~1-year-late and ~1-year-early points are interpolated along the model's named-scenario path, using AI-pace lever settings of 0.25 and 1.4, between AI-2027 (0.8) and 100GW (2.5). Portfolio returns use expected terminal value, not averaged CAGRs.
 - **Scripts:** `inputs/research/brief_overview/`.
     - `owner2.py`: the owner view and portfolio variants.
     - `wb_implied.py`: the workbook-implied bottlenecks.
