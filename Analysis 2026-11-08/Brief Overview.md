@@ -1,6 +1,6 @@
 # Brief Overview: Allocation, Rationale and Conviction
 
-*DRAFT v2 (Nov 11, 2026). Not yet in the final document. Every return comes from the adopted V10.2 model at Nov 9, 2026 prices. The conviction scores are Claude's; Codex will score them blind before anything is merged.*
+*Nov 11, 2026. A companion to the adopted V10.2 analysis (`Event Horizon Fund Analysis 2026-11-08.md`). Every return comes from the V10.2 model at Nov 9, 2026 prices. The conviction scores are Claude's; a Codex blind review is pending.*
 
 ## 1. Bottom Line
 
@@ -53,21 +53,23 @@ The fund's model is more cautious. It weights the base case, which is roughly AI
 | **Probability-weighted, owner view** | **20.2%/yr** | **~$214k** |
 | Probability-weighted, model view | 15.5%/yr | ~$182k |
 
-## 3. The Eight Holdings at a Glance
+## 3. The Holdings at a Glance (Eight, Plus MOD)
 
-The scenario columns show what $1 becomes by the end of 2030.
+The scenario columns show what $1 becomes by the end of 2030. **Weight** shows V10.2 now → Stage 1, which applies if MOD passes its Nov 18 gate (D7, already adopted; Section 10).
 
-| Stock | Weight | Role | AI-2027 1.5–2y late | 1y late | **On time** | 1y early | 100GW | Bust | Owner-view E | Model E | Conviction |
+| Stock | Weight (now → if MOD passes) | Role | AI-2027 1.5–2y late | 1y late | **On time** | 1y early | 100GW | Bust | Owner-view E | Model E | Conviction |
 |---|---:|---|---:|---:|---:|---:|---:|---:|---:|---:|:---:|
 | **NVDA** | 15% | Accelerators | 1.9× | 2.2× | **2.7×** | 3.2× | 4.2× | −63% | 22.7% | 17.8% | **8.5** |
 | **META** | 15% | AI application (ballast) | 1.6× | 1.7× | **2.1×** | 2.6× | 3.4× | **−34%** | 16.7% | 15.0% | **5.5** |
-| **VRT** | 14% | Rack power + liquid cooling | 1.7× | 1.9× | **2.3×** | 2.7× | 3.5× | −72% | 18.1% | 13.9% | **6** |
+| **VRT** | 14% → **11%** | Rack power + liquid cooling | 1.7× | 1.9× | **2.3×** | 2.7× | 3.5× | −72% | 18.1% | 13.9% | **6** |
 | **MU** | 14% | HBM memory | 1.7× | 2.0× | **2.7×** | 3.4× | **4.7×** | −64% | 22.6% | 13.1% | **8.5** |
 | **NRG** | 12% | Power generation | 1.9× | 2.1× | **2.5×** | 2.9× | 3.5× | −67% | 20.6% | 17.1% | **7.5** |
-| **NVT** | 12% | Electrical distribution + cooling | 1.7× | 1.9× | **2.2×** | 2.6× | 3.4× | −58% | 17.8% | 13.8% | **6** |
+| **NVT** | 12% → **10%** | Electrical distribution + cooling | 1.7× | 1.9× | **2.2×** | 2.6× | 3.4× | −58% | 17.8% | 13.8% | **6** |
 | **CLS** | 10% | Rack-scale integration | 1.8× | 2.0× | **2.4×** | 2.8× | 3.5× | −75% | 19.1% | 14.8% | **5** |
 | **STRL** | 8% | Site development + electrical install | **2.1×** | **2.3×** | **2.8×** | 3.4× | 4.5× | −65% | **24.5%** | **19.5%** | **7.5** |
-| **Fund** | **100%** | | **1.8×** | **2.0×** | **2.45×** | **2.9×** | **3.8×** | **−62%** | **20.2%** | **15.5%** | **6.9** (weighted) |
+| **MOD** | **0% → 5%** (gated; up to 8% later) | Liquid cooling (post-spin) | 1.8× | **2.4×** | **3.5×** | **4.8×** | **7.1×** | −71% | **30.6%** | **18.7%** | **6 → 7** |
+| **Fund, V10.2 (now)** | **100%** | | **1.8×** | **2.0×** | **2.45×** | **2.9×** | **3.8×** | **−62%** | **20.2%** | **15.5%** | **6.9** (weighted) |
+| **Fund, Stage 1 (MOD 5%)** | **100%** | | **1.8×** | **2.0×** | **2.5×** | **3.0×** | **4.0×** | **−62%** | **20.9%** | **15.7%** | **6.9** (weighted) |
 
 **How to read this:** "Owner-view E" is the expected return using the owner's probabilities from Section 2. "Model E" is the fund's official ranking metric.
 
@@ -89,7 +91,7 @@ The scenario columns show what $1 becomes by the end of 2030.
 | **VRT** | $200.47 | 20.4× 2027E | Down 41% since May while orders doubled; the priciest holding | Fair | $231 | 13% | $269 | 26% |
 | **NVT** | $114.44 | 16.4× 2027E | Electrical peers ~21× | Attractive | $132 | 13% | $152 | 25% |
 | **MU** | $733.15 | **3.5× FY28E** | The market expects a memory glut | Deep discount (cyclical) | $822 | 11% | $1,149 | **36%** |
-| *MOD (gated)* | *$106.15* | *11.3× forward* | *Five-week-old spin-off* | *Speculative* | *$145* | *27%* | *$216* | *51%* |
+| *MOD (0% → 5%, gated)* | *$106.15* | *11.3× forward* | *Five-week-old spin-off* | *Speculative* | *$145* | *27%* | *$216* | *51%* |
 | **Fund (V10.2)** | | | | | | **18%** | | **31%** |
 
 - **Under the owner view, every holding trades 22–40% below fair value.** On the model's more cautious view the range is 11–29%.
@@ -110,7 +112,7 @@ Total gain or loss from the Nov 9 price, by outcome. "Earnings path" compares th
 | **MU** | $207.76 (FY28E) → $110 (**−47%**; assumes the boom fades) | +72% | +168% | **+371%** | −64% |
 | **NVT** | $7.00 → $10 (+43%) | +70% | +123% | +236% | −58% |
 | **META** | $33.97 → $49.23 (+45%) | +55% | +113% | +235% | **−34%** |
-| *MOD (gated)* | *→ $8.84 owner EPS (the gate target)* | *+83%* | *+252%* | *+612%* | *−71%* |
+| *MOD (0% → 5%, gated)* | *→ $8.84 owner EPS (the gate target)* | *+83%* | *+252%* | *+612%* | *−71%* |
 
 ### What today's price already assumes
 
@@ -221,11 +223,36 @@ CRWD −12.5% · PLTR 1.0% · AMZN 8.3% · GOOGL ~10% · ASML 11.0% (23.9× earn
 
 - **Role:** prepares and electrifies data-center sites. Skilled crews and energized, interconnection-ready land are among the slowest inputs to add.
 - **Why it's here:**
-    - **#1 of 60** on both the model (19.5%) and the owner view (24.5%).
+    - **#1 of 60 on the model (19.5%).** Under the owner view (24.5%) it's #2 among stocks that don't go to zero in a bust, behind only MOD.
     - Q3 revenue +127%; backlog $6.1B (+78%) at 10× forward earnings.
     - Both Step 4 passes found it independently.
 - **Why only 8%:** Texas concentration (sharing the 20% cap with NRG), project risk, and a valuation sensitive to its multiple.
 - **What raises conviction:** two more quarters with signed book-to-bill above 1.0; a second model confirming the base-case bridge.
+
+### MOD: 0% → 5% if the Nov 18 gate passes (up to 8% later). Conviction 6/10 now, 7 after the gate
+
+- **Role:** a liquid-cooling pure play. Modine completed its spin-off on Oct 1 and is now focused on data-center thermal. In the workbook, power per chip rises from **1,000 W to 2,600 W by 2027**, and liquid cooling becomes mandatory.
+- **Why it's the likely ninth holding:**
+    - **#2 of 60 on the model (18.7%)** and **#1 under the owner view (30.6%)** among stocks that don't go to zero in a bust.
+    - **The biggest fast-path lever in the pool:** 3.5× if AI-2027 is on time, 7.1× under 100GW.
+    - **Cheap:** 11.3× forward earnings; 27% below fair value on the model and 51% under the owner view (Section 4).
+- **Why it's gated:**
+    - The business has only existed in its current form for about five weeks.
+    - Continuing-business guidance for FY27 is $3.1–3.2B of sales and $470–500M of adjusted EBITDA (Nov 3).
+    - H1 free cash flow was negative, and data-center gross margin fell.
+    - Its base and bull inputs come from one model (Codex) only.
+- **The gate (D7):** at the **Nov 18 investor day**, Modine must give FY28 targets that credibly bridge to **2030 owner EPS of $8.84**, a **stable data-center gross margin**, and **positive H2 free-cash-flow guidance**.
+    - **If it passes:** MOD 5%, funded VRT −3 / NVT −2 (Stage 1). It stays within the same cooling and electrical layer, and the fund's expected return goes 15.5% → 15.7% (owner view 20.2% → 20.9%).
+    - **If its next quarterly report then confirms the thesis:** up to 8% (Stage 2, Section 10).
+    - **If it fails:** stay at V10.2. VRT and NVT keep their weights.
+- **Why wait rather than buy now:**
+    - The investor day is the single most informative event for this stock, and it's one week away.
+    - Buying before it means paying for the uncertainty the gate exists to remove.
+    - Both Step 4 passes and the Step 5 decision agreed on the gate.
+    - The cost of waiting is only the move on the day, and MOD swung between $91 and $125 in the first week of November alone.
+    - An optional ≤1% starter is the most the evidence supports before Nov 18.
+- **Main risks:** −71% in a bust; a short track record as a standalone company; cash conversion; thin evidence on its base case.
+- **What raises conviction:** passing the gate (→ 7); a first standalone quarterly report that confirms the FY28 bridge (→ 7.5–8).
 
 ## 6. How Conviction Is Scored
 
@@ -249,7 +276,7 @@ CRWD −12.5% · PLTR 1.0% · AMZN 8.3% · GOOGL ~10% · ASML 11.0% (23.9× earn
 | NVT | 1.5 | 1 | 1 | 1.5 | 1 | **6** | Mid-pack AI-2027 fit; Maverick integration |
 | META | 1.5 | 0.5 | 0.5 | 1 | 2 | **5.5** | Weakest fast-path fit; only one model valued it |
 | CLS | 1.5 | 1.5 | 1 | 1 | 0 | **5** | Worst bust and delay; cash conversion |
-| *MOD (gated)* | *2* | *2* | *1.5* | *0 → 1 after gate* | *0.5* | ***6 → 7*** | *Five-week-old spin-off; Nov 18 gate* |
+| *MOD (0% → 5%, gated)* | *2* | *2* | *1.5* | *0 → 1 after gate* | *0.5* | ***6 → 7*** | *Five-week-old spin-off; Nov 18 gate* |
 
 **Why nothing is 9–10:** a 9 needs Evidence 2, meaning no open event, which no holding has right now. A 10 also needs Downside 2, and only META has that. Conviction should rise as events resolve: NVDA after Nov 17, MU after its Dec report, NRG after the asset sale, and MOD after Nov 18.
 
@@ -490,7 +517,10 @@ A cross-check against people who believe AGI is near, and against insiders. Posi
 
 - **Model:** the adopted V10.2 synthesis model (`claude_synthesis/step5_model.py`), with Step 6's WCC fix (`codex_final_review/data/step6_out.json`). Nov 9, 2026 prices; horizon 4.14 years to Dec 31, 2030.
 - **Owner view:** the same per-stock values, re-weighted (Section 2). The ~1-year-late and ~1-year-early points are interpolated along the model's named-scenario path, using AI-pace lever settings of 0.25 and 1.4, between AI-2027 (0.8) and 100GW (2.5). Portfolio returns use expected terminal value, not averaged CAGRs.
-- **Scripts:** in the session scratchpad (`owner2.py`, `wb_implied.py`). Move them to `inputs/research/` when this is merged.
+- **Scripts:** `inputs/research/brief_overview/`.
+    - `owner2.py`: the owner view and portfolio variants.
+    - `wb_implied.py`: the workbook-implied bottlenecks.
+    - `dump2.py`: reads the workbook's xlsx export.
 - **Conviction:** Claude's scores. Pending Codex blind scoring.
 - **Sources:**
     - [AI chip compute forecast workbook](https://docs.google.com/spreadsheets/d/1Ko-olwjDy6h8rXLZBFpP-e2GibGqRhfV28S4v8xtzrM/edit?gid=1866551567) (xlsx export, Nov 11, 2026)
