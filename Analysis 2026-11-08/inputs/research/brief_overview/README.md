@@ -16,3 +16,9 @@ These scripts support `Analysis 2026-11-08/Analysis 2026-11-08 Brief Overview.md
   ```
 
   The export URL is `https://docs.google.com/spreadsheets/d/1Ko-olwjDy6h8rXLZBFpP-e2GibGqRhfV28S4v8xtzrM/export?format=xlsx`.
+
+- **`agi_robust.py`:** a side check that the overview doesn't cite. It asks whether the holdings still pay off if AI-2027 lands within about two years but the gains go elsewhere. It applies stock-specific failure modes to the model's terminal values: rates, value shifting to labs and platforms, supply catching up, power politics, and a Taiwan tail. The weights are judgment parameters set out in the script. Run it from this folder, because it loads `owner2.py`:
+
+  ```text
+  python agi_robust.py "../codex_final_review/data/step6_out.json"
+  ```
